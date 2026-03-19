@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+Disallow:
+
+# Sitemap
+Sitemap: https://radianceresidency.com/sitemap.xml
+
+# AI Crawlers - Welcome!
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# LLMs.txt
+# See https://radianceresidency.com/llms.txt for AI-readable site summary
+# See https://radianceresidency.com/llms-full.txt for comprehensive AI-readable site information
+
+# College-Specific Landing Pages (available for crawling)
+# /hostel-near-medicaps-university
+# /hostel-near-ips-academy
+# /hostel-near-sd-bansal-college
+# /hostel-near-iist-indore
+# /hostel-near-iim-indore

@@ -1,0 +1,23 @@
+# Clean URLs (Netlify/Cloudflare Pages)
+/rooms      /rooms.html     200
+/amenities  /amenities.html 200
+/contact    /contact.html   200
+
+# College-specific landing pages
+/hostel-near-medicaps-university    /hostel-near-medicaps-university.html    200
+/hostel-near-ips-academy            /hostel-near-ips-academy.html            200
+/hostel-near-sd-bansal-college      /hostel-near-sd-bansal-college.html      200
+/hostel-near-iist-indore            /hostel-near-iist-indore.html            200
+/hostel-near-iim-indore             /hostel-near-iim-indore.html             200
+/pg-for-boys-rau-indore             /pg-for-boys-rau-indore.html             200
+
+# Trailing slash normalization
+/rooms/     /rooms    301
+/amenities/ /amenities 301
+/contact/   /contact  301
+/hostel-near-medicaps-university/   /hostel-near-medicaps-university    301
+/hostel-near-ips-academy/           /hostel-near-ips-academy            301
+/hostel-near-sd-bansal-college/     /hostel-near-sd-bansal-college      301
+/hostel-near-iist-indore/           /hostel-near-iist-indore            301
+/hostel-near-iim-indore/            /hostel-near-iim-indore             301
+/pg-for-boys-rau-indore/            /pg-for-boys-rau-indore             301

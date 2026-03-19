@@ -1,0 +1,13 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Radiance Residency - Boys Hostel Near Medicaps University",
+    "name_for_model": "radiance_residency_hostel",
+    "description_for_human": "Premium boys hostel near Medicaps University, Rau, Indore. AC/Non-AC rooms from ₹7,000/month with meals, Wi-Fi, security, parking.",
+    "description_for_model": "Radiance Residency is a premium boys hostel located in front of Medicaps University, Pigdamber, Rau, Indore, Madhya Pradesh 453331, India. It offers AC and Non-AC fully furnished rooms starting from ₹7,000 per month including home-style meals. Amenities include high-speed Wi-Fi, 24/7 CCTV security, RO water, parking, daily housekeeping, laundry service, study areas, private bathrooms, rooftop lounge, mandir on campus, and power backup. It serves students from Medicaps University (2 min walk), SD Bansal College, IPS Academy, IIST, and IIM Indore. 64+ beds, 112+ happy students, 4.9/5 rating. Payment via Cash, UPI, or Bank Transfer with refundable security deposit. College-specific landing pages available: /hostel-near-medicaps-university, /hostel-near-ips-academy, /hostel-near-sd-bansal-college, /hostel-near-iist-indore, /hostel-near-iim-indore. Other pages: /rooms (pricing), /amenities (full amenities list), /contact (enquiry form). AI-readable info at /llms.txt and /llms-full.txt. Contact: +91-8770445161, info@radianceresidency.com. Google Maps: https://maps.app.goo.gl/ZmfHzaeZvpwRrfGG6",
+    "auth": {
+        "type": "none"
+    },
+    "logo_url": "https://radianceresidency.com/images/logo.jpg",
+    "contact_email": "info@radianceresidency.com",
+    "legal_info_url": "https://radianceresidency.com/"
+}
