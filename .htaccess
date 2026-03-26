@@ -1,12 +1,12 @@
 RewriteEngine On
 
+# Force non-www first (prevent duplicate content + redirect chain)
+RewriteCond %{HTTP_HOST} ^www\.radianceresidency\.com [NC]
+RewriteRule ^(.*)$ https://radianceresidency.com/$1 [R=301,L]
+
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-
-# Force non-www (prevent duplicate content)
-RewriteCond %{HTTP_HOST} ^www\.radianceresidency\.com [NC]
-RewriteRule ^(.*)$ https://radianceresidency.com/$1 [R=301,L]
 
 # Clean URLs: serve .html files without extension
 # /rooms -> rooms.html, /amenities -> amenities.html, /contact -> contact.html
