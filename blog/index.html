@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Radiance Residency Blog | Rau, Indore Student Hostel Guides</title>
-    <meta name="description" content="Explore Radiance Residency blog guides on hostels in Rau, PG near Medicaps, student life in Indore, college reviews, food, transport, budgeting, and hostel tips.">
-    <meta name="keywords" content="hostel in Rau blog, PG near Medicaps blog, student life Indore, hostel tips for students, Radiance Residency blog, hostel near Medicaps guide, Rau Indore student blog">
+    <title>Radiance Residency Blog | Student Life, Rau Guides & Hostel Tips</title>
+    <meta name="description" content="Explore the Radiance Residency blog for student life in Rau, Medicaps guides, Indore city tips, budget advice, hostel checklists, and parent-friendly accommodation resources.">
+    <meta name="keywords" content="Radiance Residency blog, student life Rau, Medicaps student guide, hostel tips Indore, PG guide Rau, college life Indore">
     <meta name="author" content="Radiance Residency">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://radianceresidency.com/blog/">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Radiance Residency">
-    <meta property="og:title" content="Radiance Residency Blog | Rau, Indore Student Hostel Guides">
-    <meta property="og:description" content="Student guides on hostels in Rau, PG near Medicaps, college reviews, budgeting, transport, and student life in Indore.">
+    <meta property="og:title" content="Radiance Residency Blog | Student Life, Rau Guides & Hostel Tips">
+    <meta property="og:description" content="Helpful reads for students and parents on life in Rau, nearby colleges, hostels, food, transport, and budgeting.">
     <meta property="og:url" content="https://radianceresidency.com/blog/">
     <meta property="og:image" content="https://radianceresidency.com/images/building-day.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Radiance Residency blog for students in Rau and Indore">
+    <meta property="og:image:alt" content="Radiance Residency blog">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Radiance Residency Blog | Rau, Indore Student Hostel Guides">
-    <meta name="twitter:description" content="Guides for students searching hostels in Rau, PG near Medicaps, and college life in Indore.">
+    <meta name="twitter:title" content="Radiance Residency Blog | Student Life, Rau Guides & Hostel Tips">
+    <meta name="twitter:description" content="Helpful reads for students and parents on life in Rau, nearby colleges, hostels, food, transport, and budgeting.">
     <meta name="twitter:image" content="https://radianceresidency.com/images/building-day.jpg">
 
     <link rel="icon" type="image/svg+xml" href="../favicon.svg">
@@ -38,6 +38,302 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="../style.min.css">
+
+    <style>
+        .blog-home-hero {
+            position: relative;
+            padding: 128px 0 72px;
+            background:
+                linear-gradient(rgba(5, 10, 21, 0.72), rgba(5, 10, 21, 0.9)),
+                url("../images/building-night.jpg") center/cover no-repeat;
+            overflow: hidden;
+        }
+        .blog-home-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 18% 24%, rgba(212, 167, 78, 0.18), transparent 28%),
+                radial-gradient(circle at 82% 22%, rgba(212, 167, 78, 0.12), transparent 24%);
+            pointer-events: none;
+        }
+        .blog-home-hero-inner {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.9fr);
+            gap: 28px;
+            align-items: end;
+        }
+        .blog-home-copy { color: #f7f3eb; }
+        .blog-home-copy .section-badge {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(212, 167, 78, 0.22);
+        }
+        .blog-home-title {
+            font-family: var(--font-heading);
+            font-size: clamp(40px, 6vw, 68px);
+            line-height: 1.05;
+            color: #ffffff;
+            margin: 0 0 18px;
+            letter-spacing: -0.03em;
+        }
+        .blog-home-title span { color: var(--gold-light); }
+        .blog-home-lead {
+            max-width: 720px;
+            font-size: 18px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.82);
+        }
+        .blog-home-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 26px;
+        }
+        .blog-home-panel {
+            background: rgba(9, 18, 32, 0.72);
+            border: 1px solid rgba(212, 167, 78, 0.16);
+            border-radius: 24px;
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+            padding: 28px;
+            backdrop-filter: blur(10px);
+        }
+        .blog-home-panel h2 {
+            font-family: var(--font-heading);
+            color: #ffffff;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .blog-home-panel p {
+            color: rgba(255, 255, 255, 0.75);
+            margin-bottom: 18px;
+            font-size: 15px;
+        }
+        .blog-stat-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+        .blog-stat {
+            padding: 16px 18px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .blog-stat strong {
+            display: block;
+            font-family: var(--font-heading);
+            font-size: 30px;
+            line-height: 1;
+            color: var(--gold-light);
+            margin-bottom: 6px;
+        }
+        .blog-stat span {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+        }
+        .blog-category-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .blog-category-pills span {
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.06);
+            color: #f7f3eb;
+            font-size: 13px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .blog-section-light {
+            background:
+                radial-gradient(circle at top left, rgba(212, 167, 78, 0.08), transparent 24%),
+                linear-gradient(180deg, #fcfaf5 0%, #f3efe6 100%);
+        }
+        .blog-feature-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+            gap: 24px;
+        }
+        .blog-feature-card,
+        .blog-side-card,
+        .blog-article-card,
+        .blog-cta-strip {
+            border-radius: 24px;
+            overflow: hidden;
+            position: relative;
+        }
+        .blog-feature-card {
+            min-height: 420px;
+            background:
+                linear-gradient(180deg, rgba(5, 10, 21, 0.12), rgba(5, 10, 21, 0.76)),
+                url("../images/building-day.jpg") center/cover no-repeat;
+            display: flex;
+            align-items: flex-end;
+            box-shadow: var(--shadow-xl);
+        }
+        .blog-feature-card-content {
+            padding: 34px;
+            color: #ffffff;
+            max-width: 620px;
+        }
+        .blog-kicker {
+            display: inline-flex;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: rgba(212, 167, 78, 0.16);
+            color: var(--gold-light);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            font-weight: 700;
+        }
+        .blog-feature-card h3,
+        .blog-side-card h3,
+        .blog-article-card h3,
+        .blog-cta-strip h3 {
+            font-family: var(--font-heading);
+            line-height: 1.15;
+        }
+        .blog-feature-card h3 {
+            font-size: clamp(30px, 4vw, 42px);
+            margin: 18px 0 12px;
+        }
+        .blog-feature-card p {
+            max-width: 560px;
+            color: rgba(255, 255, 255, 0.82);
+            margin-bottom: 20px;
+        }
+        .blog-side-stack {
+            display: grid;
+            gap: 20px;
+        }
+        .blog-side-card {
+            background: linear-gradient(145deg, #0d1628, #122038);
+            color: #ffffff;
+            padding: 28px;
+            border: 1px solid rgba(212, 167, 78, 0.12);
+            box-shadow: var(--shadow-lg);
+        }
+        .blog-side-card p {
+            color: rgba(255, 255, 255, 0.72);
+            margin: 12px 0 18px;
+            font-size: 15px;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 22px;
+        }
+        .blog-article-card {
+            background: #ffffff;
+            border: 1px solid rgba(212, 167, 78, 0.12);
+            box-shadow: var(--shadow-md);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .blog-article-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(212, 167, 78, 0.28);
+            box-shadow: var(--shadow-xl);
+        }
+        .blog-article-media {
+            height: 190px;
+            overflow: hidden;
+        }
+        .blog-article-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .blog-article-body {
+            padding: 24px;
+        }
+        .blog-article-body h3 {
+            color: var(--primary);
+            font-size: 24px;
+            margin: 14px 0 10px;
+        }
+        .blog-article-body p {
+            color: var(--text-light);
+            font-size: 15px;
+            margin-bottom: 18px;
+        }
+        .blog-meta-line {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-size: 12px;
+            color: var(--dark-gray);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-weight: 700;
+        }
+        .blog-quick-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+        .blog-quick-link {
+            display: block;
+            padding: 18px 20px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+        }
+        .blog-quick-link:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 167, 78, 0.28);
+            background: rgba(255, 255, 255, 0.07);
+        }
+        .blog-quick-link strong {
+            display: block;
+            font-size: 17px;
+            margin-bottom: 6px;
+            color: var(--gold-light);
+        }
+        .blog-quick-link span {
+            display: block;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.72);
+        }
+        .blog-cta-strip {
+            background:
+                linear-gradient(135deg, rgba(5, 10, 21, 0.92), rgba(20, 32, 53, 0.92)),
+                url("../images/study-area.jpg") center/cover no-repeat;
+            padding: 34px;
+            border: 1px solid rgba(212, 167, 78, 0.16);
+            box-shadow: var(--shadow-xl);
+            color: #ffffff;
+        }
+        .blog-cta-strip h3 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+        .blog-cta-strip p {
+            max-width: 680px;
+            color: rgba(255, 255, 255, 0.76);
+            margin-bottom: 20px;
+        }
+        @media (max-width: 992px) {
+            .blog-home-hero-inner,
+            .blog-feature-layout,
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 768px) {
+            .blog-home-hero { padding: 118px 0 54px; }
+            .blog-home-panel { padding: 22px; }
+            .blog-stat-grid,
+            .blog-quick-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 
     <script type="application/ld+json">
     {
@@ -103,7 +399,7 @@
                     <span class="lang-toggle-divider">/</span>
                     <span class="lang-toggle-text">HI</span>
                 </button>
-                <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20looking%20for%20a%20hostel%20or%20PG%20in%20Rau%20Indore." class="btn btn-primary header-cta" data-en="Book Now" data-hi="अभी बुक करें">Book Now</a>
+                <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency." class="btn btn-primary header-cta" data-en="Book Now" data-hi="अभी बुक करें">Book Now</a>
                 <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false">
                     <span class="hamburger-line"></span>
                     <span class="hamburger-line"></span>
@@ -114,101 +410,171 @@
     </header>
 
     <main>
-        <section class="page-hero" aria-label="Radiance Residency blog">
-            <div class="container" style="padding-top: 130px; padding-bottom: 50px;">
-                <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom: 24px;">
-                    <a href="../index.html" data-en="Home" data-hi="होम">Home</a>
-                    <span class="separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></span>
-                    <span data-en="Blog" data-hi="ब्लॉग">Blog</span>
-                </nav>
-                <span class="section-badge" data-en="Student Guides" data-hi="स्टूडेंट गाइड">Student Guides</span>
-                <h1 class="page-hero-title" style="max-width: 860px;" data-en="Blogs for Students Searching <span>Hostel in Rau</span>, PG Near Medicaps, and College Life in Indore" data-hi="राउ में <span>हॉस्टल</span>, मेडीकैप्स के पास पीजी और इंदौर स्टूडेंट लाइफ के लिए ब्लॉग">Blogs for Students Searching <span>Hostel in Rau</span>, PG Near Medicaps, and College Life in Indore</h1>
-                <p class="page-hero-subtitle" style="max-width: 900px;" data-en="These articles support the main hostel pages with useful local information, college-focused guides, and student help content. This is the right type of content cluster if you want to rank for hostel-related searches in Rau and nearby college areas." data-hi="ये लेख मुख्य हॉस्टल पेजों को उपयोगी स्थानीय जानकारी, कॉलेज-फोकस्ड गाइड और स्टूडेंट हेल्प कंटेंट से सपोर्ट करते हैं।">These articles support the main hostel pages with useful local information, college-focused guides, and student help content. This is the right type of content cluster if you want to rank for hostel-related searches in Rau and nearby college areas.</p>
-                <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px;">
-                    <span style="padding: 10px 16px; border-radius: 999px; background: rgba(212,167,78,0.12); color: #f3efe6;">24 published guides</span>
-                    <span style="padding: 10px 16px; border-radius: 999px; background: rgba(255,255,255,0.08); color: #f3efe6;">Rau + Indore + Medicaps topics</span>
-                    <span style="padding: 10px 16px; border-radius: 999px; background: rgba(255,255,255,0.08); color: #f3efe6;">Internal links to landing pages</span>
+        <section class="blog-home-hero" aria-label="Radiance Residency blog hero">
+            <div class="container blog-home-hero-inner">
+                <div class="blog-home-copy">
+                    <nav class="breadcrumb" aria-label="Breadcrumb" style="justify-content: flex-start; margin-bottom: 22px;">
+                        <a href="../index.html" data-en="Home" data-hi="होम">Home</a>
+                        <span class="separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></span>
+                        <span class="current" data-en="Blog" data-hi="ब्लॉग">Blog</span>
+                    </nav>
+                    <span class="section-badge" data-en="Radiance Journal" data-hi="रेडियंस जर्नल">Radiance Journal</span>
+                    <h1 class="blog-home-title" data-en="Smart Reads for <span>Students</span> and Parents in Rau, Indore" data-hi="राउ, इंदौर में <span>छात्रों</span> और अभिभावकों के लिए उपयोगी गाइड">Smart Reads for <span>Students</span> and Parents in Rau, Indore</h1>
+                    <p class="blog-home-lead" data-en="This is where we publish practical guides on student life, nearby colleges, daily living in Rau, budgeting, food, transport, and how to choose a hostel that actually works for long-term comfort." data-hi="यहां हम छात्र जीवन, आसपास के कॉलेज, राउ में रहना, बजट, फूड, ट्रांसपोर्ट और सही हॉस्टल चुनने पर उपयोगी गाइड शेयर करते हैं।">This is where we publish practical guides on student life, nearby colleges, daily living in Rau, budgeting, food, transport, and how to choose a hostel that actually works for long-term comfort.</p>
+                    <div class="blog-home-actions">
+                        <a href="#featured-reads" class="btn btn-primary btn-lg" data-en="Start Reading" data-hi="पढ़ना शुरू करें">Start Reading</a>
+                        <a href="../contact.html" class="btn btn-outline btn-lg" data-en="Book a Visit" data-hi="विजिट बुक करें">Book a Visit</a>
+                    </div>
+                </div>
+                <aside class="blog-home-panel" aria-label="Blog overview">
+                    <h2 data-en="What You’ll Find Here" data-hi="यहां आपको क्या मिलेगा">What You’ll Find Here</h2>
+                    <p data-en="A polished mix of college guides, local area tips, practical student checklists, and accommodation advice." data-hi="कॉलेज गाइड, लोकल एरिया टिप्स, स्टूडेंट चेकलिस्ट और आवास सलाह का मिश्रण।">A polished mix of college guides, local area tips, practical student checklists, and accommodation advice.</p>
+                    <div class="blog-stat-grid">
+                        <div class="blog-stat">
+                            <strong>24</strong>
+                            <span data-en="Published guides" data-hi="प्रकाशित गाइड">Published guides</span>
+                        </div>
+                        <div class="blog-stat">
+                            <strong>10+</strong>
+                            <span data-en="College-focused reads" data-hi="कॉलेज-फोकस्ड लेख">College-focused reads</span>
+                        </div>
+                    </div>
+                    <div class="blog-category-pills">
+                        <span data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        <span data-en="Medicaps Guides" data-hi="मेडीकैप्स गाइड">Medicaps Guides</span>
+                        <span data-en="Parent Tips" data-hi="अभिभावक टिप्स">Parent Tips</span>
+                        <span data-en="Local Rau" data-hi="लोकल राउ">Local Rau</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section blog-section-light" id="featured-reads" aria-label="Featured reads">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge" data-en="Featured Reads" data-hi="फीचर्ड रीड्स">Featured Reads</span>
+                    <h2 class="section-title" data-en="Start With Our Most Useful Guides" data-hi="हमारे सबसे उपयोगी गाइड से शुरू करें">Start With Our Most Useful Guides</h2>
+                    <p class="section-subtitle" data-en="These are the articles most students and parents read first when shortlisting hostels and planning life around Rau and Medicaps." data-hi="हॉस्टल शॉर्टलिस्ट करते समय ये सबसे पहले पढ़े जाने वाले लेख हैं।">These are the articles most students and parents read first when shortlisting hostels and planning life around Rau and Medicaps.</p>
+                </div>
+                <div class="blog-feature-layout">
+                    <article class="blog-feature-card">
+                        <div class="blog-feature-card-content">
+                            <span class="blog-kicker" data-en="Editor's Pick" data-hi="एडिटर की पसंद">Editor's Pick</span>
+                            <h3 data-en="Medicaps University Review 2026" data-hi="मेडीकैप्स यूनिवर्सिटी रिव्यू 2026">Medicaps University Review 2026</h3>
+                            <p data-en="Admissions, campus life, placements, fees, and what new students should know before joining one of Rau’s most searched colleges." data-hi="एडमिशन, कैंपस लाइफ, प्लेसमेंट और नए छात्रों के लिए जरूरी बातें।">Admissions, campus life, placements, fees, and what new students should know before joining one of Rau’s most searched colleges.</p>
+                            <a href="medicaps-university-review-admission-placement.html" class="btn btn-primary" data-en="Read the Guide" data-hi="गाइड पढ़ें">Read the Guide</a>
+                        </div>
+                    </article>
+                    <div class="blog-side-stack">
+                        <article class="blog-side-card">
+                            <span class="blog-kicker" data-en="Before You Book" data-hi="बुकिंग से पहले">Before You Book</span>
+                            <h3 data-en="How to Choose the Best Hostel in Indore" data-hi="इंदौर में सबसे अच्छा हॉस्टल कैसे चुनें">How to Choose the Best Hostel in Indore</h3>
+                            <p data-en="A practical checklist covering safety, food, room quality, pricing, location, and management responsiveness." data-hi="सुरक्षा, खाना, कमरे, कीमत, लोकेशन और मैनेजमेंट पर प्रैक्टिकल चेकलिस्ट।">A practical checklist covering safety, food, room quality, pricing, location, and management responsiveness.</p>
+                            <a href="how-to-choose-best-hostel-in-indore.html" class="btn btn-outline" data-en="Open Article" data-hi="लेख खोलें">Open Article</a>
+                        </article>
+                        <article class="blog-side-card">
+                            <span class="blog-kicker" data-en="Living in Rau" data-hi="राउ में रहना">Living in Rau</span>
+                            <h3 data-en="Student Life in Rau, Indore" data-hi="राउ, इंदौर में छात्र जीवन">Student Life in Rau, Indore</h3>
+                            <p data-en="A grounded look at the daily routine, essentials, hangout spots, transport, and what the area feels like for students." data-hi="डेली रूटीन, जरूरी जगहें, हैंगआउट स्पॉट और स्टूडेंट लाइफ का वास्तविक अनुभव।">A grounded look at the daily routine, essentials, hangout spots, transport, and what the area feels like for students.</p>
+                            <a href="student-life-in-rau-indore-guide.html" class="btn btn-outline" data-en="Open Article" data-hi="लेख खोलें">Open Article</a>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section" aria-label="Featured hostel and student guides">
+        <section class="section section-dark" aria-label="Browse by topic">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge" data-en="Featured" data-hi="फीचर्ड">Featured</span>
-                    <h2 class="section-title" data-en="Start With These High-Intent Guides" data-hi="इन हाई-इंटेंट गाइड से शुरू करें">Start With These High-Intent Guides</h2>
-                    <p class="section-subtitle" data-en="These are the strongest supporting articles for users who are close to booking a hostel or comparing options in Rau and Indore." data-hi="ये लेख उन लोगों के लिए सबसे उपयोगी हैं जो हॉस्टल चुनने या तुलना करने के करीब हैं।">These are the strongest supporting articles for users who are close to booking a hostel or comparing options in Rau and Indore.</p>
+                    <span class="section-badge" data-en="Browse by Topic" data-hi="टॉपिक के अनुसार देखें">Browse by Topic</span>
+                    <h2 class="section-title" data-en="Pick the Kind of Help You Need" data-hi="अपनी जरूरत के अनुसार चुनें">Pick the Kind of Help You Need</h2>
+                    <p class="section-subtitle" data-en="Whether you are comparing hostels, preparing for college, or just figuring out daily life in Indore, start with the right lane." data-hi="चाहे आप हॉस्टल compare कर रहे हों या कॉलेज की तैयारी, सही सेक्शन से शुरू करें।">Whether you are comparing hostels, preparing for college, or just figuring out daily life in Indore, start with the right lane.</p>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
-                    <a href="how-to-choose-best-hostel-in-indore.html" style="display: block; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 24px;">
-                        <span style="color: #c9a84c; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Buying Guide</span>
-                        <h3 style="color: #ffffff; margin: 10px 0 12px; font-size: 22px;">How to Choose the Best Hostel in Indore</h3>
-                        <p style="color: #d0d0d0;">Useful for parents and students comparing food, safety, location, pricing, and facilities.</p>
+                <div class="blog-quick-grid">
+                    <a href="best-hostels-in-indore-for-students.html" class="blog-quick-link">
+                        <strong data-en="Hostel & PG Comparison" data-hi="हॉस्टल और पीजी तुलना">Hostel & PG Comparison</strong>
+                        <span data-en="Broad comparison guides for students shortlisting where to stay." data-hi="जहां रहना है उसकी तुलना के लिए गाइड।">Broad comparison guides for students shortlisting where to stay.</span>
                     </a>
-                    <a href="best-hostels-in-indore-for-students.html" style="display: block; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 24px;">
-                        <span style="color: #c9a84c; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Comparison</span>
-                        <h3 style="color: #ffffff; margin: 10px 0 12px; font-size: 22px;">Best Hostels in Indore for Students</h3>
-                        <p style="color: #d0d0d0;">Targets broad comparison intent and helps funnel visitors to your core accommodation pages.</p>
+                    <a href="cost-of-living-in-rau-indore-for-students.html" class="blog-quick-link">
+                        <strong data-en="Budget & Cost of Living" data-hi="बजट और खर्च">Budget & Cost of Living</strong>
+                        <span data-en="Understand rent, food, transport, and realistic monthly student expenses." data-hi="किराया, खाना, ट्रांसपोर्ट और मासिक खर्च समझें।">Understand rent, food, transport, and realistic monthly student expenses.</span>
                     </a>
-                    <a href="cost-of-living-in-rau-indore-for-students.html" style="display: block; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 24px;">
-                        <span style="color: #c9a84c; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Budgeting</span>
-                        <h3 style="color: #ffffff; margin: 10px 0 12px; font-size: 22px;">Cost of Living in Rau, Indore for Students</h3>
-                        <p style="color: #d0d0d0;">Captures budget-focused searches that often come before hostel booking decisions.</p>
+                    <a href="best-food-places-near-medicaps-university-rau.html" class="blog-quick-link">
+                        <strong data-en="Food & Daily Essentials" data-hi="फूड और जरूरी चीजें">Food & Daily Essentials</strong>
+                        <span data-en="Discover food spots, cafes, gyms, and everyday conveniences near campus." data-hi="कैंपस के पास फूड स्पॉट, कैफे, जिम और जरूरी जगहें खोजें।">Discover food spots, cafes, gyms, and everyday conveniences near campus.</span>
+                    </a>
+                    <a href="top-colleges-in-rau-indore.html" class="blog-quick-link">
+                        <strong data-en="College & Area Guides" data-hi="कॉलेज और एरिया गाइड">College & Area Guides</strong>
+                        <span data-en="Read area-specific and college-specific guides before making a move." data-hi="शिफ्ट होने से पहले कॉलेज और एरिया गाइड पढ़ें।">Read area-specific and college-specific guides before making a move.</span>
                     </a>
                 </div>
             </div>
         </section>
 
-        <section class="section section-dark" aria-label="All blog posts">
+        <section class="section blog-section-light" aria-label="Recent articles">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge" data-en="All Posts" data-hi="सभी पोस्ट">All Posts</span>
-                    <h2 class="section-title" data-en="All Student Guides and Local SEO Articles" data-hi="सभी स्टूडेंट गाइड और लोकल SEO लेख">All Student Guides and Local SEO Articles</h2>
-                    <p class="section-subtitle" data-en="Keep this page updated whenever a new article is published. It acts as a crawl hub and helps search engines understand your topical coverage." data-hi="जब भी नया लेख प्रकाशित हो, इस पेज को अपडेट करें।">Keep this page updated whenever a new article is published. It acts as a crawl hub and helps search engines understand your topical coverage.</p>
+                    <span class="section-badge" data-en="Recent Articles" data-hi="नए लेख">Recent Articles</span>
+                    <h2 class="section-title" data-en="Popular Reads From the Journal" data-hi="जर्नल के लोकप्रिय लेख">Popular Reads From the Journal</h2>
+                    <p class="section-subtitle" data-en="A few curated articles that are genuinely useful for students planning to live and study around Rau and Indore." data-hi="राउ और इंदौर में रहने और पढ़ने वाले छात्रों के लिए उपयोगी लेख।">A few curated articles that are genuinely useful for students planning to live and study around Rau and Indore.</p>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
-                    <a href="medicaps-university-review-admission-placement.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Medicaps University Review 2026</a>
-                    <a href="student-life-in-rau-indore-guide.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Student Life in Rau, Indore Guide</a>
-                    <a href="best-food-places-near-medicaps-university-rau.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Best Food Places Near Medicaps University</a>
-                    <a href="transport-guide-rau-indore-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Transport Guide for Rau Students</a>
-                    <a href="top-colleges-in-rau-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Top Colleges in Rau, Indore</a>
-                    <a href="ips-academy-indore-review-guide.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">IPS Academy Indore Review Guide</a>
-                    <a href="sd-bansal-college-indore-review.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">SD Bansal College Review</a>
-                    <a href="iim-indore-campus-area-guide.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">IIM Indore Campus Area Guide</a>
-                    <a href="best-hostels-in-indore-for-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Best Hostels in Indore for Students</a>
-                    <a href="hostel-vs-pg-vs-flat-for-students-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Hostel vs PG vs Flat in Indore</a>
-                    <a href="how-to-choose-best-hostel-in-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">How to Choose the Best Hostel in Indore</a>
-                    <a href="how-to-manage-budget-as-hostel-student.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">How to Manage Budget as a Hostel Student</a>
-                    <a href="homesickness-tips-for-hostel-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Homesickness Tips for Hostel Students</a>
-                    <a href="safety-tips-for-students-living-away-from-home.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Safety Tips for Students Living Away From Home</a>
-                    <a href="things-to-pack-for-hostel-life-india.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Things to Pack for Hostel Life in India</a>
-                    <a href="tips-for-first-year-engineering-students-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Tips for First-Year Engineering Students</a>
-                    <a href="how-to-prepare-for-college-admission-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">How to Prepare for College Admission in Indore</a>
-                    <a href="cost-of-living-in-rau-indore-for-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Cost of Living in Rau, Indore</a>
-                    <a href="best-cafes-near-rau-indore-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Best Cafes Near Rau for Students</a>
-                    <a href="best-gyms-near-rau-indore.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Best Gyms Near Rau, Indore</a>
-                    <a href="indore-city-guide-for-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Indore City Guide for Students</a>
-                    <a href="indore-street-food-guide-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Indore Street Food Guide for Students</a>
-                    <a href="places-to-visit-in-indore-for-students.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Places to Visit in Indore for Students</a>
-                    <a href="benefits-of-living-in-hostel-vs-home.html" style="padding: 18px; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #f3efe6; background: rgba(255,255,255,0.04);">Benefits of Living in a Hostel vs Home</a>
+                <div class="blog-grid">
+                    <article class="blog-article-card">
+                        <div class="blog-article-media">
+                            <img src="../images/hostel-front.jpg" alt="Best hostels in Indore for students">
+                        </div>
+                        <div class="blog-article-body">
+                            <div class="blog-meta-line">
+                                <span>Comparison</span>
+                                <span>10 min read</span>
+                            </div>
+                            <h3 data-en="Best Hostels in Indore for Students" data-hi="इंदौर में छात्रों के लिए सबसे अच्छे हॉस्टल">Best Hostels in Indore for Students</h3>
+                            <p data-en="A broad comparison article to help students understand what really matters while shortlisting hostels in Indore." data-hi="इंदौर में हॉस्टल shortlist करते समय क्या देखना चाहिए इसकी गाइड।">A broad comparison article to help students understand what really matters while shortlisting hostels in Indore.</p>
+                            <a href="best-hostels-in-indore-for-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                        </div>
+                    </article>
+                    <article class="blog-article-card">
+                        <div class="blog-article-media">
+                            <img src="../images/dining-meals.jpg" alt="Cost of living in Rau Indore for students">
+                        </div>
+                        <div class="blog-article-body">
+                            <div class="blog-meta-line">
+                                <span>Budget</span>
+                                <span>8 min read</span>
+                            </div>
+                            <h3 data-en="Cost of Living in Rau, Indore" data-hi="राउ, इंदौर में रहने की लागत">Cost of Living in Rau, Indore</h3>
+                            <p data-en="A realistic look at room rent, food, commuting, and what monthly student expenses can look like in this area." data-hi="रूम रेंट, फूड, कम्यूट और मासिक खर्च का व्यावहारिक अंदाजा।">A realistic look at room rent, food, commuting, and what monthly student expenses can look like in this area.</p>
+                            <a href="cost-of-living-in-rau-indore-for-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                        </div>
+                    </article>
+                    <article class="blog-article-card">
+                        <div class="blog-article-media">
+                            <img src="../images/study-area.jpg" alt="Transport guide for students in Rau and Indore">
+                        </div>
+                        <div class="blog-article-body">
+                            <div class="blog-meta-line">
+                                <span>Local Guide</span>
+                                <span>7 min read</span>
+                            </div>
+                            <h3 data-en="Transport Guide for Students in Rau & Indore" data-hi="राउ और इंदौर में छात्रों के लिए ट्रांसपोर्ट गाइड">Transport Guide for Students in Rau & Indore</h3>
+                            <p data-en="Understand how students usually move around the area, what is practical, and how to keep daily transport affordable." data-hi="एरिया में मूव करने के practical तरीके और खर्च कैसे कम रखें।">Understand how students usually move around the area, what is practical, and how to keep daily transport affordable.</p>
+                            <a href="transport-guide-rau-indore-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="section" aria-label="Money pages">
+        <section class="section section-dark" aria-label="Book your stay">
             <div class="container">
-                <div class="section-header text-center">
-                    <span class="section-badge" data-en="Next Step" data-hi="अगला कदम">Next Step</span>
-                    <h2 class="section-title" data-en="Important Landing Pages for Hostel and PG Searches" data-hi="हॉस्टल और पीजी सर्च के लिए जरूरी पेज">Important Landing Pages for Hostel and PG Searches</h2>
-                    <p class="section-subtitle" data-en="These are your money pages. Keep linking to them from blogs using natural anchor text like hostel in Rau, PG for boys in Rau, or hostel near Medicaps University." data-hi="ये आपके मनी पेज हैं।">These are your money pages. Keep linking to them from blogs using natural anchor text like hostel in Rau, PG for boys in Rau, or hostel near Medicaps University.</p>
-                </div>
-                <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center;">
-                    <a href="../hostel-near-medicaps-university.html" class="btn btn-outline">Hostel Near Medicaps</a>
-                    <a href="../pg-for-boys-rau-indore.html" class="btn btn-outline">PG for Boys in Rau</a>
-                    <a href="../boys-hostel-in-rau-indore.html" class="btn btn-outline">Boys Hostel in Rau</a>
-                    <a href="../hostel-with-food-in-rau-indore.html" class="btn btn-outline">Hostel With Food in Rau</a>
-                    <a href="../ac-hostel-in-rau-indore.html" class="btn btn-outline">AC Hostel in Rau</a>
-                    <a href="../best-pg-in-indore-for-students.html" class="btn btn-outline">Best PG in Indore</a>
+                <div class="blog-cta-strip">
+                    <span class="blog-kicker" data-en="Stay With Us" data-hi="हमारे साथ रहें">Stay With Us</span>
+                    <h3 data-en="Read First, Visit Next, Then Book With Confidence" data-hi="पहले पढ़ें, फिर विजिट करें, फिर भरोसे से बुक करें">Read First, Visit Next, Then Book With Confidence</h3>
+                    <p data-en="If you like the area, the daily routine, and the facilities you see across these guides, the next step is simple: visit Radiance Residency and see the rooms in person." data-hi="अगर आपको एरिया, डेली रूटीन और सुविधाएं सही लगें, तो अगला कदम है रेडियंस रेसीडेंसी विजिट करना।">If you like the area, the daily routine, and the facilities you see across these guides, the next step is simple: visit Radiance Residency and see the rooms in person.</p>
+                    <div class="blog-home-actions" style="margin-top: 0;">
+                        <a href="../hostel-near-medicaps-university.html" class="btn btn-primary btn-lg" data-en="View Main Hostel Page" data-hi="मुख्य हॉस्टल पेज देखें">View Main Hostel Page</a>
+                        <a href="https://wa.me/918770445161?text=Hi%2C%20I%20read%20your%20blog%20and%20want%20to%20schedule%20a%20visit%20to%20Radiance%20Residency." class="btn btn-outline btn-lg" data-en="Message on WhatsApp" data-hi="व्हाट्सएप पर संदेश भेजें">Message on WhatsApp</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -225,7 +591,7 @@
                             <span class="footer-logo-tagline" data-en="Premium Boys Hostel" data-hi="प्रीमियम बॉयज़ हॉस्टल">Premium Boys Hostel</span>
                         </div>
                     </a>
-                    <p class="footer-desc" data-en="Radiance Residency is a premium boys hostel in Rau, Indore near Medicaps University. This blog supports students and parents with practical guides on colleges, local life, and hostel decisions." data-hi="रेडियंस रेसीडेंसी राउ, इंदौर में मेडीकैप्स यूनिवर्सिटी के पास एक प्रीमियम बॉयज़ हॉस्टल है।">Radiance Residency is a premium boys hostel in Rau, Indore near Medicaps University. This blog supports students and parents with practical guides on colleges, local life, and hostel decisions.</p>
+                    <p class="footer-desc" data-en="Radiance Residency is a premium boys hostel in Rau, Indore near Medicaps University. Our journal is built to help students and parents make better accommodation decisions." data-hi="रेडियंस रेसीडेंसी राउ, इंदौर में मेडीकैप्स यूनिवर्सिटी के पास एक प्रीमियम बॉयज़ हॉस्टल है।">Radiance Residency is a premium boys hostel in Rau, Indore near Medicaps University. Our journal is built to help students and parents make better accommodation decisions.</p>
                 </div>
 
                 <div class="footer-links-group">
@@ -240,11 +606,22 @@
                 </div>
 
                 <div class="footer-links-group">
+                    <h3 class="footer-heading" data-en="Popular Reads" data-hi="लोकप्रिय लेख">Popular Reads</h3>
+                    <ul class="footer-links">
+                        <li><a href="medicaps-university-review-admission-placement.html">Medicaps University Review</a></li>
+                        <li><a href="how-to-choose-best-hostel-in-indore.html">How to Choose the Best Hostel</a></li>
+                        <li><a href="student-life-in-rau-indore-guide.html">Student Life in Rau</a></li>
+                        <li><a href="cost-of-living-in-rau-indore-for-students.html">Cost of Living in Rau</a></li>
+                        <li><a href="transport-guide-rau-indore-students.html">Transport Guide for Students</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
                     <h3 class="footer-heading" data-en="Contact Us" data-hi="संपर्क करें">Contact Us</h3>
                     <ul class="footer-contact">
                         <li>
                             <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            <a href="https://maps.app.goo.gl/ZmfHzaeZvpwRrfGG6" target="_blank" rel="noopener noreferrer">In front of Medicaps University, Pigdamber, Rau, Indore, MP 453331</a>
+                            <a href="https://maps.app.goo.gl/ZmfHzaeZvpwRrfGG6" target="_blank" rel="noopener noreferrer" data-en="In front of Medicaps University, Pigdamber, Rau, Indore, MP 453331" data-hi="मेडीकैप्स यूनिवर्सिटी के सामने, पिगडंबर, राउ, इंदौर, एमपी 453331">In front of Medicaps University, Pigdamber, Rau, Indore, MP 453331</a>
                         </li>
                         <li>
                             <i class="fas fa-phone" aria-hidden="true"></i>
@@ -254,17 +631,10 @@
                             <i class="fas fa-envelope" aria-hidden="true"></i>
                             <a href="mailto:info@radianceresidency.com">info@radianceresidency.com</a>
                         </li>
-                    </ul>
-                </div>
-
-                <div class="footer-links-group">
-                    <h3 class="footer-heading" data-en="Core Hostel Pages" data-hi="मुख्य हॉस्टल पेज">Core Hostel Pages</h3>
-                    <ul class="footer-links">
-                        <li><a href="../hostel-near-medicaps-university.html">Hostel Near Medicaps University</a></li>
-                        <li><a href="../pg-for-boys-rau-indore.html">PG for Boys in Rau</a></li>
-                        <li><a href="../boys-hostel-in-rau-indore.html">Boys Hostel in Rau</a></li>
-                        <li><a href="../hostel-with-food-in-rau-indore.html">Hostel With Food in Rau</a></li>
-                        <li><a href="../ac-hostel-in-rau-indore.html">AC Hostel in Rau</a></li>
+                        <li>
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <a href="https://wa.me/918770445161" target="_blank" rel="noopener noreferrer" data-en="WhatsApp Us" data-hi="व्हाट्सएप करें">WhatsApp Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
