@@ -641,31 +641,33 @@ document.addEventListener('DOMContentLoaded', function () {
        .nav-link inside .nav-list inside #headerNav
        =========================================== */
     function highlightActiveNav() {
-        var currentPath = window.location.pathname;
-        var currentPage = currentPath.substring(currentPath.lastIndexOf('/') + 1) || 'index.html';
-
         var allNavLinks = document.querySelectorAll('#headerNav .nav-list .nav-link');
+
+        function norm(p) {
+            return p.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
+        }
+
+        var curNorm = norm(window.location.pathname);
+        var bestMatch = null;
+        var bestLen = -1;
+
         allNavLinks.forEach(function (link) {
-            var linkHref = link.getAttribute('href');
-            if (!linkHref) return;
-
-            var linkPage = linkHref.substring(linkHref.lastIndexOf('/') + 1);
-
             link.classList.remove('active');
+            var href = link.getAttribute('href');
+            if (!href || href.charAt(0) === '#') return;
 
-            if (
-                linkPage === currentPage ||
-                (currentPage === '' && linkPage === 'index.html') ||
-                (currentPage === 'index.html' && linkPage === '') ||
-                (currentPage === '/' && linkPage === 'index.html')
-            ) {
-                link.classList.add('active');
-            }
+            var a = document.createElement('a');
+            a.href = href;
+            var linkNorm = norm(a.pathname);
 
-            if (window.location.hash && linkHref === window.location.hash) {
-                link.classList.add('active');
+            if (curNorm === linkNorm) {
+                if (linkNorm.length > bestLen) { bestMatch = link; bestLen = linkNorm.length; }
+            } else if (linkNorm !== '/' && curNorm.indexOf(linkNorm + '/') === 0) {
+                if (linkNorm.length > bestLen) { bestMatch = link; bestLen = linkNorm.length; }
             }
         });
+
+        if (bestMatch) bestMatch.classList.add('active');
     }
 
     highlightActiveNav();

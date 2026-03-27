@@ -40,146 +40,255 @@
     <link rel="stylesheet" href="../style.min.css">
 
     <style>
-        .blog-home-hero {
+        /* ── Blog Hero ── */
+        .blog-hero {
             position: relative;
-            padding: 128px 0 72px;
+            padding: 128px 0 64px;
             background:
-                linear-gradient(rgba(5, 10, 21, 0.72), rgba(5, 10, 21, 0.9)),
+                linear-gradient(rgba(5, 10, 21, 0.78), rgba(5, 10, 21, 0.92)),
                 url("../images/building-night.jpg") center/cover no-repeat;
             overflow: hidden;
         }
-        .blog-home-hero::before {
+        .blog-hero::before {
             content: "";
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(circle at 18% 24%, rgba(212, 167, 78, 0.18), transparent 28%),
-                radial-gradient(circle at 82% 22%, rgba(212, 167, 78, 0.12), transparent 24%);
+                radial-gradient(circle at 18% 24%, rgba(212, 167, 78, 0.14), transparent 28%),
+                radial-gradient(circle at 82% 22%, rgba(212, 167, 78, 0.08), transparent 24%);
             pointer-events: none;
         }
-        .blog-home-hero-inner {
+        .blog-hero-inner {
             position: relative;
             z-index: 1;
-            display: grid;
-            grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.9fr);
-            gap: 28px;
-            align-items: end;
+            max-width: 760px;
         }
-        .blog-home-copy { color: #f7f3eb; }
-        .blog-home-copy .section-badge {
-            background: rgba(255, 255, 255, 0.08);
-            border-color: rgba(212, 167, 78, 0.22);
-        }
-        .blog-home-title {
+        .blog-hero-title {
             font-family: var(--font-heading);
-            font-size: clamp(40px, 6vw, 68px);
-            line-height: 1.05;
-            color: #ffffff;
-            margin: 0 0 18px;
+            font-size: clamp(36px, 5vw, 56px);
+            line-height: 1.08;
+            color: #fff;
+            margin: 0 0 16px;
             letter-spacing: -0.03em;
         }
-        .blog-home-title span { color: var(--gold-light); }
-        .blog-home-lead {
-            max-width: 720px;
-            font-size: 18px;
-            line-height: 1.8;
-            color: rgba(255, 255, 255, 0.82);
+        .blog-hero-title span { color: var(--gold-light); }
+        .blog-hero-lead {
+            font-size: 17px;
+            line-height: 1.75;
+            color: rgba(255, 255, 255, 0.78);
+            max-width: 620px;
         }
-        .blog-home-actions {
+        .blog-hero-stats {
             display: flex;
-            flex-wrap: wrap;
-            gap: 14px;
-            margin-top: 26px;
+            gap: 32px;
+            margin-top: 28px;
         }
-        .blog-home-panel {
-            background: rgba(9, 18, 32, 0.72);
-            border: 1px solid rgba(212, 167, 78, 0.16);
-            border-radius: 24px;
-            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
-            padding: 28px;
-            backdrop-filter: blur(10px);
-        }
-        .blog-home-panel h2 {
-            font-family: var(--font-heading);
-            color: #ffffff;
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        .blog-home-panel p {
-            color: rgba(255, 255, 255, 0.75);
-            margin-bottom: 18px;
-            font-size: 15px;
-        }
-        .blog-stat-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 14px;
-            margin-bottom: 20px;
-        }
-        .blog-stat {
-            padding: 16px 18px;
-            border-radius: 18px;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-        }
-        .blog-stat strong {
+        .blog-hero-stat strong {
             display: block;
             font-family: var(--font-heading);
-            font-size: 30px;
-            line-height: 1;
+            font-size: 28px;
             color: var(--gold-light);
-            margin-bottom: 6px;
+            line-height: 1;
         }
-        .blog-stat span {
+        .blog-hero-stat span {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ── Filter Bar ── */
+        .blog-filter-bar {
+            padding: 20px 0;
+            background: var(--primary);
+            border-bottom: 1px solid rgba(212, 167, 78, 0.1);
+            position: sticky;
+            top: 68px;
+            z-index: 90;
+        }
+        .blog-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .blog-filter-btn {
+            padding: 9px 18px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: transparent;
             color: rgba(255, 255, 255, 0.7);
             font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
         }
-        .blog-category-pills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+        .blog-filter-btn:hover {
+            border-color: rgba(212, 167, 78, 0.3);
+            color: var(--gold-light);
         }
-        .blog-category-pills span {
-            padding: 10px 14px;
-            border-radius: 999px;
-            background: rgba(255, 255, 255, 0.06);
-            color: #f7f3eb;
-            font-size: 13px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
+        .blog-filter-btn.active {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            color: var(--primary);
+            border-color: transparent;
         }
-        .blog-section-light {
+
+        /* ── Articles Grid ── */
+        .blog-listing {
             background:
-                radial-gradient(circle at top left, rgba(212, 167, 78, 0.08), transparent 24%),
+                radial-gradient(circle at top left, rgba(212, 167, 78, 0.06), transparent 24%),
                 linear-gradient(180deg, #fcfaf5 0%, #f3efe6 100%);
         }
-        .blog-feature-layout {
+        .blog-articles-grid {
             display: grid;
-            grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 24px;
         }
-        .blog-feature-card,
-        .blog-side-card,
-        .blog-article-card,
-        .blog-cta-strip {
-            border-radius: 24px;
+        .blog-card {
+            border-radius: 20px;
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid rgba(212, 167, 78, 0.1);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(212, 167, 78, 0.25);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+        }
+        .blog-card[style*="display: none"] {
+            display: none !important;
+        }
+        .blog-card-img {
+            height: 180px;
             overflow: hidden;
             position: relative;
         }
-        .blog-feature-card {
-            min-height: 420px;
-            background:
-                linear-gradient(180deg, rgba(5, 10, 21, 0.12), rgba(5, 10, 21, 0.76)),
-                url("../images/building-day.jpg") center/cover no-repeat;
+        .blog-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .blog-card:hover .blog-card-img img {
+            transform: scale(1.04);
+        }
+        .blog-card-badge {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            padding: 5px 12px;
+            border-radius: 999px;
+            background: rgba(5, 10, 21, 0.72);
+            backdrop-filter: blur(6px);
+            color: var(--gold-light);
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+        }
+        .blog-card-body {
+            padding: 22px 24px 26px;
+            flex: 1;
             display: flex;
-            align-items: flex-end;
-            box-shadow: var(--shadow-xl);
+            flex-direction: column;
         }
-        .blog-feature-card-content {
-            padding: 34px;
-            color: #ffffff;
-            max-width: 620px;
+        .blog-card-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: var(--dark-gray);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 12px;
         }
-        .blog-kicker {
+        .blog-card-meta i {
+            font-size: 11px;
+            color: var(--gold);
+        }
+        .blog-card-body h3 {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            line-height: 1.25;
+            color: var(--primary);
+            margin: 0 0 10px;
+        }
+        .blog-card-body p {
+            font-size: 14px;
+            line-height: 1.65;
+            color: var(--text-light);
+            margin: 0 0 18px;
+            flex: 1;
+        }
+        .blog-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--gold);
+            text-decoration: none;
+            letter-spacing: 0.3px;
+            transition: gap 0.3s ease;
+        }
+        .blog-card-link:hover { gap: 10px; }
+
+        /* ── Featured Card (first in grid) ── */
+        .blog-card.featured {
+            grid-column: 1 / -1;
+            flex-direction: row;
+            max-height: 360px;
+        }
+        .blog-card.featured .blog-card-img {
+            height: auto;
+            min-width: 45%;
+            max-width: 45%;
+        }
+        .blog-card.featured .blog-card-body {
+            padding: 32px 36px;
+            justify-content: center;
+        }
+        .blog-card.featured .blog-card-body h3 {
+            font-size: 28px;
+        }
+        .blog-card.featured .blog-card-body p {
+            font-size: 15px;
+            max-width: 560px;
+        }
+
+        /* ── No Results ── */
+        .blog-no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-light);
+        }
+        .blog-no-results i {
+            font-size: 40px;
+            color: var(--gold);
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        /* ── CTA Strip ── */
+        .blog-cta {
+            border-radius: 24px;
+            background:
+                linear-gradient(135deg, rgba(5, 10, 21, 0.92), rgba(20, 32, 53, 0.92)),
+                url("../images/study-area.jpg") center/cover no-repeat;
+            padding: 48px;
+            border: 1px solid rgba(212, 167, 78, 0.16);
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+            color: #fff;
+            margin-top: 48px;
+        }
+        .blog-cta-kicker {
             display: inline-flex;
             padding: 7px 12px;
             border-radius: 999px;
@@ -190,148 +299,39 @@
             letter-spacing: 1.8px;
             font-weight: 700;
         }
-        .blog-feature-card h3,
-        .blog-side-card h3,
-        .blog-article-card h3,
-        .blog-cta-strip h3 {
+        .blog-cta h3 {
             font-family: var(--font-heading);
+            font-size: 32px;
             line-height: 1.15;
+            margin: 16px 0 10px;
         }
-        .blog-feature-card h3 {
-            font-size: clamp(30px, 4vw, 42px);
-            margin: 18px 0 12px;
-        }
-        .blog-feature-card p {
-            max-width: 560px;
-            color: rgba(255, 255, 255, 0.82);
-            margin-bottom: 20px;
-        }
-        .blog-side-stack {
-            display: grid;
-            gap: 20px;
-        }
-        .blog-side-card {
-            background: linear-gradient(145deg, #0d1628, #122038);
-            color: #ffffff;
-            padding: 28px;
-            border: 1px solid rgba(212, 167, 78, 0.12);
-            box-shadow: var(--shadow-lg);
-        }
-        .blog-side-card p {
-            color: rgba(255, 255, 255, 0.72);
-            margin: 12px 0 18px;
-            font-size: 15px;
-        }
-        .blog-grid {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 22px;
-        }
-        .blog-article-card {
-            background: #ffffff;
-            border: 1px solid rgba(212, 167, 78, 0.12);
-            box-shadow: var(--shadow-md);
-            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-        }
-        .blog-article-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(212, 167, 78, 0.28);
-            box-shadow: var(--shadow-xl);
-        }
-        .blog-article-media {
-            height: 190px;
-            overflow: hidden;
-        }
-        .blog-article-media img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .blog-article-body {
-            padding: 24px;
-        }
-        .blog-article-body h3 {
-            color: var(--primary);
-            font-size: 24px;
-            margin: 14px 0 10px;
-        }
-        .blog-article-body p {
-            color: var(--text-light);
-            font-size: 15px;
-            margin-bottom: 18px;
-        }
-        .blog-meta-line {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            font-size: 12px;
-            color: var(--dark-gray);
-            text-transform: uppercase;
-            letter-spacing: 1.2px;
-            font-weight: 700;
-        }
-        .blog-quick-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 16px;
-        }
-        .blog-quick-link {
-            display: block;
-            padding: 18px 20px;
-            border-radius: 18px;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: #ffffff;
-            transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
-        }
-        .blog-quick-link:hover {
-            transform: translateY(-4px);
-            border-color: rgba(212, 167, 78, 0.28);
-            background: rgba(255, 255, 255, 0.07);
-        }
-        .blog-quick-link strong {
-            display: block;
-            font-size: 17px;
-            margin-bottom: 6px;
-            color: var(--gold-light);
-        }
-        .blog-quick-link span {
-            display: block;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.72);
-        }
-        .blog-cta-strip {
-            background:
-                linear-gradient(135deg, rgba(5, 10, 21, 0.92), rgba(20, 32, 53, 0.92)),
-                url("../images/study-area.jpg") center/cover no-repeat;
-            padding: 34px;
-            border: 1px solid rgba(212, 167, 78, 0.16);
-            box-shadow: var(--shadow-xl);
-            color: #ffffff;
-        }
-        .blog-cta-strip h3 {
-            font-size: 34px;
-            margin-bottom: 10px;
-        }
-        .blog-cta-strip p {
+        .blog-cta p {
             max-width: 680px;
             color: rgba(255, 255, 255, 0.76);
-            margin-bottom: 20px;
+            margin-bottom: 22px;
+            font-size: 15px;
+            line-height: 1.7;
         }
+        .blog-cta-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        /* ── Responsive ── */
         @media (max-width: 992px) {
-            .blog-home-hero-inner,
-            .blog-feature-layout,
-            .blog-grid {
-                grid-template-columns: 1fr;
-            }
+            .blog-articles-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .blog-card.featured { flex-direction: column; max-height: none; }
+            .blog-card.featured .blog-card-img { min-width: 100%; max-width: 100%; height: 220px; }
+            .blog-card.featured .blog-card-body h3 { font-size: 24px; }
         }
         @media (max-width: 768px) {
-            .blog-home-hero { padding: 118px 0 54px; }
-            .blog-home-panel { padding: 22px; }
-            .blog-stat-grid,
-            .blog-quick-grid {
-                grid-template-columns: 1fr;
-            }
+            .blog-hero { padding: 110px 0 48px; }
+            .blog-hero-stats { gap: 24px; }
+            .blog-articles-grid { grid-template-columns: 1fr; }
+            .blog-filter-bar { top: 60px; }
+            .blog-cta { padding: 32px 24px; }
+            .blog-cta h3 { font-size: 26px; }
         }
     </style>
 
@@ -340,22 +340,11 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://radianceresidency.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Blog",
-                "item": "https://radianceresidency.com/blog/"
-            }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://radianceresidency.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://radianceresidency.com/blog/" }
         ]
     }
     </script>
-
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -363,11 +352,7 @@
         "name": "Radiance Residency Blog",
         "description": "Student hostel and college-life guides focused on Rau, Indore, Medicaps University, and nearby colleges.",
         "url": "https://radianceresidency.com/blog/",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "Radiance Residency",
-            "url": "https://radianceresidency.com/"
-        }
+        "isPartOf": { "@type": "WebSite", "name": "Radiance Residency", "url": "https://radianceresidency.com/" }
     }
     </script>
 </head>
@@ -410,169 +395,482 @@
     </header>
 
     <main>
-        <section class="blog-home-hero" aria-label="Radiance Residency blog hero">
-            <div class="container blog-home-hero-inner">
-                <div class="blog-home-copy">
-                    <nav class="breadcrumb" aria-label="Breadcrumb" style="justify-content: flex-start; margin-bottom: 22px;">
-                        <a href="../index.html" data-en="Home" data-hi="होम">Home</a>
-                        <span class="separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></span>
-                        <span class="current" data-en="Blog" data-hi="ब्लॉग">Blog</span>
-                    </nav>
-                    <span class="section-badge" data-en="Radiance Journal" data-hi="रेडियंस जर्नल">Radiance Journal</span>
-                    <h1 class="blog-home-title" data-en="Smart Reads for <span>Students</span> and Parents in Rau, Indore" data-hi="राउ, इंदौर में <span>छात्रों</span> और अभिभावकों के लिए उपयोगी गाइड">Smart Reads for <span>Students</span> and Parents in Rau, Indore</h1>
-                    <p class="blog-home-lead" data-en="This is where we publish practical guides on student life, nearby colleges, daily living in Rau, budgeting, food, transport, and how to choose a hostel that actually works for long-term comfort." data-hi="यहां हम छात्र जीवन, आसपास के कॉलेज, राउ में रहना, बजट, फूड, ट्रांसपोर्ट और सही हॉस्टल चुनने पर उपयोगी गाइड शेयर करते हैं।">This is where we publish practical guides on student life, nearby colleges, daily living in Rau, budgeting, food, transport, and how to choose a hostel that actually works for long-term comfort.</p>
-                    <div class="blog-home-actions">
-                        <a href="#featured-reads" class="btn btn-primary btn-lg" data-en="Start Reading" data-hi="पढ़ना शुरू करें">Start Reading</a>
-                        <a href="../contact.html" class="btn btn-outline btn-lg" data-en="Book a Visit" data-hi="विजिट बुक करें">Book a Visit</a>
+        <!-- Hero -->
+        <section class="blog-hero" aria-label="Blog">
+            <div class="container blog-hero-inner">
+                <nav class="breadcrumb" aria-label="Breadcrumb" style="justify-content: flex-start; margin-bottom: 20px;">
+                    <a href="../index.html" data-en="Home" data-hi="होम">Home</a>
+                    <span class="separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></span>
+                    <span class="current" data-en="Blog" data-hi="ब्लॉग">Blog</span>
+                </nav>
+                <span class="section-badge" data-en="Radiance Journal" data-hi="रेडियंस जर्नल">Radiance Journal</span>
+                <h1 class="blog-hero-title" data-en="Guides for <span>Students</span> & Parents in Rau, Indore" data-hi="राउ, इंदौर में <span>छात्रों</span> और अभिभावकों के लिए गाइड">Guides for <span>Students</span> & Parents in Rau, Indore</h1>
+                <p class="blog-hero-lead" data-en="Practical reads on college life, hostels, daily living, budgeting, food, and transport around Rau and Indore." data-hi="कॉलेज लाइफ, हॉस्टल, बजट, फूड और ट्रांसपोर्ट पर उपयोगी गाइड।">Practical reads on college life, hostels, daily living, budgeting, food, and transport around Rau and Indore.</p>
+                <div class="blog-hero-stats">
+                    <div class="blog-hero-stat">
+                        <strong>24</strong>
+                        <span data-en="Guides" data-hi="गाइड">Guides</span>
                     </div>
-                </div>
-                <aside class="blog-home-panel" aria-label="Blog overview">
-                    <h2 data-en="What You’ll Find Here" data-hi="यहां आपको क्या मिलेगा">What You’ll Find Here</h2>
-                    <p data-en="A polished mix of college guides, local area tips, practical student checklists, and accommodation advice." data-hi="कॉलेज गाइड, लोकल एरिया टिप्स, स्टूडेंट चेकलिस्ट और आवास सलाह का मिश्रण।">A polished mix of college guides, local area tips, practical student checklists, and accommodation advice.</p>
-                    <div class="blog-stat-grid">
-                        <div class="blog-stat">
-                            <strong>24</strong>
-                            <span data-en="Published guides" data-hi="प्रकाशित गाइड">Published guides</span>
-                        </div>
-                        <div class="blog-stat">
-                            <strong>10+</strong>
-                            <span data-en="College-focused reads" data-hi="कॉलेज-फोकस्ड लेख">College-focused reads</span>
-                        </div>
+                    <div class="blog-hero-stat">
+                        <strong>6</strong>
+                        <span data-en="Categories" data-hi="श्रेणियां">Categories</span>
                     </div>
-                    <div class="blog-category-pills">
-                        <span data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
-                        <span data-en="Medicaps Guides" data-hi="मेडीकैप्स गाइड">Medicaps Guides</span>
-                        <span data-en="Parent Tips" data-hi="अभिभावक टिप्स">Parent Tips</span>
-                        <span data-en="Local Rau" data-hi="लोकल राउ">Local Rau</span>
-                    </div>
-                </aside>
-            </div>
-        </section>
-
-        <section class="section blog-section-light" id="featured-reads" aria-label="Featured reads">
-            <div class="container">
-                <div class="section-header text-center">
-                    <span class="section-badge" data-en="Featured Reads" data-hi="फीचर्ड रीड्स">Featured Reads</span>
-                    <h2 class="section-title" data-en="Start With Our Most Useful Guides" data-hi="हमारे सबसे उपयोगी गाइड से शुरू करें">Start With Our Most Useful Guides</h2>
-                    <p class="section-subtitle" data-en="These are the articles most students and parents read first when shortlisting hostels and planning life around Rau and Medicaps." data-hi="हॉस्टल शॉर्टलिस्ट करते समय ये सबसे पहले पढ़े जाने वाले लेख हैं।">These are the articles most students and parents read first when shortlisting hostels and planning life around Rau and Medicaps.</p>
-                </div>
-                <div class="blog-feature-layout">
-                    <article class="blog-feature-card">
-                        <div class="blog-feature-card-content">
-                            <span class="blog-kicker" data-en="Editor's Pick" data-hi="एडिटर की पसंद">Editor's Pick</span>
-                            <h3 data-en="Medicaps University Review 2026" data-hi="मेडीकैप्स यूनिवर्सिटी रिव्यू 2026">Medicaps University Review 2026</h3>
-                            <p data-en="Admissions, campus life, placements, fees, and what new students should know before joining one of Rau’s most searched colleges." data-hi="एडमिशन, कैंपस लाइफ, प्लेसमेंट और नए छात्रों के लिए जरूरी बातें।">Admissions, campus life, placements, fees, and what new students should know before joining one of Rau’s most searched colleges.</p>
-                            <a href="medicaps-university-review-admission-placement.html" class="btn btn-primary" data-en="Read the Guide" data-hi="गाइड पढ़ें">Read the Guide</a>
-                        </div>
-                    </article>
-                    <div class="blog-side-stack">
-                        <article class="blog-side-card">
-                            <span class="blog-kicker" data-en="Before You Book" data-hi="बुकिंग से पहले">Before You Book</span>
-                            <h3 data-en="How to Choose the Best Hostel in Indore" data-hi="इंदौर में सबसे अच्छा हॉस्टल कैसे चुनें">How to Choose the Best Hostel in Indore</h3>
-                            <p data-en="A practical checklist covering safety, food, room quality, pricing, location, and management responsiveness." data-hi="सुरक्षा, खाना, कमरे, कीमत, लोकेशन और मैनेजमेंट पर प्रैक्टिकल चेकलिस्ट।">A practical checklist covering safety, food, room quality, pricing, location, and management responsiveness.</p>
-                            <a href="how-to-choose-best-hostel-in-indore.html" class="btn btn-outline" data-en="Open Article" data-hi="लेख खोलें">Open Article</a>
-                        </article>
-                        <article class="blog-side-card">
-                            <span class="blog-kicker" data-en="Living in Rau" data-hi="राउ में रहना">Living in Rau</span>
-                            <h3 data-en="Student Life in Rau, Indore" data-hi="राउ, इंदौर में छात्र जीवन">Student Life in Rau, Indore</h3>
-                            <p data-en="A grounded look at the daily routine, essentials, hangout spots, transport, and what the area feels like for students." data-hi="डेली रूटीन, जरूरी जगहें, हैंगआउट स्पॉट और स्टूडेंट लाइफ का वास्तविक अनुभव।">A grounded look at the daily routine, essentials, hangout spots, transport, and what the area feels like for students.</p>
-                            <a href="student-life-in-rau-indore-guide.html" class="btn btn-outline" data-en="Open Article" data-hi="लेख खोलें">Open Article</a>
-                        </article>
+                    <div class="blog-hero-stat">
+                        <strong>10+</strong>
+                        <span data-en="Colleges Covered" data-hi="कॉलेज">Colleges Covered</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-dark" aria-label="Browse by topic">
+        <!-- Filter Bar -->
+        <div class="blog-filter-bar">
             <div class="container">
-                <div class="section-header text-center">
-                    <span class="section-badge" data-en="Browse by Topic" data-hi="टॉपिक के अनुसार देखें">Browse by Topic</span>
-                    <h2 class="section-title" data-en="Pick the Kind of Help You Need" data-hi="अपनी जरूरत के अनुसार चुनें">Pick the Kind of Help You Need</h2>
-                    <p class="section-subtitle" data-en="Whether you are comparing hostels, preparing for college, or just figuring out daily life in Indore, start with the right lane." data-hi="चाहे आप हॉस्टल compare कर रहे हों या कॉलेज की तैयारी, सही सेक्शन से शुरू करें।">Whether you are comparing hostels, preparing for college, or just figuring out daily life in Indore, start with the right lane.</p>
-                </div>
-                <div class="blog-quick-grid">
-                    <a href="best-hostels-in-indore-for-students.html" class="blog-quick-link">
-                        <strong data-en="Hostel & PG Comparison" data-hi="हॉस्टल और पीजी तुलना">Hostel & PG Comparison</strong>
-                        <span data-en="Broad comparison guides for students shortlisting where to stay." data-hi="जहां रहना है उसकी तुलना के लिए गाइड।">Broad comparison guides for students shortlisting where to stay.</span>
-                    </a>
-                    <a href="cost-of-living-in-rau-indore-for-students.html" class="blog-quick-link">
-                        <strong data-en="Budget & Cost of Living" data-hi="बजट और खर्च">Budget & Cost of Living</strong>
-                        <span data-en="Understand rent, food, transport, and realistic monthly student expenses." data-hi="किराया, खाना, ट्रांसपोर्ट और मासिक खर्च समझें।">Understand rent, food, transport, and realistic monthly student expenses.</span>
-                    </a>
-                    <a href="best-food-places-near-medicaps-university-rau.html" class="blog-quick-link">
-                        <strong data-en="Food & Daily Essentials" data-hi="फूड और जरूरी चीजें">Food & Daily Essentials</strong>
-                        <span data-en="Discover food spots, cafes, gyms, and everyday conveniences near campus." data-hi="कैंपस के पास फूड स्पॉट, कैफे, जिम और जरूरी जगहें खोजें।">Discover food spots, cafes, gyms, and everyday conveniences near campus.</span>
-                    </a>
-                    <a href="top-colleges-in-rau-indore.html" class="blog-quick-link">
-                        <strong data-en="College & Area Guides" data-hi="कॉलेज और एरिया गाइड">College & Area Guides</strong>
-                        <span data-en="Read area-specific and college-specific guides before making a move." data-hi="शिफ्ट होने से पहले कॉलेज और एरिया गाइड पढ़ें।">Read area-specific and college-specific guides before making a move.</span>
-                    </a>
+                <div class="blog-filters" role="tablist" aria-label="Filter articles by category">
+                    <button class="blog-filter-btn active" data-filter="all" role="tab" aria-selected="true" data-en="All Articles" data-hi="सभी लेख">All Articles</button>
+                    <button class="blog-filter-btn" data-filter="hostel" role="tab" aria-selected="false" data-en="Hostel & PG" data-hi="हॉस्टल और पीजी">Hostel & PG</button>
+                    <button class="blog-filter-btn" data-filter="college" role="tab" aria-selected="false" data-en="College Guides" data-hi="कॉलेज गाइड">College Guides</button>
+                    <button class="blog-filter-btn" data-filter="student-life" role="tab" aria-selected="false" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</button>
+                    <button class="blog-filter-btn" data-filter="food" role="tab" aria-selected="false" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</button>
+                    <button class="blog-filter-btn" data-filter="budget" role="tab" aria-selected="false" data-en="Budget & Living" data-hi="बजट और खर्च">Budget & Living</button>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="section blog-section-light" aria-label="Recent articles">
+        <!-- Articles -->
+        <section class="section blog-listing" aria-label="All articles">
             <div class="container">
-                <div class="section-header text-center">
-                    <span class="section-badge" data-en="Recent Articles" data-hi="नए लेख">Recent Articles</span>
-                    <h2 class="section-title" data-en="Popular Reads From the Journal" data-hi="जर्नल के लोकप्रिय लेख">Popular Reads From the Journal</h2>
-                    <p class="section-subtitle" data-en="A few curated articles that are genuinely useful for students planning to live and study around Rau and Indore." data-hi="राउ और इंदौर में रहने और पढ़ने वाले छात्रों के लिए उपयोगी लेख।">A few curated articles that are genuinely useful for students planning to live and study around Rau and Indore.</p>
-                </div>
-                <div class="blog-grid">
-                    <article class="blog-article-card">
-                        <div class="blog-article-media">
-                            <img src="../images/hostel-front.jpg" alt="Best hostels in Indore for students">
+                <div class="blog-articles-grid" id="blogGrid">
+
+                    <!-- Featured: Medicaps University Review -->
+                    <article class="blog-card featured" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/medicaps-university.jpg" alt="Medicaps University campus" loading="lazy">
+                            <span class="blog-card-badge" data-en="Editor's Pick" data-hi="एडिटर की पसंद">Editor's Pick</span>
                         </div>
-                        <div class="blog-article-body">
-                            <div class="blog-meta-line">
-                                <span>Comparison</span>
-                                <span>10 min read</span>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="12 min read" data-hi="12 मिनट">12 min read</span>
                             </div>
-                            <h3 data-en="Best Hostels in Indore for Students" data-hi="इंदौर में छात्रों के लिए सबसे अच्छे हॉस्टल">Best Hostels in Indore for Students</h3>
-                            <p data-en="A broad comparison article to help students understand what really matters while shortlisting hostels in Indore." data-hi="इंदौर में हॉस्टल shortlist करते समय क्या देखना चाहिए इसकी गाइड।">A broad comparison article to help students understand what really matters while shortlisting hostels in Indore.</p>
-                            <a href="best-hostels-in-indore-for-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                            <h3 data-en="Medicaps University Review 2026 — Admission, Fees, Placements & Campus Life" data-hi="मेडीकैप्स यूनिवर्सिटी रिव्यू 2026 — एडमिशन, फीस, प्लेसमेंट और कैंपस लाइफ">Medicaps University Review 2026 — Admission, Fees, Placements & Campus Life</h3>
+                            <p data-en="Everything you need to know about Medicaps — admission process, fee structure, placements, campus life, faculty, and hostel options for students." data-hi="मेडीकैप्स के बारे में सब कुछ — एडमिशन, फीस, प्लेसमेंट, कैंपस लाइफ और हॉस्टल विकल्प।">Everything you need to know about Medicaps — admission process, fee structure, placements, campus life, faculty, and hostel options for students.</p>
+                            <a href="medicaps-university-review-admission-placement.html" class="blog-card-link" data-en="Read the Guide" data-hi="गाइड पढ़ें">Read the Guide <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
-                    <article class="blog-article-card">
-                        <div class="blog-article-media">
-                            <img src="../images/dining-meals.jpg" alt="Cost of living in Rau Indore for students">
+
+                    <!-- Hostel & PG -->
+                    <article class="blog-card" data-category="hostel">
+                        <div class="blog-card-img">
+                            <img src="../images/hostel-front.jpg" alt="Best hostels in Indore" loading="lazy">
+                            <span class="blog-card-badge" data-en="Hostel & PG" data-hi="हॉस्टल और पीजी">Hostel & PG</span>
                         </div>
-                        <div class="blog-article-body">
-                            <div class="blog-meta-line">
-                                <span>Budget</span>
-                                <span>8 min read</span>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Comparison" data-hi="तुलना">Comparison</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
                             </div>
-                            <h3 data-en="Cost of Living in Rau, Indore" data-hi="राउ, इंदौर में रहने की लागत">Cost of Living in Rau, Indore</h3>
-                            <p data-en="A realistic look at room rent, food, commuting, and what monthly student expenses can look like in this area." data-hi="रूम रेंट, फूड, कम्यूट और मासिक खर्च का व्यावहारिक अंदाजा।">A realistic look at room rent, food, commuting, and what monthly student expenses can look like in this area.</p>
-                            <a href="cost-of-living-in-rau-indore-for-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                            <h3 data-en="Best Hostels in Indore for Students (2026)" data-hi="इंदौर में छात्रों के लिए सबसे अच्छे हॉस्टल (2026)">Best Hostels in Indore for Students (2026)</h3>
+                            <p data-en="What makes a good hostel, key areas to look in, and factors to compare — location, amenities, food, safety, and price." data-hi="अच्छा हॉस्टल कैसा होता है, कहां देखें, और क्या compare करें।">What makes a good hostel, key areas to look in, and factors to compare — location, amenities, food, safety, and price.</p>
+                            <a href="best-hostels-in-indore-for-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
-                    <article class="blog-article-card">
-                        <div class="blog-article-media">
-                            <img src="../images/study-area.jpg" alt="Transport guide for students in Rau and Indore">
+
+                    <article class="blog-card" data-category="hostel">
+                        <div class="blog-card-img">
+                            <img src="../images/room-double.jpg" alt="Hostel vs PG vs Flat" loading="lazy">
+                            <span class="blog-card-badge" data-en="Hostel & PG" data-hi="हॉस्टल और पीजी">Hostel & PG</span>
                         </div>
-                        <div class="blog-article-body">
-                            <div class="blog-meta-line">
-                                <span>Local Guide</span>
-                                <span>7 min read</span>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Comparison" data-hi="तुलना">Comparison</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="Hostel vs PG vs Flat — Which is Best for Students?" data-hi="हॉस्टल vs PG vs फ्लैट — छात्रों के लिए कौन सबसे अच्छा?">Hostel vs PG vs Flat — Which is Best for Students?</h3>
+                            <p data-en="Detailed comparison of cost, safety, convenience, and lifestyle for students choosing accommodation in Indore." data-hi="इंदौर में आवास चुनने के लिए लागत, सुरक्षा, सुविधा और लाइफस्टाइल की तुलना।">Detailed comparison of cost, safety, convenience, and lifestyle for students choosing accommodation in Indore.</p>
+                            <a href="hostel-vs-pg-vs-flat-for-students-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="hostel">
+                        <div class="blog-card-img">
+                            <img src="../images/staircase-interior.jpg" alt="How to choose a hostel" loading="lazy">
+                            <span class="blog-card-badge" data-en="Hostel & PG" data-hi="हॉस्टल और पीजी">Hostel & PG</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Guide" data-hi="गाइड">Guide</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="How to Choose the Best Hostel in Indore — 10 Things to Check" data-hi="इंदौर में सबसे अच्छा हॉस्टल कैसे चुनें — 10 जरूरी बातें">How to Choose the Best Hostel in Indore — 10 Things to Check</h3>
+                            <p data-en="A practical checklist covering safety, food quality, room condition, pricing, location, and management responsiveness." data-hi="सुरक्षा, खाना, कमरे, कीमत, लोकेशन और मैनेजमेंट पर चेकलिस्ट।">A practical checklist covering safety, food quality, room condition, pricing, location, and management responsiveness.</p>
+                            <a href="how-to-choose-best-hostel-in-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="hostel">
+                        <div class="blog-card-img">
+                            <img src="../images/hostel-exterior.jpg" alt="Benefits of hostel life" loading="lazy">
+                            <span class="blog-card-badge" data-en="Hostel & PG" data-hi="हॉस्टल और पीजी">Hostel & PG</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="10 Benefits of Living in a Hostel During College" data-hi="कॉलेज में हॉस्टल में रहने के 10 फायदे">10 Benefits of Living in a Hostel During College</h3>
+                            <p data-en="From independence and time management to social skills and networking — why hostel life is worth it." data-hi="स्वतंत्रता, टाइम मैनेजमेंट से लेकर सोशल स्किल्स तक — हॉस्टल लाइफ क्यों बेहतर है।">From independence and time management to social skills and networking — why hostel life is worth it.</p>
+                            <a href="benefits-of-living-in-hostel-vs-home.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- College Guides -->
+                    <article class="blog-card" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/building-day.jpg" alt="Top colleges in Rau" loading="lazy">
+                            <span class="blog-card-badge" data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Colleges" data-hi="कॉलेज">Colleges</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="12 min read" data-hi="12 मिनट">12 min read</span>
+                            </div>
+                            <h3 data-en="Top 10 Colleges in Rau, Indore — Complete Guide (2026)" data-hi="राउ, इंदौर के टॉप 10 कॉलेज (2026)">Top 10 Colleges in Rau, Indore — Complete Guide (2026)</h3>
+                            <p data-en="Detailed guide covering Medicaps, IPS Academy, SD Bansal, IIST, Acropolis & more — courses, fees, placements." data-hi="मेडीकैप्स, IPS, SD बंसल, IIST, एक्रोपोलिस — कोर्स, फीस, प्लेसमेंट की गाइड।">Detailed guide covering Medicaps, IPS Academy, SD Bansal, IIST, Acropolis & more — courses, fees, placements.</p>
+                            <a href="top-colleges-in-rau-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/study-area.jpg" alt="IPS Academy Indore" loading="lazy">
+                            <span class="blog-card-badge" data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Review" data-hi="रिव्यू">Review</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="IPS Academy Indore — Admission, Courses, Fees & Student Life" data-hi="IPS Academy इंदौर — एडमिशन, कोर्स, फीस और स्टूडेंट लाइफ">IPS Academy Indore — Admission, Courses, Fees & Student Life</h3>
+                            <p data-en="Complete guide to IPS Academy — admissions, courses offered, fee structure, placements, campus life, and nearby hostel options." data-hi="IPS Academy की पूरी गाइड — एडमिशन, कोर्स, फीस, प्लेसमेंट और हॉस्टल विकल्प।">Complete guide to IPS Academy — admissions, courses offered, fee structure, placements, campus life, and nearby hostel options.</p>
+                            <a href="ips-academy-indore-review-guide.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/building-day.jpg" alt="SD Bansal College Indore" loading="lazy">
+                            <span class="blog-card-badge" data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Review" data-hi="रिव्यू">Review</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="SD Bansal College Indore — Courses, Fees, Placements & Review" data-hi="SD बंसल कॉलेज इंदौर — कोर्स, फीस, प्लेसमेंट और रिव्यू">SD Bansal College Indore — Courses, Fees, Placements & Review</h3>
+                            <p data-en="Everything you need to know before joining — courses offered, fee structure, placement record, faculty, and campus facilities." data-hi="ज्वॉइन करने से पहले सब कुछ जानें — कोर्स, फीस, प्लेसमेंट और कैंपस सुविधाएं।">Everything you need to know before joining — courses offered, fee structure, placement record, faculty, and campus facilities.</p>
+                            <a href="sd-bansal-college-indore-review.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/building-night.jpg" alt="IIM Indore area guide" loading="lazy">
+                            <span class="blog-card-badge" data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Area Guide" data-hi="एरिया गाइड">Area Guide</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="IIM Indore Area Guide — Everything Students Need to Know" data-hi="IIM इंदौर एरिया गाइड — छात्रों के लिए सब कुछ">IIM Indore Area Guide — Everything Students Need to Know</h3>
+                            <p data-en="Campus overview, surrounding area, accommodation options, transport, food, and lifestyle near IIM Indore." data-hi="कैंपस, आसपास का एरिया, आवास, ट्रांसपोर्ट, फूड और IIM इंदौर के पास लाइफस्टाइल।">Campus overview, surrounding area, accommodation options, transport, food, and lifestyle near IIM Indore.</p>
+                            <a href="iim-indore-campus-area-guide.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="college">
+                        <div class="blog-card-img">
+                            <img src="../images/study-area.jpg" alt="College admission preparation" loading="lazy">
+                            <span class="blog-card-badge" data-en="College Guide" data-hi="कॉलेज गाइड">College Guide</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Admission" data-hi="एडमिशन">Admission</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="How to Prepare for College Admission in Indore (2026)" data-hi="इंदौर में कॉलेज एडमिशन की तैयारी कैसे करें (2026)">How to Prepare for College Admission in Indore (2026)</h3>
+                            <p data-en="Step-by-step guide — entrance exams, application process, document checklist, timeline, and tips for top Indore colleges." data-hi="एंट्रेंस एग्जाम, आवेदन, डॉक्यूमेंट चेकलिस्ट और टाइमलाइन।">Step-by-step guide — entrance exams, application process, document checklist, timeline, and tips for top Indore colleges.</p>
+                            <a href="how-to-prepare-for-college-admission-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Student Life -->
+                    <article class="blog-card" data-category="student-life">
+                        <div class="blog-card-img">
+                            <img src="../images/hostel-front.jpg" alt="Student life in Rau" loading="lazy">
+                            <span class="blog-card-badge" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Guide" data-hi="गाइड">Guide</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="12 min read" data-hi="12 मिनट">12 min read</span>
+                            </div>
+                            <h3 data-en="Student Life in Rau, Indore — The Ultimate Guide" data-hi="राउ, इंदौर में छात्र जीवन — पूरी गाइड">Student Life in Rau, Indore — The Ultimate Guide</h3>
+                            <p data-en="Daily routine, food spots, transport, entertainment, shopping, and safety — your complete guide to living in Rau as a student." data-hi="डेली रूटीन, फूड, ट्रांसपोर्ट, एंटरटेनमेंट और सेफ्टी — राउ में स्टूडेंट लाइफ की पूरी गाइड।">Daily routine, food spots, transport, entertainment, shopping, and safety — your complete guide to living in Rau as a student.</p>
+                            <a href="student-life-in-rau-indore-guide.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="student-life">
+                        <div class="blog-card-img">
+                            <img src="../images/room-empty.jpg" alt="Hostel packing checklist" loading="lazy">
+                            <span class="blog-card-badge" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Checklist" data-hi="चेकलिस्ट">Checklist</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="Complete Hostel Packing Checklist for Students in India" data-hi="भारत में छात्रों के लिए हॉस्टल पैकिंग चेकलिस्ट">Complete Hostel Packing Checklist for Students in India</h3>
+                            <p data-en="Categorized list of clothes, electronics, study materials, toiletries, documents — everything for first-time hostel students." data-hi="कपड़े, इलेक्ट्रॉनिक्स, स्टडी मटेरियल, टॉयलेट्रीज, डॉक्यूमेंट — सब कुछ एक लिस्ट में।">Categorized list of clothes, electronics, study materials, toiletries, documents — everything for first-time hostel students.</p>
+                            <a href="things-to-pack-for-hostel-life-india.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="student-life">
+                        <div class="blog-card-img">
+                            <img src="../images/study-area.jpg" alt="Tips for first year engineering students" loading="lazy">
+                            <span class="blog-card-badge" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Tips" data-hi="टिप्स">Tips</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="15 Tips for First-Year Engineering Students in Indore" data-hi="इंदौर में फर्स्ट-ईयर इंजीनियरिंग छात्रों के लिए 15 टिप्स">15 Tips for First-Year Engineering Students in Indore</h3>
+                            <p data-en="Academic advice, hostel life hacks, social tips, career guidance, and common mistakes to avoid." data-hi="अकादमिक सलाह, हॉस्टल लाइफ हैक्स, सोशल टिप्स और करियर गाइडेंस।">Academic advice, hostel life hacks, social tips, career guidance, and common mistakes to avoid.</p>
+                            <a href="tips-for-first-year-engineering-students-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="student-life">
+                        <div class="blog-card-img">
+                            <img src="../images/room-view2.jpg" alt="Dealing with homesickness" loading="lazy">
+                            <span class="blog-card-badge" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Wellbeing" data-hi="वेलबीइंग">Wellbeing</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="Dealing with Homesickness in Hostel — 12 Tips That Work" data-hi="हॉस्टल में होमसिकनेस से कैसे निपटें — 12 टिप्स">Dealing with Homesickness in Hostel — 12 Tips That Work</h3>
+                            <p data-en="Stay connected with family, build friendships, and make your hostel feel like home with these proven tips." data-hi="परिवार से जुड़े रहें, दोस्ती बनाएं और हॉस्टल को घर जैसा बनाएं।">Stay connected with family, build friendships, and make your hostel feel like home with these proven tips.</p>
+                            <a href="homesickness-tips-for-hostel-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="student-life">
+                        <div class="blog-card-img">
+                            <img src="../images/cctv-wifi.jpg" alt="Safety tips for students" loading="lazy">
+                            <span class="blog-card-badge" data-en="Student Life" data-hi="स्टूडेंट लाइफ">Student Life</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Safety" data-hi="सुरक्षा">Safety</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="Safety Tips for Students Living Away from Home" data-hi="घर से दूर रहने वाले छात्रों के लिए सुरक्षा टिप्स">Safety Tips for Students Living Away from Home</h3>
+                            <p data-en="Physical safety, financial safety, digital security, emotional wellbeing — a guide for students and parents." data-hi="शारीरिक सुरक्षा, वित्तीय सुरक्षा, डिजिटल सिक्योरिटी — छात्रों और अभिभावकों के लिए गाइड।">Physical safety, financial safety, digital security, emotional wellbeing — a guide for students and parents.</p>
+                            <a href="safety-tips-for-students-living-away-from-home.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Food & Lifestyle -->
+                    <article class="blog-card" data-category="food">
+                        <div class="blog-card-img">
+                            <img src="../images/dining-meals.jpg" alt="Best food places near Medicaps" loading="lazy">
+                            <span class="blog-card-badge" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Food" data-hi="फूड">Food</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="15 Best Food Places Near Medicaps University, Rau" data-hi="मेडीकैप्स के पास 15 बेस्ट फूड प्लेसेस">15 Best Food Places Near Medicaps University, Rau</h3>
+                            <p data-en="Budget-friendly street food to popular restaurants and cafes — complete with prices and what's famous at each spot." data-hi="बजट-फ्रेंडली स्ट्रीट फूड से लेकर रेस्टोरेंट तक — प्राइस और फेमस डिश के साथ।">Budget-friendly street food to popular restaurants and cafes — complete with prices and what's famous at each spot.</p>
+                            <a href="best-food-places-near-medicaps-university-rau.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="food">
+                        <div class="blog-card-img">
+                            <img src="../images/dining-meals.jpg" alt="Indore street food guide" loading="lazy">
+                            <span class="blog-card-badge" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Street Food" data-hi="स्ट्रीट फूड">Street Food</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="Indore Street Food Guide — 20 Must-Try Foods for Students" data-hi="इंदौर स्ट्रीट फूड गाइड — 20 जरूर खाएं">Indore Street Food Guide — 20 Must-Try Foods for Students</h3>
+                            <p data-en="Sarafa Bazaar, Chappan Dukan — poha, jalebi, bhutte ka kees, garadu, sabudana khichdi and more." data-hi="सराफा बाजार, छप्पन दुकान — पोहा, जलेबी, भुट्टे का कीस, गरडू और बहुत कुछ।">Sarafa Bazaar, Chappan Dukan — poha, jalebi, bhutte ka kees, garadu, sabudana khichdi and more.</p>
+                            <a href="indore-street-food-guide-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="food">
+                        <div class="blog-card-img">
+                            <img src="../images/study-area.jpg" alt="Best cafes near Rau" loading="lazy">
+                            <span class="blog-card-badge" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Cafes" data-hi="कैफे">Cafes</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="10 Best Cafes Near Rau, Indore for Students" data-hi="राउ, इंदौर के पास छात्रों के लिए 10 बेस्ट कैफे">10 Best Cafes Near Rau, Indore for Students</h3>
+                            <p data-en="Wi-Fi-enabled study spots, affordable hangout places, and cozy cafes perfect for college students near Medicaps." data-hi="Wi-Fi वाले स्टडी स्पॉट, किफायती हैंगआउट प्लेसेस और मेडीकैप्स के पास कैफे।">Wi-Fi-enabled study spots, affordable hangout places, and cozy cafes perfect for college students near Medicaps.</p>
+                            <a href="best-cafes-near-rau-indore-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="food">
+                        <div class="blog-card-img">
+                            <img src="../images/parking.jpg" alt="Best gyms near Rau" loading="lazy">
+                            <span class="blog-card-badge" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Fitness" data-hi="फिटनेस">Fitness</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="Best Gyms & Fitness Centers Near Rau, Indore" data-hi="राउ, इंदौर के पास बेस्ट जिम और फिटनेस सेंटर">Best Gyms & Fitness Centers Near Rau, Indore</h3>
+                            <p data-en="Affordable memberships, facilities, timings, and fitness tips for hostel students near Medicaps University." data-hi="किफायती मेंबरशिप, सुविधाएं, टाइमिंग और फिटनेस टिप्स।">Affordable memberships, facilities, timings, and fitness tips for hostel students near Medicaps University.</p>
+                            <a href="best-gyms-near-rau-indore.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="food">
+                        <div class="blog-card-img">
+                            <img src="../images/building-day.jpg" alt="Places to visit in Indore" loading="lazy">
+                            <span class="blog-card-badge" data-en="Food & Lifestyle" data-hi="फूड और लाइफस्टाइल">Food & Lifestyle</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Explore" data-hi="एक्सप्लोर">Explore</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="20 Best Places to Visit in Indore for College Students" data-hi="इंदौर में कॉलेज छात्रों के लिए 20 बेस्ट जगहें">20 Best Places to Visit in Indore for College Students</h3>
+                            <p data-en="From Rajwada Palace to Sarafa Bazaar — top tourist spots with entry fees, timings, and distances." data-hi="राजवाड़ा पैलेस से सराफा बाजार तक — एंट्री फीस, टाइमिंग और दूरी के साथ।">From Rajwada Palace to Sarafa Bazaar — top tourist spots with entry fees, timings, and distances.</p>
+                            <a href="places-to-visit-in-indore-for-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Budget & Living -->
+                    <article class="blog-card" data-category="budget">
+                        <div class="blog-card-img">
+                            <img src="../images/dining-meals.jpg" alt="Cost of living in Rau" loading="lazy">
+                            <span class="blog-card-badge" data-en="Budget & Living" data-hi="बजट और खर्च">Budget & Living</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Budget" data-hi="बजट">Budget</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="Cost of Living in Rau, Indore for Students (2026)" data-hi="राउ, इंदौर में छात्रों के लिए रहने की लागत (2026)">Cost of Living in Rau, Indore for Students (2026)</h3>
+                            <p data-en="Monthly expenses for rent, food, transport and more. Compare hostel vs flat vs PG costs and save money." data-hi="किराया, खाना, ट्रांसपोर्ट — मासिक खर्च और बचत के तरीके।">Monthly expenses for rent, food, transport and more. Compare hostel vs flat vs PG costs and save money.</p>
+                            <a href="cost-of-living-in-rau-indore-for-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="budget">
+                        <div class="blog-card-img">
+                            <img src="../images/room-view3.jpg" alt="Budget management for students" loading="lazy">
+                            <span class="blog-card-badge" data-en="Budget & Living" data-hi="बजट और खर्च">Budget & Living</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Money Tips" data-hi="मनी टिप्स">Money Tips</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="8 min read" data-hi="8 मिनट">8 min read</span>
+                            </div>
+                            <h3 data-en="How to Manage Your Budget as a Hostel Student" data-hi="हॉस्टल स्टूडेंट के रूप में बजट कैसे मैनेज करें">How to Manage Your Budget as a Hostel Student</h3>
+                            <p data-en="Track expenses, avoid unnecessary spending, find student discounts, and budget for food, transport, and entertainment." data-hi="खर्चे ट्रैक करें, अनावश्यक खर्च से बचें, छात्र डिस्काउंट खोजें।">Track expenses, avoid unnecessary spending, find student discounts, and budget for food, transport, and entertainment.</p>
+                            <a href="how-to-manage-budget-as-hostel-student.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="budget">
+                        <div class="blog-card-img">
+                            <img src="../images/hostel-exterior.jpg" alt="Transport guide Rau Indore" loading="lazy">
+                            <span class="blog-card-badge" data-en="Budget & Living" data-hi="बजट और खर्च">Budget & Living</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="Transport" data-hi="ट्रांसपोर्ट">Transport</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="7 min read" data-hi="7 मिनट">7 min read</span>
                             </div>
                             <h3 data-en="Transport Guide for Students in Rau & Indore" data-hi="राउ और इंदौर में छात्रों के लिए ट्रांसपोर्ट गाइड">Transport Guide for Students in Rau & Indore</h3>
-                            <p data-en="Understand how students usually move around the area, what is practical, and how to keep daily transport affordable." data-hi="एरिया में मूव करने के practical तरीके और खर्च कैसे कम रखें।">Understand how students usually move around the area, what is practical, and how to keep daily transport affordable.</p>
-                            <a href="transport-guide-rau-indore-students.html" class="btn btn-outline" data-en="Read More" data-hi="और पढ़ें">Read More</a>
+                            <p data-en="Local buses, auto-rickshaws, ride-hailing apps, bike rentals, routes, and costs for getting around." data-hi="लोकल बस, ऑटो, राइड-हेलिंग ऐप्स, बाइक रेंटल और रूट।">Local buses, auto-rickshaws, ride-hailing apps, bike rentals, routes, and costs for getting around.</p>
+                            <a href="transport-guide-rau-indore-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
-                </div>
-            </div>
-        </section>
 
-        <section class="section section-dark" aria-label="Book your stay">
-            <div class="container">
-                <div class="blog-cta-strip">
-                    <span class="blog-kicker" data-en="Stay With Us" data-hi="हमारे साथ रहें">Stay With Us</span>
+                    <article class="blog-card" data-category="budget">
+                        <div class="blog-card-img">
+                            <img src="../images/building-day.jpg" alt="Indore city guide" loading="lazy">
+                            <span class="blog-card-badge" data-en="Budget & Living" data-hi="बजट और खर्च">Budget & Living</span>
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="blog-card-meta">
+                                <span data-en="City Guide" data-hi="सिटी गाइड">City Guide</span>
+                                <i class="fas fa-circle"></i>
+                                <span data-en="10 min read" data-hi="10 मिनट">10 min read</span>
+                            </div>
+                            <h3 data-en="Indore City Guide for Students — Everything You Need to Know" data-hi="छात्रों के लिए इंदौर सिटी गाइड — सब कुछ जो जानना जरूरी है">Indore City Guide for Students — Everything You Need to Know</h3>
+                            <p data-en="Transport, weather, culture, food, safety, cost of living, and why Indore is India's best student city." data-hi="ट्रांसपोर्ट, मौसम, संस्कृति, फूड, सुरक्षा और जीवन यापन की लागत।">Transport, weather, culture, food, safety, cost of living, and why Indore is India's best student city.</p>
+                            <a href="indore-city-guide-for-students.html" class="blog-card-link" data-en="Read More" data-hi="और पढ़ें">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- No Results Message -->
+                    <div class="blog-no-results" id="blogNoResults" style="display: none;">
+                        <i class="fas fa-search"></i>
+                        <p data-en="No articles found in this category." data-hi="इस श्रेणी में कोई लेख नहीं मिला।">No articles found in this category.</p>
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="blog-cta">
+                    <span class="blog-cta-kicker" data-en="Stay With Us" data-hi="हमारे साथ रहें">Stay With Us</span>
                     <h3 data-en="Read First, Visit Next, Then Book With Confidence" data-hi="पहले पढ़ें, फिर विजिट करें, फिर भरोसे से बुक करें">Read First, Visit Next, Then Book With Confidence</h3>
-                    <p data-en="If you like the area, the daily routine, and the facilities you see across these guides, the next step is simple: visit Radiance Residency and see the rooms in person." data-hi="अगर आपको एरिया, डेली रूटीन और सुविधाएं सही लगें, तो अगला कदम है रेडियंस रेसीडेंसी विजिट करना।">If you like the area, the daily routine, and the facilities you see across these guides, the next step is simple: visit Radiance Residency and see the rooms in person.</p>
-                    <div class="blog-home-actions" style="margin-top: 0;">
-                        <a href="../hostel-near-medicaps-university.html" class="btn btn-primary btn-lg" data-en="View Main Hostel Page" data-hi="मुख्य हॉस्टल पेज देखें">View Main Hostel Page</a>
+                    <p data-en="If you like the area, the daily routine, and the facilities you see across these guides — the next step is simple: visit Radiance Residency and see the rooms in person." data-hi="अगर आपको एरिया, डेली रूटीन और सुविधाएं सही लगें, तो अगला कदम है रेडियंस रेसीडेंसी विजिट करना।">If you like the area, the daily routine, and the facilities you see across these guides — the next step is simple: visit Radiance Residency and see the rooms in person.</p>
+                    <div class="blog-cta-actions">
+                        <a href="../rooms.html" class="btn btn-primary btn-lg" data-en="View Rooms & Pricing" data-hi="कमरे और कीमतें देखें">View Rooms & Pricing</a>
                         <a href="https://wa.me/918770445161?text=Hi%2C%20I%20read%20your%20blog%20and%20want%20to%20schedule%20a%20visit%20to%20Radiance%20Residency." class="btn btn-outline btn-lg" data-en="Message on WhatsApp" data-hi="व्हाट्सएप पर संदेश भेजें">Message on WhatsApp</a>
                     </div>
                 </div>
@@ -655,5 +953,40 @@
     </a>
 
     <script src="../script.min.js"></script>
+    <script>
+        (function () {
+            var filters = document.querySelectorAll('.blog-filter-btn');
+            var cards = document.querySelectorAll('.blog-card');
+            var noResults = document.getElementById('blogNoResults');
+
+            filters.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var cat = btn.getAttribute('data-filter');
+
+                    filters.forEach(function (b) {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-selected', 'false');
+                    });
+                    btn.classList.add('active');
+                    btn.setAttribute('aria-selected', 'true');
+
+                    var visible = 0;
+                    cards.forEach(function (card) {
+                        var cardCat = card.getAttribute('data-category');
+                        if (cat === 'all' || cardCat === cat) {
+                            card.style.display = '';
+                            visible++;
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    if (noResults) {
+                        noResults.style.display = visible === 0 ? '' : 'none';
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
 </html>
