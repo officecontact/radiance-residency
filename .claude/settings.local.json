@@ -111,7 +111,20 @@
       "Bash(bash /tmp/verify_images.sh)",
       "Bash(convert \"clean bathroom.jpg\" -resize 600x450 \"clean bathroom.webp\")",
       "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's/11,000/14,000/g; s/11000/14000/g; s/13,000/16,000/g; s/13000/16000/g' {} \\\\;)",
-      "Bash(magick \"clean bathroom.jpg\" -gravity center -crop 448x336+0+0 +repage -quality 90 \"clean-bathroom-landscape.webp\")"
+      "Bash(magick \"clean bathroom.jpg\" -gravity center -crop 448x336+0+0 +repage -quality 90 \"clean-bathroom-landscape.webp\")",
+      "Bash(ffmpeg -version)",
+      "Bash(cp \"processed/bathroom clean final.jpeg\" \"clean-bathroom-final.jpg\")",
+      "Bash(cp \"processed/mandir.jpeg\" \"mandir-final.jpg\")",
+      "Bash(cp \"processed/outer building 1.jpeg\" \"outer-building-1.jpg\")",
+      "Bash(cp \"processed/outer building 2.jpeg\" \"outer-building-2.jpg\")",
+      "Bash(cp \"processed/outer building 3.jpeg\" \"outer-building-3.jpg\")",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/clean%20bathroom\\\\.jpg|images/clean-bathroom-final.jpg|g' {} \\\\;)",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/mandir%20use%20this\\\\.webp|images/mandir-final.jpg|g' {} \\\\;)",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/building-day\\\\.webp|images/outer-building-1.jpg|g' {} \\\\;)",
+      "Bash(grep -l \"building-01\" *.html)",
+      "Bash(xargs -I {} sed -i 's|images/building-01\\\\.webp|images/outer-building-1.jpg|g' {})",
+      "Bash(grep -r \"clean-bathroom-final\\\\|mandir-final\\\\|outer-building\" *.html)",
+      "Bash(grep -r \"clean%20bathroom\\\\.jpg\\\\|mandir%20use%20this\" *.html)"
     ]
   }
 }
