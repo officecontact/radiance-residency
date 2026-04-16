@@ -59,7 +59,7 @@ website: https://radianceresidency.com
 rating: 4.9/5
 students_count: 112+
 beds_capacity: 64+
-price_range: ₹7,000 - ₹12,000/month
+price_range: ₹8,000 - ₹13,000/month
 established: 2023
 accreditation: Premium Student Accommodation Provider
 
