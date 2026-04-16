@@ -93,7 +93,13 @@
       "Bash(cp rooms-01.webp mandir-actual.webp)",
       "Bash(cp mandir-01.webp water-cooler.webp)",
       "Bash(ls -1 /c/Users/aagos/assets/residency-website/images/*.webp)",
-      "Bash(ls -lh /c/Users/aagos/assets/residency-website/images/*.webp /c/Users/aagos/assets/residency-website/images/*.jpg)"
+      "Bash(ls -lh /c/Users/aagos/assets/residency-website/images/*.webp /c/Users/aagos/assets/residency-website/images/*.jpg)",
+      "Bash(ls /c/Users/aagos/assets/residency-website/images/*.webp /c/Users/aagos/assets/residency-website/images/*.jpg)",
+      "Bash(xargs -I {} basename \"{}\")",
+      "Bash(sed -i 's|../images/building-day.jpg|../images/lounge%20style%20dining%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/best-food-places-near-medicaps-university-rau.html)",
+      "Bash(sed -i 's|../images/building-day.jpg|../images/room%20double%20occupancy.webp|g' /c/Users/aagos/assets/residency-website/blog/benefits-of-living-in-hostel-vs-home.html)",
+      "Bash(sed -i 's|../images/building-day.jpg|../images/study%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/student-life-in-rau-indore-guide.html)",
+      "Bash(sed -i 's|../images/building-day.jpg|../images/big%20parking%20and%20leisure%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/safety-tips-for-students-living-away-from-home.html)"
     ]
   }
 }
