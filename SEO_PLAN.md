@@ -83,6 +83,36 @@ Open this folder in Claude Code and say: **"Read SEO_PLAN.md and implement Week 
 
 ---
 
+---
+
+## Monitoring & Next Steps (2026-04-16)
+
+**Status:** Waiting for ranking data (8-day monitoring period)
+
+**Check date:** 2026-04-24 (8 days after content expansion)
+
+**What we're measuring:**
+- Position changes on 6 target keywords
+- Impression & CTR improvements
+- Which content sections performed best
+
+**After data review (2026-04-24):**
+- If rankings improved 1-3 positions → Add testimonials (amplify gains)
+- If no movement → Investigate (backlinks? page speed? E-E-A-T?)
+- If mixed results → Testimonials on winning pages, refine losing ones
+
+**Current baseline (2026-04-15):**
+| Keyword | Position | Impressions | Clicks |
+|---------|----------|-------------|--------|
+| student hostel in indore | 14 | 50 | 0 |
+| radiance residency | 10 | 46 | 1 |
+| pg near medicaps university indore | 8 | 35 | 0 |
+| pg near ips academy indore | 7 | 24 | 1 |
+| hostel packing list for students | 17 | 21 | 0 |
+| best hostels in indore | 11 | 20 | 0 |
+
+---
+
 ## Data sources
 GSC, DataForSEO (keywords + ideas), Moz (backlinks), PageSpeed, Bing Webmaster, on-page crawler, SERP features, Gemini schema validator.
 
