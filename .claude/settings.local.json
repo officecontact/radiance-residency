@@ -52,7 +52,13 @@
       "Bash(npx next:*)",
       "Bash(netstat -ano)",
       "Bash(taskkill:*)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(git pull *)",
+      "Bash(wc *)",
+      "Bash(grep -l \"</body>\" /c/Users/aagos/assets/residency-website/*.html)",
+      "Bash(grep -l \"918770445161\" /c/Users/aagos/assets/residency-website/*.html)",
+      "Bash(grep -l \"918770445161\" /c/Users/aagos/assets/residency-website/hostel-near-*.html)",
+      "Bash(grep 'meta name=\"description\"' /c/Users/aagos/assets/residency-website/hostel-near-*.html)"
     ]
   }
 }
