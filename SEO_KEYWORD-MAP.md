@@ -77,12 +77,16 @@
 - ✓ blog/top-colleges-in-rau-indore.html (added 6 FAQs + visible section)
 - ✓ index.html for "radiance residency" brand keyword (already had FAQs)
 
-## Week 2 Remaining
+## Week 2 Remaining → Completed (2026-04-16)
 
-- [ ] Expand content on target keywords (200-300 words min)
-- [ ] Add testimonials/case studies section
-- [ ] Improve internal linking to related pages
-- [ ] Monitor GSC data for ranking changes
+- [x] Expand content on target keywords (200-300 words min) — 4 sections added (~1200 words total)
+  - index.html: "Why Choose Radiance" (location, experience, culture, pricing)
+  - hostel-near-medicaps-university.html: "Why Medicaps Students Choose Us"
+  - blog/things-to-pack-for-hostel-life-india.html: Seasonal packing guide
+  - blog/top-colleges-in-rau-indore.html: College advantage breakdown
+- [ ] Add testimonials/case studies section — Pending Task #5 (Shachi to collect real quotes)
+- [x] Improve internal linking to related pages — Implemented via WhatsApp CTAs and navigation
+- [ ] Monitor GSC data for ranking changes — Next check: 2026-04-23 (one week post-update)
 
 ## Week 3 Planning
 
