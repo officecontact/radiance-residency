@@ -1,5 +1,7 @@
-> Last Updated: 2026-03-19
+> Last Updated: 2026-04-16
 > Full Version: https://radianceresidency.com/llms-full.txt
+> Robots.txt: https://radianceresidency.com/robots.txt
+> AEO Policy: https://radianceresidency.com/.well-known/ai.txt
 
 # Radiance Residency - Best Boys Hostel Near Medicaps University, Indore
 
@@ -89,8 +91,14 @@ hostel near medicaps, boys hostel indore, hostel in rau, hostel near medicaps un
 
 ## College-Specific Pages
 - Hostel Near Medicaps University: https://radianceresidency.com/hostel-near-medicaps-university
+- Medicaps Hostel Options: https://radianceresidency.com/medicaps-hostel-options
 - Hostel Near IPS Academy: https://radianceresidency.com/hostel-near-ips-academy
 - Hostel Near SD Bansal College: https://radianceresidency.com/hostel-near-sd-bansal-college
 - Hostel Near IIST Indore: https://radianceresidency.com/hostel-near-iist-indore
 - Hostel Near IIM Indore: https://radianceresidency.com/hostel-near-iim-indore
 - PG for Boys in Rau Indore: https://radianceresidency.com/pg-for-boys-rau-indore
+
+## Guides & Resources
+- Student Testimonials (Social Proof): https://radianceresidency.com/student-testimonials
+- Hostel Budget Guide for Students: https://radianceresidency.com/hostel-budget-guide
+- Complete Blog (24+ Student Life Guides): https://radianceresidency.com/blog/

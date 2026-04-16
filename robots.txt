@@ -1,45 +1,117 @@
+# SEO & AEO Optimized robots.txt
+# Last Updated: 2026-04-16
+# For AI-readable site information, see: https://radianceresidency.com/llms.txt
+
+# Default rules
 User-agent: *
 Allow: /
-Disallow:
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /llms.txt
+Allow: /.well-known/ai.txt
 
-# Sitemap
+# Crawl delay for all bots (optional, very permissive)
+Crawl-delay: 0.5
+
+# Sitemap declaration
 Sitemap: https://radianceresidency.com/sitemap.xml
 
-# AI Crawlers - Welcome!
+# ===== SEARCH ENGINE CRAWLERS =====
+# Googlebot - High Priority
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Googlebot-Image - Allow image indexing
+User-agent: Googlebot-Image
+Allow: /
+
+# Googlebot-Extended - Google training data
+User-agent: Google-Extended
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandexbot
+User-agent: Yandexbot
+Allow: /
+
+# DuckDuckGoBot
+User-agent: DuckDuckBot
+Allow: /
+
+# ===== AI/LLM CRAWLERS - WELCOME =====
+# OpenAI's GPT Bot
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
+# Anthropic's Claude
 User-agent: anthropic-ai
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
+# Google's AI Tools
+User-agent: Google-Extended
+Allow: /
+
+# Cohere
+User-agent: CCBot
+Allow: /
+
+# ByteDance
 User-agent: Bytespider
 Allow: /
 
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
+# Apple
 User-agent: Applebot-Extended
 Allow: /
 
-# LLMs.txt
-# See https://radianceresidency.com/llms.txt for AI-readable site summary
-# See https://radianceresidency.com/llms-full.txt for comprehensive AI-readable site information
+# Meta
+User-agent: facebookexternalhit
+Allow: /
 
-# College-Specific Landing Pages (available for crawling)
+User-agent: Facebot
+Allow: /
+
+# Microsoft Copilot
+User-agent: MicrosoftPreview
+Allow: /
+
+# ===== BLOCK BAD ACTORS =====
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# ===== SPECIAL DIRECTIVES =====
+# See llms.txt for AI/ML training disclosure
+# College-Specific Hostel Pages optimized for local search
 # /hostel-near-medicaps-university
 # /hostel-near-ips-academy
 # /hostel-near-sd-bansal-college
 # /hostel-near-iist-indore
 # /hostel-near-iim-indore
+# /pg-for-boys-rau-indore
+# /student-testimonials
+# /medicaps-hostel-options
+# /hostel-budget-guide
