@@ -99,7 +99,15 @@
       "Bash(sed -i 's|../images/building-day.jpg|../images/lounge%20style%20dining%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/best-food-places-near-medicaps-university-rau.html)",
       "Bash(sed -i 's|../images/building-day.jpg|../images/room%20double%20occupancy.webp|g' /c/Users/aagos/assets/residency-website/blog/benefits-of-living-in-hostel-vs-home.html)",
       "Bash(sed -i 's|../images/building-day.jpg|../images/study%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/student-life-in-rau-indore-guide.html)",
-      "Bash(sed -i 's|../images/building-day.jpg|../images/big%20parking%20and%20leisure%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/safety-tips-for-students-living-away-from-home.html)"
+      "Bash(sed -i 's|../images/building-day.jpg|../images/big%20parking%20and%20leisure%20area.webp|g' /c/Users/aagos/assets/residency-website/blog/safety-tips-for-students-living-away-from-home.html)",
+      "Bash(grep -E '\\\\.\\(jpg|jpeg|png|webp\\)$')",
+      "Bash(ls -lah \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\\\\images\\\\building-\"*)",
+      "Bash(grep -l \"src=\\\\\"images/\" \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\"/*.html)",
+      "Bash(grep -n \"src=\\\\\"images/\" \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\"/*.html)",
+      "Bash(find C:\\\\Users\\\\aagos\\\\assets\\\\residency-website *)",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/room-double\\\\.webp|images/room%20double%20occupancy.webp|g' {} \\\\;)",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/room-empty\\\\.webp|images/room-furnished-ac.webp|g' {} \\\\;)",
+      "Bash(node -e \"const fs = require\\('fs'\\); const css = fs.readFileSync\\('style.css', 'utf-8'\\); const minified = css.replace\\(/\\\\/\\\\*[^*]*\\\\*+\\(?:[^/*][^*]*\\\\*+\\)*\\\\//g, ''\\).replace\\(/\\\\s+/g, ' '\\).replace\\(/\\\\s*\\([{}:;,]\\)\\\\s*/g, '\\\\$1'\\); fs.writeFileSync\\('style.min.css', minified\\);\")"
     ]
   }
 }
