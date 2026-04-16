@@ -491,6 +491,105 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
+## TradeForge Intelligence — Audience & Geography Strategy
+
+> Added 2026-04-16. Written by TradeForge data pipeline — captures business context beyond metrics. Survives auto-refreshes.
+
+---
+
+### Who We Are Targeting
+
+Radiance Residency serves **two different audiences** that need separate pages, separate messaging, and separate keywords.
+
+---
+
+#### Audience 1: Students (Primary — ~80% of enquiries)
+
+| Profile | Detail |
+|---|---|
+| Age | 16–22 |
+| Searching from | MP cities (Indore, Bhopal, Ujjain, Jabalpur) + incoming students from UP, Bihar, Rajasthan |
+| Context | Just got admission to MediCaps, IPS Academy, LNCT, Acropolis, SGSITS, Symbiosis, MIT Indore — searching for accommodation in the next 2–6 weeks |
+| Device | 90% mobile |
+| Decision-maker | Parents (especially mothers) have final say on safety and food quality |
+| **Peak search season** | **March–July** (admission results → July joining). Secondary peak: November |
+
+**What they actually search (informal, mobile queries):**
+
+| Query | Intent | Target Page |
+|---|---|---|
+| "hostel near medicaps university" | High — shortlisting | hostel-near-medicaps-university.html |
+| "pg near ips academy indore" | High — shortlisting | hostel-near-ips-academy.html |
+| "boys hostel rau indore with food" | High — decision | hostel-with-food-in-rau-indore.html |
+| "safe hostel for boys indore" | High — parent concern | homepage |
+| "pg rau indore monthly rent" | Decision stage | rooms.html |
+| "medicaps hostel" | Very high — near-branded | hostel-near-medicaps-university.html |
+
+**Tone for students:** Peer-to-peer, direct. "Just 5 mins from MediCaps", "WiFi that works during exams", "Home-cooked food — your mom would approve" beats "premium accommodation".
+
+**Admission Season Content Calendar (Critical gap — currently missing):**
+
+| Month | Action |
+|---|---|
+| February | Update all titles/metas to include "2026 Admission" — refresh sitemap lastmod |
+| March–April | Create `/hostel-near-medicaps-admission-2026.html` seasonal page. WhatsApp broadcast to student groups |
+| May–June | Peak enquiry season — GBP showing "Open", fast reply to all enquiries |
+| July | Last-minute bookings — add "Only X rooms left" urgency copy |
+| Aug–Oct | Dead season — use for technical SEO, content creation |
+| November | New semester intake — reactivate all campaigns |
+
+---
+
+#### Audience 2: Working Professionals (Secondary — completely untapped)
+
+Rau has significant corporate presence that is not mentioned anywhere in the current plan or site content.
+
+| Company / Area | Distance | Opportunity |
+|---|---|---|
+| Siemens, L&T, Eaton, Johnson Controls (Pithampur) | ~15 km | Engineers/technicians on 3–12 month postings from other cities |
+| IT Parks (Vijay Nagar, Bypass Road) | ~8–10 km | Junior IT professionals: Infosys, TCS freshers |
+| Bombay Hospital, Medanta | ~5 km | Nursing and paramedic staff new to Indore |
+
+**What professionals search (different from students):**
+
+| Query | Target Page to Create |
+|---|---|
+| "pg near pithampur industrial area" | `/pg-for-working-professionals-rau-indore.html` |
+| "monthly pg in rau indore for working men" | Same page |
+| "bachelor accommodation rau indore monthly" | Same page |
+| "pg near siemens indore" | Same page |
+
+**Messaging for professionals (differs from students):**
+- Lead with: monthly rent, attached bathroom, cooking access, bike parking
+- NOT "near MediCaps" — wrong signal
+- YES: "Rau Chowk, 30 min from Pithampur", "Monthly rent ₹X all-inclusive", "Serious working environment"
+
+---
+
+### Geography — India Only
+
+GSC: 690 impressions from India, 7 clicks (1% CTR). All other countries = noise (1 impression each).
+
+100% of SEO effort targets India. Specifically:
+- Mention specific MP college names + distances on every relevant page
+- Explicitly target students from **UP, Bihar, Rajasthan** coming to Indore — add "out-of-state students welcome" signals to content
+- Every page must contain "Rau, Indore" + "near [college name]" — proximity signals are the #1 local ranking factor
+
+---
+
+### What Claude Code Will Do Next (Audience-Aligned)
+
+- [ ] Create `/pg-for-working-professionals-rau-indore.html` — Siemens/Pithampur belt audience, monthly pricing table
+- [ ] Create `/hostel-near-medicaps-admission-2026.html` — seasonal page for March–July admission cycle
+- [ ] Add admission season banner to homepage: "Admissions open for 2026–27 — limited seats"
+- [ ] Add monthly rent pricing table to rooms.html (both audiences need this above the fold)
+
+### What Shachi Does
+- Update GBP description to include: "Boys hostel and PG for students and working professionals in Rau, Indore"
+- During admission season (April–June): post weekly GBP updates with room availability photos
+
+---
+
 ## ⚠️ CRITICAL: SEO/AEO Maintenance Checklist for TradeForge
 
 **Updated 2026-04-16.** The following files MUST be kept updated on every content change:
