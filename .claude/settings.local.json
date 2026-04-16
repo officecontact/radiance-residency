@@ -91,7 +91,8 @@
       "Bash(cp building-06.webp room-furnished-single.webp)",
       "Bash(cp building-07.webp room-furnished-ac.webp)",
       "Bash(cp rooms-01.webp mandir-actual.webp)",
-      "Bash(cp mandir-01.webp water-cooler.webp)"
+      "Bash(cp mandir-01.webp water-cooler.webp)",
+      "Bash(ls -1 /c/Users/aagos/assets/residency-website/images/*.webp)"
     ]
   }
 }
