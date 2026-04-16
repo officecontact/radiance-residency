@@ -7,6 +7,103 @@
 
 ---
 
+## 🎯 OUR BUSINESS GOALS & SUCCESS METRICS (2026-04-16)
+
+**FOR TRADEFORGE:** Please read this section first to understand what success looks like for this business. Then review the alignment issue below and revise your recommendations accordingly.
+
+### Business Model
+- **Single physical location:** Rau, Indore (near Medicaps University campus)
+- **Service type:** Boys hostel / PG accommodation (AC + Non-AC rooms)
+- **Price point:** ₹7,000–₹9,000/month (inclusive: meals, WiFi, security, amenities)
+- **Target market:** College students (primarily Medicaps, IPS Academy, SD Bansal, IIST, IIM — all within 2–30 min walk/auto)
+- **Geographic focus:** Rau, Indore (64+ beds, established, 5+ years operating)
+
+### Primary Goals (In Priority Order)
+
+| Goal | Metric | Current | Target | Timeline |
+|------|--------|---------|--------|----------|
+| **#1: Drive Direct Bookings** | Occupancy rate | 70% | 90%+ | 6 months |
+| **#2: Increase Qualified Leads** | Inquiries/month | 5–10 | 30+ | 3 months |
+| **#3: Capture Location-Based Traffic** | Clicks from "hostel near X" keywords | 0 → High CTR | 5+ clicks/day | 2 months |
+| **#4: Build Local Authority** | Google Local Pack visibility | Not ranking | Top 3 in local | 3 months |
+| **#5: Reduce Customer Acquisition Cost** | Organic % of bookings | 20% | 60%+ | 6 months |
+
+### What We're Trying to RANK FOR (Primary Keywords)
+
+These are HIGH-INTENT, COMMERCIAL keywords. People searching these terms are actively looking to book a hostel:
+
+1. **"hostel near medicaps university indore"** (Currently: pos 8, 35 impr, 0 clicks)
+   - Search intent: "I need a hostel next to my college"
+   - Conversion value: Very high (student ready to book)
+   - Action: Fix title/CTR, add testimonials
+
+2. **"pg near medicaps university indore"** (Currently: pos 8, 35 impr, 0 clicks)
+   - Same as above, alternative terminology
+   - Conversion value: Very high
+   - Action: Fix title/CTR, add testimonials
+
+3. **"hostel near ips academy indore"** (Currently: pos 7, 19 impr, 0 clicks)
+   - For IPS Academy students
+   - Conversion value: High (students from nearby college)
+   - Action: Fix title/CTR
+
+4. **"hostel near sd bansal college indore"** (Need current metrics)
+   - For SD Bansal College students
+   - Conversion value: High
+   - Action: Optimize page
+
+5. **"hostels in rau indore"** (Need current metrics)
+   - Geographic keyword showing we're in Rau
+   - Conversion value: High
+   - Action: Optimize pages
+
+6. **"student hostel in indore"** (Currently: pos 14, 52 impr, 0 clicks)
+   - Broader, but still commercial
+   - Conversion value: Medium (still looking, not sure where)
+   - Action: Improve homepage, add H1 with phrase
+
+7. **"medicaps hostel"** (Currently: pos 2, 14 impr, 0 clicks)
+   - Brand-college keyword combo
+   - Conversion value: Very high (Medicaps students specifically)
+   - Action: Fix title (currently truncated)
+
+### What We're NOT Trying to Rank For (Low-Value Keywords)
+
+These are INFORMATIONAL keywords. People searching these are NOT looking to book your hostel:
+
+- "hostel packing list for girls/boys" (pos 1–2, 31 impr, 0 clicks) → They're packing for a hostel they already booked
+- "hostel essentials" (pos 2.1, 21 impr, 2 clicks) → General info, not booking intent
+- "cost of living in rau indore" → Informational, not booking
+- "how to choose best hostel" → Comparing, not buying
+- "pg vs hostel vs flat" → Decision-making, not committed to your location
+
+**Why we shouldn't focus on informational content:**
+- Already rank #1–2 on packing/essentials keywords
+- Getting 0 clicks despite high rankings = zero booking conversions
+- Effort spent on these = lost opportunities on high-intent local keywords
+- Informational content helps SEO authority, NOT revenue
+
+### Success Definition (What We Actually Measure)
+
+❌ **NOT:** Rankings, impressions, or informational content performance
+✅ **YES:** 
+- Clicks from location-based keywords ("hostel near X")
+- Click-through rate (CTR) on location keywords
+- Conversion rate (clicks → inquiries → bookings)
+- Occupancy rate (% of beds filled)
+- Cost per booking from organic search
+
+### Timeline & Expectations
+
+| Phase | Duration | Focus | Expected Outcome |
+|-------|----------|-------|------------------|
+| **Phase 1: CTR Optimization** | Week 1–2 | Fix titles/metas on high-ranking pages | Convert 0 clicks → 5+ clicks/day from "medicaps hostel", "hostel near medicaps" |
+| **Phase 2: Content Authority** | Week 3–4 | Add testimonials, improve pages | Improve pos 7–8 → pos 3–5 on location keywords |
+| **Phase 3: Local Dominance** | Month 2–3 | Google Business Profile, reviews, local signals | Rank in Google local pack for "hostel in rau", "hostel near medicaps" |
+| **Phase 4: Scale** | Month 4–6 | Backlinks, broader keywords, expand to nearby areas | 30+ inquiries/month, 70%+ of new bookings from organic |
+
+---
+
 ## ⚠️ CRITICAL ALIGNMENT ISSUE (2026-04-16) — Claude Code Analysis
 
 ### Finding: TradeForge Plan ≠ Business Goals
@@ -224,7 +321,7 @@ _Plan auto-refreshes every Monday. Pull from git for latest._
 
 ---
 
-## TRADEFORGE — PLEASE UPDATE THE PLAN (2026-04-16)
+## TRADEFORGE — PLEASE READ GOALS ABOVE, THEN REVISE THIS PLAN (2026-04-16)
 
 **Context:** Claude Code has identified misalignment between your recommendations and the actual business model. The business has ONE location (Rau, near Medicaps) and should focus on local/commercial keywords, not informational content.
 
@@ -281,6 +378,64 @@ Current finding from GSC data:
 - [ ] Geo-coordinates priority (critical for local pack)
 - [ ] Should we use MultipleLocations schema (no — we have one location only)
 - [ ] Address/NAP consistency strategy
+
+---
+
+## 📊 TRADEFORGE REVISED PLAN TEMPLATE (Please Complete by 2026-04-17)
+
+### Based on the business goals above, please create a revised 4-week plan:
+
+#### **REVISED WEEK 1: CTR Optimization for High-Intent Local Keywords**
+- [ ] Provide exact title/meta suggestions for 7 location-specific pages (medicaps, ips, sd bansal, iist, rau, etc.)
+- [ ] Flag which titles should EXCLUDE brand name (for local intent)
+- [ ] Provide meta descriptions optimized for clicks, not branding
+- [ ] Specific action: Which pages need title changes to improve CTR on "hostel near X" keywords?
+
+#### **REVISED WEEK 2: Content for High-Intent Keywords (Not Informational)**
+- [ ] List content to ADD for high-intent pages (hostel near medicaps, near ips, etc.)
+- [ ] Content topics that DRIVE BOOKINGS (with data)
+- [ ] Testimonial strategy: Where/how to add to maximize conversion
+- [ ] H1/H2 optimization for "student hostel in indore" and "best hostels in indore"
+- [ ] Should we create dedicated pages for each area (pigdamber, sector, locality)?
+
+#### **REVISED WEEK 3: Local Dominance (Google Local Pack)**
+- [ ] Google Business Profile optimization checklist
+- [ ] How many reviews needed to rank in local pack?
+- [ ] Review solicitation strategy (where to ask students for reviews)
+- [ ] Schema for local pack ranking ("hostel in rau", "hostel near medicaps")
+- [ ] Address/NAP consistency across all pages
+
+#### **REVISED WEEK 4: Backlinks & Authority (For Local + Organic)**
+- [ ] Which local directories matter most for Indore hostel business?
+- [ ] Backlink strategy specific to single-location business
+- [ ] Should we pursue press mentions, college partnerships, etc.?
+
+---
+
+### Questions TradeForge Should Address in Revised Plan:
+
+1. **Intent clarity:** For a single-location hostel targeting college students in one city, should informational content (packing, cost of living guides) be in the strategy at all?
+
+2. **Title strategy:** When ranking for "hostel near medicaps", does including "Radiance Residency" in the title help or hurt CTR? What's your data?
+
+3. **Local search:** What are the TOP 3 factors for ranking in Google local pack for "hostel in rau" or "student accommodation near medicaps"?
+
+4. **Content ROI:** Of your Week 3 recommendations (packing guides, cost of living, etc.), which actually convert to hostel bookings? Can you provide data?
+
+5. **Competitive landscape:** Are there direct competitors ranking for "hostel near medicaps"? If so, what are they doing differently?
+
+6. **Realistic timeline:** For a DA 2 site targeting local keywords, what's a realistic timeline to reach pos 3–5 on "hostel near medicaps" type queries?
+
+7. **Hybrid approach:** Can we do both informational + local content, but prioritize local (80/20)? Or is it one or the other?
+
+---
+
+**Please submit revised plan with:**
+- ✅ Specific titles/metas for each page
+- ✅ Content recommendations tied to conversion data (not rankings)
+- ✅ Week-by-week prioritization for a LOCAL HOSTEL BUSINESS
+- ✅ Answers to questions above
+- ✅ Reasoning for each recommendation (why, not just what)
 
 ---
 
