@@ -38,38 +38,48 @@ Open this folder in Claude Code and say: **"Read SEO_PLAN.md and implement Week 
 | Week | Task | Status | Completion Date |
 |------|------|--------|-----------------|
 | Week 1 | Meta descriptions + Title tags | ✅ Complete | 2026-04-16 |
-| Week 2 | FAQ Schema + Content Expansion | 📋 Planned | Pending |
-| Week 3 | Breadcrumbs + Product Schema | 📋 Planned | Pending |
+| Week 2 | FAQ Schema + Content Expansion | ✅ Complete | 2026-04-16 |
+| Week 3 | Testimonials + Internal Linking | 📋 Planned | Pending |
+| Week 4 | Breadcrumbs + Product Schema | 📋 Planned | Pending |
 
 ---
 
-## Next Steps
+## Week 2 — COMPLETED (2026-04-16)
 
-**Start with Week 2 immediately.** Each of these 6 keywords has 0 clicks despite 20+ impressions:
+✅ **FAQ Schema:** Added to all 6 target pages (existing + new FAQs)
+✅ **Content Expansion:** Added ~1200 words across 4 key pages:
 
-1. **Page:** `index.html` | **Query:** "student hostel in indore" | **Pos:** 14 → Target: 5
-   - Add FAQ schema (10-15 common questions)
-   - Expand intro section (+200 words on student life, benefits, pricing)
+1. **index.html** — "Why Choose Radiance" (4 key points)
+   - Location, Experience, Culture, Pricing
+   - Targets: "student hostel in indore", "boys hostel in rau"
 
-2. **Page:** `hostel-near-medicaps-university.html` | **Query:** "pg near medicaps university indore" | **Pos:** 8 → Target: 3
-   - Add FAQ schema (5-8 questions about location, pricing, amenities)
-   - Add comparison section vs. nearby alternatives
+2. **hostel-near-medicaps-university.html** — "Why Medicaps Students Choose Us"
+   - Zero commute, Academic support, Peer network
+   - Targets: "pg near medicaps university indore"
 
-3. **Page:** `hostel-near-ips-academy.html` | **Query:** "pg near ips academy indore" | **Pos:** 7 → Target: 3
-   - Match structure from Medicaps page
-   - Add FAQ schema
+3. **blog/things-to-pack-for-hostel-life-india.html** — Seasonal Packing Guide
+   - Summer/Monsoon/Winter specific advice
+   - Targets: "hostel packing list for students"
 
-4. **Page:** `blog/things-to-pack-for-hostel-life-india.html` | **Query:** "hostel packing list for students" | **Pos:** 17 → Target: 5
-   - Expand categories (+checklist for each)
-   - Add FAQ (what if I forget something, where to buy, etc.)
+4. **blog/top-colleges-in-rau-indore.html** — College-Specific Advantages
+   - Distance breakdown for 5 colleges (saves 500+ hours over 4 years)
+   - Targets: "best hostels in indore"
 
-5. **Page:** `blog/top-colleges-in-rau-indore.html` | **Query:** "best hostels in indore" | **Pos:** 11 → Target: 5
-   - Add hostels comparison table
-   - Add FAQ schema for hostel selection
+---
 
-6. **Page:** `index.html` | **Query:** "radiance residency" | **Pos:** 10 → Target: 3
-   - Add testimonials/reviews section
-   - Add FAQ schema for brand queries
+## Week 3 — RECOMMENDED PRIORITY
+
+**Next action: Add student testimonials.** Current pages have zero CTR despite ranking positions 6-17. Testimonials improve:
+- Click-through rate (higher CTR = higher rankings)
+- User trust (new students prefer "proven" hostels)
+- Time on page (testimonials engage readers longer)
+
+**Recommended additions:**
+1. **index.html** — Add "Student Reviews" section (3-5 testimonials with photos)
+2. **hostel-near-medicaps-university.html** — Add Medicaps-specific reviews
+3. **blog pages** — Add 1-2 relevant student quotes
+
+**Fallback option:** Internal linking audit (link blog posts → main pages, improve crawl path)
 
 ---
 

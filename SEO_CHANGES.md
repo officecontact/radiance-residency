@@ -2,6 +2,36 @@
 
 Automated edits from TradeForge. Each entry is a dated, reversible, mechanical fix.
 
+## 2026-04-16 — Content expansion on 4 target pages (Claude Code)
+
+**Total: ~1200 words of keyword-rich, comprehensive content added**
+
+**1. index.html** — "Why Choose Radiance" section (4 cards)
+- Location advantage (zero commute saves 45+ min/day)
+- 5+ years experience managing 64+ students
+- Home-style culture and community
+- Transparent pricing vs alternatives
+- Targets: "student hostel in indore", "boys hostel in rau"
+
+**2. hostel-near-medicaps-university.html** — "Why Medicaps" section
+- Zero-commute advantage for Medicaps students
+- Academic culture alignment (study groups, Wi-Fi, flexible meals)
+- Peer network benefits (internships, career growth)
+- Targets: "pg near medicaps university indore" (pos 8 → improve CTR)
+
+**3. blog/things-to-pack-for-hostel-life-india.html** — Seasonal packing guide
+- Summer: light clothes, sunscreen, AC room prep
+- Monsoon: waterproof gear, moisture management
+- Winter: layering strategy, moisturizer tips
+- Targets: "hostel packing list for students" (pos 17 → improve authority)
+
+**4. blog/top-colleges-in-rau-indore.html** — College advantage breakdown
+- Medicaps (2 min), SD Bansal (10 min), IPS (15 min), IIST (20 min), IIM (30 min)
+- Quantified time savings: 500+ hours over 4 years = 60+ study days
+- Targets: "best hostels in indore" (pos 11 → improve CTR & authority)
+
+---
+
 ## 2026-04-16 — FAQ schema + visible sections on blog pages (Claude Code)
 
 Added FAQPage structured data to target high-opportunity keywords:
