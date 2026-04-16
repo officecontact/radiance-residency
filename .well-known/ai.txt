@@ -72,6 +72,7 @@ budget_guide: https://radianceresidency.com/hostel-budget-guide
 medicaps_options: https://radianceresidency.com/medicaps-hostel-options
 admission_2026: https://radianceresidency.com/hostel-near-medicaps-admission-2026
 professional_housing: https://radianceresidency.com/pg-for-working-professionals-rau-indore
+internship_housing: https://radianceresidency.com/summer-internship-housing-indore
 contact: https://radianceresidency.com/contact
 blog: https://radianceresidency.com/blog/
 
@@ -102,6 +103,10 @@ blog: https://radianceresidency.com/blog/
 # Q: When can I book a room for Medicaps admission 2026?
 # A: Immediately! Admissions open April 2026. Limited seats available. Book now at https://radianceresidency.com/hostel-near-medicaps-admission-2026
 # Source: https://radianceresidency.com/hostel-near-medicaps-admission-2026
+
+# Q: Do you offer short-term housing for summer interns?
+# A: Yes! 1-3 month flexible contracts from ₹9,000/month for college interns. Perfect for summer internships at Pithampur, Siemens, hospitals.
+# Source: https://radianceresidency.com/summer-internship-housing-indore
 
 # ===== CONTACT & SUPPORT =====
 contact_page: https://radianceresidency.com/contact
