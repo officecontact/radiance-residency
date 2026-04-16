@@ -355,27 +355,28 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
-## 🏢 PHASE 2: HYPER-LOCAL CORPORATE TARGETING (2-5 KM RADIUS)
+## 🏢 PHASE 2: COMPLEMENTARY PROFESSIONAL TARGETING (SECONDARY REVENUE)
 
-**Updated 2026-04-16** — Revised strategy focusing on 2-5 km radius around Medicaps
+**Updated 2026-04-16** — Professional housing as 20% revenue stream (students remain 80%)
 
-### Tier 1 Priority: Eminence Infotech (0.5 KM - SAME AREA)
+> **CRITICAL:** Students (March-July admission cycle) are the primary revenue engine. Professional targeting is opportunistic supplementary revenue only. Do NOT dilute student content or messaging.
 
-**THE HIDDEN GEM:**
-- **Location:** Behind Medicaps University, Rau (literally adjacent)
-- **Employees:** 50-200 (growing startup)
-- **Business:** iGaming, mobile app development, UX/UI, IoT
-- **Why #1 Priority:**
-  - ✅ Closest company to Radiance (0.5 km walk)
-  - ✅ Hiring actively (new joiners need housing immediately)
-  - ✅ Young tech professionals (better payers than students, 18-24 month stays)
-  - ✅ Zero competition (no hostel targets them)
-  - ✅ Startup hiring cycles = bulk bookings (3-8 beds/cycle)
-  - ✅ Easy HR access (vs TCS bureaucracy)
-  
-**Expected Revenue Impact:** +₹40,000-150,000/month (depending on hiring cycle)
+### Secondary Audience 1: Working Professionals (Pithampur/Hospitals ~5-15 km)
 
-### Tier 2: College Faculty & Professionals (1-2 KM)
+**Corporate Presence Near Indore:**
+- **Siemens, L&T, Eaton, Johnson Controls** (Pithampur, ~15 km) — Engineers on 3-12 month postings
+- **Hospitals** (Bombay Hospital, Medanta, ~5 km) — Nursing/paramedic staff new to Indore  
+- **IT Parks** (Vijay Nagar, Bypass Road, ~8-10 km) — TCS/Infosys junior professionals
+
+**Why This Segment:**
+- ✅ Monthly rent customers (18-24 month stays, vs students 3-4 months)
+- ✅ Premium pricing ability (₹10,000-13,000/month vs ₹8,000)
+- ✅ Less seasonal than students
+- ✅ Different messaging (not "near college" — "monthly, serious environment")
+
+**Expected Revenue Impact:** +₹20,000-40,000/month (secondary stream)
+
+### Secondary Audience 2: College Faculty (1-2 KM)
 
 **Multiple Educational Institutions:**
 | Institution | Distance | Faculty |
@@ -386,169 +387,54 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 | Sanghvi Institute | 1.5 km | 90+ |
 | IIM Indore | 2 km | 150+ |
 
-**Target Segment:** Visiting professors, faculty housing, guest lecturers  
-**Total Faculty + Professionals:** 500+ people  
-**Keywords:** "hostel for professors", "accommodation for faculty"
+**Target Segment:** Visiting professors, guest lecturers, faculty housing (short-term 2-8 weeks)  
+**Total Faculty Prospect:** 500+ people  
+**Keywords:** "hostel for professors", "accommodation for faculty", "guest lecturer housing"
 
-### Tier 3: Manufacturing & Auto (2-5 KM)
+**Why This Segment:**
+- ✅ Institutional booking = multi-person bulk deals
+- ✅ More predictable (less seasonal than students)
+- ✅ Short-term stays (2-8 weeks) = fill gaps in May-Aug low season
 
-**Scattered Companies:**
-- S.I.T. Hydraulics Engineers
-- Auto component manufacturers
-- Various SMEs
+**Expected Revenue Impact:** +₹15,000-30,000/month (secondary, fills seasonal gaps)
 
-**Status:** Lower priority (fragmented, less cohesive hiring)**
+### Content Strategy (1 Page Priority)
 
-### Keywords to Target (Hyper-Local Focus)
+**PAGE 1: PG for Working Professionals in Rau Indore** (CREATE NOW)
 
-**Tier 1 — UNIQUE, UNCOMPETED (Focus First):**
-- "hostel for Eminence employees" — UNIQUE keyword, zero competition
-- "accommodation near Eminence Infotech" — LOCAL intent
-- "hostel for IT professionals Rau" — SUPER LOCAL
-- "hostel for college faculty indore" — UNIQUE segment
+**Target:** Working professionals from Pithampur (15 km), hospitals (5 km), IT parks (8-10 km)
 
-**Tier 2 — EMERGING OPPORTUNITIES:**
-- "employee housing near Medicaps"
-- "hostel for tech startup employees"
-- "accommodation for professionals Rau"
-- "hostel for iGaming company employees" (Eminence-specific)
+**Target Keywords:**
+- "pg near pithampur industrial area"
+- "monthly pg in rau indore for working men"
+- "bachelor accommodation rau indore monthly"
+- "pg near siemens indore"
 
-**Tier 3 — BROADER APPEAL (Lower priority):**
-- "hostel for TCS employees Indore" (8-10 km away, higher competition)
-- "corporate accommodation Indore" (generic, low intent)
+**Content Focus:**
+- Monthly rent pricing (leading with ₹10,000-13,000 vs ₹8,000 students)
+- Attached bathroom, cooking access, bike parking (professional signal)
+- "Serious working environment" (quiet hours, mature residents)
+- Distance to Pithampur (~15 min drive), hospitals (10-15 min)
+- 6-24 month flexibility (vs students 3-4 months)
+- NOT "near MediCaps" — that's a student signal
 
-### Content Strategy (2-3 Pages Priority)
+**Page Length:** 600-800 words  
+**CTAs:**
+- WhatsApp: "Monthly PG for working professionals"
+- Phone: "Speak with our team about your needs"
+- Contact form: "Request monthly housing information"
 
-**PAGE 1: Hostel for Eminence Infotech Employees** (PRIORITY #1 — CREATE NOW)
-- Target Keywords: "hostel for Eminence employees", "accommodation near Eminence Infotech Rau"
-- Content Focus:
-  - 0.5 km proximity (5-minute walk from office)
-  - Perfect for onboarding & relocation
-  - Flexible 3-18 month packages
-  - Team room options (house 3-4 Eminence employees together)
-  - Work-from-hostel support (fast WiFi, study zones)
-  - Professional environment (quiet hours, mature residents)
-  - Bulk hiring cycle preparation
-- Page Length: 800-1000 words
-- CTAs:
-  - WhatsApp: "Bulk booking for Eminence employees"
-  - Form: "Corporate partnership inquiry"
-  - Phone: "Speak with corporate team"
-- Expected Traffic: 5-10 clicks/month (initial), 15-25/month (after outreach)
-- Expected Conversions: 1-2 bookings/month from Eminence
+**Expected Traffic:** 5-10 clicks/month  
+**Expected Conversions:** 1-2 bookings/month
 
-**PAGE 2: Hostel for College Faculty & Professors** (PRIORITY #2)
-- Target Keywords: "hostel for professors indore", "accommodation for faculty", "guest lecturer housing"
-- Content Focus:
-  - Serve 5 colleges within 2 km (SD Bansal, IPS Academy, IIST, Sanghvi, IIM)
-  - Short-term options (2 weeks to 3 months for visiting faculty)
-  - Professional amenities (quiet study, WiFi, kitchen access)
-  - Institutional group booking options
-  - Monthly/semester packages
-- Page Length: 600-800 words
-- CTAs:
-  - Email form: "Institutional booking inquiry"
-  - WhatsApp: "Faculty accommodation info"
-- Expected Traffic: 10-15 clicks/month
-- Expected Conversions: 2-3 bookings/month (more stable than Eminence)
+---
 
-**PAGE 3: Corporate Housing for Startups in Rau** (PRIORITY #3 — Creates umbrella)
-
-  - Cover Eminence + future startups in Rau
-  - Keywords: "startup employee housing", "tech startup accommodation"
-  - For when more tech companies establish in Rau area
-
-### Implementation Timeline (EMINENCE-FIRST STRATEGY)
-
-**WEEK 1 (Immediate Priority):**
-1. Research Eminence Infotech thoroughly
-   - LinkedIn company page, job postings, hiring timeline
-   - Current employee count, growth trajectory
-   - Find actual HR contact email
-   
-2. Create Page: "Hostel for Eminence Infotech Employees"
-   - 800-1000 words optimized for "hostel for Eminence employees"
-   - Highlight 0.5 km proximity (5-minute walk)
-   - Team housing options, bulk booking discounts
-   - Add to sitemap.xml, llms.txt
-   - Link from homepage "Corporate Packages" section
-
-3. Direct Outreach to Eminence HR
-   - Email: "Radiance Residency - Official Employee Housing Partner"
-   - Offer: Bulk rate ₹9,000/month, flexibility for relocation hires
-   - Propose: "Employee referral commission" (₹500-1000 per booking)
-   - Request: Mention in Eminence job postings, onboarding info
-
-**WEEK 2-3:**
-4. Create Page: "Hostel for College Faculty & Professors"
-   - Target IPS Academy, SD Bansal, IIST faculty
-   - Short-term options, institutional rates
-   
-5. Internal Linking
-   - Add "Faculty & Professional Housing" CTA to amenities page
-   - Add "Startup employee packages" CTA to rooms page
-   - Create navigation breadcrumb: Home > Corporate > Eminence
-
-**WEEK 4+:**
-6. Continuous Outreach & Seasonal Hiring Tracking
-   - Monitor Eminence job postings for hiring waves
-   - Seasonal outreach (Q1, Q2, Q3, Q4 hiring cycles)
-   - Track referrals, conversion metrics
-   - Annual review with Eminence HR team
-
-### Business Impact: Eminence Infotech Focus
-
-**Why Eminence Infotech Conversion Rates Are Superior:**
-
-1. **Proximity Advantage:** 0.5 km = natural choice (vs TCS at 8-10 km)
-2. **Founder/HR Access:** Small team = direct relationship possible (vs TCS HR red tape)
-3. **Startup Culture:** Innovation-focused, values employee happiness (vs corporate bureaucracy)
-4. **Hiring Cycles:** Predictable quarterly hiring = batch bookings (3-8 beds/cycle)
-5. **Employee Tenure:** Tech startup professionals stay 18-24 months (vs students 3-4 months)
-6. **Premium Pricing:** Tech employees pay 20-30% more than students
-7. **Referral Network:** One hire tells 3-5 colleagues (network effect)
-
-**Financial Model (Eminence Focus):**
-
-*Conservative Scenario (Year 1):*
-- Eminence hires per quarter: 8-10 people
-- % needing housing: 40% = 3-4 people/quarter
-- Annual new bookings: 12-16 beds/year
-- Occupancy duration: 18 months average
-- Rate: ₹10,000 × 1.25 (premium) = ₹12,500/month
-- Annual revenue per hire: ₹12,500 × 18 = ₹225,000
-- From 12-16 hires/year: ₹2,700,000 - ₹3,600,000/year
-
-*Aggressive Scenario (With Partnership):**
-- Official "Eminence employee accommodation partner" status
-- Reserved block: 4-6 beds held for Eminence
-- Higher placement rate: 60% of new hires
-- Quarterly bookings: 6-8 people
-- Annual revenue: ₹4,500,000 - ₹6,000,000/year
-
-**Faculty Housing (Secondary Revenue):**
-- 500+ faculty from 5 colleges within 2 km
-- 5-10% seeking short-term housing = 25-50 bookings/year
-- Average stay: 4-8 weeks
-- Rate: ₹12,000/month × 1 month = ₹12,000/booking
-- Additional annual revenue: ₹300,000 - ₹600,000/year
-
-**Total Addressable Revenue (All segments):** +₹3,000,000 - ₹6,600,000/year
-
-### Success Metrics (Track via GSC by 2026-05-07)
-
-**Keywords to Monitor:**
-- "hostel for Eminence employees" — Target pos 1 by week 3
-- "accommodation near Eminence Infotech" — Target pos 1-2 by week 4
-- "hostel for IT professionals Rau" — Target pos 1-3 by week 6
-- "hostel for college faculty indore" — Target pos 1-5 by week 8
-
-**Traffic & Conversion Targets:**
-- Eminence page traffic: 10-20 clicks/month by week 4
-- Faculty page traffic: 5-10 clicks/month by week 6
-- Eminence booking inquiries: 1-2/month by week 3
-- Faculty bookings: 1-2/month by week 6
-- Overall corporate revenue: +₹40,000-80,000/month by month 2
+**PAGE 2: Hostel for College Faculty & Professors** (OPTIONAL FUTURE)
+- Target Keywords: "hostel for professors indore", "guest lecturer housing"
+- Serve 5 colleges within 2 km (SD Bansal, IPS Academy, IIST, Sanghvi, IIM)
+- Short-term options (2-8 weeks for visiting faculty)
+- Expected Traffic: 3-5 clicks/month
+- Expected Conversions: 0-1 bookings/month (fills Aug-Sept gaps)
 
 ---
 
@@ -640,10 +526,27 @@ GSC: 690 impressions from India, 7 clicks (1% CTR). All other countries = noise 
 
 ### What Claude Code Will Do Next (Audience-Aligned)
 
-- [ ] Create `/pg-for-working-professionals-rau-indore.html` — Siemens/Pithampur belt audience, monthly pricing table
-- [ ] Create `/hostel-near-medicaps-admission-2026.html` — seasonal page for March–July admission cycle
-- [ ] Add admission season banner to homepage: "Admissions open for 2026–27 — limited seats"
-- [ ] Add monthly rent pricing table to rooms.html (both audiences need this above the fold)
+**PRIORITY 1 (Students — Primary):**
+- [ ] Create `/hostel-near-medicaps-admission-2026.html` — seasonal page for March–July admission peak
+  - Keywords: "medicaps admission 2026", "hostel near medicaps admission"
+  - Content: Limited seats messaging, admission timeline, quick booking CTA
+  - Expected impact: +50-100 clicks/month during Feb-July season
+  
+- [ ] Add monthly rent pricing table to rooms.html (decision-stage content for both audiences)
+  - Show all 4 room types with per-month pricing
+  - Include meal cost breakdown
+  - Display above the fold
+  
+- [ ] Add admission season banner to homepage
+  - Timing: Activate Feb 2026, refresh every semester
+  - Copy: "Admissions 2026 — Limited Seats Available. Book Your Room Today"
+  - Messaging: Emphasize nearby colleges (Medicaps, IPS, IIST, SD Bansal)
+
+**PRIORITY 2 (Professionals — Secondary):**
+- [ ] Create `/pg-for-working-professionals-rau-indore.html` — Monthly PG for Pithampur/hospital workers
+  - Keywords: "pg near pithampur", "monthly pg rau indore"
+  - Content: Monthly pricing focus, working professional messaging
+  - Expected impact: +5-10 clicks/month
 
 ### What Shachi Does
 - Update GBP description to include: "Boys hostel and PG for students and working professionals in Rau, Indore"
