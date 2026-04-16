@@ -124,7 +124,8 @@
       "Bash(grep -l \"building-01\" *.html)",
       "Bash(xargs -I {} sed -i 's|images/building-01\\\\.webp|images/outer-building-1.jpg|g' {})",
       "Bash(grep -r \"clean-bathroom-final\\\\|mandir-final\\\\|outer-building\" *.html)",
-      "Bash(grep -r \"clean%20bathroom\\\\.jpg\\\\|mandir%20use%20this\" *.html)"
+      "Bash(grep -r \"clean%20bathroom\\\\.jpg\\\\|mandir%20use%20this\" *.html)",
+      "Bash(grep -n \"width: 100%.*height.*object-fit\\\\|\\\\..*image.*{\" \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\\\\style.css\")"
     ]
   }
 }
