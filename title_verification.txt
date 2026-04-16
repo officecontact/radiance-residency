@@ -1,0 +1,65 @@
+=== TITLE VERIFICATION ===
+
+OUR CHANGES (what we implemented):
+  index.html: "Boys Hostel & PG in Rau, Indore | Radiance Residency" (52 chars)
+  hostel-near-medicaps-university.html: "Hostel Near Medicaps University | Radiance Residency" (52 chars)
+  hostel-near-ips-academy.html: "Boys Hostel Near IPS Academy | Radiance Residency" (49 chars)
+  hostel-near-sd-bansal-college.html: "Hostel Near SD Bansal College | Radiance Residency" (50 chars)
+  rooms.html: "Rooms & Pricing | Boys Hostel | Radiance Residency" (50 chars)
+
+---
+
+TRADEFORGE RECOMMENDED (from SEO_PLAN.md):
+  index.html: "Student Hostel in Indore — Radiance Residency" (44 chars) ← Different emphasis
+  hostel-near-medicaps-university.html: "Hostel Near MediCaps University Indore" (37 chars) ← NO "Radiance Residency"
+  hostel-near-ips-academy.html: "Hostel Near IPS Academy Indore — PG Rooms" (41 chars) ← Different
+  hostel-near-sd-bansal-college.html: "Hostel Near SD Bansal College Indore" (36 chars) ← NO "Radiance Residency"
+  rooms.html: "Hostel Room Types & Pricing — Indore" (36 chars) ← Different structure
+
+---
+
+KEY DIFFERENCES:
+
+1. BRANDING: 
+   - We added "Radiance Residency" to every title
+   - TradeForge REMOVES brand from some titles → focus on location keyword instead
+   
+2. KEYWORD EMPHASIS:
+   - We: "Boys Hostel & PG in Rau, Indore" (emphasizes type + location)
+   - TradeForge: "Student Hostel in Indore" (emphasizes keyword match + location)
+   - We: "Hostel Near Medicaps University"
+   - TradeForge: "Hostel Near MediCaps University Indore" (includes location/intent clarity)
+
+3. CTR OPTIMIZATION:
+   - We: 49-52 chars (still good)
+   - TradeForge: 36-44 chars (shorter = less truncation in mobile SERPs)
+
+4. MERCHANT INTENT:
+   - We: Branded all titles (good for brand building)
+   - TradeForge: Removed brand from location-specific pages (better for local search intent)
+
+---
+
+VERDICT: 
+⚠️  PARTIALLY MISALIGNED
+
+Our titles are GOOD for:
+  ✓ Brand awareness
+  ✓ CTR on branded searches
+  
+But WEAKER for:
+  ✗ "Medicaps hostel" / "hostel near ips" intent (people don't see "Radiance Residency", they see location)
+  ✗ Local pack optimization (Google local rankings prefer location + type, not brand)
+
+---
+
+IMPACT:
+For "hostel near medicaps" searchers:
+  - Our title: "Hostel Near Medicaps University | Radiance Residency"
+  - TradeForge: "Hostel Near MediCaps University Indore"
+  
+They likely click TradeForge's version more because:
+  1. Shorter (fits mobile SERP)
+  2. Includes "Indore" (confirms location match)
+  3. No brand confusion
+

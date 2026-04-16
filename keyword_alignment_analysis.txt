@@ -1,0 +1,79 @@
+=== KEYWORD ALIGNMENT ANALYSIS ===
+Date: 2026-04-16
+User Goal: Target LOCATION-BASED keywords (hostel near medicaps, hostels in rau, near ips, near sd bansal)
+Business Model: Single physical location in Rau near Medicaps University
+
+---
+
+TRADEFORGE KEYWORDS (from SEO_PLAN.md):
+
+INFORMATIONAL INTENT (Low conversion intent):
+  1. "hostel packing list for girl students in india" - #1.7, 31 impr, 0 clicks
+  2. "hostel essentials 2026" - #2.1, 21 impr, 2 clicks
+  3. "hostel packing list for boys" - #2.2, 5 impr, 1 click
+  4. "pg and hostel difference" - #6.4, 5 impr, 0 clicks
+  5. "best hostels in indore" - #10.6, 20 impr, 0 clicks
+  6. "student accommodation indore" - #9.5, 8 impr, 0 clicks
+  7. "cost of living in rau indore for students" - Suggested content
+  8. "how to choose best hostel in indore" - Suggested content
+
+COMMERCIAL/LOCAL INTENT (High conversion intent):
+  ✓ "hostel near medicaps university indore" - #8.2, 35 impr, 0 clicks
+  ✓ "medicaps hostel" - #2.0, 14 impr, 0 clicks
+  ✓ "pg near medicaps university indore" - (mentioned)
+  ✓ "hostel near ips academy indore" - #6.7, 19 impr, 0 clicks
+
+---
+
+YOUR STATED GOALS:
+  ✓ "hostel near medicaps"
+  ✓ "hostels in rau"
+  ✓ "hostel near ips"
+  ✓ "hostel near sd bansal"
+  ✓ Similar area-focused keywords
+  ✓ PIN code / location specific
+
+---
+
+ALIGNMENT ASSESSMENT:
+
+❌ MISALIGNED: TradeForge is split between informational (60%) and local (40%)
+✓ ALIGNED: Local keywords TradeForge mentions DO match your goals
+
+PROBLEM: TradeForge recommends spending effort on:
+  - Hostel packing guides (informational, low intent)
+  - Cost of living guides (informational, low intent)
+  - General "best hostels" content (informational, low intent)
+
+These rank well (#1-2) but get 0 clicks because people searching "hostel packing list" 
+are NOT looking to book a hostel - they want to PACK for one they already booked.
+
+YOUR REAL OPPORTUNITY:
+  - "hostel near medicaps": 35 impressions, position 8, ZERO clicks → FIX TITLE/CTR
+  - "medicaps hostel": 14 impressions, position 2, ZERO clicks → FIX TITLE/CTR
+  - "hostel near ips academy": 19 impressions, position 7, ZERO clicks → FIX TITLE/CTR
+
+These are HIGH INTENT keywords (people actively searching for hostels near colleges).
+35 impressions = 35 potential bookings seeing your result. 0 clicks = title/meta problem.
+
+---
+
+RECOMMENDATION:
+
+TIER 1 (URGENT - High Intent Local):
+  1. hostel near medicaps university indore (8.2 pos, 35 impr, 0 clicks)
+  2. pg near medicaps university indore (similar)
+  3. medicaps hostel (2.0 pos, 14 impr, 0 clicks) 
+  4. hostel near ips academy indore (6.7 pos, 19 impr, 0 clicks)
+  5. hostel near sd bansal college (need data)
+  6. hostels in rau indore (need data)
+
+TIER 2 (GOOD - Mixed Intent):
+  - best hostels in indore (but needs hostel comparison content)
+  - student hostel in indore (14 pos, 52 impr, 0 clicks - good volume)
+
+TIER 3 (SKIP - Low Intent):
+  - hostel packing lists (rank well, 0 clicks, no bookings)
+  - hostel essentials guides (rank well, 0 clicks, no bookings)
+  - cost of living guides (informational only)
+
