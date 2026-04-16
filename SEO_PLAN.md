@@ -355,4 +355,84 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
+## ⚠️ CRITICAL: SEO/AEO Maintenance Checklist for TradeForge
+
+**Updated 2026-04-16.** The following files MUST be kept updated on every content change:
+
+### 1. **robots.txt** (`/robots.txt`)
+**Purpose:** Control crawling for search engines + AI/LLM systems  
+**Must Update When:**
+- New pages are created → Add to sitemap + robots.txt reference comments
+- Site structure changes → Update Disallow/Allow rules
+- New AI crawlers emerge → Add to AI crawler allowlist
+
+**Current Content:**
+- ✅ SEO crawlers: Googlebot, Bingbot, Yandexbot, DuckDuckGo
+- ✅ AI crawlers: GPTBot, Claude, Gemini, Perplexity, Apple, Meta
+- ✅ Bad actors blocked: Semrush, Ahrefs, MJ12bot
+
+### 2. **llms.txt** (`/llms.txt`)
+**Purpose:** AI-readable business summary + content index  
+**Must Update When:**
+- New pages created → Add to "College-Specific Pages" or "Guides & Resources"
+- Business info changes (price, hours, contact, capacity) → Update Key Facts section
+- New testimonials added → Update rating/students count
+- New amenities added → Update amenities list
+
+**Current Content:**
+- Business overview + 26 key facts
+- 7 college-specific hostel pages
+- 3 guides (testimonials, medicaps options, budget guide)
+- Contact info + keywords + related pages
+
+### 3. **/.well-known/ai.txt** (NEW - 2026-04-16)
+**Purpose:** Answer Engine Optimization for AI systems like Perplexity, Claude, Gemini  
+**Must Update When:**
+- Q&A content changes → Update "ANSWER ENGINE OPTIMIZATION" section with new FAQs
+- Contact info updates → Update CONTACT & SUPPORT section
+- Business info changes (price, capacity, amenities) → Update BUSINESS INFORMATION section
+- Content policies change → Update CONTENT POLICIES section
+- New pages published → Add to "KEY PAGES FOR AI ANSWERING" section
+
+**Current Content:**
+- AI training policy + attribution rules
+- 50+ business data points (geo, contact, pricing, reviews)
+- 8 direct Q&A answers for common queries
+- Content use policies (allowed/blocked)
+
+### 4. **sitemap.xml** (`/sitemap.xml`)
+**Purpose:** Tell Google which pages exist + crawl priority  
+**Must Update When:**
+- New pages created → Add <url> entry with realistic <priority> (0.95 for high-intent, 0.7 for blog)
+- Page importance changes → Update <priority> values
+- Page modified → Update <lastmod> date to today
+
+**Current Setup:**
+- Homepage: 1.0 (highest)
+- Key landing pages: 0.85-0.95 (testimonials, budget guide, medicaps options)
+- Location pages: 0.7-0.9 (college-specific hostels)
+- Blog pages: 0.7-0.8
+
+---
+
+### Monthly Update Checklist for TradeForge:
+
+**Every Month (aligned with Monday refresh cycle):**
+- [ ] Check if new blog posts were added → Update robots.txt, llms.txt, sitemap.xml
+- [ ] Check if new landing pages exist → Update llms.txt, .well-known/ai.txt, sitemap.xml
+- [ ] Check if business info changed (price, contact, amenities) → Update llms.txt, .well-known/ai.txt
+- [ ] Check if testimonials/reviews updated → Update .well-known/ai.txt Q&A section
+- [ ] Verify all files have current date in header
+- [ ] Test: robots.txt allows all important pages (use robots.txt tester)
+- [ ] Test: .well-known/ai.txt is accessible at https://radianceresidency.com/.well-known/ai.txt
+
+**Immediately Upon:**
+- Creating new hostel/PG landing page → Add to llms.txt + sitemap.xml + .well-known/ai.txt
+- Publishing new blog post → Add to sitemap.xml
+- Getting new Google reviews → Update llms.txt "Rating" field
+- Changing pricing → Update llms.txt, .well-known/ai.txt
+- Changing contact/hours → Update all 4 files
+
+---
+
 _Plan refreshes every Monday from TradeForge data pipeline._
