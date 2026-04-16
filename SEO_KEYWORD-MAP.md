@@ -40,11 +40,13 @@
 
 | Page | Schema Type | Status | Date Added |
 |------|-------------|--------|-----------|
-| index.html | Organization + LocalBusiness | ✓ Ready | 2026-03-15 |
-| amenities.html | LocalBusiness + AmenityFeature | ✓ Ready | 2026-03-15 |
-| rooms.html | Product (Room types) | Planned | Week 2 |
-| blog/* | Article + FAQ | Planned | Week 2 |
-| hostel-near-*.html | LocalBusiness + FAQPage | Planned | Week 2 |
+| index.html | Organization + LocalBusiness + FAQPage | ✓ Done | 2026-03-15 |
+| amenities.html | LocalBusiness + AmenityFeature | ✓ Done | 2026-03-15 |
+| hostel-near-medicaps-university.html | LocalBusiness + FAQPage | ✓ Done | 2026-03-15 |
+| hostel-near-ips-academy.html | LocalBusiness + FAQPage | ✓ Done | 2026-03-15 |
+| blog/things-to-pack-for-hostel-life-india.html | Article + FAQPage | ✓ Done | 2026-04-16 |
+| blog/top-colleges-in-rau-indore.html | Article + FAQPage | ✓ Done | 2026-04-16 |
+| rooms.html | Product (Room types) | Planned | Week 3 |
 
 ---
 
@@ -65,10 +67,26 @@
 ✓ Title tags trimmed to <60 chars (16 pages)  
 ✓ Meta descriptions optimized to ≤155 chars (48 pages)  
 
-## Week 2 Roadmap
+## Week 2 Progress — 2026-04-16
 
-- [ ] Add FAQ Schema to 6 high-opportunity pages
+✓ Add FAQ Schema to 6 high-opportunity pages (DONE)
+- ✓ index.html (already had 8 FAQs)
+- ✓ hostel-near-medicaps-university.html (already had 15 FAQs)
+- ✓ hostel-near-ips-academy.html (already had 14 FAQs)
+- ✓ blog/things-to-pack-for-hostel-life-india.html (added 8 FAQs + visible section)
+- ✓ blog/top-colleges-in-rau-indore.html (added 6 FAQs + visible section)
+- ✓ index.html for "radiance residency" brand keyword (already had FAQs)
+
+## Week 2 Remaining
+
 - [ ] Expand content on target keywords (200-300 words min)
+- [ ] Add testimonials/case studies section
+- [ ] Improve internal linking to related pages
+- [ ] Monitor GSC data for ranking changes
+
+## Week 3 Planning
+
 - [ ] Implement Product schema for room types
-- [ ] Add breadcrumb schema to hostel-near-* pages
+- [ ] Add breadcrumb schema enhancements
 - [ ] Update GSC data mapping (weekly)
+- [ ] Analyze ranking improvements and refine

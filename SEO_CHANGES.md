@@ -2,6 +2,22 @@
 
 Automated edits from TradeForge. Each entry is a dated, reversible, mechanical fix.
 
+## 2026-04-16 — FAQ schema + visible sections on blog pages (Claude Code)
+
+Added FAQPage structured data to target high-opportunity keywords:
+
+**blog/things-to-pack-for-hostel-life-india.html** (hostel packing list)
+- 8 FAQ questions targeting "hostel packing list for students" (pos 17 → target 5)
+- Schema addresses common packing questions: essentials, where to buy, forgotten items
+- Visible, interactive FAQ section before footer for user engagement
+
+**blog/top-colleges-in-rau-indore.html** (best hostels in indore)
+- 6 FAQ questions targeting "best hostels in indore" (pos 11 → target 5)
+- Schema answers questions about college distances, costs, transportation
+- Promotes Radiance Residency location advantage with structured data
+
+---
+
 ## 2026-04-16 — page title trim to <60 chars (Claude Code)
 
 Fixed 16 page titles exceeding 60-character limit:
