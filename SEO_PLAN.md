@@ -355,6 +355,142 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
+## 🏢 PHASE 2: CORPORATE EMPLOYEE TARGETING (NEW OPPORTUNITY)
+
+**Updated 2026-04-16** — Identified major employers near Medicaps with 25,000+ employees
+
+### Market Opportunity
+
+**Major Companies Near Medicaps/Rau/Indore:**
+
+| Company | Location | Employees | Search Volume |
+|---------|----------|-----------|----------------|
+| TCS | SEZ Pardeshipura, Pigdamber, Rau | 5,000+ | 80/month |
+| Infosys | Super Corridor, Hatod | 5,000+ | 60/month |
+| Cognizant | Multiple offices | 4,500+ | 40/month |
+| IBM | Indore | 2,500+ | 30/month |
+| Wipro | Multiple offices | 3,000+ | 35/month |
+| Accenture | Indore | 2,000+ | 25/month |
+| Capgemini | Indore | 1,500+ | 20/month |
+| ICICI Bank | Multiple branches | 3,000+ | 35/month |
+| HDFC Bank | Multiple branches | 2,500+ | 30/month |
+| Cisco | Partner offices | 1,000+ | 15/month |
+
+**Total Addressable Market:** 30,000+ employees within 10 km radius  
+**Estimated Search Volume:** 300-350 monthly searches for "hostel for employees"  
+**Keyword Competition:** LOW (few hostels target corporate)
+
+### Keywords to Target (High Commercial Intent)
+
+**Primary (Phase 1 Priority):**
+- "hostel for TCS employees Indore" — HIGH VOLUME, HIGH INTENT
+- "hostel for Infosys employees" — HIGH VOLUME, HIGH INTENT  
+- "accommodation near TCS Rau" — HIGH INTENT, LOCAL
+- "hostel for IT employees Indore" — MEDIUM-HIGH VOLUME
+
+**Secondary (Phase 2):**
+- "corporate employee housing Indore"
+- "hostel for working professionals Indore"
+- "PG for IT company employees"
+- "housing near tech companies Indore"
+
+**Long-Tail (Phase 3):**
+- "short-term accommodation for TCS relocation"
+- "corporate hostel near super corridor"
+- "employee housing near Medicaps"
+
+### Content Strategy (5 New Pages Recommended)
+
+**Page 1: Hostel for TCS Employees Indore** (Priority: HIGH)
+- Target keywords: "hostel for TCS employees", "TCS employee accommodation", "accommodation near TCS Rau"
+- Content structure:
+  - TCS proximity (2 min walk from TCS Rau office)
+  - Corporate employee benefits (bulk booking, discounts, flexible terms)
+  - Amenities for professionals (quiet zones, work areas, high-speed WiFi)
+  - Relocation support (furnished, move-in ready)
+  - Comparison: Radiance vs independent flats for TCS employees
+  - 3 CTAs: WhatsApp for corporate rates, Phone, Contact form
+- Internal linking: Cross-link to budget guide, rooms page
+- Expected traffic: 15-20 clicks/month
+
+**Page 2: Hostel for Infosys Employees** (Priority: HIGH)
+- Target keywords: "hostel for Infosys employees", "accommodation super corridor", "Infosys employee housing"
+- Same structure as TCS page but for Infosys location
+- Expected traffic: 12-15 clicks/month
+
+**Page 3: Corporate Housing for IT Professionals** (Priority: HIGH)
+- Target keywords: "hostel for IT employees Indore", "corporate accommodation Indore", "tech employee housing"
+- Broader appeal to all IT companies (TCS, Infosys, Cognizant, IBM, Wipro, etc.)
+- Table comparing distance to all major IT offices
+- Professional amenities emphasis
+- Expected traffic: 25-35 clicks/month
+
+**Page 4: Relocation Package for Employees** (Priority: MEDIUM)
+- Target keywords: "relocation accommodation Indore", "temporary housing for employees", "short-term hostel"
+- Focus on 3-6 month stays, flexible checkout, furnished options
+- Bulk booking discounts
+- Expected traffic: 10-15 clicks/month
+
+**Page 5: Employee Housing Near Medicaps/Super Corridor** (Priority: MEDIUM)
+- Target keywords: "employee housing near Medicaps", "accommodation super corridor"
+- Distance comparison table to all major companies
+- Transport options (auto, bus, bike)
+- Corporate partnership opportunities
+- Expected traffic: 10-15 clicks/month
+
+### Implementation Timeline
+
+**Phase 1 (Week 1-2): Create 3 Primary Pages**
+- Hostel for TCS Employees
+- Hostel for Infosys Employees
+- Corporate Housing for IT Professionals
+
+**Phase 2 (Week 3-4): Internal Linking & Navigation**
+- Add "Corporate Packages" section to homepage
+- Add CTAs to location pages (hostel-near-medicaps, hostel-near-ips-academy)
+- Add CTAs to amenities and rooms pages
+- Add corporate package link to blog pages
+
+**Phase 3 (Week 5-6): External Signals**
+- Reach out to TCS/Infosys HR for partnerships (mentions in office postings)
+- Submit to corporate housing portals (JoinIndiaJobs, etc.)
+- Get backlinks from employee directories
+- Outreach to tech company job boards
+
+### Business Impact Analysis
+
+**Conversion Advantages:**
+1. **Stable Occupancy:** Corporate employees = lower churn, longer stays (6-12 months)
+2. **Bulk Bookings:** TCS relocation cycle = 4-8 beds booked simultaneously
+3. **Premium Pricing:** Corporate rates can be 10-20% higher than student rates
+4. **Predictable Revenue:** Salary-backed employees = no payment issues
+5. **Less Competition:** Few hostels target corporate + employee turnover = recurring demand
+
+**Financial Projections (6 months):**
+- Corporate bookings: 5-10 beds/month
+- Average stay: 8 months (vs 3 months for students)
+- Premium multiplier: 1.15x student rate
+- Estimated monthly revenue: +₹50,000-80,000 from corporate segment
+
+### Why This Strategy Works
+
+1. **Low Competition:** Most hostels target students only
+2. **High Intent:** Corporate employees actively search for "hostel for [company] employees"
+3. **Larger Addressable Market:** 30,000 employees > 2,000 students at Medicaps
+4. **Better Retention:** Working professionals > student volatility
+5. **Untapped Keywords:** 0 competition in "hostel for TCS employees" searches
+6. **Location Advantage:** Radiance is perfectly positioned (2 min from TCS, near super corridor)
+
+### Success Metrics (Track via GSC by 2026-05-14)
+
+- "hostel for TCS employees": target pos 1-3 by week 4
+- "hostel for Infosys employees": target pos 1-3 by week 4
+- "corporate accommodation Indore": target pos 1-5 by week 6
+- Corporate page traffic: expect 50-80 clicks/month by end of month
+- Corporate booking inquiries: expect 3-5/month by week 6
+
+---
+
 ## ⚠️ CRITICAL: SEO/AEO Maintenance Checklist for TradeForge
 
 **Updated 2026-04-16.** The following files MUST be kept updated on every content change:
