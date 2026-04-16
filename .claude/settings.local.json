@@ -80,7 +80,18 @@
       "Bash(bash /tmp/fix_pricing_all.sh)",
       "Bash(grep -v \":0$\")",
       "Bash(find /c/Users/aagos/assets/residency-website -type f \\\\\\( -name \"*.html\" -o -name \"*.txt\" \\\\\\) -exec sed -i 's/₹7,000/₹8,000/g' {} \\\\;)",
-      "Bash(find /c/Users/aagos/assets/residency-website -type f \\\\\\( -name \"*.html\" -o -name \"*.txt\" \\\\\\) -exec sed -i 's/₹9,000/₹10,000/g' {} \\\\;)"
+      "Bash(find /c/Users/aagos/assets/residency-website -type f \\\\\\( -name \"*.html\" -o -name \"*.txt\" \\\\\\) -exec sed -i 's/₹9,000/₹10,000/g' {} \\\\;)",
+      "Bash(bash /tmp/process_images.sh)",
+      "Bash(python3 *)",
+      "Bash(/c/Python314/python *)",
+      "Bash(grep -r \"images/.*\\\\.\\\\\\(jpg\\\\|png\\\\|jpeg\\\\\\)\" /c/Users/aagos/assets/residency-website/*.html)",
+      "Bash(grep -r \"\\\\.webp\" *.html)",
+      "Bash(grep -E \"\\\\.\\(webp|jpg|png\\)$\")",
+      "Bash(cp building-05.webp room-furnished-double.webp)",
+      "Bash(cp building-06.webp room-furnished-single.webp)",
+      "Bash(cp building-07.webp room-furnished-ac.webp)",
+      "Bash(cp rooms-01.webp mandir-actual.webp)",
+      "Bash(cp mandir-01.webp water-cooler.webp)"
     ]
   }
 }
