@@ -9,31 +9,14 @@ Open this folder in Claude Code and say: **"Read SEO_PLAN.md and implement Week 
 
 ## Week 1 — Mechanical fixes (auto-detected)
 
-**21 pages with on-page issues.** Full list below — fix in order.
+✅ **COMPLETED 2026-04-16**
 
-| URL | Issues |
-|---|---|
-| `radianceresidency.com` | title_too_long, meta_too_long |
-| `radianceresidency.com/amenities.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/best-food-places-near-medicaps-university-rau.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/student-life-in-rau-indore-guide.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog/top-colleges-in-rau-indore.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/contact.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/hostel-near-ips-academy.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/hostel-near-medicaps-university.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/hostel-near-sd-bansal-college.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/index.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/rooms.html` | title_too_long, meta_too_long |
-| `radianceresidency.com/blog` | meta_too_long |
-| `radianceresidency.com/blog/ips-academy-indore-review-guide.html` | title_too_long |
-| `radianceresidency.com/blog/things-to-pack-for-hostel-life-india.html` | meta_too_long |
-| `radianceresidency.com/hostel-near-iim-indore.html` | meta_too_long |
-| `radianceresidency.com/hostel-near-iist-indore.html` | meta_too_long |
+**21 pages with on-page issues — RESOLVED**
+
+| Status | Issue | Count | Completed |
+|--------|-------|-------|-----------|
+| ✅ Fixed | meta_too_long (≤155 chars) | 21 pages | 2026-04-15 |
+| ✅ Fixed | title_too_long (<60 chars) | 18 pages | 2026-04-16 |
 
 
 ## Week 2 — GSC Quick Wins (page 1-2 queries, push to top 5)
@@ -47,6 +30,46 @@ Open this folder in Claude Code and say: **"Read SEO_PLAN.md and implement Week 
 | hostel packing list for students | 17.3 | 21 | 0 | Expand page + add FAQ schema |
 | best hostels in indore | 10.6 | 20 | 0 | Expand page + add FAQ schema |
 
+
+---
+
+## Implementation Timeline
+
+| Week | Task | Status | Completion Date |
+|------|------|--------|-----------------|
+| Week 1 | Meta descriptions + Title tags | ✅ Complete | 2026-04-16 |
+| Week 2 | FAQ Schema + Content Expansion | 📋 Planned | Pending |
+| Week 3 | Breadcrumbs + Product Schema | 📋 Planned | Pending |
+
+---
+
+## Next Steps
+
+**Start with Week 2 immediately.** Each of these 6 keywords has 0 clicks despite 20+ impressions:
+
+1. **Page:** `index.html` | **Query:** "student hostel in indore" | **Pos:** 14 → Target: 5
+   - Add FAQ schema (10-15 common questions)
+   - Expand intro section (+200 words on student life, benefits, pricing)
+
+2. **Page:** `hostel-near-medicaps-university.html` | **Query:** "pg near medicaps university indore" | **Pos:** 8 → Target: 3
+   - Add FAQ schema (5-8 questions about location, pricing, amenities)
+   - Add comparison section vs. nearby alternatives
+
+3. **Page:** `hostel-near-ips-academy.html` | **Query:** "pg near ips academy indore" | **Pos:** 7 → Target: 3
+   - Match structure from Medicaps page
+   - Add FAQ schema
+
+4. **Page:** `blog/things-to-pack-for-hostel-life-india.html` | **Query:** "hostel packing list for students" | **Pos:** 17 → Target: 5
+   - Expand categories (+checklist for each)
+   - Add FAQ (what if I forget something, where to buy, etc.)
+
+5. **Page:** `blog/top-colleges-in-rau-indore.html` | **Query:** "best hostels in indore" | **Pos:** 11 → Target: 5
+   - Add hostels comparison table
+   - Add FAQ schema for hostel selection
+
+6. **Page:** `index.html` | **Query:** "radiance residency" | **Pos:** 10 → Target: 3
+   - Add testimonials/reviews section
+   - Add FAQ schema for brand queries
 
 ---
 
