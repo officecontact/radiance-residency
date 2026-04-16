@@ -331,6 +331,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </header>
 
+    <!-- Admission Season Banner -->
+    <div style="background: linear-gradient(135deg, #d32f2f 0%, #f57c00 100%); color: white; padding: 16px 20px; text-align: center; font-weight: bold; display: none;" id="admissionBanner">
+        <p style="margin: 0; font-size: 16px;">
+            <strong>🎓 Medicaps Admission 2026 Open!</strong> Limited hostel seats available.
+            <a href="/hostel-near-medicaps-admission-2026.html" style="color: white; text-decoration: underline; font-weight: bold;">Book your room now →</a>
+        </p>
+    </div>
+
+    <script>
+        // Show admission banner during Feb-Jul (admission season)
+        const now = new Date();
+        const month = now.getMonth() + 1; // 1-12
+        if (month >= 2 && month <= 7) {
+            document.getElementById('admissionBanner').style.display = 'block';
+        }
+    </script>
+
     <main>
 
         <!-- ======================== HERO SECTION ======================== -->
