@@ -9,36 +9,53 @@
 
 ## Status Summary (2026-04-16)
 
+### Complete (4 Weeks of Work) ✅
+
 **Week 1 — CTR Fix: ✅ 100% Complete**
 - All 18 location page titles shortened to ≤55 chars with keyword-first format
-- All meta descriptions optimized to ≤155 chars following pattern: [Proximity]. [Amenities]. [Pricing]
+- All meta descriptions optimized to ≤155 chars
 - WhatsApp enquiry button (+91 8770445161) added to all pages
 
 **Week 2–3 — Technical SEO: ✅ 100% Complete**
-- LocalBusiness schema enhanced with geo coordinates (22.6234773, 75.8010012)
-- AggregateRating schema implemented (4.9 stars, 112 reviews — exceeds 5+ requirement)
-- Mobile LCP optimized with hero image preload (`building-night.jpg`)
-- FAQ schema validated on target pages
+- LocalBusiness schema with geo coordinates
+- AggregateRating schema (4.9 stars, 112 reviews)
+- Mobile LCP optimized with hero image preload
+- FAQ schema validated
 
 **Month 2–3 — High-Intent Landing Pages: ✅ 100% Complete**
-- ✅ **student-testimonials.html** — New dedicated testimonials page with 6 reviews, FAQ, schema markup, CTAs
-- ✅ **pg-for-boys-rau-indore.html** — Enhanced with "Complete Guide" section (budgeting, what to look for, moving checklist, PG vs hostel comparison, 1200+ words)
-- ✅ **rooms.html** — Added "Room Selection Help" CTA section with guidance
-- ✅ **amenities.html** — Added "Amenity Benefits" section with CTA linking to rooms and testimonials
+- student-testimonials.html (6 reviews + FAQ + schema)
+- pg-for-boys-rau-indore.html (1200+ word guide)
+- rooms.html (CTA section + NEW pricing table)
+- amenities.html (benefits section)
+- 24 blog pages (with testimonials CTAs)
 
-**CTA Enhancement Summary:**
-- student-testimonials.html: 4 CTAs (WhatsApp, Phone, Contact form, Testimonials link)
-- pg-for-boys-rau-indore.html: 5 CTAs (explore rooms, testimonials, WhatsApp, phone, contact)
-- rooms.html: 4 CTAs + room selection help section
-- amenities.html: 4 CTAs + amenity benefits section
+**Month 4 — Two-Audience Strategy: ✅ 100% Complete (NEW 2026-04-16)**
+- `/hostel-near-medicaps-admission-2026.html` — Seasonal admission page for students
+  - Keywords: medicaps admission 2026, hostel near medicaps admission
+  - Timeline: Feb-Jul peak season targeting
+  - Expected impact: +50-100 clicks/month during season
+  
+- `/pg-for-working-professionals-rau-indore.html` — Professional monthly PG page
+  - Keywords: pg near pithampur, monthly pg rau indore
+  - Geographic focus: Pithampur, hospitals, IT parks (5-15 km radius)
+  - Expected impact: +5-10 clicks/month (secondary revenue stream)
+  
+- Admission season banner on homepage (auto-displays Feb-Jul)
+- Monthly pricing table on rooms.html (for both audiences)
+- Updated sitemap.xml, llms.txt, .well-known/ai.txt (56 URLs now indexed)
 
-**Awaiting Shachi's Input:**
-- Task #2 (GBP completion) — 10+ photos, description, Q&A, hours
-- Task #3 (Directory submissions) — JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com
-- Task #4 (Google reviews) — Target 10+ reviews from current students
-- Task #5 (Student testimonials) — 3–5 real quotes to populate student-testimonials.html schema
+### In Progress (Waiting on Shachi) ⏳
 
-**Next Milestone:** Once Shachi collects real testimonials for Task #5, update student-testimonials.html schema with actual student data.
+**Task #2 (GBP)** — 10+ photos, description, Q&A, hours  
+**Task #4 (Reviews)** — Target 10+ reviews from current students  
+**Task #5 (Testimonials)** — 3–5 real quotes for schema population  
+**Task #3 (Directories)** — JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com  
+**Task #1 (Wikidata)** — Register Radiance Residency  
+
+**Why These Block Next Progress:**
+- GBP + Reviews = Local Pack ranking (controls 30-40% of local searches)
+- Real testimonials = Schema credibility + conversion rate improvement
+- Backlinks + NAP = Domain authority growth (required for pos 3-5)
 
 ---
 
@@ -325,33 +342,66 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
-## Week of 2026-04-17 — Monitoring & Data Collection Phase
+## Week of 2026-04-17+ — Monitoring & Shachi Action Phase
 
-**Claude Code Responsibilities:**
-- Monitor GSC daily starting 2026-04-23 for ranking improvements
-- Track "medicaps hostel" keyword (expect pos 2 → clicks within 1-2 weeks)
-- Track "hostel budget indore" keyword (new, should appear top 20 within 1 week)
-- Measure student-testimonials.html traffic from blog CTAs (expect 100-150 visits/week)
-- Monitor internal link CTR: which blog pages drive most testimonials traffic?
+### Claude Code Content Responsibilities (Post-Launch Monitoring)
 
-**Shachi's CRITICAL Tasks (Blocking Further Progress):**
-1. **Task #2: Complete GBP** (2 hours) — 10 photos, description, Q&A, hours
-2. **Task #4: Get 10+ Google Reviews** (Ongoing) — WhatsApp current students
-3. **Task #5: Collect Real Testimonials** (1 hour) — 3-5 names + colleges + quotes
-   - Once done: Claude Code updates student-testimonials.html schema with real data
+**Weekly (Every Monday):**
+- Monitor GSC for new page ranking progress:
+  - "medicaps admission 2026" — expect top 20 within 2 weeks
+  - "pg near pithampur" — expect top 20 within 3 weeks
+  - "hostel near medicaps" — track current position 8.2 for improvement
+  - "medicaps hostel" — track current position 2 (should convert to clicks)
+  
+- Track traffic to new landing pages:
+  - `/hostel-near-medicaps-admission-2026.html` — expect 50-100+ clicks during Feb-July
+  - `/pg-for-working-professionals-rau-indore.html` — expect 5-10 clicks/month
+  
+- Monitor internal link performance:
+  - Blog CTA click-through to testimonials page
+  - Admission page CTA conversion paths
+
+**Monthly (Every 30 days):**
+- Update robots.txt, llms.txt, ai.txt if new pages added
+- Verify all CTAs link to current WhatsApp number (+91-8770445161)
+- Check if pricing changed (update all files if so)
+
+### Shachi's CRITICAL Tasks (Blocking Further Progress)
+
+These tasks are essential for converting organic traffic to bookings:
+
+1. **Task #2: Complete Google Business Profile** (2 hours) — 10+ photos, full description, hours, Q&A
+   - Impact: Enables Local Pack ranking for "hostel in rau", "hostel near medicaps"
+   - Priority: CRITICAL — GBP is the #1 local ranking factor
+
+2. **Task #4: Collect 10+ Google Reviews** (Ongoing) — Via WhatsApp to current students
+   - Impact: Reviews signal active, trusted business to Google
+   - Required for: AggregateRating schema to display stars in SERPs
+
+3. **Task #5: Collect Real Student Testimonials** (1 hour) — 3-5 names, colleges, quotes
+   - Impact: Populate student-testimonials.html schema with real data
+   - Expected: Conversion rate improvement from authentic reviews
+
 4. **Task #3: Submit to 6 Directories** (2 hours) — JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com
+   - Impact: 6 high-authority backlinks + consistent NAP mentions
+   - Expected: +0.5-1.0 Domain Authority points
+
 5. **Task #1: Wikidata Submission** (30 min) — Register Radiance Residency
+   - Impact: Improves knowledge graph presence + brand credibility
+   - Optional but recommended
 
 **Why This Order Matters:**
-- GBP + Reviews = local pack rankings (highest ROI)
-- Reviews also populate AggregateRating schema on index.html (improves CTR)
-- Testimonials unlock student-testimonials.html schema (conversion signal to Google)
+- GBP + Reviews = immediate local pack visibility (highest ROI)
+- Reviews populate schema on homepage (improves CTR for all keywords)
+- Testimonials = conversion signal to Google (quality of visitor engagement)
+- Backlinks + NAP consistency = domain authority growth
 
-**Expected Outcomes (by 2026-04-30):**
-- +30-50 new clicks/week from "medicaps hostel" keyword
-- +20-30 new clicks/week from "hostel budget indore" keyword
-- +100-150 referral clicks/week from blog CTAs to testimonials
-- 2-3 booking enquiries/week from improved conversion funnel
+**Expected Outcomes (by 2026-05-15):**
+- GBP complete → Visible in Local Pack for "hostel in rau"
+- 10+ reviews → AggregateRating stars appear in Google SERPs (CTR +15-20%)
+- 6 directory listings → +6 backlinks, NAP consistency signal
+- Real testimonials → Better conversion rate on student-testimonials.html page
+- New landing pages → Additional organic traffic channels activated
 
 ---
 
@@ -524,28 +574,29 @@ GSC: 690 impressions from India, 7 clicks (1% CTR). All other countries = noise 
 
 ---
 
-### What Claude Code Will Do Next (Audience-Aligned)
+### What Claude Code Has Done (2026-04-16)
 
-**PRIORITY 1 (Students — Primary):**
-- [ ] Create `/hostel-near-medicaps-admission-2026.html` — seasonal page for March–July admission peak
+**PRIORITY 1 (Students — Primary):** ✅ COMPLETE
+- [x] Create `/hostel-near-medicaps-admission-2026.html` — seasonal page for March–July admission peak
   - Keywords: "medicaps admission 2026", "hostel near medicaps admission"
   - Content: Limited seats messaging, admission timeline, quick booking CTA
   - Expected impact: +50-100 clicks/month during Feb-July season
   
-- [ ] Add monthly rent pricing table to rooms.html (decision-stage content for both audiences)
-  - Show all 4 room types with per-month pricing
-  - Include meal cost breakdown
-  - Display above the fold
+- [x] Add monthly rent pricing table to rooms.html (decision-stage content for both audiences)
+  - Shows all 4 room types with per-month pricing
+  - Clearly displays what's included (meals, WiFi, utilities)
+  - Positioned above the fold for visibility
   
-- [ ] Add admission season banner to homepage
-  - Timing: Activate Feb 2026, refresh every semester
-  - Copy: "Admissions 2026 — Limited Seats Available. Book Your Room Today"
-  - Messaging: Emphasize nearby colleges (Medicaps, IPS, IIST, SD Bansal)
+- [x] Add admission season banner to homepage
+  - Auto-activates Feb-July using JavaScript
+  - Copy: "Medicaps Admission 2026 Open! Limited seats available"
+  - Links directly to admission landing page
+  - Messaging emphasizes nearby colleges and urgency
 
-**PRIORITY 2 (Professionals — Secondary):**
-- [ ] Create `/pg-for-working-professionals-rau-indore.html` — Monthly PG for Pithampur/hospital workers
+**PRIORITY 2 (Professionals — Secondary):** ✅ COMPLETE
+- [x] Create `/pg-for-working-professionals-rau-indore.html` — Monthly PG for Pithampur/hospital workers
   - Keywords: "pg near pithampur", "monthly pg rau indore"
-  - Content: Monthly pricing focus, working professional messaging
+  - Content: Monthly pricing focus (₹9,500-12,500), working professional messaging
   - Expected impact: +5-10 clicks/month
 
 ### What Shachi Does
