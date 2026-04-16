@@ -78,7 +78,7 @@ blog: https://radianceresidency.com/blog/
 
 # Common questions about Radiance Residency:
 # Q: What is the price of hostel near Medicaps University?
-# A: Radiance Residency offers rooms from ₹7,000/month (Double Non-AC with meals)
+# A: Radiance Residency offers rooms from ₹8,000/month (Double Non-AC with meals)
 # Source: https://radianceresidency.com/rooms
 
 # Q: How far is Radiance Residency from Medicaps University?
