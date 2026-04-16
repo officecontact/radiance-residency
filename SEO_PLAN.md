@@ -355,139 +355,200 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
-## 🏢 PHASE 2: CORPORATE EMPLOYEE TARGETING (NEW OPPORTUNITY)
+## 🏢 PHASE 2: HYPER-LOCAL CORPORATE TARGETING (2-5 KM RADIUS)
 
-**Updated 2026-04-16** — Identified major employers near Medicaps with 25,000+ employees
+**Updated 2026-04-16** — Revised strategy focusing on 2-5 km radius around Medicaps
 
-### Market Opportunity
+### Tier 1 Priority: Eminence Infotech (0.5 KM - SAME AREA)
 
-**Major Companies Near Medicaps/Rau/Indore:**
+**THE HIDDEN GEM:**
+- **Location:** Behind Medicaps University, Rau (literally adjacent)
+- **Employees:** 50-200 (growing startup)
+- **Business:** iGaming, mobile app development, UX/UI, IoT
+- **Why #1 Priority:**
+  - ✅ Closest company to Radiance (0.5 km walk)
+  - ✅ Hiring actively (new joiners need housing immediately)
+  - ✅ Young tech professionals (better payers than students, 18-24 month stays)
+  - ✅ Zero competition (no hostel targets them)
+  - ✅ Startup hiring cycles = bulk bookings (3-8 beds/cycle)
+  - ✅ Easy HR access (vs TCS bureaucracy)
+  
+**Expected Revenue Impact:** +₹40,000-150,000/month (depending on hiring cycle)
 
-| Company | Location | Employees | Search Volume |
-|---------|----------|-----------|----------------|
-| TCS | SEZ Pardeshipura, Pigdamber, Rau | 5,000+ | 80/month |
-| Infosys | Super Corridor, Hatod | 5,000+ | 60/month |
-| Cognizant | Multiple offices | 4,500+ | 40/month |
-| IBM | Indore | 2,500+ | 30/month |
-| Wipro | Multiple offices | 3,000+ | 35/month |
-| Accenture | Indore | 2,000+ | 25/month |
-| Capgemini | Indore | 1,500+ | 20/month |
-| ICICI Bank | Multiple branches | 3,000+ | 35/month |
-| HDFC Bank | Multiple branches | 2,500+ | 30/month |
-| Cisco | Partner offices | 1,000+ | 15/month |
+### Tier 2: College Faculty & Professionals (1-2 KM)
 
-**Total Addressable Market:** 30,000+ employees within 10 km radius  
-**Estimated Search Volume:** 300-350 monthly searches for "hostel for employees"  
-**Keyword Competition:** LOW (few hostels target corporate)
+**Multiple Educational Institutions:**
+| Institution | Distance | Faculty |
+|-------------|----------|---------|
+| SD Bansal College | 1.2 km | 100+ |
+| IPS Academy | 1.5 km | 120+ |
+| IIST (Tech Institute) | 1.8 km | 80+ |
+| Sanghvi Institute | 1.5 km | 90+ |
+| IIM Indore | 2 km | 150+ |
 
-### Keywords to Target (High Commercial Intent)
+**Target Segment:** Visiting professors, faculty housing, guest lecturers  
+**Total Faculty + Professionals:** 500+ people  
+**Keywords:** "hostel for professors", "accommodation for faculty"
 
-**Primary (Phase 1 Priority):**
-- "hostel for TCS employees Indore" — HIGH VOLUME, HIGH INTENT
-- "hostel for Infosys employees" — HIGH VOLUME, HIGH INTENT  
-- "accommodation near TCS Rau" — HIGH INTENT, LOCAL
-- "hostel for IT employees Indore" — MEDIUM-HIGH VOLUME
+### Tier 3: Manufacturing & Auto (2-5 KM)
 
-**Secondary (Phase 2):**
-- "corporate employee housing Indore"
-- "hostel for working professionals Indore"
-- "PG for IT company employees"
-- "housing near tech companies Indore"
+**Scattered Companies:**
+- S.I.T. Hydraulics Engineers
+- Auto component manufacturers
+- Various SMEs
 
-**Long-Tail (Phase 3):**
-- "short-term accommodation for TCS relocation"
-- "corporate hostel near super corridor"
+**Status:** Lower priority (fragmented, less cohesive hiring)**
+
+### Keywords to Target (Hyper-Local Focus)
+
+**Tier 1 — UNIQUE, UNCOMPETED (Focus First):**
+- "hostel for Eminence employees" — UNIQUE keyword, zero competition
+- "accommodation near Eminence Infotech" — LOCAL intent
+- "hostel for IT professionals Rau" — SUPER LOCAL
+- "hostel for college faculty indore" — UNIQUE segment
+
+**Tier 2 — EMERGING OPPORTUNITIES:**
 - "employee housing near Medicaps"
+- "hostel for tech startup employees"
+- "accommodation for professionals Rau"
+- "hostel for iGaming company employees" (Eminence-specific)
 
-### Content Strategy (5 New Pages Recommended)
+**Tier 3 — BROADER APPEAL (Lower priority):**
+- "hostel for TCS employees Indore" (8-10 km away, higher competition)
+- "corporate accommodation Indore" (generic, low intent)
 
-**Page 1: Hostel for TCS Employees Indore** (Priority: HIGH)
-- Target keywords: "hostel for TCS employees", "TCS employee accommodation", "accommodation near TCS Rau"
-- Content structure:
-  - TCS proximity (2 min walk from TCS Rau office)
-  - Corporate employee benefits (bulk booking, discounts, flexible terms)
-  - Amenities for professionals (quiet zones, work areas, high-speed WiFi)
-  - Relocation support (furnished, move-in ready)
-  - Comparison: Radiance vs independent flats for TCS employees
-  - 3 CTAs: WhatsApp for corporate rates, Phone, Contact form
-- Internal linking: Cross-link to budget guide, rooms page
-- Expected traffic: 15-20 clicks/month
+### Content Strategy (2-3 Pages Priority)
 
-**Page 2: Hostel for Infosys Employees** (Priority: HIGH)
-- Target keywords: "hostel for Infosys employees", "accommodation super corridor", "Infosys employee housing"
-- Same structure as TCS page but for Infosys location
-- Expected traffic: 12-15 clicks/month
+**PAGE 1: Hostel for Eminence Infotech Employees** (PRIORITY #1 — CREATE NOW)
+- Target Keywords: "hostel for Eminence employees", "accommodation near Eminence Infotech Rau"
+- Content Focus:
+  - 0.5 km proximity (5-minute walk from office)
+  - Perfect for onboarding & relocation
+  - Flexible 3-18 month packages
+  - Team room options (house 3-4 Eminence employees together)
+  - Work-from-hostel support (fast WiFi, study zones)
+  - Professional environment (quiet hours, mature residents)
+  - Bulk hiring cycle preparation
+- Page Length: 800-1000 words
+- CTAs:
+  - WhatsApp: "Bulk booking for Eminence employees"
+  - Form: "Corporate partnership inquiry"
+  - Phone: "Speak with corporate team"
+- Expected Traffic: 5-10 clicks/month (initial), 15-25/month (after outreach)
+- Expected Conversions: 1-2 bookings/month from Eminence
 
-**Page 3: Corporate Housing for IT Professionals** (Priority: HIGH)
-- Target keywords: "hostel for IT employees Indore", "corporate accommodation Indore", "tech employee housing"
-- Broader appeal to all IT companies (TCS, Infosys, Cognizant, IBM, Wipro, etc.)
-- Table comparing distance to all major IT offices
-- Professional amenities emphasis
-- Expected traffic: 25-35 clicks/month
+**PAGE 2: Hostel for College Faculty & Professors** (PRIORITY #2)
+- Target Keywords: "hostel for professors indore", "accommodation for faculty", "guest lecturer housing"
+- Content Focus:
+  - Serve 5 colleges within 2 km (SD Bansal, IPS Academy, IIST, Sanghvi, IIM)
+  - Short-term options (2 weeks to 3 months for visiting faculty)
+  - Professional amenities (quiet study, WiFi, kitchen access)
+  - Institutional group booking options
+  - Monthly/semester packages
+- Page Length: 600-800 words
+- CTAs:
+  - Email form: "Institutional booking inquiry"
+  - WhatsApp: "Faculty accommodation info"
+- Expected Traffic: 10-15 clicks/month
+- Expected Conversions: 2-3 bookings/month (more stable than Eminence)
 
-**Page 4: Relocation Package for Employees** (Priority: MEDIUM)
-- Target keywords: "relocation accommodation Indore", "temporary housing for employees", "short-term hostel"
-- Focus on 3-6 month stays, flexible checkout, furnished options
-- Bulk booking discounts
-- Expected traffic: 10-15 clicks/month
+**PAGE 3: Corporate Housing for Startups in Rau** (PRIORITY #3 — Creates umbrella)
 
-**Page 5: Employee Housing Near Medicaps/Super Corridor** (Priority: MEDIUM)
-- Target keywords: "employee housing near Medicaps", "accommodation super corridor"
-- Distance comparison table to all major companies
-- Transport options (auto, bus, bike)
-- Corporate partnership opportunities
-- Expected traffic: 10-15 clicks/month
+  - Cover Eminence + future startups in Rau
+  - Keywords: "startup employee housing", "tech startup accommodation"
+  - For when more tech companies establish in Rau area
 
-### Implementation Timeline
+### Implementation Timeline (EMINENCE-FIRST STRATEGY)
 
-**Phase 1 (Week 1-2): Create 3 Primary Pages**
-- Hostel for TCS Employees
-- Hostel for Infosys Employees
-- Corporate Housing for IT Professionals
+**WEEK 1 (Immediate Priority):**
+1. Research Eminence Infotech thoroughly
+   - LinkedIn company page, job postings, hiring timeline
+   - Current employee count, growth trajectory
+   - Find actual HR contact email
+   
+2. Create Page: "Hostel for Eminence Infotech Employees"
+   - 800-1000 words optimized for "hostel for Eminence employees"
+   - Highlight 0.5 km proximity (5-minute walk)
+   - Team housing options, bulk booking discounts
+   - Add to sitemap.xml, llms.txt
+   - Link from homepage "Corporate Packages" section
 
-**Phase 2 (Week 3-4): Internal Linking & Navigation**
-- Add "Corporate Packages" section to homepage
-- Add CTAs to location pages (hostel-near-medicaps, hostel-near-ips-academy)
-- Add CTAs to amenities and rooms pages
-- Add corporate package link to blog pages
+3. Direct Outreach to Eminence HR
+   - Email: "Radiance Residency - Official Employee Housing Partner"
+   - Offer: Bulk rate ₹9,000/month, flexibility for relocation hires
+   - Propose: "Employee referral commission" (₹500-1000 per booking)
+   - Request: Mention in Eminence job postings, onboarding info
 
-**Phase 3 (Week 5-6): External Signals**
-- Reach out to TCS/Infosys HR for partnerships (mentions in office postings)
-- Submit to corporate housing portals (JoinIndiaJobs, etc.)
-- Get backlinks from employee directories
-- Outreach to tech company job boards
+**WEEK 2-3:**
+4. Create Page: "Hostel for College Faculty & Professors"
+   - Target IPS Academy, SD Bansal, IIST faculty
+   - Short-term options, institutional rates
+   
+5. Internal Linking
+   - Add "Faculty & Professional Housing" CTA to amenities page
+   - Add "Startup employee packages" CTA to rooms page
+   - Create navigation breadcrumb: Home > Corporate > Eminence
 
-### Business Impact Analysis
+**WEEK 4+:**
+6. Continuous Outreach & Seasonal Hiring Tracking
+   - Monitor Eminence job postings for hiring waves
+   - Seasonal outreach (Q1, Q2, Q3, Q4 hiring cycles)
+   - Track referrals, conversion metrics
+   - Annual review with Eminence HR team
 
-**Conversion Advantages:**
-1. **Stable Occupancy:** Corporate employees = lower churn, longer stays (6-12 months)
-2. **Bulk Bookings:** TCS relocation cycle = 4-8 beds booked simultaneously
-3. **Premium Pricing:** Corporate rates can be 10-20% higher than student rates
-4. **Predictable Revenue:** Salary-backed employees = no payment issues
-5. **Less Competition:** Few hostels target corporate + employee turnover = recurring demand
+### Business Impact: Eminence Infotech Focus
 
-**Financial Projections (6 months):**
-- Corporate bookings: 5-10 beds/month
-- Average stay: 8 months (vs 3 months for students)
-- Premium multiplier: 1.15x student rate
-- Estimated monthly revenue: +₹50,000-80,000 from corporate segment
+**Why Eminence Infotech Conversion Rates Are Superior:**
 
-### Why This Strategy Works
+1. **Proximity Advantage:** 0.5 km = natural choice (vs TCS at 8-10 km)
+2. **Founder/HR Access:** Small team = direct relationship possible (vs TCS HR red tape)
+3. **Startup Culture:** Innovation-focused, values employee happiness (vs corporate bureaucracy)
+4. **Hiring Cycles:** Predictable quarterly hiring = batch bookings (3-8 beds/cycle)
+5. **Employee Tenure:** Tech startup professionals stay 18-24 months (vs students 3-4 months)
+6. **Premium Pricing:** Tech employees pay 20-30% more than students
+7. **Referral Network:** One hire tells 3-5 colleagues (network effect)
 
-1. **Low Competition:** Most hostels target students only
-2. **High Intent:** Corporate employees actively search for "hostel for [company] employees"
-3. **Larger Addressable Market:** 30,000 employees > 2,000 students at Medicaps
-4. **Better Retention:** Working professionals > student volatility
-5. **Untapped Keywords:** 0 competition in "hostel for TCS employees" searches
-6. **Location Advantage:** Radiance is perfectly positioned (2 min from TCS, near super corridor)
+**Financial Model (Eminence Focus):**
 
-### Success Metrics (Track via GSC by 2026-05-14)
+*Conservative Scenario (Year 1):*
+- Eminence hires per quarter: 8-10 people
+- % needing housing: 40% = 3-4 people/quarter
+- Annual new bookings: 12-16 beds/year
+- Occupancy duration: 18 months average
+- Rate: ₹10,000 × 1.25 (premium) = ₹12,500/month
+- Annual revenue per hire: ₹12,500 × 18 = ₹225,000
+- From 12-16 hires/year: ₹2,700,000 - ₹3,600,000/year
 
-- "hostel for TCS employees": target pos 1-3 by week 4
-- "hostel for Infosys employees": target pos 1-3 by week 4
-- "corporate accommodation Indore": target pos 1-5 by week 6
-- Corporate page traffic: expect 50-80 clicks/month by end of month
-- Corporate booking inquiries: expect 3-5/month by week 6
+*Aggressive Scenario (With Partnership):**
+- Official "Eminence employee accommodation partner" status
+- Reserved block: 4-6 beds held for Eminence
+- Higher placement rate: 60% of new hires
+- Quarterly bookings: 6-8 people
+- Annual revenue: ₹4,500,000 - ₹6,000,000/year
+
+**Faculty Housing (Secondary Revenue):**
+- 500+ faculty from 5 colleges within 2 km
+- 5-10% seeking short-term housing = 25-50 bookings/year
+- Average stay: 4-8 weeks
+- Rate: ₹12,000/month × 1 month = ₹12,000/booking
+- Additional annual revenue: ₹300,000 - ₹600,000/year
+
+**Total Addressable Revenue (All segments):** +₹3,000,000 - ₹6,600,000/year
+
+### Success Metrics (Track via GSC by 2026-05-07)
+
+**Keywords to Monitor:**
+- "hostel for Eminence employees" — Target pos 1 by week 3
+- "accommodation near Eminence Infotech" — Target pos 1-2 by week 4
+- "hostel for IT professionals Rau" — Target pos 1-3 by week 6
+- "hostel for college faculty indore" — Target pos 1-5 by week 8
+
+**Traffic & Conversion Targets:**
+- Eminence page traffic: 10-20 clicks/month by week 4
+- Faculty page traffic: 5-10 clicks/month by week 6
+- Eminence booking inquiries: 1-2/month by week 3
+- Faculty bookings: 1-2/month by week 6
+- Overall corporate revenue: +₹40,000-80,000/month by month 2
 
 ---
 
