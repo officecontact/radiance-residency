@@ -334,17 +334,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Admission Season Banner -->
     <div style="background: linear-gradient(135deg, #d32f2f 0%, #f57c00 100%); color: white; padding: 16px 20px; text-align: center; font-weight: bold; display: none;" id="admissionBanner">
         <p style="margin: 0; font-size: 16px;">
-            <strong>🎓 Medicaps Admission 2026 Open!</strong> Limited hostel seats available.
+            <strong id="bannerText">🎓 Admission Open!</strong> Limited hostel seats available.
             <a href="/hostel-near-medicaps-admission-2026.html" style="color: white; text-decoration: underline; font-weight: bold;">Book your room now →</a>
         </p>
     </div>
 
     <script>
-        // Show admission banner during Feb-Jul (admission season)
+        // Show admission banner during peak seasons: May-Aug (summer) and Dec-Feb (winter)
         const now = new Date();
         const month = now.getMonth() + 1; // 1-12
-        if (month >= 2 && month <= 7) {
-            document.getElementById('admissionBanner').style.display = 'block';
+        const bannerElement = document.getElementById('admissionBanner');
+        const bannerText = document.getElementById('bannerText');
+
+        if ((month >= 5 && month <= 8) || (month >= 12 || month <= 2)) {
+            bannerElement.style.display = 'block';
+
+            // Customize message based on season
+            if (month >= 5 && month <= 8) {
+                bannerText.textContent = '🎓 May-August Admission Now Open!';
+            } else if (month >= 12 || month <= 2) {
+                bannerText.textContent = '🎓 December-February Admission Now Open!';
+            }
         }
     </script>
 

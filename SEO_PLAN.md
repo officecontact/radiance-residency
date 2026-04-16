@@ -366,6 +366,37 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 - Verify all CTAs link to current WhatsApp number (+91-8770445161)
 - Check if pricing changed (update all files if so)
 
+---
+
+## 📋 What's Left to Do (Complete Checklist)
+
+### Claude Code Tasks (What I Can Do Immediately)
+
+**Option 1: Create Internship Landing Page**
+- [ ] Create `/summer-internship-housing-indore.html` page
+  - Target: College interns at Pithampur, Siemens, hospitals, IT parks
+  - Keywords: "summer internship housing indore", "internship accommodation pithampur", "short-term pg indore"
+  - Pricing: ₹9,000-11,000/month (1-3 month contracts)
+  - Expected impact: +10-20 clicks/month during April-May
+  - Time to create: 30 minutes
+  - Value: Captures April-May internship spike (60-80 potential interns)
+
+**Option 2: Update Internal Linking**
+- [ ] Add "Summer Internship Housing" CTA to amenities.html
+- [ ] Add "Check December Admission" CTA to admission page (for off-season)
+- [ ] Create internal links between admission page + professional page
+- [ ] Update sitemap.xml with new page
+- [ ] Update llms.txt and ai.txt
+- Time to complete: 20 minutes
+- Value: Improves navigation + traffic distribution
+
+**Option 3: Update Homepage Content**
+- [ ] Add seasonal messaging to hero section (shows different message May-Aug vs Dec-Feb)
+- [ ] Create "Internship season" CTA button (April-May)
+- [ ] Update H1 to include "Admission Now Open" during peak seasons
+- Time to complete: 30 minutes
+- Value: Improves seasonal targeting + CTR
+
 ### Shachi's CRITICAL Tasks (Blocking Further Progress)
 
 These tasks are essential for converting organic traffic to bookings:
@@ -524,16 +555,16 @@ Radiance Residency serves **two different audiences** that need separate pages, 
 
 **Tone for students:** Peer-to-peer, direct. "Just 5 mins from MediCaps", "WiFi that works during exams", "Home-cooked food — your mom would approve" beats "premium accommodation".
 
-**Admission Season Content Calendar (Critical gap — currently missing):**
+**Admission Season Content Calendar (Corrected 2026-04-16):**
 
-| Month | Action |
-|---|---|
-| February | Update all titles/metas to include "2026 Admission" — refresh sitemap lastmod |
-| March–April | Create `/hostel-near-medicaps-admission-2026.html` seasonal page. WhatsApp broadcast to student groups |
-| May–June | Peak enquiry season — GBP showing "Open", fast reply to all enquiries |
-| July | Last-minute bookings — add "Only X rooms left" urgency copy |
-| Aug–Oct | Dead season — use for technical SEO, content creation |
-| November | New semester intake — reactivate all campaigns |
+| Period | Student Season | Action |
+|---|---|---|
+| **April–May** | Summer Internship Peak | Target: College interns + working professionals starting summer internships. Content: "Summer housing for interns near Pithampur", flexible 1-3 month stays. Expected: +20-30 clicks/month from internship-focused keywords |
+| **May–August** | PRIMARY ADMISSION SEASON | Update homepage banner & all titles to "May Admission 2026". Peak enquiry. GBP showing "Rooms Available". Fast responses critical. Expected: +100-150 clicks/month |
+| **September–October** | Fall Semester (Slow) | Secondary admission wave. Rooms mostly filled from summer. Light activity |
+| **November** | Slow Period | Use for content updates, technical SEO, promotional content |
+| **December–January–February** | SECONDARY ADMISSION SEASON | Update messaging: "December-February admission now open". Many colleges have winter admission cycles. Content: "Get admitted mid-year hostel". Expected: +50-80 clicks/month |
+| **March–April** | Pre-Summer Lull | Transition period. Prepare for May rush |
 
 ---
 
