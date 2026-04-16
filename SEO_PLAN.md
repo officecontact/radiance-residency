@@ -435,4 +435,35 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ---
 
+### Claude Code Automated Monitoring (from TradeForge):
+
+**Weekly (every Monday):**
+- Pull GSC ranking data: watch "medicaps hostel" (target pos 2→clicks), "hostel budget indore" (new — expect top 20 within 1 week), "student hostel in indore" (pos 14 → target page 1 within 4–6 weeks)
+- Pull PageSpeed: alert if mobile score drops below 70 or desktop below 90
+- Check sitemap.xml is accessible (200 OK at radianceresidency.com/sitemap.xml)
+- Verify robots.txt allows Googlebot + AI crawlers
+
+**Monthly:**
+- Run full on-page audit: check for new H1 duplicates, missing metas, broken internal links
+- Compare schema coverage to last month — confirm AggregateRating stays valid
+- Review blog CTAs: check if testimonials page is getting referral traffic from blog posts
+- Pull Moz DA — target: DA 2 → 5 within 60 days (requires 3+ new backlinks from directories)
+
+**Ranking Targets to Track:**
+| Query | Current Pos | Target | Timeline |
+|---|---|---|---|
+| medicaps hostel | 2.0 | clicks + local pack | 2–4 weeks |
+| hostel budget indore | new | top 20 | 1 week |
+| student hostel in indore | 14.2 | top 10 (page 1) | 4–6 weeks |
+| hostel near medicaps | 8.2 | top 5 | 3–5 weeks |
+| hostel essentials 2026 | 2.1 | maintain | ongoing |
+
+**Content Freshness Rules (Claude Code enforces):**
+- If hostel pricing changes → update meta descriptions on all 18 location pages + llms.txt Key Facts
+- If capacity changes (currently 120+ students) → update .well-known/ai.txt + llms.txt
+- If WhatsApp number changes → update all page HTML + meta descriptions + .well-known/ai.txt contact section
+- sitemap.xml `<lastmod>` dates must match actual modification dates (not always today's date)
+
+---
+
 _Plan refreshes every Monday from TradeForge data pipeline._
