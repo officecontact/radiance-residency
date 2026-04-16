@@ -89,8 +89,8 @@ Fixed 16 page titles exceeding 60-character limit:
 Trimmed 48 meta descriptions to ≤155 chars:
 
 - **ac-hostel-in-rau-indore.html** (170→138 chars)
-  - before: `Best AC hostel in Rau, Indore. Radiance Residency offers air conditioned rooms at ₹9,000/month with meals, Wi-Fi & all a...`
-  - after:  `Best AC hostel in Rau, Indore. Radiance Residency offers air conditioned rooms at ₹9,000/month with meals, Wi-Fi & all amenities included.`
+  - before: `Best AC hostel in Rau, Indore. Radiance Residency offers air conditioned rooms at ₹10,000/month with meals, Wi-Fi & all a...`
+  - after:  `Best AC hostel in Rau, Indore. Radiance Residency offers air conditioned rooms at ₹10,000/month with meals, Wi-Fi & all amenities included.`
 - **amenities.html** (209→101 chars)
   - before: `Explore 16+ premium amenities at Radiance Residency boys hostel near Medicaps University, Rau Indore. Wi-Fi, home-style ...`
   - after:  `Explore 16+ premium amenities at Radiance Residency boys hostel near Medicaps University, Rau Indore.`
@@ -167,8 +167,8 @@ Trimmed 48 meta descriptions to ≤155 chars:
   - before: `Complete transport guide for students in Rau and Indore (2026). Learn about local buses, auto-rickshaws, ride-hailing ap...`
   - after:  `Complete transport guide for students in Rau and Indore (2026). Learn about local buses, auto-rickshaws, ride-hailing apps, bike rentals, routes, and.`
 - **boys-hostel-in-rau-indore.html** (190→146 chars)
-  - before: `Looking for a boys hostel in Rau, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-F...`
-  - after:  `Looking for a boys hostel in Rau, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, and 24/7 security near.`
+  - before: `Looking for a boys hostel in Rau, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-F...`
+  - after:  `Looking for a boys hostel in Rau, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, and 24/7 security near.`
 - **contact.html** (187→149 chars)
   - before: `Contact Radiance Residency boys hostel near Medicaps University, Rau Indore. Call +91-8770445161, WhatsApp, or visit us ...`
   - after:  `Contact Radiance Residency boys hostel near Medicaps University, Rau Indore. Call +91-8770445161, WhatsApp, or visit us opposite Medicaps University.`
@@ -176,14 +176,14 @@ Trimmed 48 meta descriptions to ≤155 chars:
   - before: `Looking for a hostel in Pigdamber, Rau? Radiance Residency is the best hostel & PG in Pigdamber, Rau, Indore. AC & Non-A...`
   - after:  `Looking for a hostel in Pigdamber, Rau? Radiance Residency is the best hostel & PG in Pigdamber, Rau, Indore.`
 - **hostel-near-acropolis-institute-indore.html** (195→146 chars)
-  - before: `Looking for a boys hostel near Acropolis Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/mont...`
-  - after:  `Looking for a boys hostel near Acropolis Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7.`
+  - before: `Looking for a boys hostel near Acropolis Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/mont...`
+  - after:  `Looking for a boys hostel near Acropolis Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7.`
 - **hostel-near-cdgi-indore.html** (226→145 chars)
   - before: `Looking for a boys hostel near Chameli Devi Group of Institutions (CDGI) Indore? Radiance Residency in Rau offers premiu...`
   - after:  `Looking for a boys hostel near Chameli Devi Group of Institutions (CDGI) Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from.`
 - **hostel-near-iim-indore.html** (189→153 chars)
-  - before: `Looking for a boys hostel near IIM Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹7,000/month ...`
-  - after:  `Looking for a boys hostel near IIM Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7 security.`
+  - before: `Looking for a boys hostel near IIM Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹8,000/month ...`
+  - after:  `Looking for a boys hostel near IIM Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7 security.`
 - **hostel-near-iist-indore.html** (197→151 chars)
   - before: `Looking for a boys hostel near IIST (International Institute of Science & Technology), Indore? Radiance Residency in Rau...`
   - after:  `Looking for a boys hostel near IIST (International Institute of Science & Technology), Indore? Radiance Residency in Rau offers AC & Non-AC rooms from.`
@@ -191,38 +191,38 @@ Trimmed 48 meta descriptions to ≤155 chars:
   - before: `Looking for a hostel near IIT Indore? Radiance Residency offers premium PG accommodation near Indian Institute of Techno...`
   - after:  `Looking for a hostel near IIT Indore? Radiance Residency offers premium PG accommodation near Indian Institute of Technology (IIT) Indore, Simrol campus.`
 - **hostel-near-ips-academy.html** (192→147 chars)
-  - before: `Looking for a boys hostel near IPS Academy, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with m...`
-  - after:  `Looking for a boys hostel near IPS Academy, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7 security.`
+  - before: `Looking for a boys hostel near IPS Academy, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with m...`
+  - after:  `Looking for a boys hostel near IPS Academy, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7 security.`
 - **hostel-near-lnct-indore.html** (228→150 chars)
   - before: `Looking for a hostel near LNCT Indore? Radiance Residency offers premium PG accommodation near LNCT University (Lakshmi ...`
   - after:  `Looking for a hostel near LNCT Indore? Radiance Residency offers premium PG accommodation near LNCT University (Lakshmi Narain College of Technology).`
 - **hostel-near-medicaps-university.html** (186→153 chars)
   - before: `Looking for a hostel near Medicaps University in Rau, Indore? Radiance Residency is a 2 minute walk from campus with AC ...`
-  - after:  `Looking for a hostel near Medicaps University in Rau, Indore? Radiance Residency is a 2 minute walk from campus with AC & Non-AC rooms from ₹7,000/month.`
+  - after:  `Looking for a hostel near Medicaps University in Rau, Indore? Radiance Residency is a 2 minute walk from campus with AC & Non-AC rooms from ₹8,000/month.`
 - **hostel-near-mit-indore.html** (178→150 chars)
   - before: `Looking for a boys hostel near MIT (Malwa Institute of Technology), Indore? Radiance Residency in Rau offers AC & Non-AC...`
-  - after:  `Looking for a boys hostel near MIT (Malwa Institute of Technology), Indore? Radiance Residency in Rau offers AC & Non-AC rooms from ₹7,000/month with.`
+  - after:  `Looking for a boys hostel near MIT (Malwa Institute of Technology), Indore? Radiance Residency in Rau offers AC & Non-AC rooms from ₹8,000/month with.`
 - **hostel-near-nmims-indore.html** (196→150 chars)
   - before: `Looking for a boys hostel near NMIMS (Narsee Monjee Institute of Management Studies), Indore? Radiance Residency in Rau ...`
   - after:  `Looking for a boys hostel near NMIMS (Narsee Monjee Institute of Management Studies), Indore? Radiance Residency in Rau offers AC & Non-AC rooms from.`
 - **hostel-near-prestige-institute-indore.html** (203→154 chars)
-  - before: `Looking for a boys hostel near Prestige Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month...`
-  - after:  `Looking for a boys hostel near Prestige Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7 security.`
+  - before: `Looking for a boys hostel near Prestige Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month...`
+  - after:  `Looking for a boys hostel near Prestige Institute, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7 security.`
 - **hostel-near-renaissance-university-indore.html** (202→150 chars)
   - before: `Looking for a boys hostel near Renaissance University Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms...`
-  - after:  `Looking for a boys hostel near Renaissance University Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹7,000/month with meals.`
+  - after:  `Looking for a boys hostel near Renaissance University Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹8,000/month with meals.`
 - **hostel-near-sd-bansal-college.html** (183→153 chars)
-  - before: `Looking for a boys hostel near SD Bansal College, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month ...`
-  - after:  `Looking for a boys hostel near SD Bansal College, Indore? Radiance Residency offers AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7 security.`
+  - before: `Looking for a boys hostel near SD Bansal College, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month ...`
+  - after:  `Looking for a boys hostel near SD Bansal College, Indore? Radiance Residency offers AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7 security.`
 - **hostel-near-sgsits-indore.html** (193→147 chars)
-  - before: `Looking for a boys hostel near SGSITS Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹7,000/mon...`
-  - after:  `Looking for a boys hostel near SGSITS Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹7,000/month with meals, Wi-Fi, 24/7.`
+  - before: `Looking for a boys hostel near SGSITS Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹8,000/mon...`
+  - after:  `Looking for a boys hostel near SGSITS Indore? Radiance Residency in Rau offers premium AC & Non-AC rooms from ₹8,000/month with meals, Wi-Fi, 24/7.`
 - **hostel-near-symbiosis-indore.html** (183→155 chars)
   - before: `Looking for a boys hostel near Symbiosis University of Applied Sciences, Indore? Radiance Residency in Rau offers AC & N...`
-  - after:  `Looking for a boys hostel near Symbiosis University of Applied Sciences, Indore? Radiance Residency in Rau offers AC & Non-AC rooms from ₹7,000/month with.`
+  - after:  `Looking for a boys hostel near Symbiosis University of Applied Sciences, Indore? Radiance Residency in Rau offers AC & Non-AC rooms from ₹8,000/month with.`
 - **hostel-with-food-in-rau-indore.html** (197→149 chars)
   - before: `Best hostel with food in Rau, Indore. Radiance Residency offers home-style vegetarian meals (lunch, dinner & tea) includ...`
-  - after:  `Best hostel with food in Rau, Indore. Radiance Residency offers home-style vegetarian meals (lunch, dinner & tea) included in rent from ₹7,000/month.`
+  - after:  `Best hostel with food in Rau, Indore. Radiance Residency offers home-style vegetarian meals (lunch, dinner & tea) included in rent from ₹8,000/month.`
 - **index.html** (190→153 chars)
   - before: `Radiance Residency is a boys hostel and PG in Rau, Indore near Medicaps University. Explore AC & Non-AC rooms, meals, Wi...`
   - after:  `Radiance Residency is a boys hostel and PG in Rau, Indore near Medicaps University. Explore AC & Non-AC rooms, meals, Wi-Fi, 24/7 CCTV security, pricing.`
