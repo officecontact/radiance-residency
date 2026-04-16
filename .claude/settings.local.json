@@ -51,7 +51,8 @@
       "Bash(npm install:*)",
       "Bash(npx next:*)",
       "Bash(netstat -ano)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(python *)"
     ]
   }
 }
