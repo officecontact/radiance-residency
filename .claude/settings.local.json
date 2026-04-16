@@ -107,7 +107,11 @@
       "Bash(find C:\\\\Users\\\\aagos\\\\assets\\\\residency-website *)",
       "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/room-double\\\\.webp|images/room%20double%20occupancy.webp|g' {} \\\\;)",
       "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's|images/room-empty\\\\.webp|images/room-furnished-ac.webp|g' {} \\\\;)",
-      "Bash(node -e \"const fs = require\\('fs'\\); const css = fs.readFileSync\\('style.css', 'utf-8'\\); const minified = css.replace\\(/\\\\/\\\\*[^*]*\\\\*+\\(?:[^/*][^*]*\\\\*+\\)*\\\\//g, ''\\).replace\\(/\\\\s+/g, ' '\\).replace\\(/\\\\s*\\([{}:;,]\\)\\\\s*/g, '\\\\$1'\\); fs.writeFileSync\\('style.min.css', minified\\);\")"
+      "Bash(node -e \"const fs = require\\('fs'\\); const css = fs.readFileSync\\('style.css', 'utf-8'\\); const minified = css.replace\\(/\\\\/\\\\*[^*]*\\\\*+\\(?:[^/*][^*]*\\\\*+\\)*\\\\//g, ''\\).replace\\(/\\\\s+/g, ' '\\).replace\\(/\\\\s*\\([{}:;,]\\)\\\\s*/g, '\\\\$1'\\); fs.writeFileSync\\('style.min.css', minified\\);\")",
+      "Bash(bash /tmp/verify_images.sh)",
+      "Bash(convert \"clean bathroom.jpg\" -resize 600x450 \"clean bathroom.webp\")",
+      "Bash(find . -maxdepth 1 -name \"*.html\" -type f -exec sed -i 's/11,000/14,000/g; s/11000/14000/g; s/13,000/16,000/g; s/13000/16000/g' {} \\\\;)",
+      "Bash(magick \"clean bathroom.jpg\" -gravity center -crop 448x336+0+0 +repage -quality 90 \"clean-bathroom-landscape.webp\")"
     ]
   }
 }
