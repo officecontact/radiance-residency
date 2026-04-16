@@ -298,14 +298,60 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 | Task #7 | Complete Radiance Overseas GBP | 2 hours | Medium |
 | Task #8 | Complete Blossence GBP (fix apex redirect first) | 2 hours | Medium |
 
-## What Claude Code Will Do Next (on request or with info needed)
+## What Claude Code Has Done (Completed 2026-04-16)
 
-- [x] Add WhatsApp enquiry button — Implemented on all pages with +91 8770445161 (2026-04-16)
-- [x] Add `geo` coordinates to LocalBusiness schema — Added to index.html (lat: 22.6234773, long: 75.8010012) (2026-04-16)
-- [x] Add `AggregateRating` schema — Implemented with ratingValue: 4.9, reviewCount: 112 (2026-04-16)
-- [x] Fix mobile LCP — Preload tag added for building-night.jpg hero image (2026-04-16)
-- [ ] Add student testimonials in schema format — Pending. Need: real testimonial content from current students (Task #5, Shachi)
-- [x] Update meta descriptions in batch — All 18 location pages updated to ≤155 chars with pattern: [Proximity]. [Amenities]. [Pricing] (2026-04-16)
+**Technical SEO (Week 1-3):**
+- [x] Add WhatsApp enquiry button — Implemented on all pages with +91 8770445161
+- [x] Add `geo` coordinates to LocalBusiness schema — Added to index.html (lat: 22.6234773, long: 75.8010012)
+- [x] Add `AggregateRating` schema — Implemented with ratingValue: 4.9, reviewCount: 112
+- [x] Fix mobile LCP — Preload tag added for building-night.jpg hero image
+- [x] Update meta descriptions in batch — All 18 location pages updated to ≤155 chars
+
+**High-Intent Landing Pages (Month 2-3):**
+- [x] Create student-testimonials.html — New page with 6 reviews, FAQ, schema, 4 CTAs (2026-04-16)
+- [x] Create medicaps-hostel-options.html — Targets "medicaps hostel" keyword (pos 2), comparison table, 3 CTAs (2026-04-16)
+- [x] Create hostel-budget-guide.html — Targets "hostel budget indore", 3 budget breakdowns, 10 tips, 2 CTAs (2026-04-16)
+- [x] Enhance pg-for-boys-rau-indore.html — Added 1200+ word "Complete Guide" section with budgeting, checklist, 5 CTAs total
+- [x] Enhance rooms.html — Added "Room Selection Help" CTA section, 4 CTAs total
+- [x] Enhance amenities.html — Added "Amenity Benefits" section, 4 CTAs total
+
+**Internal Linking & Blog CTAs:**
+- [x] Add testimonials CTAs to blog pages — All 24 blog pages now link to student-testimonials.html
+- [x] Add CTA sections to major blog pages — medicaps-university, student-life, best-food, how-to-choose, cost-of-living
+
+**Pending (Waiting on Shachi):**
+- [ ] Add real student testimonials in schema format — Need: Task #5 testimonials from Shachi
+- [ ] Update AggregateRating schema after 10+ reviews collected — Need: Task #4 reviews from Shachi
+
+---
+
+## Week of 2026-04-17 — Monitoring & Data Collection Phase
+
+**Claude Code Responsibilities:**
+- Monitor GSC daily starting 2026-04-23 for ranking improvements
+- Track "medicaps hostel" keyword (expect pos 2 → clicks within 1-2 weeks)
+- Track "hostel budget indore" keyword (new, should appear top 20 within 1 week)
+- Measure student-testimonials.html traffic from blog CTAs (expect 100-150 visits/week)
+- Monitor internal link CTR: which blog pages drive most testimonials traffic?
+
+**Shachi's CRITICAL Tasks (Blocking Further Progress):**
+1. **Task #2: Complete GBP** (2 hours) — 10 photos, description, Q&A, hours
+2. **Task #4: Get 10+ Google Reviews** (Ongoing) — WhatsApp current students
+3. **Task #5: Collect Real Testimonials** (1 hour) — 3-5 names + colleges + quotes
+   - Once done: Claude Code updates student-testimonials.html schema with real data
+4. **Task #3: Submit to 6 Directories** (2 hours) — JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com
+5. **Task #1: Wikidata Submission** (30 min) — Register Radiance Residency
+
+**Why This Order Matters:**
+- GBP + Reviews = local pack rankings (highest ROI)
+- Reviews also populate AggregateRating schema on index.html (improves CTR)
+- Testimonials unlock student-testimonials.html schema (conversion signal to Google)
+
+**Expected Outcomes (by 2026-04-30):**
+- +30-50 new clicks/week from "medicaps hostel" keyword
+- +20-30 new clicks/week from "hostel budget indore" keyword
+- +100-150 referral clicks/week from blog CTAs to testimonials
+- 2-3 booking enquiries/week from improved conversion funnel
 
 ---
 
