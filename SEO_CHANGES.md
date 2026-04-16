@@ -2,6 +2,31 @@
 
 Automated edits from TradeForge. Each entry is a dated, reversible, mechanical fix.
 
+## 2026-04-16 — page title trim to <60 chars (Claude Code)
+
+Fixed 16 page titles exceeding 60-character limit:
+
+- **index.html** (73→52 chars): "Boys Hostel & PG in Rau, Indore | Radiance Residency"
+- **amenities.html** (75→52 chars): "Premium Amenities | Boys Hostel | Radiance Residency"
+- **rooms.html** (85→50 chars): "Rooms & Pricing | Boys Hostel | Radiance Residency"
+- **contact.html** (88→45 chars): "Contact Us | Boys Hostel | Radiance Residency"
+- **hostel-near-ips-academy.html** (192→49 chars): "Boys Hostel Near IPS Academy | Radiance Residency"
+- **hostel-near-medicaps-university.html** (186→52 chars): "Hostel Near Medicaps University | Radiance Residency"
+- **hostel-near-sd-bansal-college.html** (183→50 chars): "Hostel Near SD Bansal College | Radiance Residency"
+- **blog/benefits-of-living-in-hostel-vs-home.html** (178→47 chars): "Benefits of Hostel vs Home | Radiance Residency"
+- **blog/best-food-places-near-medicaps-university-rau.html** (195→51 chars): "Best Food Places Near Medicaps | Radiance Residency"
+- **blog/cost-of-living-in-rau-indore-for-students.html** (175→55 chars): "Cost of Living in Rau for Students | Radiance Residency"
+- **blog/hostel-vs-pg-vs-flat-for-students-indore.html** (191→52 chars): "Hostel vs PG vs Flat Comparison | Radiance Residency"
+- **blog/how-to-choose-best-hostel-in-indore.html** (178→46 chars): "How to Choose Best Hostel | Radiance Residency"
+- **blog/medicaps-university-review-admission-placement.html** (187→47 chars): "Medicaps University Review | Radiance Residency"
+- **blog/student-life-in-rau-indore-guide.html** (203→46 chars): "Student Life in Rau Guide | Radiance Residency"
+- **blog/top-colleges-in-rau-indore.html** (198→48 chars): "Top Colleges in Rau, Indore | Radiance Residency"
+- **blog/ips-academy-indore-review-guide.html** (190→46 chars): "IPS Academy Indore Review | Radiance Residency"
+
+**Impact:** Resolves Week 1 title_too_long issues. All titles now ≤60 chars (Google search display limit).
+
+---
+
 ## 2026-04-15 — meta description autofix (TradeForge)
 Trimmed 48 meta descriptions to ≤155 chars:
 
