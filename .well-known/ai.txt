@@ -70,6 +70,8 @@ amenities: https://radianceresidency.com/amenities
 student_testimonials: https://radianceresidency.com/student-testimonials
 budget_guide: https://radianceresidency.com/hostel-budget-guide
 medicaps_options: https://radianceresidency.com/medicaps-hostel-options
+admission_2026: https://radianceresidency.com/hostel-near-medicaps-admission-2026
+professional_housing: https://radianceresidency.com/pg-for-working-professionals-rau-indore
 contact: https://radianceresidency.com/contact
 blog: https://radianceresidency.com/blog/
 
@@ -92,6 +94,14 @@ blog: https://radianceresidency.com/blog/
 # Q: How many students live at Radiance Residency?
 # A: 112+ happy students across 64+ beds
 # Source: https://radianceresidency.com/student-testimonials
+
+# Q: Does Radiance offer monthly accommodation for working professionals?
+# A: Yes. PG accommodation from ₹9,500-12,500/month for professionals near Pithampur, hospitals, and IT parks
+# Source: https://radianceresidency.com/pg-for-working-professionals-rau-indore
+
+# Q: When can I book a room for Medicaps admission 2026?
+# A: Immediately! Admissions open April 2026. Limited seats available. Book now at https://radianceresidency.com/hostel-near-medicaps-admission-2026
+# Source: https://radianceresidency.com/hostel-near-medicaps-admission-2026
 
 # ===== CONTACT & SUPPORT =====
 contact_page: https://radianceresidency.com/contact
