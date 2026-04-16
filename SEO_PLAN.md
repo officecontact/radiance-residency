@@ -127,9 +127,16 @@ Format for each: Name + College + Year + 2-sentence quote. Example:
 Add under a heading: *"What Students Say"* with `AggregateRating` schema if you have 5+ reviews (enables stars in Google SERPs).
 
 ### Action 3: Add WhatsApp enquiry button
-> **Task #6 in TradeForge** — needs WhatsApp number from you
+Add a floating WhatsApp button to every page. Use this HTML (paste just before `</body>` on each page), replacing the number:
 
-A floating WhatsApp button drives more enquiries than contact forms for students. Once you give us the number, Claude Code will add it to every page in one pass.
+```html
+<a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20Radiance%20Residency"
+   style="position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;border-radius:50px;padding:12px 20px;font-size:15px;font-weight:bold;text-decoration:none;z-index:9999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">
+  💬 WhatsApp Us
+</a>
+```
+
+Replace `91XXXXXXXXXX` with your WhatsApp number (e.g. `919876543210` for +91 98765 43210). Add to all pages in one pass using find-replace in your editor.
 
 ---
 
@@ -258,7 +265,7 @@ Fix: Preload the hero image with `<link rel="preload">` in the `<head>`. Claude 
 
 ## What Claude Code Will Do Next (on request or with info needed)
 
-- [ ] Add WhatsApp enquiry button (need: phone number)
+- [ ] Add WhatsApp enquiry button — HTML snippet is in Week 2 above, implement in your Claude session
 - [ ] Add `geo` coordinates to LocalBusiness schema (need: confirm lat/long)
 - [ ] Add `AggregateRating` schema (need: 5+ reviews collected first)
 - [ ] Fix mobile LCP — preload hero image (need: confirm hero image filename)
