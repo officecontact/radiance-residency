@@ -17,9 +17,9 @@
       "performance": 99,
       "seo": 83,
       "accessibility": 100,
-      "lcp_s": 0.7,
+      "lcp_s": 0.73,
       "cls": 0.0,
-      "fcp_s": 0.7,
+      "fcp_s": 0.73,
       "ttfb_s": 0.0,
       "checked": "2026-04-20"
     },
@@ -29,9 +29,9 @@
       "performance": 93,
       "seo": 83,
       "accessibility": 100,
-      "lcp_s": 2.57,
+      "lcp_s": 2.63,
       "cls": 0.0,
-      "fcp_s": 2.57,
+      "fcp_s": 2.63,
       "ttfb_s": 0.0,
       "checked": "2026-04-20"
     },
@@ -104,18 +104,18 @@
       "ctr": 0.0
     },
     {
-      "query": "list of things required in hostel",
-      "impressions": 34,
-      "position": 29.1,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
       "query": "hostel essentials 2026",
       "impressions": 34,
       "position": 2.1,
       "clicks": 2,
       "ctr": 5.9
+    },
+    {
+      "query": "list of things required in hostel",
+      "impressions": 34,
+      "position": 29.1,
+      "clicks": 0,
+      "ctr": 0.0
     },
     {
       "query": "checklist for hostel students",
@@ -324,6 +324,17 @@
   ],
   "onpage_issues": [
     {
+      "url": "https://radianceresidency.com/summer-internship-housing-indore.html",
+      "issues": [
+        "title_too_long",
+        "meta_too_long",
+        "missing_breadcrumb_schema"
+      ],
+      "word_count": 692,
+      "title": "Summer Internship Housing Indore | Short-term PG | Radiance Residency",
+      "h1": "Summer Internship Housing"
+    },
+    {
       "url": "https://radianceresidency.com/hostel-near-medicaps-admission-2026.html",
       "issues": [
         "title_too_long",
@@ -346,15 +357,13 @@
       "h1": "Monthly PG for Working Professionals"
     },
     {
-      "url": "https://radianceresidency.com/summer-internship-housing-indore.html",
+      "url": "https://radianceresidency.com/student-testimonials.html",
       "issues": [
-        "title_too_long",
-        "meta_too_long",
         "missing_breadcrumb_schema"
       ],
-      "word_count": 692,
-      "title": "Summer Internship Housing Indore | Short-term PG | Radiance Residency",
-      "h1": "Summer Internship Housing"
+      "word_count": 596,
+      "title": "Student Testimonials | Real Reviews | Radiance Residency",
+      "h1": "Say About Us\" data-hi=\"à¤à¤¾à¤¤à¥à¤° à¤¹à¤®à¤¾à¤°à¥ à¤¬à¤¾à¤°à¥ à¤®à¥à¤ à¤à¥à¤¯à¤¾ à¤à¤¹à¤¤à¥ à¤¹à¥à¤\">What Students Say About Us"
     },
     {
       "url": "https://radianceresidency.com/student-testimonials",
@@ -366,23 +375,23 @@
       "h1": "Say About Us\" data-hi=\"à¤à¤¾à¤¤à¥à¤° à¤¹à¤®à¤¾à¤°à¥ à¤¬à¤¾à¤°à¥ à¤®à¥à¤ à¤à¥à¤¯à¤¾ à¤à¤¹à¤¤à¥ à¤¹à¥à¤\">What Students Say About Us"
     },
     {
-      "url": "https://radianceresidency.com/student-testimonials.html",
+      "url": "https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau.html",
       "issues": [
-        "missing_breadcrumb_schema"
+        "slow_load"
       ],
-      "word_count": 596,
-      "title": "Student Testimonials | Real Reviews | Radiance Residency",
-      "h1": "Say About Us\" data-hi=\"à¤à¤¾à¤¤à¥à¤° à¤¹à¤®à¤¾à¤°à¥ à¤¬à¤¾à¤°à¥ à¤®à¥à¤ à¤à¥à¤¯à¤¾ à¤à¤¹à¤¤à¥ à¤¹à¥à¤\">What Students Say About Us"
+      "word_count": 1622,
+      "title": "Best Food Places Near Medicaps | Radiance Residency",
+      "h1": "15 Best Food Places Near Medicaps University, Rau (2026)"
     }
   ],
   "schema_issues": [],
   "keyword_rankings": [],
   "topic_ideas": [
     {
-      "topic": "organic sesame seeds",
+      "topic": "indian superfoods",
       "source": "aeo_serp_feature",
       "impact_score": 100.0,
-      "rationale": "United States: features=discussions_and_forums,people_also_ask,popular_products, our rank=none"
+      "rationale": "United States: features=ai_overview,people_also_ask,related_searches, our rank=none"
     },
     {
       "topic": "cashew nuts exporter",
@@ -391,10 +400,10 @@
       "rationale": "United States: features=ai_overview,people_also_ask,related_searches, our rank=none"
     },
     {
-      "topic": "indian superfoods",
+      "topic": "organic sesame seeds",
       "source": "aeo_serp_feature",
       "impact_score": 100.0,
-      "rationale": "United States: features=ai_overview,people_also_ask,related_searches, our rank=none"
+      "rationale": "United States: features=discussions_and_forums,people_also_ask,popular_products, our rank=none"
     },
     {
       "topic": "radiance residency",
