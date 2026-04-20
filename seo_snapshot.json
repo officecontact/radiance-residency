@@ -377,7 +377,80 @@
   ],
   "schema_issues": [],
   "keyword_rankings": [],
-  "topic_ideas": [],
+  "topic_ideas": [
+    {
+      "topic": "organic sesame seeds",
+      "source": "aeo_serp_feature",
+      "impact_score": 100.0,
+      "rationale": "United States: features=discussions_and_forums,people_also_ask,popular_products, our rank=none"
+    },
+    {
+      "topic": "cashew nuts exporter",
+      "source": "aeo_serp_feature",
+      "impact_score": 100.0,
+      "rationale": "United States: features=ai_overview,people_also_ask,related_searches, our rank=none"
+    },
+    {
+      "topic": "indian superfoods",
+      "source": "aeo_serp_feature",
+      "impact_score": 100.0,
+      "rationale": "United States: features=ai_overview,people_also_ask,related_searches, our rank=none"
+    },
+    {
+      "topic": "radiance residency",
+      "source": "gsc_longtail",
+      "impact_score": 4.33199988432312,
+      "rationale": "57 impr at avg pos 13.2 — push up for clicks"
+    },
+    {
+      "topic": "checklist for hostel students",
+      "source": "gsc_longtail",
+      "impact_score": 2.15671644860903,
+      "rationale": "34 impr at avg pos 15.8 — push up for clicks"
+    },
+    {
+      "topic": "hostel packing list for students",
+      "source": "gsc_longtail",
+      "impact_score": 2.14569525582546,
+      "rationale": "36 impr at avg pos 16.8 — push up for clicks"
+    },
+    {
+      "topic": "best hostels in indore",
+      "source": "gsc_longtail",
+      "impact_score": 1.89573456288316,
+      "rationale": "20 impr at avg pos 10.6 — push up for clicks"
+    },
+    {
+      "topic": "list of things required in hostel",
+      "source": "gsc_longtail",
+      "impact_score": 1.17004052197045,
+      "rationale": "34 impr at avg pos 29.1 — push up for clicks"
+    },
+    {
+      "topic": "hostel requirement list",
+      "source": "gsc_longtail",
+      "impact_score": 1.16805551223549,
+      "rationale": "29 impr at avg pos 24.8 — push up for clicks"
+    },
+    {
+      "topic": "hostel requirements list",
+      "source": "gsc_longtail",
+      "impact_score": 1.05523253473609,
+      "rationale": "33 impr at avg pos 31.3 — push up for clicks"
+    },
+    {
+      "topic": "essential things for hostel",
+      "source": "gsc_longtail",
+      "impact_score": 0.970873798393494,
+      "rationale": "30 impr at avg pos 30.9 — push up for clicks"
+    },
+    {
+      "topic": "best hostel in indore",
+      "source": "gsc_longtail",
+      "impact_score": 0.62903224838884,
+      "rationale": "13 impr at avg pos 20.7 — push up for clicks"
+    }
+  ],
   "competitor_moves": [],
   "bing_top_queries": []
 }
