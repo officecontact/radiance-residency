@@ -753,3 +753,62 @@ GSC: 690 impressions from India, 7 clicks (1% CTR). All other countries = noise 
 ---
 
 _Plan refreshes every Monday from TradeForge data pipeline._
+
+---
+
+<!-- next-actions-start -->
+## Next Actions — 2026-04-21
+
+### Landing pages / content to create or strengthen
+
+**Quick push (pos 5–9 — one page tweak away from top 5):**
+
+| Query | Pos | Impr | Action |
+|---|---|---|---|
+| radiance residency | 6.8 | 60 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.3 | 39 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.0 | 28 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 7.1 | 22 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.3 | 21 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 7.7 | 21 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 6.4 | 18 | Strengthen H1, add FAQ schema, 1 internal link |
+| student accommodation indore | 9.4 | 9 | Strengthen H1, add FAQ schema, 1 internal link |
+
+**New landing pages (ranking but zero clicks — need dedicated page):**
+
+| Query | Pos | Impr | Suggested URL |
+|---|---|---|---|
+| student hostel in indore | 14.1 | 71 | `/student-hostel-in-indore` |
+| hostel essentials | 33.3 | 47 | `/hostel-essentials` |
+| hostel packing list for students | 16.8 | 36 | `/hostel-packing-list-for-students` |
+| list of things required in hostel | 29.1 | 34 | `/list-of-things-required-in-hostel` |
+| checklist for hostel students | 15.8 | 34 | `/checklist-for-hostel-students` |
+| hostel requirements list | 31.3 | 33 | `/hostel-requirements-list` |
+| hostel needs list | 36.8 | 30 | `/hostel-needs-list` |
+| essential things for hostel | 30.9 | 30 | `/essential-things-for-hostel` |
+| hostel requirement list | 24.8 | 29 | `/hostel-requirement-list` |
+| best hostels in indore | 10.6 | 20 | `/best-hostels-in-indore` |
+| best hostel in indore | 20.7 | 13 | `/best-hostel-in-indore` |
+| pg hostel in rau | 20.9 | 11 | `/pg-hostel-in-rau` |
+
+### On-page fixes (this sprint)
+
+| Page | Issues |
+|---|---|
+| `radianceresidency.com/summer-internship-housing-indore.html` | title_too_long, meta_too_long, missing_breadcrumb_schema |
+| `radianceresidency.com/hostel-near-medicaps-admission-2026.html` | title_too_long, meta_too_long, missing_breadcrumb_schema |
+| `radianceresidency.com/pg-for-working-professionals-rau-indore.html` | title_too_long, meta_too_long, missing_breadcrumb_schema |
+| `radianceresidency.com/student-testimonials.html` | missing_breadcrumb_schema |
+| `radianceresidency.com/student-testimonials` | missing_breadcrumb_schema |
+| `radianceresidency.com/blog/best-food-places-near-medicaps-university-rau.html` | slow_load |
+
+### Content ideas (AI-generated)
+
+- **indian superfoods** _(score 100)_ — United States: features=ai_overview,people_also_ask,related_searches, our rank=none
+- **cashew nuts exporter** _(score 100)_ — United States: features=ai_overview,people_also_ask,related_searches, our rank=none
+- **organic sesame seeds** _(score 100)_ — United States: features=discussions_and_forums,people_also_ask,popular_products, our rank=none
+- **radiance residency** _(score 4)_ — 57 impr at avg pos 13.2 — push up for clicks
+- **checklist for hostel students** _(score 2)_ — 34 impr at avg pos 15.8 — push up for clicks
+- **hostel packing list for students** _(score 2)_ — 36 impr at avg pos 16.8 — push up for clicks
+
+<!-- next-actions-end -->
