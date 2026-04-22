@@ -2,6 +2,21 @@
 
 Automated edits from TradeForge. Each entry is a dated, reversible, mechanical fix.
 
+## 2026-04-21 — Fix 25 canonical-mismatch warnings (Claude Code)
+
+**Problem:** Our SEO audit flagged 25 pages where `<link rel="canonical">` pointed
+to the extensionless URL (e.g., `/amenities`) while the page was accessible at
+both `/amenities` and `/amenities.html`. Netlify was serving both as 200 (rewrite),
+so Google indexed both and the canonical tag flagged a mismatch on every .html hit.
+
+**Fix:** `_redirects` — added 301 redirects `.html → extensionless` using Netlify
+placeholder patterns (`/:slug.html → /:slug 301!` and `/blog/:slug.html → /blog/:slug 301!`),
+with force-flag `!` to override Netlify serving the physical .html file. The
+existing extensionless 200 rewrites remain as a safety net.
+
+**Net effect:** single canonical URL per page; Google drops duplicate indexing;
+link equity consolidates on extensionless URLs that the canonical tag already points to.
+
 ## 2026-04-16 — Technical SEO Implementation Verification & Status Update (Claude Code)
 
 **Verified Complete:**

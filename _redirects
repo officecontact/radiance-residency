@@ -1,4 +1,18 @@
-# Clean URLs (Netlify/Cloudflare Pages)
+# www → non-www canonical redirect (fixes 404 on www subdomain per GSC audit 2026-04-22)
+https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
+
+# Force .html → extensionless (301 for SEO canonical consolidation).
+# The `!` force flag overrides Netlify's default behaviour of serving the
+# physical .html file. Without this, Google indexes both URLs (canonical
+# mismatch warnings in our SEO audit flagged 25 pages on 2026-04-21).
+/index.html                   /                    301!
+/blog/index.html              /blog/               301!
+/blog/:slug.html              /blog/:slug          301!
+/:slug.html                   /:slug               301!
+
+# Clean URLs — extensionless requests serve the .html content
+# (Netlify Pretty URLs handles this automatically, but keep explicit
+# rewrites as a safety net in case the setting ever gets disabled)
 /rooms      /rooms.html     200
 /amenities  /amenities.html 200
 /contact    /contact.html   200
@@ -10,6 +24,10 @@
 /hostel-near-iist-indore            /hostel-near-iist-indore.html            200
 /hostel-near-iim-indore             /hostel-near-iim-indore.html             200
 /pg-for-boys-rau-indore             /pg-for-boys-rau-indore.html             200
+/student-hostel-in-indore           /student-hostel-in-indore.html           200
+
+# Blog index redirect chain fix — collapse 2-hop to single 301
+/blog  /blog/  301
 
 # Trailing slash normalization
 /rooms/     /rooms    301
@@ -21,3 +39,4 @@
 /hostel-near-iist-indore/           /hostel-near-iist-indore            301
 /hostel-near-iim-indore/            /hostel-near-iim-indore             301
 /pg-for-boys-rau-indore/            /pg-for-boys-rau-indore             301
+/student-hostel-in-indore/          /student-hostel-in-indore           301

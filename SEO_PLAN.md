@@ -951,6 +951,13 @@ Each block below is valid schema.org JSON-LD. Paste inside `<script type="applic
 
 Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
+### Lighthouse (latest CI run)
+
+| Form | Perf | SEO | A11y | LCP | CLS |
+|---|---|---|---|---|---|
+| desktop | 62 | 100 | 92 | 3518ms | 0.03 |
+| mobile | 43 | 100 | 92 | 8225ms | 0.03 |
+
 ### GSC URL Inspection — pages with issues
 
 - `https://www.radianceresidency.com/` — coverage=Not found (404)
@@ -1021,5 +1028,116 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 | warning | duplicate_meta_description | 6 |
 | critical | page_has_links_to_broken_page | 4 |
 | critical | 404_page | 1 |
+
+### Competitors tracked
+
+_4 domains feed backlink-gap + content-diff analyses._
+
+- `gurumayhostel.com` (src: user_2026-04-22)
+- `satkarresidency.com` (src: user_2026-04-22)
+- `smileypg.in` (src: user_2026-04-22)
+- `stanzaliving.com` (src: user_2026-04-22)
+
+### Content gaps (GSC queries: high-impression, low-CTR)
+
+Rewrite the landing page's title/meta/H1 to match intent.
+
+| Query | Pos | Impr | Clicks | Vol | KD | Score | Landing page |
+|---|---|---|---|---|---|---|---|
+| student hostel in indore | 14.1 | 75 | 0 | — | — | 518.9 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| pg near medicaps university indore | 8.3 | 40 | 0 | — | — | 509.2 | `https://radianceresidency.com/` |
+| pg near ips academy indore | 7.0 | 28 | 1 | — | — | 407.0 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| hostel near ips academy indore | 7.1 | 22 | 0 | — | — | 306.0 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| yes | 6.5 | 21 | 0 | — | — | 303.4 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| best hostel in indore for students | 7.8 | 22 | 1 | — | — | 303.2 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| medi caps university hostel | 9.3 | 21 | 0 | — | — | 246.6 | `http://radianceresidency.com/` |
+| best hostels in indore | 10.6 | 20 | 0 | — | — | 209.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| checklist for hostel students | 15.5 | 37 | 0 | — | — | 205.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| hostel packing list for students | 16.8 | 39 | 0 | — | — | 165.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| student accommodation indore | 9.4 | 9 | 0 | — | — | 104.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| hostel essentials checklist | 10.7 | 10 | 0 | — | — | 103.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+
+### Current backlink sources (recent — top 15)
+
+| Source domain | Provider | First seen |
+|---|---|---|
+| musweb.org | ahrefs_wmt_scrape | 2026-04-21 |
+| creativeposts.top | ahrefs_wmt_scrape | 2026-04-21 |
+| grow-fast.website | ahrefs_wmt_scrape | 2026-04-21 |
+| backlinker.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| rankpilot.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| nexusnext.agency | ahrefs_wmt_scrape | 2026-04-21 |
+| simplywebshop.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| seoexpress.org | ahrefs_wmt_scrape | 2026-04-21 |
+| seoprobox.xyz | ahrefs_wmt_scrape | 2026-04-21 |
+| nettools.guru | ahrefs_wmt_scrape | 2026-04-21 |
+| eb.businessvocal.com | ahrefs_wmt_scrape | 2026-04-21 |
+| indians.cc | ahrefs_wmt_scrape | 2026-04-21 |
+| thebacklink.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| screenshots.wiki | ahrefs_wmt_scrape | 2026-04-21 |
+| sites.jake.eu | ahrefs_wmt_scrape | 2026-04-21 |
+
+### Lighthouse CI (synthetic lab)
+
+| URL | Device | Perf | A11y | BP | SEO | LCP (ms) |
+|---|---|---|---|---|---|---|
+| radianceresidency.com | desktop | 62.0 | 92.0 | 100.0 | 100.0 | 3518 |
+| radianceresidency.com | mobile | 43.0 | 92.0 | 100.0 | 100.0 | 8225 |
+
+### AI citations (AEO — ChatGPT · Perplexity · Gemini)
+
+_5 of 25 queries cited us in the answer._
+
+| Engine | Query | Cited | Competitors named |
+|---|---|---|---|
+| perplexity_via_or | college hostel Indore with security | ✅ |  |
+| openai | college hostel Indore with security | — |  |
+| claude | college hostel Indore with security | — |  |
+| gemini | college hostel Indore with security | — |  |
+| perplexity_via_or | hostel with wifi near Medicaps Rau Indore | ✅ |  |
+| openai | hostel with wifi near Medicaps Rau Indore | — |  |
+| claude | hostel with wifi near Medicaps Rau Indore | — |  |
+| gemini | hostel with wifi near Medicaps Rau Indore | — |  |
+| perplexity_via_or | PG near Medicaps University Indore for students | ✅ |  |
+| openai | PG near Medicaps University Indore for students | — |  |
+| claude | PG near Medicaps University Indore for students | — |  |
+| gemini | PG near Medicaps University Indore for students | — |  |
+| perplexity_via_or | affordable hostel near Medicaps Indore | ✅ |  |
+| openai | affordable hostel near Medicaps Indore | — |  |
+| claude | affordable hostel near Medicaps Indore | — |  |
+
+### Keyword difficulty (Ahrefs KD-clone)
+
+**18 quick wins flagged** — low KD, you already rank 4–15.
+
+| Query | KD | Our pos | Impr |
+|---|---|---|---|
+| student hostel in indore | 20 | #14.06 | 81 |
+| radiance residency | 27 | #5.75 | 64 |
+| pg near medicaps university indore | 16 | #8.3 | 43 |
+| checklist for hostel students | 20 | #15.7 | 40 |
+| hostel packing list for students | 16 | #16.38 | 40 |
+| pg near ips academy indore | 16 | #7.31 | 32 |
+| hostel near ips academy indore | 16 | #7.38 | 24 |
+| best hostel in indore for students | 16 | #7.82 | 22 |
+| medi caps university hostel | 20 | #9.26 | 21 |
+| yes | 29 | #6.55 | 21 |
+
+_Top 12 by traffic (all):_
+
+| Query | KD | Our pos | Impr |
+|---|---|---|---|
+| student hostel in indore | 20 | #14.06 | 81 |
+| radiance residency | 27 | #5.75 | 64 |
+| pg near medicaps university indore | 16 | #8.3 | 43 |
+| checklist for hostel students | 20 | #15.7 | 40 |
+| hostel packing list for students | 16 | #16.38 | 40 |
+| pg near ips academy indore | 16 | #7.31 | 32 |
+| hostel near ips academy indore | 16 | #7.38 | 24 |
+| best hostel in indore for students | 16 | #7.82 | 22 |
+| medi caps university hostel | 20 | #9.26 | 21 |
+| yes | 29 | #6.55 | 21 |
+| best hostels in indore | 20 | #10.55 | 20 |
+| student accommodation indore | 24 | #9.33 | 12 |
 
 <!-- next-actions-end -->

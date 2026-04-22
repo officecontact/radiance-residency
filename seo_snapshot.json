@@ -795,7 +795,24 @@
   "gsc_index_issues": [],
   "serp_feature_changes": [],
   "eeat_weak_pages": [],
-  "lighthouse": [],
+  "lighthouse": [
+    {
+      "form_factor": "desktop",
+      "perf": 62.0,
+      "seo": 100.0,
+      "a11y": 92.0,
+      "lcp_ms": 3518,
+      "cls": 0.03
+    },
+    {
+      "form_factor": "mobile",
+      "perf": 43.0,
+      "seo": 100.0,
+      "a11y": 92.0,
+      "lcp_ms": 8225,
+      "cls": 0.03
+    }
+  ],
   "crux_field": [],
   "url_inspection": [
     {
@@ -1118,5 +1135,646 @@
   "backlinks_lost": [],
   "top_inbound_pages": [],
   "keyword_targets": [],
-  "rank_drops": []
+  "rank_drops": [],
+  "backlink_sources_top": [
+    {
+      "source_url": "https://musweb.org/page-2e5c62608476577f2e0284cac46ee46c.html",
+      "source_domain": "musweb.org",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://creativeposts.top/stats/38781",
+      "source_domain": "creativeposts.top",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://grow-fast.website/rank-your-site-backlinks-helped-me-beat-top-three-rivals/",
+      "source_domain": "grow-fast.website",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://backlinker.shop/co3fbg-contact-to-us-and-get-offer-details-for-seo-ranking-fast/",
+      "source_domain": "backlinker.shop",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://rankpilot.shop/muylzf-ready-to-rank-fast-choose-your-plan-manual-work-google-friendly/",
+      "source_domain": "rankpilot.shop",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://nexusnext.agency/nq3zob-backlinks-seo-web-development-digital-marketing-services/",
+      "source_domain": "nexusnext.agency",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://simplywebshop.shop/before-i-discovered-seoexpress-my-online-business-was-struggling-to-gain-traction-and-i-had-little-traffic-or-sales-their-affordable-seo-packages-helped-me-see-results-in-less",
+      "source_domain": "simplywebshop.shop",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://seoexpress.org/links/mysteries-of-the-ancients-46336/",
+      "source_domain": "seoexpress.org",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://seoprobox.xyz/seo-services-increase-dr-permanent-dofollow-backlinks-4766/",
+      "source_domain": "seoprobox.xyz",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://nettools.guru/90579331bb66a803a76401db5b587581/",
+      "source_domain": "nettools.guru",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://web.businessvocal.com/19/iwbpwKEpWV",
+      "source_domain": "eb.businessvocal.com",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://indians.cc/page-2e5c62608476577f2e0284cac46ee46c.html",
+      "source_domain": "indians.cc",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://thebacklink.shop/before-i-discovered-seoexpress-my-online-business-was-struggling-to-gain-traction-and-i-had-little-traffic-or-sales-their-affordable-seo-packages-helped-me-see-results-in-less",
+      "source_domain": "thebacklink.shop",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/38782",
+      "source_domain": "screenshots.wiki",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/38782",
+      "source_domain": "sites.jake.eu",
+      "provider": "ahrefs_wmt_scrape",
+      "first_seen": "2026-04-21"
+    }
+  ],
+  "competitors_configured": [
+    {
+      "domain": "gurumayhostel.com",
+      "source": "user_2026-04-22"
+    },
+    {
+      "domain": "satkarresidency.com",
+      "source": "user_2026-04-22"
+    },
+    {
+      "domain": "smileypg.in",
+      "source": "user_2026-04-22"
+    },
+    {
+      "domain": "stanzaliving.com",
+      "source": "user_2026-04-22"
+    }
+  ],
+  "competitor_pages_scanned": [],
+  "content_gaps_gemini": [
+    {
+      "query": "student hostel in indore",
+      "avg_position": 14.1,
+      "impressions": 75,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 518.9,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "pg near medicaps university indore",
+      "avg_position": 8.3,
+      "impressions": 40,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 509.2,
+      "landing_page": "https://radianceresidency.com/"
+    },
+    {
+      "query": "pg near ips academy indore",
+      "avg_position": 7.0,
+      "impressions": 28,
+      "clicks": 1,
+      "volume": null,
+      "difficulty": null,
+      "priority": 407.0,
+      "landing_page": "https://radianceresidency.com/hostel-near-ips-academy.html"
+    },
+    {
+      "query": "hostel near ips academy indore",
+      "avg_position": 7.1,
+      "impressions": 22,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 306.0,
+      "landing_page": "https://radianceresidency.com/hostel-near-ips-academy.html"
+    },
+    {
+      "query": "yes",
+      "avg_position": 6.5,
+      "impressions": 21,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 303.4,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "best hostel in indore for students",
+      "avg_position": 7.8,
+      "impressions": 22,
+      "clicks": 1,
+      "volume": null,
+      "difficulty": null,
+      "priority": 303.2,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "medi caps university hostel",
+      "avg_position": 9.3,
+      "impressions": 21,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 246.6,
+      "landing_page": "http://radianceresidency.com/"
+    },
+    {
+      "query": "best hostels in indore",
+      "avg_position": 10.6,
+      "impressions": 20,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 209.0,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "checklist for hostel students",
+      "avg_position": 15.5,
+      "impressions": 37,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 205.0,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "hostel packing list for students",
+      "avg_position": 16.8,
+      "impressions": 39,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 165.0,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "student accommodation indore",
+      "avg_position": 9.4,
+      "impressions": 9,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 104.0,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "hostel essentials checklist",
+      "avg_position": 10.7,
+      "impressions": 10,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 103.0,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "student area in indore",
+      "avg_position": 6.8,
+      "impressions": 7,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 99.8,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "indore student area",
+      "avg_position": 7.5,
+      "impressions": 6,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 81.0,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "hostel medicaps indore",
+      "avg_position": 7.9,
+      "impressions": 6,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 78.3,
+      "landing_page": "https://radianceresidency.com/"
+    }
+  ],
+  "lighthouse_runs": [
+    {
+      "url": "https://radianceresidency.com",
+      "device": "desktop",
+      "performance": 62.0,
+      "accessibility": 92.0,
+      "best_practices": 100.0,
+      "seo": 100.0,
+      "lcp_ms": 3518,
+      "cls": 0.03,
+      "as_of": "2026-04-22"
+    },
+    {
+      "url": "https://radianceresidency.com",
+      "device": "mobile",
+      "performance": 43.0,
+      "accessibility": 92.0,
+      "best_practices": 100.0,
+      "seo": 100.0,
+      "lcp_ms": 8225,
+      "cls": 0.03,
+      "as_of": "2026-04-22"
+    }
+  ],
+  "ai_citations": [
+    {
+      "engine": "perplexity_via_or",
+      "query": "college hostel Indore with security",
+      "cited": true,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "college hostel Indore with security",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "college hostel Indore with security",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "college hostel Indore with security",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "hostel with wifi near Medicaps Rau Indore",
+      "cited": true,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "hostel with wifi near Medicaps Rau Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "hostel with wifi near Medicaps Rau Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "hostel with wifi near Medicaps Rau Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "PG near Medicaps University Indore for students",
+      "cited": true,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "PG near Medicaps University Indore for students",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "PG near Medicaps University Indore for students",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "PG near Medicaps University Indore for students",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "affordable hostel near Medicaps Indore",
+      "cited": true,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "affordable hostel near Medicaps Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "affordable hostel near Medicaps Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "affordable hostel near Medicaps Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "boys hostel near Medicaps with single room",
+      "cited": true,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "boys hostel near Medicaps with single room",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "boys hostel near Medicaps with single room",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "boys hostel near Medicaps with single room",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "Indore hostel with mess food quality",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "openai",
+      "query": "Indore hostel with mess food quality",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "claude",
+      "query": "Indore hostel with mess food quality",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "gemini",
+      "query": "Indore hostel with mess food quality",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "best girls hostel near Medicaps University Indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-04-21"
+    }
+  ],
+  "keyword_difficulty": [
+    {
+      "query": "student hostel in indore",
+      "kd_score": 20,
+      "our_position": 14.06,
+      "impressions": 81,
+      "quick_win": true
+    },
+    {
+      "query": "radiance residency",
+      "kd_score": 27,
+      "our_position": 5.75,
+      "impressions": 64,
+      "quick_win": true
+    },
+    {
+      "query": "pg near medicaps university indore",
+      "kd_score": 16,
+      "our_position": 8.3,
+      "impressions": 43,
+      "quick_win": true
+    },
+    {
+      "query": "checklist for hostel students",
+      "kd_score": 20,
+      "our_position": 15.7,
+      "impressions": 40,
+      "quick_win": true
+    },
+    {
+      "query": "hostel packing list for students",
+      "kd_score": 16,
+      "our_position": 16.38,
+      "impressions": 40,
+      "quick_win": true
+    },
+    {
+      "query": "pg near ips academy indore",
+      "kd_score": 16,
+      "our_position": 7.31,
+      "impressions": 32,
+      "quick_win": true
+    },
+    {
+      "query": "hostel near ips academy indore",
+      "kd_score": 16,
+      "our_position": 7.38,
+      "impressions": 24,
+      "quick_win": true
+    },
+    {
+      "query": "best hostel in indore for students",
+      "kd_score": 16,
+      "our_position": 7.82,
+      "impressions": 22,
+      "quick_win": true
+    },
+    {
+      "query": "medi caps university hostel",
+      "kd_score": 20,
+      "our_position": 9.26,
+      "impressions": 21,
+      "quick_win": true
+    },
+    {
+      "query": "yes",
+      "kd_score": 29,
+      "our_position": 6.55,
+      "impressions": 21,
+      "quick_win": true
+    },
+    {
+      "query": "best hostels in indore",
+      "kd_score": 20,
+      "our_position": 10.55,
+      "impressions": 20,
+      "quick_win": true
+    },
+    {
+      "query": "student accommodation indore",
+      "kd_score": 24,
+      "our_position": 9.33,
+      "impressions": 12,
+      "quick_win": true
+    },
+    {
+      "query": "hostel essentials checklist",
+      "kd_score": 24,
+      "our_position": 10.73,
+      "impressions": 11,
+      "quick_win": true
+    },
+    {
+      "query": "student area in indore",
+      "kd_score": 20,
+      "our_position": 7.0,
+      "impressions": 8,
+      "quick_win": true
+    },
+    {
+      "query": "indore student area",
+      "kd_score": 24,
+      "our_position": 7.43,
+      "impressions": 7,
+      "quick_win": true
+    },
+    {
+      "query": "hostel medicaps indore",
+      "kd_score": 24,
+      "our_position": 7.94,
+      "impressions": 6,
+      "quick_win": true
+    },
+    {
+      "query": "hostel needs for boys",
+      "kd_score": 20,
+      "our_position": 9.67,
+      "impressions": 6,
+      "quick_win": true
+    },
+    {
+      "query": "pg and hostel difference",
+      "kd_score": 20,
+      "our_position": 6.4,
+      "impressions": 5,
+      "quick_win": true
+    },
+    {
+      "query": "hostel essentials",
+      "kd_score": 27,
+      "our_position": 33.08,
+      "impressions": 51,
+      "quick_win": false
+    },
+    {
+      "query": "hostel packing list for girl students in india",
+      "kd_score": 16,
+      "our_position": 1.7,
+      "impressions": 43,
+      "quick_win": false
+    },
+    {
+      "query": "hostel essentials 2026",
+      "kd_score": 24,
+      "our_position": 1.96,
+      "impressions": 41,
+      "quick_win": false
+    },
+    {
+      "query": "hostel requirements list",
+      "kd_score": 24,
+      "our_position": 30.3,
+      "impressions": 37,
+      "quick_win": false
+    },
+    {
+      "query": "list of things required in hostel",
+      "kd_score": 16,
+      "our_position": 29.14,
+      "impressions": 36,
+      "quick_win": false
+    },
+    {
+      "query": "essential things for hostel",
+      "kd_score": 20,
+      "our_position": 30.41,
+      "impressions": 34,
+      "quick_win": false
+    },
+    {
+      "query": "hostel needs list",
+      "kd_score": 24,
+      "our_position": 36.88,
+      "impressions": 32,
+      "quick_win": false
+    }
+  ]
 }
