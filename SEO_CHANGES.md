@@ -2,6 +2,39 @@
 
 Automated edits from TradeForge. Each entry is a dated, reversible, mechanical fix.
 
+## 2026-04-22 — New page + on-page fixes + www redirect (Claude Code)
+
+**Who:** Claude Code (session after system crash recovery)  
+**Deployed:** 2026-04-22, commit `3f21493`, pushed to GitHub → Cloudflare Pages
+
+**1. Created `student-hostel-in-indore.html`**  
+- Targets "student hostel in indore" (GSC: pos 14.1, 81 impressions, 0 clicks)
+- 515 lines: FAQ schema, LocalBusiness schema, BreadcrumbList schema, 6 CTAs, WhatsApp float button
+- Wired into `sitemap.xml` (priority 0.9, weekly), `llms.txt`, `_redirects` (200 rewrite + trailing-slash 301)
+
+**2. Fixed www→non-www 301 redirect**  
+- Added `https://www.radianceresidency.com/* → https://radianceresidency.com/:splat 301!` in `_redirects`
+- Resolves GSC URL Inspection issue: `https://www.radianceresidency.com/` returning 404
+
+**3. Fixed /blog→/blog/ redirect chain**  
+- Collapsed 2-hop chain to single `301` in `_redirects`
+
+**4. On-page: title + meta + BreadcrumbList schema on 4 pages**  
+- `hostel-near-medicaps-admission-2026.html` — title 72→46 chars, meta 138→91 chars, breadcrumb added
+- `pg-for-working-professionals-rau-indore.html` — title + meta trimmed, breadcrumb added
+- `summer-internship-housing-indore.html` — title + meta trimmed, breadcrumb added
+- `student-testimonials.html` — breadcrumb schema added
+
+**5. FAQPage schema + title fix on `blog/best-hostels-in-indore-for-students.html`**  
+- Title: 89→47 chars ("Best Student Hostel in Indore 2026 | Radiance Residency")
+- Added 4-question FAQPage JSON-LD (targets "best student hostel in indore")
+- Fixed OG/Twitter/Article schema image refs: `.jpg` → `.webp`
+
+**6. Minor canonical/meta fixes on 20 blog pages**  
+- Each had 6-line diff: canonical tag + small metadata alignment
+
+---
+
 ## 2026-04-21 — Fix 25 canonical-mismatch warnings (Claude Code)
 
 **Problem:** Our SEO audit flagged 25 pages where `<link rel="canonical">` pointed
