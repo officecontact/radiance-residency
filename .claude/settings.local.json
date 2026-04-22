@@ -125,7 +125,14 @@
       "Bash(xargs -I {} sed -i 's|images/building-01\\\\.webp|images/outer-building-1.jpg|g' {})",
       "Bash(grep -r \"clean-bathroom-final\\\\|mandir-final\\\\|outer-building\" *.html)",
       "Bash(grep -r \"clean%20bathroom\\\\.jpg\\\\|mandir%20use%20this\" *.html)",
-      "Bash(grep -n \"width: 100%.*height.*object-fit\\\\|\\\\..*image.*{\" \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\\\\style.css\")"
+      "Bash(grep -n \"width: 100%.*height.*object-fit\\\\|\\\\..*image.*{\" \"C:\\\\Users\\\\aagos\\\\assets\\\\residency-website\\\\style.css\")",
+      "Bash(netlify --version)",
+      "Bash(curl -s -X GET https://api.hostinger.com/v1/profile -H 'Authorization: Bearer iSviSSCyYBYCMv1aogARxspBLdJL7y7QO8spn1646f3edeec' -H 'Accept: application/json')",
+      "Bash(curl -s -X GET \"https://api.hostinger.com/v1/profile\" -H \"Authorization: Bearer iSviSSCyYBYCMv1aogARxspBLdJL7y7QO8spn1646f3edeec\")",
+      "Bash(curl *)",
+      "Bash(wrangler --version)",
+      "Bash(wrangler whoami *)",
+      "Bash(wrangler pages *)"
     ]
   }
 }
