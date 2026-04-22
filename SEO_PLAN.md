@@ -951,4 +951,75 @@ Each block below is valid schema.org JSON-LD. Paste inside `<script type="applic
 
 Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
+### GSC URL Inspection — pages with issues
+
+- `https://www.radianceresidency.com/` — coverage=Not found (404)
+- `https://www.radianceresidency.com/about` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/amenities` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/contact` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/gallery` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/rooms` — coverage=URL is unknown to Google
+
+### AEO — AI engine citations (30 days)
+
+| Engine | Cited / Total | % |
+|---|---|---|
+| claude | 0 / 7 | 0.0% |
+| gemini | 0 / 7 | 0.0% |
+| openai | 0 / 7 | 0.0% |
+| perplexity_via_or | 5 / 7 | 71.4% |
+
+Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert authorship, and factual "since/founded/certified" evidence.
+
+### Low-readability pages (Flesch < 40 — hard to read)
+
+| Page | Flesch | Grade | Words | Action |
+|---|---|---|---|---|
+| `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/ips-academy-indore-review-guide.html` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` | 34.0 | 15.7 | 978 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/amenities.html` | 35.0 | 12.5 | 888 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/hostel-near-ips-academy.html` | 36.3 | 12.6 | 1160 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/hostel-near-medicaps-university.html` | 37.2 | 11.7 | 1685 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/pg-for-working-professionals-rau-indore.html` | 37.3 | 11.7 | 873 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com` | 38.9 | 11.8 | 1927 | Shorten sentences to 15–20 words, simpler vocabulary |
+
+### Canonical issues
+
+- `https://radianceresidency.com/amenities.html` → canonical=`https://radianceresidency.com/amenities` — canonical_mismatch
+- `https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html` → canonical=`https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home` — canonical_mismatch
+- `https://radianceresidency.com/blog/best-hostels-in-indore-for-students.html` → canonical=`https://radianceresidency.com/blog/best-hostels-in-indore-for-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/homesickness-tips-for-hostel-students.html` → canonical=`https://radianceresidency.com/blog/homesickness-tips-for-hostel-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore.html` → canonical=`https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore` — canonical_mismatch
+- `https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` → canonical=`https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore` — canonical_mismatch
+- `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html` → canonical=`https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore` — canonical_mismatch
+- `https://radianceresidency.com/blog/iim-indore-campus-area-guide.html` → canonical=`https://radianceresidency.com/blog/iim-indore-campus-area-guide` — canonical_mismatch
+
+### Redirect chains / loops
+
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+
+### Link profile strength (Majestic-clone)
+
+- Trust Flow: **8.8** · Citation Flow: **15.4** · Inbound domains: **34**
+
+**Topical trust by theme:**
+
+  - generic: TF=100.0, sources=33
+  - agri: TF=100.0, sources=1
+
+### Site-audit issue rollup
+
+| Severity | Issue | Count |
+|---|---|---|
+| warning | title_too_long | 31 |
+| critical | image_broken | 12 |
+| warning | meta_too_long | 6 |
+| warning | duplicate_title | 6 |
+| warning | duplicate_meta_description | 6 |
+| critical | page_has_links_to_broken_page | 4 |
+| critical | 404_page | 1 |
+
 <!-- next-actions-end -->

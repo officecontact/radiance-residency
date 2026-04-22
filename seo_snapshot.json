@@ -794,5 +794,329 @@
   "internal_pagerank_low": [],
   "gsc_index_issues": [],
   "serp_feature_changes": [],
-  "eeat_weak_pages": []
+  "eeat_weak_pages": [],
+  "lighthouse": [],
+  "crux_field": [],
+  "url_inspection": [
+    {
+      "url": "https://www.radianceresidency.com/",
+      "verdict": "",
+      "coverage": "Not found (404)",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    },
+    {
+      "url": "https://www.radianceresidency.com/about",
+      "verdict": "",
+      "coverage": "URL is unknown to Google",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    },
+    {
+      "url": "https://www.radianceresidency.com/amenities",
+      "verdict": "",
+      "coverage": "URL is unknown to Google",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    },
+    {
+      "url": "https://www.radianceresidency.com/contact",
+      "verdict": "",
+      "coverage": "URL is unknown to Google",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    },
+    {
+      "url": "https://www.radianceresidency.com/gallery",
+      "verdict": "",
+      "coverage": "URL is unknown to Google",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    },
+    {
+      "url": "https://www.radianceresidency.com/rooms",
+      "verdict": "",
+      "coverage": "URL is unknown to Google",
+      "indexing": "INDEXING_STATE_UNSPECIFIED",
+      "mobile": "VERDICT_UNSPECIFIED",
+      "rich": "",
+      "issues": ""
+    }
+  ],
+  "ai_citations_summary": [
+    {
+      "engine": "claude",
+      "cited": 0,
+      "total": 7,
+      "pct": 0.0
+    },
+    {
+      "engine": "gemini",
+      "cited": 0,
+      "total": 7,
+      "pct": 0.0
+    },
+    {
+      "engine": "openai",
+      "cited": 0,
+      "total": 7,
+      "pct": 0.0
+    },
+    {
+      "engine": "perplexity_via_or",
+      "cited": 5,
+      "total": 7,
+      "pct": 71.4
+    }
+  ],
+  "low_readability": [
+    {
+      "url": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html",
+      "flesch": 27.9,
+      "grade": 13.7,
+      "words": 1219
+    },
+    {
+      "url": "https://radianceresidency.com/blog/ips-academy-indore-review-guide.html",
+      "flesch": 31.6,
+      "grade": 13.4,
+      "words": 1179
+    },
+    {
+      "url": "https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html",
+      "flesch": 34.0,
+      "grade": 15.7,
+      "words": 978
+    },
+    {
+      "url": "https://radianceresidency.com/amenities.html",
+      "flesch": 35.0,
+      "grade": 12.5,
+      "words": 888
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-near-ips-academy.html",
+      "flesch": 36.3,
+      "grade": 12.6,
+      "words": 1160
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-near-medicaps-university.html",
+      "flesch": 37.2,
+      "grade": 11.7,
+      "words": 1685
+    },
+    {
+      "url": "https://radianceresidency.com/pg-for-working-professionals-rau-indore.html",
+      "flesch": 37.3,
+      "grade": 11.7,
+      "words": 873
+    },
+    {
+      "url": "https://radianceresidency.com",
+      "flesch": 38.9,
+      "grade": 11.8,
+      "words": 1927
+    },
+    {
+      "url": "https://radianceresidency.com/index.html",
+      "flesch": 38.9,
+      "grade": 11.8,
+      "words": 1927
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-near-iist-indore.html",
+      "flesch": 39.3,
+      "grade": 11.5,
+      "words": 1089
+    }
+  ],
+  "canonical_issues": [
+    {
+      "url": "https://radianceresidency.com/amenities.html",
+      "canonical": "https://radianceresidency.com/amenities",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
+      "canonical": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students.html",
+      "canonical": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/homesickness-tips-for-hostel-students.html",
+      "canonical": "https://radianceresidency.com/blog/homesickness-tips-for-hostel-students",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore.html",
+      "canonical": "https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html",
+      "canonical": "https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html",
+      "canonical": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/iim-indore-campus-area-guide.html",
+      "canonical": "https://radianceresidency.com/blog/iim-indore-campus-area-guide",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/ips-academy-indore-review-guide.html",
+      "canonical": "https://radianceresidency.com/blog/ips-academy-indore-review-guide",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html",
+      "canonical": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home.html",
+      "canonical": "https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review.html",
+      "canonical": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/student-life-in-rau-indore-guide.html",
+      "canonical": "https://radianceresidency.com/blog/student-life-in-rau-indore-guide",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india.html",
+      "canonical": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
+      "issue": "canonical_mismatch"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore.html",
+      "canonical": "https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore",
+      "issue": "canonical_mismatch"
+    }
+  ],
+  "duplicate_clusters": [],
+  "redirect_chains": [
+    {
+      "source": "https://radianceresidency.com/blog",
+      "final": "https://radianceresidency.com/blog/",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/blog",
+      "final": "https://radianceresidency.com/blog/",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/blog",
+      "final": "https://radianceresidency.com/blog/",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    }
+  ],
+  "heavy_images": [],
+  "ssl_status": {
+    "issuer": "countryName=US, organizationName=Let's Encrypt, commonName=R12",
+    "expires": "2026-06-17",
+    "days_remaining": 56,
+    "expired": false
+  },
+  "domain_trust_flow": {
+    "tf": 8.8,
+    "cf": 15.4,
+    "inbound_domains": 34
+  },
+  "topical_trust_flow": [
+    {
+      "topic": "generic",
+      "tf": 100.0,
+      "cf": 33.0,
+      "sources": 33
+    },
+    {
+      "topic": "agri",
+      "tf": 100.0,
+      "cf": 1.0,
+      "sources": 1
+    }
+  ],
+  "majestic": {
+    "external_backlinks": null,
+    "referring_domains": null,
+    "ref_ips": null,
+    "ref_subnets": null,
+    "indexed_urls": null
+  },
+  "serp_features_owned": [],
+  "serp_features_lost": [],
+  "sf_crawl_issues": [],
+  "site_audit_summary": [
+    {
+      "severity": "warning",
+      "code": "title_too_long",
+      "count": 31
+    },
+    {
+      "severity": "critical",
+      "code": "image_broken",
+      "count": 12
+    },
+    {
+      "severity": "warning",
+      "code": "meta_too_long",
+      "count": 6
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_title",
+      "count": 6
+    },
+    {
+      "severity": "warning",
+      "code": "duplicate_meta_description",
+      "count": 6
+    },
+    {
+      "severity": "critical",
+      "code": "page_has_links_to_broken_page",
+      "count": 4
+    },
+    {
+      "severity": "critical",
+      "code": "404_page",
+      "count": 1
+    }
+  ],
+  "backlinks_lost": [],
+  "top_inbound_pages": [],
+  "keyword_targets": [],
+  "rank_drops": []
 }
