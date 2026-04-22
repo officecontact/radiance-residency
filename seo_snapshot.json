@@ -784,8 +784,15 @@
   ],
   "content_scores": [],
   "missing_terms": [],
-  "anchor_distribution": null,
+  "anchor_distribution": [
+    {
+      "bucket": "url",
+      "pct": 100.0,
+      "sample": "radianceresidency.com"
+    }
+  ],
   "internal_pagerank_low": [],
   "gsc_index_issues": [],
-  "serp_feature_changes": []
+  "serp_feature_changes": [],
+  "eeat_weak_pages": []
 }

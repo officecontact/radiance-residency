@@ -943,4 +943,12 @@ Each block below is valid schema.org JSON-LD. Paste inside `<script type="applic
 </script>
 ```
 
+### Anchor-text distribution (link profile health)
+
+| Bucket | % | Sample |
+|---|---|---|
+| url | 100.0% | radianceresidency.com |
+
+Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
+
 <!-- next-actions-end -->
