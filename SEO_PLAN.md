@@ -49,7 +49,7 @@
 **Task #2 (GBP)** — 10+ photos, description, Q&A, hours  
 **Task #4 (Reviews)** — Target 10+ reviews from current students  
 **Task #5 (Testimonials)** — 3–5 real quotes for schema population  
-**Task #3 (Directories)** — JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com  
+~~**Task #3 (Directories)**~~ — ✅ Done 2026-04-23 (JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com)  
 **Task #1 (Wikidata)** — Register Radiance Residency  
 
 **Why These Block Next Progress:**
@@ -844,7 +844,7 @@ Create dedicated pages for these clusters. High-volume "hostel packing / essenti
 | Task #2 | Complete GBP — 10+ photos, description, Q&A, hours | Critical |
 | Task #4 | Get 10 Google reviews via WhatsApp | Critical |
 | Task #5 | Collect 3–5 real student testimonials | High |
-| Task #3 | Submit to 6 directories (JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com) | High |
+| ~~Task #3~~ | ~~Submit to 6 directories (JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com)~~ | ✅ Done 2026-04-23 |
 | Task #1 | Wikidata submission | Medium |
 
 ### Backlink hygiene — disavow queue (Shachi)
