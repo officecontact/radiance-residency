@@ -793,14 +793,17 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Priority | Page | Issue | Action needed |
 |---|---|---|---|
-| High | `rooms.html` | 7 nonresponsive images | Add `width`/`height` to all `<img>` tags |
-| High | `amenities.html` | 6 nonresponsive images | Add `width`/`height` to all `<img>` tags |
-| High | `blog/` index | 26 nonresponsive images + 6 fixed-width elements | Add `width`/`height`; remove fixed px widths |
-| Medium | `blog/best-food-places-near-medicaps-university-rau.html` | slow_load | Lazy-load images, check render-blocking resources |
-| Medium | ~2 pages | meta_too_long warnings | Identify + trim to ≤155 chars |
 | Medium | AEO: Claude/Gemini/OpenAI | Citation rate 0% on all 3 | Add FAQ schema + author markup to top blog posts |
 | Low | `/pg-hostel-in-rau` | 13 impressions, no page | New landing page (low priority) |
 | Low | 1 unknown 404 | GSC Coverage shows 1 | Check GSC Coverage → Not Found report to identify URL |
+
+**Already confirmed fixed (audited 2026-04-23):**
+- `rooms.html` — all 7 images already have width/height ✅
+- `amenities.html` — all 6 images already have width/height ✅
+- `blog/index.html` — 24 images missing width/height → fixed ✅
+- `blog/best-food-places` — featured image missing width/height → fixed ✅
+- `meta_too_long` — 3 pages identified + trimmed: `hostel-packing-list` (161→155), `hostel-budget-guide` (164→163), `blog/indore-city-guide` (173→153) ✅
+- Wikidata — Radiance Residency already registered as Q139378489 ✅
 
 ---
 
@@ -811,7 +814,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 | **Task #2** | Complete GBP — 10+ photos, description, Q&A, hours | **Critical** |
 | **Task #4** | Get 10+ Google reviews via WhatsApp to current students | **Critical** |
 | **Task #5** | Collect 3–5 real student testimonials (name + college + quote) | High |
-| **Task #1** | Wikidata submission — register Radiance Residency | Medium |
+| ~~Task #1~~ | ~~Wikidata submission~~ | ✅ Done — Q139378489 registered |
 
 ---
 
