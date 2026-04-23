@@ -766,10 +766,16 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 | **`medicaps-hostel-options` 301** | `/medicaps-hostel-options → /hostel-near-medicaps-university 301!` added — kills keyword cannibalization |
 | **`llms.txt` full audit** | Added 13 missing college pages + 24 blog posts individually listed + rooms/amenities/contact — now 56 pages indexed |
 | **`.well-known/ai.txt` updated** | Added `hostel_near_medicaps`, `hostel_near_ips`, `student_hostel_indore`, `packing_guide` key pages; date updated |
-| **`sitemap.xml` lastmod** | Updated 17 modified pages to 2026-04-23 |
+| **`sitemap.xml` lastmod** | Updated 23 modified pages to 2026-04-23 |
 | **H1 check: `index.html`** | H1 already has "Radiance Residency — Boys Hostel and PG in Rau, Indore" ✅ — no duplicate H2 needed |
 | **FAQ schema: `index.html`, `hostel-near-medicaps-university.html`, `hostel-near-ips-academy.html`** | All three confirmed present ✅ |
 | **Packing page check** | `blog/things-to-pack-for-hostel-life-india.html` exists (title now fixed to 58 chars). Dedicated root landing page `/hostel-packing-list-for-students` still pending if needed for consolidation. |
+| **`blog/best-hostels-in-indore-for-students.html` — "Why Radiance" section** | Added 200-word section with 3 paras targeting "best hostel in indore for students" (pos 7.8, 22 impr) |
+| **`hostel-near-medicaps-university.html` — H2 for "medi caps university hostel"** | Changed H2 to "MediCaps University Hostel — Rau, Indore" (targets pos 9.3 query with 21 impr) |
+| **Broken internal links fixed** | 7 missing college pages → 301 redirects in `_redirects`; `weekend-getaways` link removed from 4 blog posts |
+| **`disavow.txt` created** | 13 toxic domains across 3 PBN subnet clusters — see `disavow.txt` in repo root |
+| **`.gitignore` updated** | Added `disavow.txt` (should not be public) |
+| **Duplicate titles/metas audit** | ✅ Zero duplicates found across all 57 pages |
 
 ---
 
@@ -803,8 +809,8 @@ These pages already rank in the top 10 but get zero clicks. Remaining actions:
 | pg near medicaps university indore | 8.3 | 43 | `hostel-near-medicaps-university.html` | FAQ schema confirmed ✅ — monitor | ✅ Done |
 | pg near ips academy indore | 7.3 | 32 | `hostel-near-ips-academy.html` | FAQ schema confirmed ✅ — monitor | ✅ Done |
 | hostel near ips academy indore | 7.4 | 24 | `hostel-near-ips-academy.html` | FAQ schema present ✅ | ✅ Done |
-| best hostel in indore for students | 7.8 | 22 | `blog/best-hostels-in-indore-for-students.html` | Add 200w "Why Radiance" section | ❌ Pending |
-| medi caps university hostel | 9.3 | 21 | `hostel-near-medicaps-university.html` | Add H2 "MediCaps University Hostel — Radiance Residency" | ❌ Pending |
+| best hostel in indore for students | 7.8 | 22 | `blog/best-hostels-in-indore-for-students.html` | 200w "Why Radiance" section added ✅ | ✅ Done |
+| medi caps university hostel | 9.3 | 21 | `hostel-near-medicaps-university.html` | H2 "MediCaps University Hostel — Rau, Indore" added ✅ | ✅ Done |
 | student accommodation indore | 9.3 | 12 | `student-hostel-in-indore.html` | H2 already present ✅ | ✅ Done |
 
 ### Priority 2 — New landing pages (ranking but zero clicks)
@@ -882,14 +888,14 @@ Domains linking to 2+ peer sites but not us:
 
 | Severity | Issue | Count | Status |
 |---|---|---|---|
-| warning | title_too_long | 31 | ✅ Fixed 16 on 2026-04-23 — 2 root + 14 blog. ~0 remaining in root, 0 remaining in blog. |
-| critical | image_broken | 12 | ✅ False positive confirmed — all refs are URL-encoded spaces, files exist on disk |
+| warning | title_too_long | 31 | ✅ All fixed — 16 fixed 2026-04-23, rest were false positives or already fixed |
+| critical | image_broken | 12 | ✅ False positive — URL-encoded spaces resolve fine on server |
 | warning | meta_too_long | 6 | ~2 remaining (not yet audited) |
-| warning | duplicate_title | 6 | Pending audit |
-| warning | duplicate_meta_description | 6 | Pending audit |
-| critical | page_has_links_to_broken_page | 4 | Pending audit |
-| critical | 404_page | 1 | Pending audit |
-| warning | 19_nonresponsive_images (homepage) | 19 | ✅ Fixed 2026-04-23 — `loading="lazy"` + `width`/`height` added to all homepage images |
+| warning | duplicate_title | 6 | ✅ Zero duplicates found across all 57 pages |
+| warning | duplicate_meta_description | 6 | ✅ Zero duplicates found across all 57 pages |
+| critical | page_has_links_to_broken_page | 4 | ✅ Fixed — 7 missing college pages → 301 redirects; `weekend-getaways` link removed from 4 blogs |
+| critical | 404_page | 1 | Pending — unknown which page, needs GSC check |
+| warning | 19_nonresponsive_images (homepage) | 19 | ✅ Fixed 2026-04-23 — `loading="lazy"` + `width`/`height` added |
 
 ### Competitors tracked
 
