@@ -849,12 +849,9 @@ Create dedicated pages for these clusters. High-volume "hostel packing / essenti
 
 ### Backlink hygiene — disavow queue (Shachi)
 
-Run `python scripts/export_disavow_file.py`, upload generated `.txt` to GSC Disavow Tool.
-- **5 toxic domains** flagged
-- **3 PBN subnet clusters** detected:
-  - `195.20.19.x/24` — analyticshaven.top, atomizelink.icu, bye.fyi, creativeposts.top, dailymusings.top, screenshots.wiki, sites.jake.eu
-  - `184.168.115.x/24` — allwebsitesdirectory.com, domainanalysis.org, domainsc.com
-  - `203.161.54.x/24` — kgzxkf.com, nettools.guru, sitescooponline.com
+✅ **Done 2026-04-23** — `disavow.txt` uploaded to GSC Disavow Tool (URL prefix property `https://radianceresidency.com/`).
+- 13 toxic domains across 3 PBN subnet clusters submitted
+- Google processing time: 2–4 weeks
 
 ### GSC URL Inspection — www 404s (fix in progress via _redirects)
 
