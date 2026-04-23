@@ -26,6 +26,7 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /pg-for-boys-rau-indore             /pg-for-boys-rau-indore.html             200
 /student-hostel-in-indore           /student-hostel-in-indore.html           200
 /hostel-packing-list-for-students   /hostel-packing-list-for-students.html   200
+/pg-hostel-in-rau                   /pg-hostel-in-rau.html                   200
 
 # Keyword cannibalization fix: medicaps-hostel-options → canonical page (2026-04-23)
 /medicaps-hostel-options  /hostel-near-medicaps-university  301!
@@ -60,3 +61,4 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /pg-for-boys-rau-indore/            /pg-for-boys-rau-indore             301
 /student-hostel-in-indore/          /student-hostel-in-indore           301
 /hostel-packing-list-for-students/  /hostel-packing-list-for-students   301
+/pg-hostel-in-rau/                  /pg-hostel-in-rau                   301

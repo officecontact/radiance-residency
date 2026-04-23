@@ -77,6 +77,7 @@ professional_housing: https://radianceresidency.com/pg-for-working-professionals
 internship_housing: https://radianceresidency.com/summer-internship-housing-indore
 packing_guide: https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india
 packing_list: https://radianceresidency.com/hostel-packing-list-for-students
+pg_hostel_rau: https://radianceresidency.com/pg-hostel-in-rau
 contact: https://radianceresidency.com/contact
 blog: https://radianceresidency.com/blog/
 

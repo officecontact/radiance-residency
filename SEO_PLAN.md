@@ -791,19 +791,22 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 ## Remaining — Claude Code (Technical)
 
-| Priority | Page | Issue | Action needed |
-|---|---|---|---|
-| Medium | AEO: Claude/Gemini/OpenAI | Citation rate 0% on all 3 | Add FAQ schema + author markup to top blog posts |
-| Low | `/pg-hostel-in-rau` | 13 impressions, no page | New landing page (low priority) |
-| Low | 1 unknown 404 | GSC Coverage shows 1 | Check GSC Coverage → Not Found report to identify URL |
+**Nothing blocking.** All audit issues resolved as of 2026-04-23.
 
-**Already confirmed fixed (audited 2026-04-23):**
-- `rooms.html` — all 7 images already have width/height ✅
-- `amenities.html` — all 6 images already have width/height ✅
+Next optional improvements (monitor after GSC recrawl):
+- AEO citations for Claude/Gemini/OpenAI — added FAQ schema to 5 more pages (rooms, budget-guide, how-to-choose, hostel-vs-pg, cost-of-living). Monitor in 4–6 weeks.
+- Run Lighthouse again after Cloudflare cache purge to measure mobile perf improvement.
+
+**Confirmed fixed (audited + corrected 2026-04-23):**
+- `rooms.html` — images already had width/height ✅
+- `amenities.html` — images already had width/height ✅
 - `blog/index.html` — 24 images missing width/height → fixed ✅
-- `blog/best-food-places` — featured image missing width/height → fixed ✅
-- `meta_too_long` — 3 pages identified + trimmed: `hostel-packing-list` (161→155), `hostel-budget-guide` (164→163), `blog/indore-city-guide` (173→153) ✅
-- Wikidata — Radiance Residency already registered as Q139378489 ✅
+- `blog/best-food-places` — featured image → fixed ✅
+- `meta_too_long` — 3 pages trimmed ✅
+- Wikidata — Q139378489 already registered ✅
+- 404 mystery — all 58 sitemap URLs have matching files; `medicaps-hostel-options` removed from sitemap (was being 301'd → soft 404 signal) ✅
+- AEO FAQ schema — added to `how-to-choose`, `hostel-vs-pg`, `cost-of-living`, `rooms`, `hostel-budget-guide` → 33 pages now have FAQPage schema ✅
+- `/pg-hostel-in-rau` page — created + wired into sitemap (0.8), llms.txt, ai.txt, _redirects (200 + trailing slash 301) ✅
 
 ---
 
