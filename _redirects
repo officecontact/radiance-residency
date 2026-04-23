@@ -30,6 +30,15 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /medicaps-hostel-options  /hostel-near-medicaps-university  301!
 /medicaps-hostel-options/ /hostel-near-medicaps-university  301!
 
+# Missing college pages — redirect to closest existing page (2026-04-23)
+/hostel-near-sage-university-indore             /boys-hostel-in-rau-indore              301
+/hostel-near-davv-indore                        /boys-hostel-in-rau-indore              301
+/hostel-near-svvv-indore                        /hostel-near-iist-indore                301
+/hostel-near-indore-institute-of-pharmacy       /hostel-in-pigdamber-rau                301
+/hostel-near-holkar-science-college-indore      /boys-hostel-in-rau-indore              301
+/hostel-near-oriental-college-indore            /boys-hostel-in-rau-indore              301
+/blog/weekend-getaways-from-indore-students     /blog/places-to-visit-in-indore-for-students  301
+
 # Blog index redirect chain fix — collapse 2-hop to single 301
 /blog  /blog/  301
 
