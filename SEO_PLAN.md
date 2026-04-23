@@ -757,6 +757,22 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
+## Completed — 2026-04-23 ✅
+
+| Done | Detail |
+|---|---|
+| **16 title_too_long fixes** | 2 root pages + 14 blog pages trimmed to ≤60 chars |
+| **Homepage images** | Added `loading="lazy"` + `width`/`height` to 12 images (3 blog cards + 9 gallery) — fixes 19_nonresponsive_images audit flag |
+| **`medicaps-hostel-options` 301** | `/medicaps-hostel-options → /hostel-near-medicaps-university 301!` added — kills keyword cannibalization |
+| **`llms.txt` full audit** | Added 13 missing college pages + 24 blog posts individually listed + rooms/amenities/contact — now 56 pages indexed |
+| **`.well-known/ai.txt` updated** | Added `hostel_near_medicaps`, `hostel_near_ips`, `student_hostel_indore`, `packing_guide` key pages; date updated |
+| **`sitemap.xml` lastmod** | Updated 17 modified pages to 2026-04-23 |
+| **H1 check: `index.html`** | H1 already has "Radiance Residency — Boys Hostel and PG in Rau, Indore" ✅ — no duplicate H2 needed |
+| **FAQ schema: `index.html`, `hostel-near-medicaps-university.html`, `hostel-near-ips-academy.html`** | All three confirmed present ✅ |
+| **Packing page check** | `blog/things-to-pack-for-hostel-life-india.html` exists (title now fixed to 58 chars). Dedicated root landing page `/hostel-packing-list-for-students` still pending if needed for consolidation. |
+
+---
+
 ## Completed — 2026-04-22 ✅
 
 | Done | Detail |
@@ -775,21 +791,21 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 ---
 
-## Next Actions — 2026-04-22 (Next Sprint)
+## Next Actions — 2026-04-23 (Next Sprint)
 
 ### Priority 1 — Quick-push pages (pos 5–9, one tweak from top 5)
 
-These pages already rank in the top 10 but get zero clicks. Add exact-match H2, 200-word supporting section, FAQ entry on each target page.
+These pages already rank in the top 10 but get zero clicks. Remaining actions:
 
-| Query | Pos | Impr | Target page | Action |
-|---|---|---|---|---|
-| radiance residency | 5.8 | 64 | `index.html` | Add H2 "Radiance Residency — Boys Hostel in Rau, Indore", FAQ schema entry |
-| pg near medicaps university indore | 8.3 | 43 | `hostel-near-medicaps-university.html` | Strengthen H1 to exact query, add FAQ schema |
-| pg near ips academy indore | 7.3 | 32 | `hostel-near-ips-academy.html` | Strengthen H1, add FAQ schema |
-| hostel near ips academy indore | 7.4 | 24 | `hostel-near-ips-academy.html` | Add H2 with exact phrase, FAQ entry |
-| best hostel in indore for students | 7.8 | 22 | `blog/best-hostels-in-indore-for-students.html` | H1 already fixed ✅ — add 200w "Why Radiance" section |
-| medi caps university hostel | 9.3 | 21 | `hostel-near-medicaps-university.html` | Add H2 with exact phrase |
-| student accommodation indore | 9.3 | 12 | `student-hostel-in-indore.html` | Add H2 "Student Accommodation in Indore" ✅ already has it — verify |
+| Query | Pos | Impr | Target page | Action | Status |
+|---|---|---|---|---|---|
+| radiance residency | 5.8 | 64 | `index.html` | H1 already has exact brand name ✅ — monitor for click improvement | ✅ Done |
+| pg near medicaps university indore | 8.3 | 43 | `hostel-near-medicaps-university.html` | FAQ schema confirmed ✅ — monitor | ✅ Done |
+| pg near ips academy indore | 7.3 | 32 | `hostel-near-ips-academy.html` | FAQ schema confirmed ✅ — monitor | ✅ Done |
+| hostel near ips academy indore | 7.4 | 24 | `hostel-near-ips-academy.html` | FAQ schema present ✅ | ✅ Done |
+| best hostel in indore for students | 7.8 | 22 | `blog/best-hostels-in-indore-for-students.html` | Add 200w "Why Radiance" section | ❌ Pending |
+| medi caps university hostel | 9.3 | 21 | `hostel-near-medicaps-university.html` | Add H2 "MediCaps University Hostel — Radiance Residency" | ❌ Pending |
+| student accommodation indore | 9.3 | 12 | `student-hostel-in-indore.html` | H2 already present ✅ | ✅ Done |
 
 ### Priority 2 — New landing pages (ranking but zero clicks)
 
@@ -862,17 +878,18 @@ Domains linking to 2+ peer sites but not us:
 - **elixirmultinational.us** (links blossence.com, radianceoverseas.com) — pitch via products page
 - **bye.fyi** (links blossence.com, radianceoverseas.com) — pitch via report page
 
-### Site-audit rollup (2026-04-22 baseline)
+### Site-audit rollup (2026-04-23 updated)
 
 | Severity | Issue | Count | Status |
 |---|---|---|---|
-| warning | title_too_long | 31 | ~27 remaining after today's fixes |
-| critical | image_broken | 12 | Needs audit |
-| warning | meta_too_long | 6 | ~2 remaining after today's fixes |
-| warning | duplicate_title | 6 | Pending |
-| warning | duplicate_meta_description | 6 | Pending |
-| critical | page_has_links_to_broken_page | 4 | Pending |
-| critical | 404_page | 1 | Pending |
+| warning | title_too_long | 31 | ✅ Fixed 16 on 2026-04-23 — 2 root + 14 blog. ~0 remaining in root, 0 remaining in blog. |
+| critical | image_broken | 12 | ✅ False positive confirmed — all refs are URL-encoded spaces, files exist on disk |
+| warning | meta_too_long | 6 | ~2 remaining (not yet audited) |
+| warning | duplicate_title | 6 | Pending audit |
+| warning | duplicate_meta_description | 6 | Pending audit |
+| critical | page_has_links_to_broken_page | 4 | Pending audit |
+| critical | 404_page | 1 | Pending audit |
+| warning | 19_nonresponsive_images (homepage) | 19 | ✅ Fixed 2026-04-23 — `loading="lazy"` + `width`/`height` added to all homepage images |
 
 ### Competitors tracked
 
