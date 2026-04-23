@@ -1,5 +1,5 @@
 # Answer Engine Optimization (AEO) & AI Disclosure
-# Last Updated: 2026-04-16
+# Last Updated: 2026-04-23
 # For comprehensive AI-readable information, see: https://radianceresidency.com/llms.txt
 
 # ===== SITE INFORMATION =====
@@ -69,10 +69,13 @@ rooms_guide: https://radianceresidency.com/rooms
 amenities: https://radianceresidency.com/amenities
 student_testimonials: https://radianceresidency.com/student-testimonials
 budget_guide: https://radianceresidency.com/hostel-budget-guide
-medicaps_options: https://radianceresidency.com/medicaps-hostel-options
+hostel_near_medicaps: https://radianceresidency.com/hostel-near-medicaps-university
+hostel_near_ips: https://radianceresidency.com/hostel-near-ips-academy
+student_hostel_indore: https://radianceresidency.com/student-hostel-in-indore
 admission_2026: https://radianceresidency.com/hostel-near-medicaps-admission-2026
 professional_housing: https://radianceresidency.com/pg-for-working-professionals-rau-indore
 internship_housing: https://radianceresidency.com/summer-internship-housing-indore
+packing_guide: https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india
 contact: https://radianceresidency.com/contact
 blog: https://radianceresidency.com/blog/
 
