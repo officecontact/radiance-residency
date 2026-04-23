@@ -76,6 +76,7 @@ admission_2026: https://radianceresidency.com/hostel-near-medicaps-admission-202
 professional_housing: https://radianceresidency.com/pg-for-working-professionals-rau-indore
 internship_housing: https://radianceresidency.com/summer-internship-housing-indore
 packing_guide: https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india
+packing_list: https://radianceresidency.com/hostel-packing-list-for-students
 contact: https://radianceresidency.com/contact
 blog: https://radianceresidency.com/blog/
 
