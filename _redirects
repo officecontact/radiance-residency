@@ -25,6 +25,7 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /hostel-near-iim-indore             /hostel-near-iim-indore.html             200
 /pg-for-boys-rau-indore             /pg-for-boys-rau-indore.html             200
 /student-hostel-in-indore           /student-hostel-in-indore.html           200
+/hostel-packing-list-for-students   /hostel-packing-list-for-students.html   200
 
 # Keyword cannibalization fix: medicaps-hostel-options → canonical page (2026-04-23)
 /medicaps-hostel-options  /hostel-near-medicaps-university  301!
@@ -42,6 +43,11 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 # Blog index redirect chain fix — collapse 2-hop to single 301
 /blog  /blog/  301
 
+# Packing list variant URLs → canonical
+/hostel-essentials                  /hostel-packing-list-for-students  301!
+/checklist-for-hostel-students      /hostel-packing-list-for-students  301!
+/hostel-packing-checklist           /hostel-packing-list-for-students  301!
+
 # Trailing slash normalization
 /rooms/     /rooms    301
 /amenities/ /amenities 301
@@ -53,3 +59,4 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /hostel-near-iim-indore/            /hostel-near-iim-indore             301
 /pg-for-boys-rau-indore/            /pg-for-boys-rau-indore             301
 /student-hostel-in-indore/          /student-hostel-in-indore           301
+/hostel-packing-list-for-students/  /hostel-packing-list-for-students   301

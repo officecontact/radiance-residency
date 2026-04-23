@@ -769,7 +769,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 | **`sitemap.xml` lastmod** | Updated 23 modified pages to 2026-04-23 |
 | **H1 check: `index.html`** | H1 already has "Radiance Residency — Boys Hostel and PG in Rau, Indore" ✅ — no duplicate H2 needed |
 | **FAQ schema: `index.html`, `hostel-near-medicaps-university.html`, `hostel-near-ips-academy.html`** | All three confirmed present ✅ |
-| **Packing page check** | `blog/things-to-pack-for-hostel-life-india.html` exists (title now fixed to 58 chars). Dedicated root landing page `/hostel-packing-list-for-students` still pending if needed for consolidation. |
+| **`/hostel-packing-list-for-students` created + wired** | Full landing page created (title 58c, FAQPage + LocalBusiness + BreadcrumbList schema, 7-category interactive checklist). Added to `sitemap.xml` (priority 0.85, lastmod 2026-04-23), `llms.txt`, `.well-known/ai.txt`, `_redirects` (200 rewrite + 301s from `/hostel-essentials`, `/checklist-for-hostel-students`, `/hostel-packing-checklist` + trailing slash). |
 | **`blog/best-hostels-in-indore-for-students.html` — "Why Radiance" section** | Added 200-word section with 3 paras targeting "best hostel in indore for students" (pos 7.8, 22 impr) |
 | **`hostel-near-medicaps-university.html` — H2 for "medi caps university hostel"** | Changed H2 to "MediCaps University Hostel — Rau, Indore" (targets pos 9.3 query with 21 impr) |
 | **Broken internal links fixed** | 7 missing college pages → 301 redirects in `_redirects`; `weekend-getaways` link removed from 4 blog posts |
@@ -819,7 +819,7 @@ Create dedicated pages for these clusters. High-volume "hostel packing / essenti
 
 | Cluster | Queries | Impr total | Suggested URL | Notes |
 |---|---|---|---|---|
-| Packing / checklist / essentials | hostel packing list, checklist for hostel students, hostel essentials, hostel requirements list, essential things for hostel, hostel requirement list, hostel needs list | ~270 combined | `/hostel-packing-list-for-students` | Consolidate all variants; 301 `/hostel-essentials`, `/checklist-for-hostel-students` etc. to this URL |
+| Packing / checklist / essentials | hostel packing list, checklist for hostel students, hostel essentials, hostel requirements list, essential things for hostel, hostel requirement list, hostel needs list | ~270 combined | `/hostel-packing-list-for-students` | ✅ Done 2026-04-23 — page created + wired (sitemap 0.85, llms.txt, ai.txt, _redirects 200 + 3×301 variants) |
 | Best hostels in Indore | best hostels in indore, best hostel in indore | 34 | Already covered by `blog/best-hostels-in-indore-for-students` — no new page needed | |
 | PG hostel in Rau | pg hostel in rau | 13 | `/pg-hostel-in-rau` | Low priority — do after packing page |
 
