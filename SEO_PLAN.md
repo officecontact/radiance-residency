@@ -1046,13 +1046,16 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 ### Duplicate content clusters
 
-- **Cluster b12a2ae31bdf** (3 pages, 1.0 similarity):
+- **Cluster b12a2ae31bdf** (6 pages, 1.0 similarity):
   - `https://radianceresidency.com`
   - `https://radianceresidency.com/`
   - `https://radianceresidency.com/index.html`
+  - `https://radianceresidency.com`
   → Pick one canonical, 301-redirect the rest OR differentiate content.
-- **Cluster 577e64ce1c08** (2 pages, 1.0 similarity):
+- **Cluster 577e64ce1c08** (4 pages, 1.0 similarity):
   - `https://radianceresidency.com/student-testimonials`
+  - `https://radianceresidency.com/student-testimonials`
+  - `https://radianceresidency.com/student-testimonials.html`
   - `https://radianceresidency.com/student-testimonials.html`
   → Pick one canonical, 301-redirect the rest OR differentiate content.
 
