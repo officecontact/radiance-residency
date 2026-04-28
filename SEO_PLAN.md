@@ -751,99 +751,817 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Completed — 2026-04-23 ✅
+## Next Actions — 2026-04-28
 
-| Done | Detail |
-|---|---|
-| **16 title_too_long fixes** | 2 root pages + 14 blog pages trimmed to ≤60 chars |
-| **Homepage images** | `loading="lazy"` + `width`/`height` on 12 images — clears 19_nonresponsive_images flag |
-| **`medicaps-hostel-options` 301** | Keyword cannibalization killed — 301 to `hostel-near-medicaps-university` |
-| **`llms.txt` full audit** | 13 missing college pages + 24 blogs added — 56 pages now indexed |
-| **`.well-known/ai.txt` updated** | 4 new key pages added; `packing_list` entry added |
-| **`sitemap.xml` lastmod** | 23 modified pages updated to 2026-04-23 |
-| **`/hostel-packing-list-for-students` created + wired** | FAQPage + LocalBusiness + BreadcrumbList schema, 7-category checklist. Wired into sitemap (0.85), llms.txt, ai.txt, _redirects (200 + 3×301 variants) |
-| **`blog/best-hostels` — "Why Radiance" section** | 200-word section targeting pos 7.8 "best hostel in indore for students" |
-| **`hostel-near-medicaps-university` — H2 tweak** | "MediCaps University Hostel — Rau, Indore" targets pos 9.3 query |
-| **Broken internal links** | 7 missing college pages → 301s; `weekend-getaways` removed from 4 blogs |
-| **`disavow.txt` created + uploaded** | 13 toxic domains, 3 PBN clusters — uploaded to GSC 2026-04-23. Processing 2–4 weeks. |
-| **6 directories submitted** | JustDial, Sulekha, NoBroker, MagicBricks, 99acres, Housing.com — done 2026-04-23 |
-| **Duplicate titles/metas** | ✅ Zero duplicates across all 57 pages |
+### Landing pages / content to create or strengthen
 
----
+**Quick push (pos 5–9 — one page tweak away from top 5):**
 
-## Completed — 2026-04-22 ✅
+| Query | Pos | Impr | Action |
+|---|---|---|---|
+| radiance residency | 5.7 | 76 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.3 | 54 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 6.9 | 41 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 7.6 | 31 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 8.0 | 27 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.2 | 25 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 6.0 | 22 | Strengthen H1, add FAQ schema, 1 internal link |
+| student accommodation indore | 9.2 | 13 | Strengthen H1, add FAQ schema, 1 internal link |
 
-| Done | Detail |
-|---|---|
-| `student-hostel-in-indore.html` created | FAQ + LocalBusiness schema, 6 CTAs |
-| www→non-www 301 | Fixes GSC 404 on www subdomain |
-| `.html`→extensionless 301s | Clears 25 canonical-mismatch warnings |
-| BreadcrumbList schema: 4 pages | admission-2026, professionals, internship, testimonials |
-| FAQPage schema: `blog/best-hostels` | 4 Q&As added |
+**New landing pages (ranking but zero clicks — need dedicated page):**
 
----
+| Query | Pos | Impr | Suggested URL |
+|---|---|---|---|
+| student hostel in indore | 11.0 | 110 | `/student-hostel-in-indore` |
+| hostel essentials | 33.1 | 51 | `/hostel-essentials` |
+| hostel packing list for students | 14.4 | 46 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.4 | 41 | `/checklist-for-hostel-students` |
+| hostel requirements list | 30.3 | 37 | `/hostel-requirements-list` |
+| list of things required in hostel | 29.1 | 36 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 30.4 | 34 | `/essential-things-for-hostel` |
+| hostel needs list | 36.9 | 32 | `/hostel-needs-list` |
+| hostel requirement list | 24.3 | 32 | `/hostel-requirement-list` |
+| best hostels in indore | 10.6 | 20 | `/best-hostels-in-indore` |
+| best hostel in indore | 20.5 | 16 | `/best-hostel-in-indore` |
+| pg hostel in rau | 21.4 | 14 | `/pg-hostel-in-rau` |
 
-## Remaining — Claude Code (Technical)
+### Content ideas (AI-generated)
 
-**Nothing blocking.** All audit issues resolved as of 2026-04-23.
+- **indian restaurants** _(score 1220000)_ — United States: vol=1220000, comp=n/a
+- **indian wells** _(score 550000)_ — United States: vol=550000, comp=n/a
+- **taste of india** _(score 165000)_ — United States: vol=165000, comp=n/a
+- **almond** _(score 110000)_ — United States: vol=110000, comp=n/a
+- **indian wells open** _(score 90500)_ — United States: vol=90500, comp=n/a
+- **pine nuts** _(score 74000)_ — United States: vol=74000, comp=n/a
 
-Next optional improvements (monitor after GSC recrawl):
-- AEO citations for Claude/Gemini/OpenAI — added FAQ schema to 5 more pages (rooms, budget-guide, how-to-choose, hostel-vs-pg, cost-of-living). Monitor in 4–6 weeks.
-- Run Lighthouse again after Cloudflare cache purge to measure mobile perf improvement.
+_Current DR (our clone): **51** over 34 referring domains._
 
-**Confirmed fixed (audited + corrected 2026-04-23):**
-- `rooms.html` — images already had width/height ✅
-- `amenities.html` — images already had width/height ✅
-- `blog/index.html` — 24 images missing width/height → fixed ✅
-- `blog/best-food-places` — featured image → fixed ✅
-- `meta_too_long` — 3 pages trimmed ✅
-- Wikidata — Q139378489 already registered ✅
-- 404 mystery — all 58 sitemap URLs have matching files; `medicaps-hostel-options` removed from sitemap (was being 301'd → soft 404 signal) ✅
-- AEO FAQ schema — added to `how-to-choose`, `hostel-vs-pg`, `cost-of-living`, `rooms`, `hostel-budget-guide` → 33 pages now have FAQPage schema ✅
-- `/pg-hostel-in-rau` page — created + wired into sitemap (0.8), llms.txt, ai.txt, _redirects (200 + trailing slash 301) ✅
+### Keyword quick-wins (low difficulty + positions 5–20)
 
----
-
-## Remaining — Shachi (Manual)
-
-| Task | Action | Priority |
-|---|---|---|
-| **Task #2** | Complete GBP — 10+ photos, description, Q&A, hours | **Critical** |
-| **Task #4** | Get 10+ Google reviews via WhatsApp to current students | **Critical** |
-| **Task #5** | Collect 3–5 real student testimonials (name + college + quote) | High |
-| ~~Task #1~~ | ~~Wikidata submission~~ | ✅ Done — Q139378489 registered |
-
----
-
-## Site-audit rollup (2026-04-23)
-
-| Severity | Issue | Status |
-|---|---|---|
-| warning | title_too_long | ✅ All fixed |
-| critical | image_broken | ✅ False positive — URL-encoded spaces fine |
-| warning | meta_too_long | ~2 remaining — not yet identified |
-| warning | duplicate_title / duplicate_meta | ✅ Zero duplicates |
-| critical | page_has_links_to_broken_page | ✅ Fixed via 301s + link removal |
-| critical | 404_page (1 unknown) | Pending GSC Coverage check |
-| warning | nonresponsive_images (homepage) | ✅ Fixed 2026-04-23 |
-| warning | nonresponsive_images (rooms, amenities, blog index) | Pending |
-
-## AEO — AI engine citations
-
-| Engine | Status |
-|---|---|
-| Perplexity | ✅ 71.4% (5/7) |
-| Claude | 0% — FAQ schema + authorship needed |
-| Gemini | 0% — FAQ schema + authorship needed |
-| OpenAI | 0% — FAQ schema + authorship needed |
-
-## Lighthouse (last run 2026-04-22)
-
-| URL | Device | Perf | SEO | LCP |
+| Query | KD | Pos | Impr | Action |
 |---|---|---|---|---|
-| radianceresidency.com | desktop | 62 | 100 | 3518ms |
-| radianceresidency.com | mobile | 43 | 100 | 8225ms |
+| student hostel in indore | 20 | 11.02 | 110 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| radiance residency | 27 | 5.66 | 76 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| pg near medicaps university indore | 16 | 8.31 | 54 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| hostel packing list for students | 16 | 14.37 | 46 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| checklist for hostel students | 20 | 15.44 | 41 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| pg near ips academy indore | 16 | 6.92 | 41 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| hostel near ips academy indore | 16 | 7.65 | 31 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| best hostel in indore for students | 16 | 7.96 | 27 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| medi caps university hostel | 20 | 9.21 | 25 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| yes | 29 | 6.03 | 22 | Add H2 with exact query; 200w supporting section; FAQ entry |
 
-Mobile Perf target: ≥60. Homepage nonresponsive images fixed — expect improvement on next run.
+### Keyword cannibalization — consolidate competing pages
+
+- **`medicaps university hostel`** (15 impr) — 2
+  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
+- **`medi caps university hostel`** (11 impr) — 2
+  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
+- **`medi caps university hostel`** (11 impr) — 2
+  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
+- **`medicaps university hostel`** (7 impr) — 2
+  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
+
+### Inbound 404s — reclaim backlinks via 301 redirects
+
+Add these redirects (Netlify `_redirects` or Next.js middleware):
+
+- `https://www.musweb.org/page-2e5c62608476577f2e0284cac46ee46c.html` (linked by musweb.org) — add `https://www.musweb.org/page-2e5c62608476577f2e0284cac46ee46c.html  /  301` after confirming intended destination
+- `https://seoexpress.org/links/mysteries-of-the-ancients-46336/` (linked by seoexpress.org) — add `https://seoexpress.org/links/mysteries-of-the-ancients-46336/  /  301` after confirming intended destination
+
+### Mobile UX fixes
+
+- `https://radianceresidency.com` — 4_fixed_width_elements, 19_nonresponsive_images, 3_tiny_text_inline
+- `https://radianceresidency.com/index.html` — 4_fixed_width_elements, 19_nonresponsive_images, 3_tiny_text_inline
+- `https://radianceresidency.com/blog` — 6_fixed_width_elements, 26_nonresponsive_images, 3_tiny_text_inline
+- `https://radianceresidency.com/contact.html` — 
+- `https://radianceresidency.com/hostel-near-medicaps-admission-2026.html` — 
+- `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` — 
+- `https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` — 
+- `https://radianceresidency.com/blog/student-life-in-rau-indore-guide.html` — 
+
+### Under-linked pages (low internal PageRank)
+
+- `https://radianceresidency.com/how-to-choose-best-hostel-in-indore.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+- `https://radianceresidency.com/homesickness-tips-for-hostel-students.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+- `https://radianceresidency.com/hostel-vs-pg-vs-flat-for-students-indore.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+- `https://radianceresidency.com/cost-of-living-in-rau-indore-for-students.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+- `https://radianceresidency.com/best-cafes-near-rau-indore-students.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+- `https://radianceresidency.com/best-food-places-near-medicaps-university-rau.html` — PR=0.0060, 1 inbound internal link(s). Add 2+ contextual links from top pages.
+
+### ⚠️ Revenue pages — DO NOT break URL structure or core copy
+
+- `/blog/things-to-pack-for-hostel-life-india` — 2 clicks, 3 sessions, 0 conv
+- `/blog/best-hostels-in-indore-for-students` — 2 clicks, 0 sessions, 0 conv
+- `/blog/things-to-pack-for-hostel-life-india` — 1 clicks, 3 sessions, 0 conv
+- `/hostel-near-ips-academy.html` — 1 clicks, 2 sessions, 0 conv
+- `/` — 1 clicks, 32 sessions, 0 conv
+- `/` — 1 clicks, 32 sessions, 0 conv
+
+### Content coverage gaps (vs top-10 SERP)
+
+| Page | Keyword | Coverage | Missing terms |
+|---|---|---|---|
+| `https://radianceresidency.com/` | radiance residency | 38.75% |  |
+
+### Topical authority — our strongest clusters
+
+| Centroid query | Cluster size | Impressions |
+|---|---|---|
+| hostel essentials | 71 keywords | 529 |
+| student hostel in indore | 38 keywords | 472 |
+| radiance residency | 4 keywords | 81 |
+| yes | 45 keywords | 73 |
+| pg in rau | 2 keywords | 7 |
+| difference between flat and pg | 3 keywords | 3 |
+
+Invest in these topics; each deserves a hub page + 3-5 supporting posts.
+
+### Link-building outreach targets (Clique Hunter)
+
+Domains that link to 2+ of our peer sites but NOT to us:
+
+- **elixirmultinational.us** (links to blossence.com,radianceoverseas.com) — pitch via `https://elixirmultinational.us/products.html`
+- **bye.fyi** (links to blossence.com,radianceoverseas.com) — pitch via `https://bye.fyi/report/9480`
+
+### Backlink hygiene — disavow queue
+
+- **5 toxic domains** to disavow. Run `python scripts/export_disavow_file.py`, upload the generated `.txt` to GSC Disavow Tool.
+- **5 PBN subnet cluster(s)** detected:
+  - `195.20.19.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
+  - `85.120.81.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
+  - `184.168.115.x/24` — 4 domains: allwebsitesdirectory.com,domainanalysis.org,domainsc.com,pudhe.com
+
+### Index coverage issues (GSC URL Inspection)
+
+- `http://radianceresidency.com/` — NEUTRAL / Page with redirect
+
+### Ready-to-paste JSON-LD schema blocks
+
+Each block below is valid schema.org JSON-LD. Paste inside `<script type="application/ld+json">...</script>` in the page `<head>`. Do not modify site copy.
+
+**Organization** (paste into every page's `<head>` — one-time sitewide):
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Radiance Residency",
+  "url": "https://radianceresidency.com/",
+  "description": "Student hostel / PG in Indore",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Indore",
+    "addressRegion": "MP",
+    "addressCountry": "IN"
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "WiFi",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "AC",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Meals",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "24x7 Security",
+      "value": true
+    }
+  ]
+}
+</script>
+```
+
+**FAQPage** (paste on content pages that answer questions — fill `mainEntity` with 3-5 real Q&As):
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "<Question 1>",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<2-sentence direct answer>"
+      }
+    }
+  ]
+}
+</script>
+```
+
+### Anchor-text distribution (link profile health)
+
+| Bucket | % | Sample |
+|---|---|---|
+| url | 100.0% | radianceresidency.com |
+
+Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
+
+### Lighthouse (latest CI run)
+
+| Form | Perf | SEO | A11y | LCP | CLS |
+|---|---|---|---|---|---|
+| desktop | 83 | 100 | 92 | 2114ms | 0.04 |
+| mobile | 69 | 100 | 92 | 6411ms | 0.05 |
+| desktop | 86 | 100 | 92 | 2021ms | 0.04 |
+| mobile | 65 | 100 | 92 | 7287ms | 0.03 |
+
+### GSC URL Inspection — pages with issues
+
+- `https://www.radianceresidency.com/` — coverage=Not found (404)
+- `https://www.radianceresidency.com/amenities` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/gallery` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/rooms` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/about` — coverage=URL is unknown to Google
+- `https://www.radianceresidency.com/contact` — coverage=URL is unknown to Google
+
+### AEO — AI engine citations (30 days)
+
+| Engine | Cited / Total | % |
+|---|---|---|
+| claude | 0 / 61 | 0.0% |
+| gemini | 0 / 115 | 0.0% |
+| openai | 0 / 61 | 0.0% |
+| perplexity_via_or | 39 / 61 | 63.9% |
+
+Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert authorship, and factual "since/founded/certified" evidence.
+
+### SERP features (last 14 days)
+
+**We own (10):**
+
+- `radiance residency` → organic_rank (pos 6)
+- `student hostel in indore` → organic_rank (pos 10)
+- `pg near medicaps university indore` → organic_rank (pos 7)
+- `pg near ips academy indore` → organic_rank (pos 13)
+- `best hostel in indore for students` → organic_rank (pos 14)
+- `medicaps university hostel` → organic_rank (pos 17)
+
+**Competitor-owned (10):**
+
+- `hostel essentials` → ai_overview — owner: ?
+- `pg near medicaps university indore` → ai_overview — owner: ?
+- `hostel packing list for students` → ai_overview — owner: ?
+- `hostel packing list for girl students in india` → ai_overview — owner: ?
+- `checklist for hostel students` → ai_overview — owner: ?
+- `hostel essentials 2026` → ai_overview — owner: ?
+
+### Low-readability pages (Flesch < 40 — hard to read)
+
+| Page | Flesch | Grade | Words | Action |
+|---|---|---|---|---|
+| `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/ips-academy-indore-review-guide.html` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` | 34.0 | 15.7 | 978 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/amenities.html` | 35.0 | 12.5 | 888 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/hostel-near-ips-academy.html` | 36.3 | 12.6 | 1160 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/hostel-near-medicaps-university.html` | 37.3 | 11.7 | 1681 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/pg-for-working-professionals-rau-indore.html` | 37.6 | 11.6 | 871 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com` | 38.9 | 11.8 | 1927 | Shorten sentences to 15–20 words, simpler vocabulary |
+
+### Canonical issues
+
+- `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` → canonical=`https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/indore-city-guide-for-students.html` → canonical=`https://radianceresidency.com/blog/indore-city-guide-for-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/best-cafes-near-rau-indore-students.html` → canonical=`https://radianceresidency.com/blog/best-cafes-near-rau-indore-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/best-hostels-in-indore-for-students.html` → canonical=`https://radianceresidency.com/blog/best-hostels-in-indore-for-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` → canonical=`https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore` — canonical_mismatch
+- `https://radianceresidency.com/blog/iim-indore-campus-area-guide.html` → canonical=`https://radianceresidency.com/blog/iim-indore-campus-area-guide` — canonical_mismatch
+- `https://radianceresidency.com/amenities.html` → canonical=`https://radianceresidency.com/amenities` — canonical_mismatch
+- `https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html` → canonical=`https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home` — canonical_mismatch
+
+### Duplicate content clusters
+
+- **Cluster b12a2ae31bdf** (3 pages, 1.0 similarity):
+  - `https://radianceresidency.com`
+  - `https://radianceresidency.com/`
+  - `https://radianceresidency.com/index.html`
+  → Pick one canonical, 301-redirect the rest OR differentiate content.
+- **Cluster 577e64ce1c08** (2 pages, 1.0 similarity):
+  - `https://radianceresidency.com/student-testimonials`
+  - `https://radianceresidency.com/student-testimonials.html`
+  → Pick one canonical, 301-redirect the rest OR differentiate content.
+
+### Redirect chains / loops
+
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+
+### Link profile strength (Majestic-clone)
+
+- Trust Flow: **8.8** · Citation Flow: **15.4** · Inbound domains: **34**
+
+**Topical trust by theme:**
+
+  - generic: TF=100.0, sources=33
+  - agri: TF=100.0, sources=1
+
+### Site-audit issue rollup
+
+| Severity | Issue | Count |
+|---|---|---|
+| warning | title_too_long | 47 |
+| warning | duplicate_title | 22 |
+| warning | duplicate_meta_description | 22 |
+| critical | image_broken | 12 |
+| warning | meta_too_long | 6 |
+| critical | page_has_links_to_broken_page | 4 |
+| critical | 404_page | 1 |
+
+### Competitors tracked
+
+_4 domains feed backlink-gap + content-diff analyses._
+
+- `gurumayhostel.com` (src: user_2026-04-22)
+- `satkarresidency.com` (src: user_2026-04-22)
+- `smileypg.in` (src: user_2026-04-22)
+- `stanzaliving.com` (src: user_2026-04-22)
+
+### Content gaps (GSC queries: high-impression, low-CTR)
+
+Rewrite the landing page's title/meta/H1 to match intent.
+
+| Query | Pos | Impr | Clicks | Vol | KD | Score | Landing page |
+|---|---|---|---|---|---|---|---|
+| student hostel in indore | 11.0 | 110 | 0 | — | — | 1097.3 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| pg near medicaps university indore | 8.3 | 54 | 0 | — | — | 685.4 | `https://radianceresidency.com/` |
+| pg near ips academy indore | 6.9 | 41 | 1 | — | — | 591.1 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| hostel near ips academy indore | 7.6 | 31 | 0 | — | — | 414.0 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| best hostel in indore for students | 8.0 | 27 | 2 | — | — | 378.1 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| yes | 6.0 | 22 | 0 | — | — | 329.3 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| hostel packing list for students | 14.4 | 46 | 0 | — | — | 305.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| medi caps university hostel | 9.2 | 25 | 0 | — | — | 294.7 | `http://radianceresidency.com/` |
+| checklist for hostel students | 15.4 | 41 | 0 | — | — | 228.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| best hostels in indore | 10.6 | 20 | 0 | — | — | 209.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| student accommodation indore | 9.2 | 13 | 0 | — | — | 153.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| student area in indore | 7.2 | 10 | 0 | — | — | 137.8 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+
+### Current backlink sources (recent — top 15)
+
+| Source domain | Provider | First seen |
+|---|---|---|
+| musweb.org | ahrefs_wmt_scrape | 2026-04-21 |
+| creativeposts.top | ahrefs_wmt_scrape | 2026-04-21 |
+| grow-fast.website | ahrefs_wmt_scrape | 2026-04-21 |
+| backlinker.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| rankpilot.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| nexusnext.agency | ahrefs_wmt_scrape | 2026-04-21 |
+| simplywebshop.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| seoexpress.org | ahrefs_wmt_scrape | 2026-04-21 |
+| seoprobox.xyz | ahrefs_wmt_scrape | 2026-04-21 |
+| nettools.guru | ahrefs_wmt_scrape | 2026-04-21 |
+| eb.businessvocal.com | ahrefs_wmt_scrape | 2026-04-21 |
+| indians.cc | ahrefs_wmt_scrape | 2026-04-21 |
+| thebacklink.shop | ahrefs_wmt_scrape | 2026-04-21 |
+| screenshots.wiki | ahrefs_wmt_scrape | 2026-04-21 |
+| sites.jake.eu | ahrefs_wmt_scrape | 2026-04-21 |
+
+### Competitor pages scanned (latest)
+
+- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-chennai`
+  - title: _Single Rooms in Chennai? Upgrade to Zolo Coliving._
+  - h1: Don’t Just Rent Single Rooms in Chennai. Upgrade to Zolo Coliving.
+  - meta: Skip the average Single Rooms in Chennai. Choose professionally managed coliving instead. Fully furnished - all amenities included. Click, book, and go!
+- **zolostays.com** — `https://zolostays.com/hostels-in-gurugram`
+  - title: _Boys and Girls Hostels in Gurgaon | Zolo_
+  - h1: Hostels in Gurgaon
+  - meta: Rent Best Hostels in Gurgaon Here! - Zolo offers 20+ Hostels in Gurgaon for Students &amp; Working Men/Women with Food, Wifi, TV, CCTV, House Keeping and more.
+- **zolostays.com** — `https://zolostays.com/pgs-in-coimbatore`
+  - title: _PG in Coimbatore? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Coimbatore. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Coimbatore? 25+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 3,569/mo.
+- **zolostays.com** — `https://zolostays.com/pgs-in-chennai`
+  - title: _PG in Chennai? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Chennai. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Chennai? 74+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,720/mo.
+- **zolostays.com** — `https://zolostays.com/pgs-in-delhi`
+  - title: _PGs in Delhi? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Delhi. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Delhi? Zolostays offers what PGs don&#x27;t — professional management, furnished rooms, zero brokerage. From Rs. 6,407/mo.
+- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-gurugram`
+  - title: _Single Rooms/1RK for rent in Gurgaon without Brokerage | Zolo_
+  - h1: Single Room on Rent in Gurgaon
+  - meta: 300+ One Room set (1Rk Flat) for Rent in Gurugram - Zolo Offers Furnished Single Room on Rent in Gurgaon with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professiona
+- **zolostays.com** — `https://zolostays.com/pgs-in-bangalore`
+  - title: _PGs in Bangalore? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Bangalore. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Bangalore? 159+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,510/mo.
+- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-bangalore`
+  - title: _Single Rooms in Bangalore? Upgrade to Zolo Coliving._
+  - h1: Don’t Just Rent Single Rooms in Bangalore. Upgrade to Zolo Coliving.
+  - meta: Forget the typical Single Rooms in Bangalore. Move into professionally managed coliving. What you see is what you get. Fully furnished - all amenities included.
+
+### Lighthouse CI (synthetic lab)
+
+| URL | Device | Perf | A11y | BP | SEO | LCP (ms) |
+|---|---|---|---|---|---|---|
+| radianceresidency.com | desktop | 83.0 | 92.0 | 100.0 | 100.0 | 2114 |
+| radianceresidency.com | mobile | 69.0 | 92.0 | 100.0 | 100.0 | 6411 |
+
+### AI citations (AEO — ChatGPT · Perplexity · Gemini)
+
+_2 of 25 queries cited us in the answer._
+
+| Engine | Query | Cited | Competitors named |
+|---|---|---|---|
+| perplexity_via_or | pg near ips academy indore | ✅ |  |
+| openai | pg near ips academy indore | — |  |
+| claude | pg near ips academy indore | — |  |
+| gemini | pg near ips academy indore | — |  |
+| perplexity_via_or | paying guest in indore | — |  |
+| openai | paying guest in indore | — |  |
+| claude | paying guest in indore | — |  |
+| gemini | paying guest in indore | — |  |
+| perplexity_via_or | room for rent in rau | — |  |
+| openai | room for rent in rau | — |  |
+| claude | room for rent in rau | — |  |
+| gemini | room for rent in rau | — |  |
+| perplexity_via_or | hostel near ips academy indore | ✅ |  |
+| openai | hostel near ips academy indore | — |  |
+| claude | hostel near ips academy indore | — |  |
+
+### Keyword difficulty (Ahrefs KD-clone)
+
+**22 quick wins flagged** — low KD, you already rank 4–15.
+
+| Query | KD | Our pos | Impr |
+|---|---|---|---|
+| student hostel in indore | 20 | #11.02 | 110 |
+| radiance residency | 27 | #5.66 | 76 |
+| pg near medicaps university indore | 16 | #8.31 | 54 |
+| hostel packing list for students | 16 | #14.37 | 46 |
+| pg near ips academy indore | 16 | #6.92 | 41 |
+| checklist for hostel students | 20 | #15.44 | 41 |
+| hostel near ips academy indore | 16 | #7.65 | 31 |
+| best hostel in indore for students | 16 | #7.96 | 27 |
+| medi caps university hostel | 20 | #9.21 | 25 |
+| yes | 29 | #6.03 | 22 |
+
+_Top 12 by traffic (all):_
+
+| Query | KD | Our pos | Impr |
+|---|---|---|---|
+| student hostel in indore | 20 | #11.02 | 110 |
+| radiance residency | 27 | #5.66 | 76 |
+| pg near medicaps university indore | 16 | #8.31 | 54 |
+| hostel packing list for students | 16 | #14.37 | 46 |
+| pg near ips academy indore | 16 | #6.92 | 41 |
+| checklist for hostel students | 20 | #15.44 | 41 |
+| hostel near ips academy indore | 16 | #7.65 | 31 |
+| best hostel in indore for students | 16 | #7.96 | 27 |
+| medi caps university hostel | 20 | #9.21 | 25 |
+| yes | 29 | #6.03 | 22 |
+| best hostels in indore | 20 | #10.55 | 20 |
+| student accommodation indore | 24 | #9.23 | 13 |
+
+
+## 🎯 Target Keywords — TradeForge → Site Team
+
+**From TradeForge (manager) to radianceresidency.com team:** these are the 20 keywords we're tracking for you. Volume from DataForSEO (per-country, weekly). Rank from GSC (daily). For raw data, see `seo_snapshot.json` in this repo. Live dashboard: `/seo/rankings?site=radianceresidency.com`.
+
+**Read this table before doing anything else** — it tells you which keyword needs which kind of action. Don't re-research; trust the recommendation.
+
+| Pri | Keyword | Vol/mo | Diff | Current Rank | TradeForge says |
+|---|---|---:|---:|---|---|
+| P1 | hostel in rau indore | 40 | 21 | — | Low vol (40/mo) + not ranking → low-cost play: 1 FAQ schema block on the closest existing page, no new URL. |
+| P1 | pg near iim indore | 20 | 5 | — | Low vol (20/mo) + not ranking → low-cost play: 1 FAQ schema block on the closest existing page, no new URL. |
+| P1 | boys hostel near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | boys hostel near sd bansal | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | girls hostel near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | hostel near iim indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | hostel near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | hostel near sd bansal indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P1 | pg near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P2 | student hostel in indore | 110 | 16 | #11.0 | Page 2: 800+ word expansion + 2-3 backlinks |
+| P2 | hostel near ips academy indore | 70 | 12 | #7.6 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | pg in rau indore | 70 | 19 | #3.7 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | boys hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P2 | boys hostel near iim indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P2 | girls hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P2 | pg near sd bansal indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P2 | room near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
+| P3 | paying guest in indore | 2,900 | 22 | — | 2,900/mo demand + not ranking → create dedicated landing page + submit to GSC. |
+| P3 | pg near ips academy indore | 50 | 5 | #6.9 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P3 | room for rent in rau | 10 | 27 | — | Low vol (10/mo) + not ranking → low-cost play: 1 FAQ schema block on the closest existing page, no new URL. |
+
+**This week's quick triage (TradeForge says):**
+- 🎯 **3 keywords on page 1 outside top 3** — these are your highest ROI. Push to top 3 with FAQ schema + 2-3 internal links.
+- 📝 **1 keywords have volume but no rank** — landing page targets.
+- 👁 **12 keywords are 0-vol/no-rank** — monitor only, don't write content.
+
+**Questions?** Append them to the `## 💬 Q&A — Ongoing Dialogue` section under `### radianceresidency.com → TradeForge`. TradeForge answers next Monday.
+
+
+## 📝 Content Briefs — Top 10 not-ranking opportunities
+
+**From TradeForge to radianceresidency.com team:** these are copy-pasteable specs for the highest-leverage pages you don't yet have. Each brief gives you everything: URL, H1, title (with char count), meta, outline, FAQ Q&As ready for FAQPage JSON-LD, internal-link targets, target word count, schema types. **Build the page exactly as specified — don't re-research the keyword, the brief is the research.**
+
+Auto-generated from `seo_target_keywords`. Refreshed every Monday by `regen_seo_plans.py`. If a brief feels wrong, fix the keyword row in TradeForge — don't hand-edit this file.
+
+### 1. hostel in rau indore  —  P1 · 40/mo
+
+- **Page type:** Location landing page
+- **URL:** `/locations/hostel-in-rau-indore/`
+- **H1:** Hostel In Rau Indore — Radiance Residency
+- **Title** (48/60 chars): `Hostel In Rau Indore | Radiance Residency Indore`
+- **Meta** (118/155 chars): `Looking for hostel in rau indore? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes this hostel a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for hostel in rau indore?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is campus from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 2. pg near iim indore  —  P1 · 20/mo
+
+- **Page type:** Location landing page
+- **URL:** `/locations/pg-near-iim-indore/`
+- **H1:** Pg Near Iim Indore — Radiance Residency
+- **Title** (46/60 chars): `Pg Near Iim Indore | Radiance Residency Indore`
+- **Meta** (116/155 chars): `Looking for pg near iim indore? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes iim indore a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for pg near iim indore?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is iim indore from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 3. paying guest in indore  —  P3 · 2900/mo
+
+- **Page type:** Location landing page
+- **URL:** `/locations/paying-guest-in-indore/`
+- **H1:** Paying Guest In Indore — Radiance Residency
+- **Title** (50/60 chars): `Paying Guest In Indore | Radiance Residency Indore`
+- **Meta** (120/155 chars): `Looking for paying guest in indore? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 1500–2200
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes this hostel a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for paying guest in indore?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is campus from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 4. room for rent in rau  —  P3 · 10/mo
+
+- **Page type:** Location landing page
+- **URL:** `/locations/room-for-rent-in-rau/`
+- **H1:** Room For Rent In Rau — Radiance Residency
+- **Title** (48/60 chars): `Room For Rent In Rau | Radiance Residency Indore`
+- **Meta** (118/155 chars): `Looking for room for rent in rau? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes this hostel a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for room for rent in rau?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is campus from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 5. boys hostel near medicaps university  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/boys-hostel-near-medicaps-university/`
+- **H1:** Boys Hostel Near Medicaps University — Radiance Residency
+- **Title** (57/60 chars): `Boys Hostel Near Medicaps University | Radiance Residency`
+- **Meta** (134/155 chars): `Looking for boys hostel near medicaps university? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes medicaps university a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for boys hostel near medicaps university?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is medicaps university from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 6. boys hostel near sd bansal  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/boys-hostel-near-sd-bansal/`
+- **H1:** Boys Hostel Near Sd Bansal — Radiance Residency
+- **Title** (54/60 chars): `Boys Hostel Near Sd Bansal | Radiance Residency Indore`
+- **Meta** (124/155 chars): `Looking for boys hostel near sd bansal? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes sd bansal a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for boys hostel near sd bansal?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is sd bansal from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 7. girls hostel near medicaps university  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/girls-hostel-near-medicaps-university/`
+- **H1:** Girls Hostel Near Medicaps University — Radiance Residency
+- **Title** (58/60 chars): `Girls Hostel Near Medicaps University | Radiance Residency`
+- **Meta** (135/155 chars): `Looking for girls hostel near medicaps university? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes medicaps university a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for girls hostel near medicaps university?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is medicaps university from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 8. hostel near iim indore  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/hostel-near-iim-indore/`
+- **H1:** Hostel Near Iim Indore — Radiance Residency
+- **Title** (50/60 chars): `Hostel Near Iim Indore | Radiance Residency Indore`
+- **Meta** (120/155 chars): `Looking for hostel near iim indore? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes iim indore a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for hostel near iim indore?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is iim indore from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 9. hostel near medicaps university  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/hostel-near-medicaps-university/`
+- **H1:** Hostel Near Medicaps University — Radiance Residency
+- **Title** (59/60 chars): `Hostel Near Medicaps University | Radiance Residency Indore`
+- **Meta** (129/155 chars): `Looking for hostel near medicaps university? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes medicaps university a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for hostel near medicaps university?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is medicaps university from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+### 10. hostel near sd bansal indore  —  P1 · 0-vol (high intent)
+
+- **Page type:** Location landing page
+- **URL:** `/locations/hostel-near-sd-bansal-indore/`
+- **H1:** Hostel Near Sd Bansal Indore — Radiance Residency
+- **Title** (56/60 chars): `Hostel Near Sd Bansal Indore | Radiance Residency Indore`
+- **Meta** (126/155 chars): `Looking for hostel near sd bansal indore? Radiance Residency offers AC rooms, mess, Wi-Fi & 24/7 security. Book a visit today.`
+- **Target word count:** 700–1000
+- **Schema:** FAQPage, LodgingBusiness, BreadcrumbList
+- **Internal links from:** `/`, `/about/`, `/contact/`, `/gallery/`
+
+**Outline (H2s):**
+  - What makes sd bansal indore a good fit
+  - Room options, amenities, and monthly rates
+  - Distance, commute, and nearby landmarks
+  - Mess, food, and timings
+  - Safety, Wi-Fi, and house rules
+  - How to book a visit (Google Maps + WhatsApp)
+
+**FAQ schema Q&As** (paste into FAQPage JSON-LD):
+  - **Q:** What is the rent for hostel near sd bansal indore?
+    **A:** Rooms start at ₹6,500/month including mess, Wi-Fi, and electricity. Single AC rooms are higher; share rooms are lower. Book a visit to see live availability.
+  - **Q:** How far is sd bansal indore from the residency?
+    **A:** 5–10 minutes by walk or auto. Exact distance and route shown on the location map below.
+  - **Q:** What amenities are included?
+    **A:** AC rooms, attached bathroom, Wi-Fi, hot water, daily housekeeping, three meals, 24/7 security with biometric access, and CCTV in common areas.
+
+---
 
 <!-- next-actions-end -->
+## Open Questions for Shachi
+
+_Answers tighten the plan. Reply inline or send to officecontact06@gmail.com._
+
+1. **Who is the ideal customer for radianceresidency.com this quarter?** (e.g., procurement managers at US wellness brands, or retail buyers in Dubai). Knowing the persona lets us prioritize keywords and content angle.
+
+2. **Traffic is low (0 clicks/30d).** Should we (a) double down on SEO + content, (b) shift budget to cold outreach / paid ads, or (c) both? Outreach is often higher ROI for B2B but slower for D2C.
+
+3. **Which 5–10 search phrases would a buyer Google to find you?** We have ranking data but no curated target list — without it the plan optimizes for whatever's already ranking, which may not be what you want to win.
+
+4. **Who are your top 3 competitors?** We can pull their backlinks, content gaps, and SERP overlap once we know who to track.
+
+5. **Which products / pages are highest priority for new content this month?** Listing 3–5 lets us tailor topic ideas and internal-linking suggestions to those pages first.
+
+6. **Are there specific countries or cities you want to win first?** (e.g., UAE for radianceoverseas, Indore for residency). Geo focus changes which search-volume and competitor data we prioritize.
+
+7. **Brand voice / non-negotiables?** (formal vs. friendly, claims you can/can't make, words to avoid). Saves rewrite cycles when AI drafts are reviewed.
