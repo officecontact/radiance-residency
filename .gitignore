@@ -4,3 +4,11 @@
 .env*.local
 .claude/settings.local.json
 disavow.txt
+
+# Business documents — not for website repo
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
