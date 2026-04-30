@@ -47,6 +47,16 @@
 | Wikidata Q139378489 registered | 2026-04-23 |
 | FAQPage schema on 33 pages (rooms, hostel-vs-pg, budget-guide, etc.) | 2026-04-23 |
 | `/student-hostel-in-indore.html` + `/pg-hostel-in-rau` created | 2026-04-23 |
+| Packing list: JSON-LD comma fix, TESTIMONIALS_CTA_SECTION placeholder removed, price updated | 2026-04-30 |
+| Packing list content improved: Rau/Medicaps context, hygiene/weather/policy terms added | 2026-04-30 |
+| Keyword pivot: `student-hostel-in-indore.html` H1/title/meta → "Boys Hostel in Rau, Indore / PG near Medicaps University" | 2026-04-30 |
+| Keyword pivot: `hostel-near-medicaps-university.html` keywords meta, hero subtitle, room prices updated | 2026-04-30 |
+| Batch priceRange schema update: 40+ pages → `"₹8,000+/month"` | 2026-04-30 |
+| `hostel-near-medicaps-admission-2026` pricing cards updated to 5-category room system | 2026-04-30 |
+| `index.html` FAQ rent answer updated to 5 room categories + Contact Us pricing | 2026-04-30 |
+| `.htaccess` 301 redirects added for 6 broken internal links (davv, sage, svvv, pharmacy, holkar, oriental) | 2026-04-30 |
+| Sitemap lastmod dates updated for 7 changed pages | 2026-04-30 |
+| `llms.txt` updated: room categories, pricing, keyword targeting | 2026-04-30 |
 
 ---
 
@@ -63,11 +73,13 @@
 
 ## ⏳ Pending — Residency Does These Autonomously
 
-### All technical SEO work is DONE as of 2026-04-23.
+### All technical SEO work is DONE as of 2026-04-30.
 
-The only remaining improvement is AEO monitoring — no code changes needed until next GSC data arrives.
+**Keyword strategy confirmed (2026-04-30):** Primary targets are "hostel in rau indore", "hostel near Medicaps University", "PG near Medicaps University Indore". NOT targeting "hostel in indore" as primary — `student-hostel-in-indore.html` pivoted accordingly.
 
-**On next session after TradeForge Monday update:** Check if GSC shows any new impressions/clicks for "student hostel in indore" (was pos 14, 52 impr, 0 clicks). If still 0 clicks after 4 weeks, update homepage H1 to: `<h1>Student Hostel in Indore — Boys PG &amp; Hostel in Rau near MediCaps</h1>`.
+**No new landing pages needed.** All college-specific pages exist. 6 missing pages now handle via .htaccess 301 redirects.
+
+**On next session after TradeForge Monday update:** Check GSC for "hostel in rau" and "pg near medicaps university indore" ranking movements — these are now the primary target queries.
 
 ---
 

@@ -45,3 +45,17 @@ RewriteRule ^(.+)$ $1.html [L]
 
 # Custom 404 page
 ErrorDocument 404 /404.html
+
+# Missing college landing pages — redirect to closest existing page (2026-04-30)
+Redirect 301 /hostel-near-sage-university-indore /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-sage-university-indore.html /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-davv-indore /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-davv-indore.html /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-svvv-indore /hostel-near-iist-indore
+Redirect 301 /hostel-near-svvv-indore.html /hostel-near-iist-indore
+Redirect 301 /hostel-near-indore-institute-of-pharmacy /hostel-in-pigdamber-rau
+Redirect 301 /hostel-near-indore-institute-of-pharmacy.html /hostel-in-pigdamber-rau
+Redirect 301 /hostel-near-holkar-science-college-indore /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-holkar-science-college-indore.html /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-oriental-college-indore /boys-hostel-in-rau-indore
+Redirect 301 /hostel-near-oriental-college-indore.html /boys-hostel-in-rau-indore
