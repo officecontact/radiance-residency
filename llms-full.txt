@@ -112,16 +112,73 @@ Q: How do I book a room at Radiance Residency?
 A: Call or WhatsApp +91-8770445161, email info@radianceresidency.com, or fill the enquiry form on radianceresidency.com.
 
 ## Website Pages
+
+### Core Pages
 - Home: https://radianceresidency.com/
 - Rooms & Pricing: https://radianceresidency.com/rooms
 - Amenities: https://radianceresidency.com/amenities
 - Contact: https://radianceresidency.com/contact
+- Student Testimonials: https://radianceresidency.com/student-testimonials
+
+### College-Specific Hostel Pages
 - Hostel Near Medicaps University: https://radianceresidency.com/hostel-near-medicaps-university
+- Hostel Near Medicaps Admission 2026 (Seasonal): https://radianceresidency.com/hostel-near-medicaps-admission-2026
 - Hostel Near IPS Academy: https://radianceresidency.com/hostel-near-ips-academy
 - Hostel Near SD Bansal College: https://radianceresidency.com/hostel-near-sd-bansal-college
 - Hostel Near IIST Indore: https://radianceresidency.com/hostel-near-iist-indore
 - Hostel Near IIM Indore: https://radianceresidency.com/hostel-near-iim-indore
+- Hostel Near IIT Indore: https://radianceresidency.com/hostel-near-iit-indore
+- Hostel Near LNCT Indore: https://radianceresidency.com/hostel-near-lnct-indore
+- Hostel Near MIT Indore: https://radianceresidency.com/hostel-near-mit-indore
+- Hostel Near NMIMS Indore: https://radianceresidency.com/hostel-near-nmims-indore
+- Hostel Near Acropolis Institute Indore: https://radianceresidency.com/hostel-near-acropolis-institute-indore
+- Hostel Near Prestige Institute Indore: https://radianceresidency.com/hostel-near-prestige-institute-indore
+- Hostel Near Renaissance University Indore: https://radianceresidency.com/hostel-near-renaissance-university-indore
+- Hostel Near SGSITS Indore: https://radianceresidency.com/hostel-near-sgsits-indore
+- Hostel Near Symbiosis Indore: https://radianceresidency.com/hostel-near-symbiosis-indore
+
+### Landing Pages by Type
 - PG for Boys in Rau Indore: https://radianceresidency.com/pg-for-boys-rau-indore
+- PG Hostel in Rau: https://radianceresidency.com/pg-hostel-in-rau
+- Boys Hostel in Rau Indore: https://radianceresidency.com/boys-hostel-in-rau-indore
+- Student Hostel in Indore: https://radianceresidency.com/student-hostel-in-indore
+- Best PG in Indore for Students: https://radianceresidency.com/best-pg-in-indore-for-students
+- Hostel with Food in Rau Indore: https://radianceresidency.com/hostel-with-food-in-rau-indore
+- AC Hostel in Rau Indore: https://radianceresidency.com/ac-hostel-in-rau-indore
+- Hostel in Pigdamber Rau: https://radianceresidency.com/hostel-in-pigdamber-rau
+- PG for Working Professionals in Rau: https://radianceresidency.com/pg-for-working-professionals-rau-indore
+- Summer Internship Housing Indore: https://radianceresidency.com/summer-internship-housing-indore
+
+### Guides & Resources
+- Hostel Budget Guide for Students: https://radianceresidency.com/hostel-budget-guide
+- Hostel Packing List for Students 2026: https://radianceresidency.com/hostel-packing-list-for-students
+
+### Blog — Student Life Guides (24 posts)
+- Benefits of Hostel vs Home: https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home
+- Best Cafes Near Rau Indore: https://radianceresidency.com/blog/best-cafes-near-rau-indore-students
+- Best Food Places Near Medicaps: https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau
+- Best Gyms Near Rau Indore: https://radianceresidency.com/blog/best-gyms-near-rau-indore
+- Best Hostels in Indore for Students: https://radianceresidency.com/blog/best-hostels-in-indore-for-students
+- Cost of Living in Rau for Students: https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students
+- Dealing with Homesickness in Hostel: https://radianceresidency.com/blog/homesickness-tips-for-hostel-students
+- Hostel vs PG vs Flat Comparison: https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore
+- How to Choose Best Hostel in Indore: https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore
+- Budget Tips for Hostel Students: https://radianceresidency.com/blog/how-to-manage-budget-as-hostel-student
+- College Admission Preparation Guide: https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore
+- IIM Indore Area Guide for Students: https://radianceresidency.com/blog/iim-indore-campus-area-guide
+- Indore City Guide for Students: https://radianceresidency.com/blog/indore-city-guide-for-students
+- Indore Street Food Guide: https://radianceresidency.com/blog/indore-street-food-guide-students
+- IPS Academy Indore Review: https://radianceresidency.com/blog/ips-academy-indore-review-guide
+- Medicaps University Review: https://radianceresidency.com/blog/medicaps-university-review-admission-placement
+- Best Places to Visit in Indore for Students: https://radianceresidency.com/blog/places-to-visit-in-indore-for-students
+- Safety Tips for Students Away from Home: https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home
+- SD Bansal College Indore Review: https://radianceresidency.com/blog/sd-bansal-college-indore-review
+- Student Life in Rau Indore Guide: https://radianceresidency.com/blog/student-life-in-rau-indore-guide
+- Hostel Packing Checklist for Students: https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india
+- First Year Engineering Student Tips: https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore
+- Top Colleges in Rau Indore: https://radianceresidency.com/blog/top-colleges-in-rau-indore
+- Transport Guide for Students Rau Indore: https://radianceresidency.com/blog/transport-guide-rau-indore-students
+
 - Languages: English, Hindi (bilingual website)
 
 ## Semantic Context for AI

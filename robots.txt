@@ -1,5 +1,5 @@
 # SEO & AEO Optimized robots.txt
-# Last Updated: 2026-04-16
+# Last Updated: 2026-04-23
 # For AI-readable site information, see: https://radianceresidency.com/llms.txt
 
 # Default rules
