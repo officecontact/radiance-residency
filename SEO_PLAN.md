@@ -763,7 +763,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-04-29
+## Next Actions — 2026-05-02
 
 ### Landing pages / content to create or strengthen
 
@@ -771,31 +771,37 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.6 | 83 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.3 | 58 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.0 | 45 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 7.7 | 34 | Strengthen H1, add FAQ schema, 1 internal link |
-| best hostel in indore for students | 8.3 | 30 | Strengthen H1, add FAQ schema, 1 internal link |
-| medi caps university hostel | 9.2 | 29 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.1 | 28 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 6.0 | 22 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.1 | 183 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.3 | 122 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.2 | 94 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 7.0 | 71 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.4 | 67 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 8.4 | 65 | Strengthen H1, add FAQ schema, 1 internal link |
+| medicaps university hostel | 6.1 | 58 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.6 | 45 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| student hostel in indore | 11.0 | 115 | `/student-hostel-in-indore` |
-| hostel essentials | 33.1 | 51 | `/hostel-essentials` |
-| hostel packing list for students | 14.4 | 46 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.4 | 41 | `/checklist-for-hostel-students` |
-| hostel requirements list | 30.3 | 37 | `/hostel-requirements-list` |
-| list of things required in hostel | 29.1 | 36 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 30.4 | 34 | `/essential-things-for-hostel` |
-| hostel needs list | 36.9 | 32 | `/hostel-needs-list` |
-| hostel requirement list | 24.3 | 32 | `/hostel-requirement-list` |
-| best hostels in indore | 10.9 | 22 | `/best-hostels-in-indore` |
-| best hostel in indore | 20.6 | 17 | `/best-hostel-in-indore` |
-| pg hostel in rau | 21.4 | 14 | `/pg-hostel-in-rau` |
+| student hostel in indore | 10.3 | 251 | `/student-hostel-in-indore` |
+| hostel essentials | 33.4 | 103 | `/hostel-essentials` |
+| hostel packing list for students | 14.4 | 93 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.4 | 82 | `/checklist-for-hostel-students` |
+| hostel requirements list | 30.2 | 75 | `/hostel-requirements-list` |
+| list of things required in hostel | 29.1 | 73 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 30.4 | 68 | `/essential-things-for-hostel` |
+| hostel requirement list | 24.2 | 65 | `/hostel-requirement-list` |
+| hostel needs list | 36.9 | 64 | `/hostel-needs-list` |
+| best hostels in indore | 11.1 | 46 | `/best-hostels-in-indore` |
+| best hostel in indore | 20.4 | 39 | `/best-hostel-in-indore` |
+| pg hostel in rau | 21.4 | 28 | `/pg-hostel-in-rau` |
+
+### On-page fixes (this sprint)
+
+| Page | Issues |
+|---|---|
+| `radianceresidency.com/rules-regulations.html` | title_too_long |
 
 ### Content ideas (AI-generated)
 
@@ -994,12 +1000,12 @@ Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
 ### GSC URL Inspection — pages with issues
 
+- `https://www.radianceresidency.com/about` — coverage=URL is unknown to Google
 - `https://www.radianceresidency.com/contact` — coverage=URL is unknown to Google
 - `https://www.radianceresidency.com/gallery` — coverage=URL is unknown to Google
 - `https://www.radianceresidency.com/` — coverage=Not found (404)
 - `https://www.radianceresidency.com/amenities` — coverage=URL is unknown to Google
 - `https://www.radianceresidency.com/rooms` — coverage=URL is unknown to Google
-- `https://www.radianceresidency.com/about` — coverage=URL is unknown to Google
 
 ### AEO — AI engine citations (30 days)
 
@@ -1036,14 +1042,14 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 | Page | Flesch | Grade | Words | Action |
 |---|---|---|---|---|
+| `https://radianceresidency.com/style.min.css` | -966.9 | 149.3 | 699 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/script.min.js` | -2.0 | 15.0 | 1766 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore` | 25.2 | 16.8 | 1362 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html` | 25.2 | 16.8 | 1362 | Shorten sentences to 15–20 words, simpler vocabulary |
 | `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/medicaps-university-review-admission-placement` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/ips-academy-indore-review-guide` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
 | `https://radianceresidency.com/blog/ips-academy-indore-review-guide.html` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` | 34.0 | 15.7 | 978 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/amenities.html` | 35.0 | 12.5 | 888 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/hostel-near-ips-academy.html` | 36.3 | 12.6 | 1160 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/hostel-near-medicaps-university.html` | 37.3 | 11.7 | 1681 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/pg-for-working-professionals-rau-indore.html` | 37.6 | 11.6 | 871 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com` | 38.9 | 11.8 | 1927 | Shorten sentences to 15–20 words, simpler vocabulary |
 
 ### Canonical issues
 
@@ -1078,6 +1084,7 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 - `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
 - `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
 - `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
+- `https://radianceresidency.com/blog` → `https://radianceresidency.com/blog/` (2 hops, final 200) — collapse to single 301
 
 ### Link profile strength (Majestic-clone)
 
@@ -1088,13 +1095,28 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
   - generic: TF=100.0, sources=33
   - agri: TF=100.0, sources=1
 
+### Screaming Frog crawl findings
+
+| Page | Issues |
+|---|---|
+| `https://radianceresidency.com/rules-regulations.html` | title 67ch, h1×None, Non-Indexable |
+| `https://radianceresidency.com/hostel-near-iim-indore.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/rooms.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/contact.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/hostel-near-ips-academy.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/blog/` | title 64ch, h1×None |
+| `https://radianceresidency.com/hostel-near-sd-bansal-college.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/blog/student-life-in-rau-indore-guide.html` | h1×None, Non-Indexable |
+| `https://radianceresidency.com/hostel-near-medicaps-university.html` | h1×None, Non-Indexable |
+
 ### Site-audit issue rollup
 
 | Severity | Issue | Count |
 |---|---|---|
-| warning | title_too_long | 51 |
-| warning | duplicate_title | 26 |
-| warning | duplicate_meta_description | 26 |
+| warning | title_too_long | 56 |
+| warning | duplicate_title | 30 |
+| warning | duplicate_meta_description | 30 |
 | critical | image_broken | 12 |
 | warning | meta_too_long | 6 |
 | critical | page_has_links_to_broken_page | 4 |
@@ -1264,8 +1286,8 @@ _Top 12 by traffic (all):_
 | P1 | hostel near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P1 | hostel near sd bansal indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P1 | pg near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
-| P2 | student hostel in indore | 110 | 16 | #11.0 | Page 2: 800+ word expansion + 2-3 backlinks |
-| P2 | hostel near ips academy indore | 70 | 12 | #7.7 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | student hostel in indore | 110 | 16 | #10.3 | Page 2: 800+ word expansion + 2-3 backlinks |
+| P2 | hostel near ips academy indore | 70 | 12 | #7.0 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P2 | pg in rau indore | 70 | 19 | #3.7 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P2 | boys hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | boys hostel near iim indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
@@ -1273,7 +1295,7 @@ _Top 12 by traffic (all):_
 | P2 | pg near sd bansal indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | room near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P3 | paying guest in indore | 2,900 | 22 | — | 2,900/mo demand + not ranking → create dedicated landing page + submit to GSC. |
-| P3 | pg near ips academy indore | 50 | 5 | #7.0 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P3 | pg near ips academy indore | 50 | 5 | #7.2 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P3 | room for rent in rau | 10 | 27 | — | Low vol (10/mo) + not ranking → low-cost play: 1 FAQ schema block on the closest existing page, no new URL. |
 
 **This week's quick triage (TradeForge says):**
