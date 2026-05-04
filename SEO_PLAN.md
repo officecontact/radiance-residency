@@ -4,27 +4,27 @@
 
 ---
 
-## This Week's Snapshot (2026-04-23)
+## This Week's Snapshot (2026-05-04)
 
 | Signal | Value | Target | Status |
 |---|---|---|---|
 | Domain Authority | 2 | 15+ | Growing via directories |
-| Linking Domains | 14 | 40+ | 6 directories added 2026-04-23 |
-| Desktop Perf | 62 | 80+ | Needs Cloudflare cache purge + rerun |
-| Mobile Perf | 43 | 60+ | Images fixed — rerun after cache purge |
+| Linking Domains | 15 | 40+ | +1 this week |
+| Desktop Perf | 99 | 80+ | ✅ Excellent |
+| Mobile Perf | 93 | 60+ | ✅ Major improvement (was 43) |
 | GSC Schema | 100/100 | 100 | ✅ Best of 3 sites |
-| Perplexity AEO | 71.4% cited | ≥20% | ✅ Already winning |
+| Perplexity AEO | 44.3% cited | ≥20% | ✅ Above target (was 71.4% — monitor decline) |
 | Local Pack | Not yet | Top 3 | Blocked on GBP + reviews |
 
 ### Top Local GSC Queries
 
 | Query | Pos | Impr | Status |
 |---|---|---|---|
-| student hostel in indore | 14.2 | 52 | New page created — monitor |
-| pg near medicaps university | 8.2 | 35 | Title fixed ✅ |
-| hostel near ips academy | 6.7 | 19 | Title fixed ✅ |
-| medicaps hostel | 2.0 | 14 | Title fixed ✅ |
-| hostel essentials 2026 | 2.1 | 21 | ✅ Getting clicks |
+| student hostel in indore | 10.3 | 260 | ↑ Impressions 5× — push to top 10 |
+| pg near medicaps university indore | 8.3 | 128 | ↑ Growing impressions |
+| pg near ips academy indore | 7.2 | 94 | Strong local signal |
+| radiance residency | 5.1 | 189 | Branded — monitoring |
+| hostel packing list for students | 14.4 | 97 | Content driving impressions |
 
 ---
 
