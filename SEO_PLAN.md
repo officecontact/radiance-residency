@@ -763,7 +763,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-02
+## Next Actions — 2026-05-04
 
 ### Landing pages / content to create or strengthen
 
@@ -771,31 +771,31 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.1 | 183 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.3 | 122 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.1 | 189 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.3 | 128 | Strengthen H1, add FAQ schema, 1 internal link |
 | pg near ips academy indore | 7.2 | 94 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 7.0 | 71 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 7.0 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
 | medi caps university hostel | 9.4 | 67 | Strengthen H1, add FAQ schema, 1 internal link |
-| best hostel in indore for students | 8.4 | 65 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.1 | 58 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.6 | 45 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 8.5 | 67 | Strengthen H1, add FAQ schema, 1 internal link |
+| medicaps university hostel | 6.1 | 60 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.8 | 50 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| student hostel in indore | 10.3 | 251 | `/student-hostel-in-indore` |
-| hostel essentials | 33.4 | 103 | `/hostel-essentials` |
-| hostel packing list for students | 14.4 | 93 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.4 | 82 | `/checklist-for-hostel-students` |
-| hostel requirements list | 30.2 | 75 | `/hostel-requirements-list` |
-| list of things required in hostel | 29.1 | 73 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 30.4 | 68 | `/essential-things-for-hostel` |
-| hostel requirement list | 24.2 | 65 | `/hostel-requirement-list` |
-| hostel needs list | 36.9 | 64 | `/hostel-needs-list` |
+| hostel essentials | 34.2 | 107 | `/hostel-essentials` |
+| hostel packing list for students | 14.4 | 97 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.5 | 87 | `/checklist-for-hostel-students` |
+| hostel requirements list | 29.7 | 80 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.8 | 79 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 30.0 | 73 | `/essential-things-for-hostel` |
+| hostel requirement list | 23.6 | 69 | `/hostel-requirement-list` |
+| hostel needs list | 37.3 | 68 | `/hostel-needs-list` |
 | best hostels in indore | 11.1 | 46 | `/best-hostels-in-indore` |
 | best hostel in indore | 20.4 | 39 | `/best-hostel-in-indore` |
 | pg hostel in rau | 21.4 | 28 | `/pg-hostel-in-rau` |
+| hostel essentials checklist | 11.0 | 24 | `/hostel-essentials-checklist` |
 
 ### On-page fixes (this sprint)
 
@@ -818,16 +818,16 @@ _Current DR (our clone): **51** over 34 referring domains._
 
 | Query | KD | Pos | Impr | Action |
 |---|---|---|---|---|
-| student hostel in indore | 20 | 11.02 | 110 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| radiance residency | 27 | 5.66 | 76 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| pg near medicaps university indore | 16 | 8.31 | 54 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| hostel packing list for students | 16 | 14.37 | 46 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| checklist for hostel students | 20 | 15.44 | 41 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| pg near ips academy indore | 16 | 6.92 | 41 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| hostel near ips academy indore | 16 | 7.65 | 31 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| best hostel in indore for students | 16 | 7.96 | 27 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| medi caps university hostel | 20 | 9.21 | 25 | Add H2 with exact query; 200w supporting section; FAQ entry |
-| yes | 29 | 6.03 | 22 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| student hostel in indore | 20 | 10.3 | 260 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| radiance residency | 27 | 5.1 | 189 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| pg near medicaps university indore | 16 | 8.29 | 128 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| hostel packing list for students | 16 | 14.39 | 97 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| pg near ips academy indore | 16 | 7.24 | 94 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| checklist for hostel students | 20 | 15.49 | 87 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| hostel near ips academy indore | 16 | 6.97 | 72 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| best hostel in indore for students | 16 | 8.52 | 67 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| medi caps university hostel | 20 | 9.38 | 67 | Add H2 with exact query; 200w supporting section; FAQ entry |
+| medicaps university hostel | 24 | 6.13 | 60 | Add H2 with exact query; 200w supporting section; FAQ entry |
 
 ### Keyword cannibalization — consolidate competing pages
 
@@ -876,22 +876,16 @@ Add these redirects (Netlify `_redirects` or Next.js middleware):
 - `/hostel-near-ips-academy.html` — 1 clicks, 2 sessions, 0 conv
 - `/` — 1 clicks, 41 sessions, 0 conv
 
-### Content coverage gaps (vs top-10 SERP)
-
-| Page | Keyword | Coverage | Missing terms |
-|---|---|---|---|
-| `https://radianceresidency.com/` | radiance residency | 38.75% |  |
-
 ### Topical authority — our strongest clusters
 
 | Centroid query | Cluster size | Impressions |
 |---|---|---|
-| hostel essentials | 57 keywords | 521 |
-| student hostel in indore | 33 keywords | 502 |
-| radiance residency | 3 keywords | 87 |
-| yes | 17 keywords | 45 |
-| pg in rau | 2 keywords | 8 |
-| hostel in indore | 1 keywords | 1 |
+| student hostel in indore | 33 keywords | 1,109 |
+| hostel essentials | 51 keywords | 1,100 |
+| radiance residency | 2 keywords | 193 |
+| yes | 20 keywords | 105 |
+| pgs in rau | 2 keywords | 16 |
+| difference between pg and flat | 2 keywords | 5 |
 
 Invest in these topics; each deserves a hub page + 3-5 supporting posts.
 
@@ -906,8 +900,8 @@ Domains that link to 2+ of our peer sites but NOT to us:
 
 - **5 toxic domains** to disavow. Run `python scripts/export_disavow_file.py`, upload the generated `.txt` to GSC Disavow Tool.
 - **5 PBN subnet cluster(s)** detected:
-  - `195.20.19.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
   - `85.120.81.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
+  - `195.20.19.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
   - `184.168.115.x/24` — 4 domains: allwebsitesdirectory.com,domainanalysis.org,domainsc.com,pudhe.com
 
 ### Index coverage issues (GSC URL Inspection)
@@ -1011,10 +1005,10 @@ Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
 | Engine | Cited / Total | % |
 |---|---|---|
-| claude | 0 / 61 | 0.0% |
-| gemini | 0 / 115 | 0.0% |
-| openai | 0 / 61 | 0.0% |
-| perplexity_via_or | 39 / 61 | 63.9% |
+| claude | 0 / 88 | 0.0% |
+| gemini | 0 / 142 | 0.0% |
+| openai | 0 / 88 | 0.0% |
+| perplexity_via_or | 39 / 88 | 44.3% |
 
 Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert authorship, and factual "since/founded/certified" evidence.
 
@@ -1172,38 +1166,38 @@ Rewrite the landing page's title/meta/H1 to match intent.
 
 ### Competitor pages scanned (latest)
 
-- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-chennai`
-  - title: _Single Rooms in Chennai? Upgrade to Zolo Coliving._
-  - h1: Don’t Just Rent Single Rooms in Chennai. Upgrade to Zolo Coliving.
-  - meta: Skip the average Single Rooms in Chennai. Choose professionally managed coliving instead. Fully furnished - all amenities included. Click, book, and go!
-- **zolostays.com** — `https://zolostays.com/hostels-in-gurugram`
-  - title: _Boys and Girls Hostels in Gurgaon | Zolo_
-  - h1: Hostels in Gurgaon
-  - meta: Rent Best Hostels in Gurgaon Here! - Zolo offers 20+ Hostels in Gurgaon for Students &amp; Working Men/Women with Food, Wifi, TV, CCTV, House Keeping and more.
 - **zolostays.com** — `https://zolostays.com/pgs-in-coimbatore`
   - title: _PG in Coimbatore? Upgrade to Zolo Managed Coliving._
   - h1: Ditch the Traditional PGs in Coimbatore. Step Up to Zolo Coliving.
   - meta: Searching for a PG in Coimbatore? 25+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 3,569/mo.
-- **zolostays.com** — `https://zolostays.com/pgs-in-chennai`
-  - title: _PG in Chennai? Upgrade to Zolo Managed Coliving._
-  - h1: Ditch the Traditional PGs in Chennai. Step Up to Zolo Coliving.
-  - meta: Searching for a PG in Chennai? 74+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,720/mo.
-- **zolostays.com** — `https://zolostays.com/pgs-in-delhi`
-  - title: _PGs in Delhi? Upgrade to Zolo Managed Coliving._
-  - h1: Ditch the Traditional PGs in Delhi. Step Up to Zolo Coliving.
-  - meta: Searching for a PG in Delhi? Zolostays offers what PGs don&#x27;t — professional management, furnished rooms, zero brokerage. From Rs. 6,407/mo.
-- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-gurugram`
-  - title: _Single Rooms/1RK for rent in Gurgaon without Brokerage | Zolo_
-  - h1: Single Room on Rent in Gurgaon
-  - meta: 300+ One Room set (1Rk Flat) for Rent in Gurugram - Zolo Offers Furnished Single Room on Rent in Gurgaon with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professiona
-- **zolostays.com** — `https://zolostays.com/pgs-in-bangalore`
-  - title: _PGs in Bangalore? Upgrade to Zolo Managed Coliving._
-  - h1: Ditch the Traditional PGs in Bangalore. Step Up to Zolo Coliving.
-  - meta: Searching for a PG in Bangalore? 159+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,510/mo.
+- **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-delhi`
+  - title: _Single Rooms for rent in Delhi without Brokerage starts at ₹4000 | Zolo_
+  - h1: Single Room on Rent in Delhi
+  - meta: 50+ One Room set (1Rk Flat) for Rent in Delhi - Zolo Offers Furnished Single Room on Rent in Delhi with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professionals.
 - **zolostays.com** — `https://zolostays.com/single-room-for-rent-in-bangalore`
   - title: _Single Rooms in Bangalore? Upgrade to Zolo Coliving._
   - h1: Don’t Just Rent Single Rooms in Bangalore. Upgrade to Zolo Coliving.
   - meta: Forget the typical Single Rooms in Bangalore. Move into professionally managed coliving. What you see is what you get. Fully furnished - all amenities included.
+- **zolostays.com** — `https://zolostays.com/hostels-in-coimbatore`
+  - title: _Hostels in Coimbatore - Book 15+ Coimbatore Hostels for Boys &amp; Girls at Zolo_
+  - h1: Hostels in Coimbatore
+  - meta: Get Best Hostels in Coimbatore Here! - Zolo offers 15+ Hostels in Coimbatore for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping with No brokerage.
+- **zolostays.com** — `https://zolostays.com/hostels-in-delhi`
+  - title: _Hostel in Delhi - 10+ Best Boys/Girls New Delhi Hostel with Food | Zolo_
+  - h1: Hostels in Delhi
+  - meta: Get Best Hostels in Delhi Here! - Zolo offers 10+ Hostels in New Delhi for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keepings at No brokerage.
+- **zolostays.com** — `https://zolostays.com/pgs-in-delhi`
+  - title: _PGs in Delhi? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Delhi. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Delhi? Zolostays offers what PGs don&#x27;t — professional management, furnished rooms, zero brokerage. From Rs. 6,407/mo.
+- **zolostays.com** — `https://zolostays.com/hostels-in-gurugram`
+  - title: _Boys and Girls Hostels in Gurgaon | Zolo_
+  - h1: Hostels in Gurgaon
+  - meta: Rent Best Hostels in Gurgaon Here! - Zolo offers 20+ Hostels in Gurgaon for Students &amp; Working Men/Women with Food, Wifi, TV, CCTV, House Keeping and more.
+- **zolostays.com** — `https://zolostays.com/pgs-in-bangalore`
+  - title: _PGs in Bangalore? Upgrade to Zolo Managed Coliving._
+  - h1: Ditch the Traditional PGs in Bangalore. Step Up to Zolo Coliving.
+  - meta: Searching for a PG in Bangalore? 159+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,510/mo.
 
 ### Lighthouse CI (synthetic lab)
 
@@ -1214,11 +1208,11 @@ Rewrite the landing page's title/meta/H1 to match intent.
 
 ### AI citations (AEO — ChatGPT · Perplexity · Gemini)
 
-_2 of 25 queries cited us in the answer._
+_0 of 25 queries cited us in the answer._
 
 | Engine | Query | Cited | Competitors named |
 |---|---|---|---|
-| perplexity_via_or | pg near ips academy indore | ✅ |  |
+| perplexity_via_or | pg near ips academy indore | — |  |
 | openai | pg near ips academy indore | — |  |
 | claude | pg near ips academy indore | — |  |
 | gemini | pg near ips academy indore | — |  |
@@ -1230,43 +1224,43 @@ _2 of 25 queries cited us in the answer._
 | openai | room for rent in rau | — |  |
 | claude | room for rent in rau | — |  |
 | gemini | room for rent in rau | — |  |
-| perplexity_via_or | hostel near ips academy indore | ✅ |  |
+| perplexity_via_or | hostel near ips academy indore | — |  |
 | openai | hostel near ips academy indore | — |  |
 | claude | hostel near ips academy indore | — |  |
 
 ### Keyword difficulty (Ahrefs KD-clone)
 
-**22 quick wins flagged** — low KD, you already rank 4–15.
+**25 quick wins flagged** — low KD, you already rank 4–15.
 
 | Query | KD | Our pos | Impr |
 |---|---|---|---|
-| student hostel in indore | 20 | #11.02 | 110 |
-| radiance residency | 27 | #5.66 | 76 |
-| pg near medicaps university indore | 16 | #8.31 | 54 |
-| hostel packing list for students | 16 | #14.37 | 46 |
-| pg near ips academy indore | 16 | #6.92 | 41 |
-| checklist for hostel students | 20 | #15.44 | 41 |
-| hostel near ips academy indore | 16 | #7.65 | 31 |
-| best hostel in indore for students | 16 | #7.96 | 27 |
-| medi caps university hostel | 20 | #9.21 | 25 |
-| yes | 29 | #6.03 | 22 |
+| student hostel in indore | 20 | #10.3 | 260 |
+| radiance residency | 27 | #5.1 | 189 |
+| pg near medicaps university indore | 16 | #8.29 | 128 |
+| hostel packing list for students | 16 | #14.39 | 97 |
+| pg near ips academy indore | 16 | #7.24 | 94 |
+| checklist for hostel students | 20 | #15.49 | 87 |
+| hostel near ips academy indore | 16 | #6.97 | 72 |
+| medi caps university hostel | 20 | #9.38 | 67 |
+| best hostel in indore for students | 16 | #8.52 | 67 |
+| medicaps university hostel | 24 | #6.13 | 60 |
 
 _Top 12 by traffic (all):_
 
 | Query | KD | Our pos | Impr |
 |---|---|---|---|
-| student hostel in indore | 20 | #11.02 | 110 |
-| radiance residency | 27 | #5.66 | 76 |
-| pg near medicaps university indore | 16 | #8.31 | 54 |
-| hostel packing list for students | 16 | #14.37 | 46 |
-| pg near ips academy indore | 16 | #6.92 | 41 |
-| checklist for hostel students | 20 | #15.44 | 41 |
-| hostel near ips academy indore | 16 | #7.65 | 31 |
-| best hostel in indore for students | 16 | #7.96 | 27 |
-| medi caps university hostel | 20 | #9.21 | 25 |
-| yes | 29 | #6.03 | 22 |
-| best hostels in indore | 20 | #10.55 | 20 |
-| student accommodation indore | 24 | #9.23 | 13 |
+| student hostel in indore | 20 | #10.3 | 260 |
+| radiance residency | 27 | #5.1 | 189 |
+| pg near medicaps university indore | 16 | #8.29 | 128 |
+| hostel packing list for students | 16 | #14.39 | 97 |
+| pg near ips academy indore | 16 | #7.24 | 94 |
+| checklist for hostel students | 20 | #15.49 | 87 |
+| hostel near ips academy indore | 16 | #6.97 | 72 |
+| medi caps university hostel | 20 | #9.38 | 67 |
+| best hostel in indore for students | 16 | #8.52 | 67 |
+| medicaps university hostel | 24 | #6.13 | 60 |
+| yes | 29 | #5.8 | 50 |
+| best hostels in indore | 20 | #11.09 | 46 |
 
 
 ## 🎯 Target Keywords — TradeForge → Site Team
