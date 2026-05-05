@@ -57,6 +57,14 @@
 | `.htaccess` 301 redirects added for 6 broken internal links (davv, sage, svvv, pharmacy, holkar, oriental) | 2026-04-30 |
 | Sitemap lastmod dates updated for 7 changed pages | 2026-04-30 |
 | `llms.txt` updated: room categories, pricing, keyword targeting | 2026-04-30 |
+| `rules-regulations.html` title shortened 67 → 55 chars (title_too_long flag cleared) | 2026-05-05 |
+| Meta descriptions improved for CTR: medicaps, IPS Academy, packing blog, best-hostels blog | 2026-05-05 |
+| `hostel-near-medicaps-university.html` title: added "Rau" for location-qualified queries | 2026-05-05 |
+| Homepage: added professionals + intern audience section with internal links to both pages | 2026-05-05 |
+| `pg-for-working-professionals-rau-indore.html` title now says "Working Professionals"; canonical `.html` removed | 2026-05-05 |
+| `summer-internship-housing-indore.html` canonical `.html` removed to match sitemap | 2026-05-05 |
+| Sitemap lastmod updated for 8 changed pages | 2026-05-05 |
+| `llms.txt` updated: Last Updated + Type field includes professionals/intern housing | 2026-05-05 |
 
 ---
 
@@ -73,11 +81,13 @@
 
 ## ⏳ Pending — Residency Does These Autonomously
 
-### All technical SEO work is DONE as of 2026-04-30.
+### All technical SEO work is DONE as of 2026-05-05.
 
 **Keyword strategy confirmed (2026-04-30):** Primary targets are "hostel in rau indore", "hostel near Medicaps University", "PG near Medicaps University Indore". NOT targeting "hostel in indore" as primary — `student-hostel-in-indore.html` pivoted accordingly.
 
-**No new landing pages needed.** All college-specific pages exist. 6 missing pages now handle via .htaccess 301 redirects.
+**Summer audience pivot (2026-05-05):** May–August = low student season. Target audience shifts to working professionals and interns. Both pages (`pg-for-working-professionals-rau-indore.html` + `summer-internship-housing-indore.html`) are now surfaced on homepage with internal links. Shachi should post in Pithampur/Indore job WhatsApp groups, Facebook, and LinkedIn for free traffic.
+
+**No new landing pages needed.** All college-specific pages exist. 6 missing pages handle via .htaccess 301 redirects.
 
 **On next session after TradeForge Monday update:** Check GSC for "hostel in rau" and "pg near medicaps university indore" ranking movements — these are now the primary target queries.
 
