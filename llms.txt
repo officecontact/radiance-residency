@@ -1,4 +1,4 @@
-> Last Updated: 2026-04-30
+> Last Updated: 2026-05-05
 > Full Version: https://radianceresidency.com/llms-full.txt
 > Robots.txt: https://radianceresidency.com/robots.txt
 > AEO Policy: https://radianceresidency.com/.well-known/ai.txt
@@ -13,7 +13,7 @@ Radiance Residency is a premium boys hostel and student accommodation facility i
 
 ## Key Facts
 
-- **Type:** Boys Hostel / Student Accommodation / Paying Guest (PG)
+- **Type:** Boys Hostel / Student Accommodation / Paying Guest (PG) / PG for Working Professionals / Intern Housing
 - **Location:** In front of Medicaps University, Pigdamber, Rau, Indore, Madhya Pradesh 453331
 - **Distance from Medicaps University:** 2 minutes walk
 - **Capacity:** 64+ beds
