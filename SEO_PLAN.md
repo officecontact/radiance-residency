@@ -773,7 +773,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-05
+## Next Actions — 2026-05-06
 
 ### Landing pages / content to create or strengthen
 
@@ -781,30 +781,30 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.1 | 189 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.2 | 132 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.2 | 94 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.2 | 192 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.2 | 135 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.2 | 95 | Strengthen H1, add FAQ schema, 1 internal link |
 | hostel near ips academy indore | 7.0 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
-| best hostel in indore for students | 8.6 | 68 | Strengthen H1, add FAQ schema, 1 internal link |
-| medi caps university hostel | 9.4 | 67 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.1 | 60 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.8 | 50 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.4 | 71 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 8.6 | 69 | Strengthen H1, add FAQ schema, 1 internal link |
+| medicaps university hostel | 6.1 | 61 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.8 | 54 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 34.6 | 109 | `/hostel-essentials` |
-| hostel packing list for students | 14.4 | 98 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.5 | 90 | `/checklist-for-hostel-students` |
-| hostel requirements list | 29.6 | 82 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.7 | 81 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 29.8 | 76 | `/essential-things-for-hostel` |
-| hostel requirement list | 23.3 | 73 | `/hostel-requirement-list` |
-| hostel needs list | 37.5 | 70 | `/hostel-needs-list` |
+| hostel essentials | 35.1 | 111 | `/hostel-essentials` |
+| hostel packing list for students | 14.4 | 100 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.5 | 92 | `/checklist-for-hostel-students` |
+| hostel requirements list | 29.4 | 84 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.6 | 83 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 29.6 | 78 | `/essential-things-for-hostel` |
+| hostel requirement list | 23.0 | 76 | `/hostel-requirement-list` |
+| hostel needs list | 37.8 | 72 | `/hostel-needs-list` |
 | best hostels in indore | 11.0 | 47 | `/best-hostels-in-indore` |
-| best hostel in indore | 20.4 | 39 | `/best-hostel-in-indore` |
-| pg hostel in rau | 21.4 | 28 | `/pg-hostel-in-rau` |
+| best hostel in indore | 20.5 | 40 | `/best-hostel-in-indore` |
+| pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
 | hostel essentials checklist | 11.0 | 24 | `/hostel-essentials-checklist` |
 
 ### On-page fixes (this sprint)
@@ -914,9 +914,12 @@ Domains that link to 2+ of our peer sites but NOT to us:
   - `195.20.19.x/24` — 9 domains: analyticshaven.top,atomizelink.icu,bye.fyi,creativeposts.top,dailymusings.top,optimizeflow.top,quero.party,screenshots.w
   - `184.168.115.x/24` — 4 domains: allwebsitesdirectory.com,domainanalysis.org,domainsc.com,pudhe.com
 
-### Index coverage issues (GSC URL Inspection)
+### GSC Coverage Report
 
-- `http://radianceresidency.com/` — NEUTRAL / Page with redirect
+**Last audit:** 2026-05-06 · **Checked:** 62 URLs · ✅ Indexed: 8 (13%) · ❌ Errors: 0 · ⚠ Excluded/Not-indexed: 54
+
+- 🚨 **53 pages unknown to Google** — Googlebot has never crawled these. Fix: submit sitemap in GSC, build internal links from indexed pages to these URLs, check robots.txt isn't blocking crawl.
+- ℹ 1 pages with redirects — verify all are 301 (permanent), not 302, and chains are max 1 hop.
 
 ### Ready-to-paste JSON-LD schema blocks
 
