@@ -773,7 +773,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-06
+## Next Actions — 2026-05-07
 
 ### Landing pages / content to create or strengthen
 
@@ -781,29 +781,29 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.2 | 192 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.2 | 195 | Strengthen H1, add FAQ schema, 1 internal link |
 | pg near medicaps university indore | 8.2 | 135 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.2 | 95 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.2 | 96 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.4 | 73 | Strengthen H1, add FAQ schema, 1 internal link |
+| best hostel in indore for students | 8.6 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
 | hostel near ips academy indore | 7.0 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
-| medi caps university hostel | 9.4 | 71 | Strengthen H1, add FAQ schema, 1 internal link |
-| best hostel in indore for students | 8.6 | 69 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.1 | 61 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.8 | 54 | Strengthen H1, add FAQ schema, 1 internal link |
+| medicaps university hostel | 6.1 | 63 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.8 | 59 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 35.1 | 111 | `/hostel-essentials` |
-| hostel packing list for students | 14.4 | 100 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.5 | 92 | `/checklist-for-hostel-students` |
-| hostel requirements list | 29.4 | 84 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.6 | 83 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 29.6 | 78 | `/essential-things-for-hostel` |
-| hostel requirement list | 23.0 | 76 | `/hostel-requirement-list` |
-| hostel needs list | 37.8 | 72 | `/hostel-needs-list` |
-| best hostels in indore | 11.0 | 47 | `/best-hostels-in-indore` |
-| best hostel in indore | 20.5 | 40 | `/best-hostel-in-indore` |
+| hostel essentials | 35.3 | 115 | `/hostel-essentials` |
+| hostel packing list for students | 14.4 | 102 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.6 | 95 | `/checklist-for-hostel-students` |
+| hostel requirements list | 29.1 | 87 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.5 | 85 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 29.5 | 81 | `/essential-things-for-hostel` |
+| hostel requirement list | 22.8 | 79 | `/hostel-requirement-list` |
+| hostel needs list | 37.8 | 75 | `/hostel-needs-list` |
+| best hostels in indore | 11.1 | 48 | `/best-hostels-in-indore` |
+| best hostel in indore | 20.4 | 42 | `/best-hostel-in-indore` |
 | pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
 | hostel essentials checklist | 11.0 | 24 | `/hostel-essentials-checklist` |
 
