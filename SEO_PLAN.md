@@ -773,7 +773,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-07
+## Next Actions — 2026-05-08
 
 ### Landing pages / content to create or strengthen
 
@@ -781,27 +781,27 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.2 | 195 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.2 | 135 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.2 | 96 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.6 | 203 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.2 | 137 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.2 | 97 | Strengthen H1, add FAQ schema, 1 internal link |
 | medi caps university hostel | 9.4 | 73 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 7.0 | 73 | Strengthen H1, add FAQ schema, 1 internal link |
 | best hostel in indore for students | 8.6 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 7.0 | 72 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.1 | 63 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.8 | 59 | Strengthen H1, add FAQ schema, 1 internal link |
+| medicaps university hostel | 6.1 | 64 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.9 | 61 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 35.3 | 115 | `/hostel-essentials` |
-| hostel packing list for students | 14.4 | 102 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.6 | 95 | `/checklist-for-hostel-students` |
-| hostel requirements list | 29.1 | 87 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.5 | 85 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 29.5 | 81 | `/essential-things-for-hostel` |
-| hostel requirement list | 22.8 | 79 | `/hostel-requirement-list` |
-| hostel needs list | 37.8 | 75 | `/hostel-needs-list` |
+| hostel essentials | 35.5 | 117 | `/hostel-essentials` |
+| hostel packing list for students | 14.5 | 104 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.6 | 97 | `/checklist-for-hostel-students` |
+| list of things required in hostel | 28.4 | 90 | `/list-of-things-required-in-hostel` |
+| hostel requirements list | 28.8 | 90 | `/hostel-requirements-list` |
+| essential things for hostel | 29.3 | 84 | `/essential-things-for-hostel` |
+| hostel requirement list | 22.6 | 81 | `/hostel-requirement-list` |
+| hostel needs list | 37.9 | 78 | `/hostel-needs-list` |
 | best hostels in indore | 11.1 | 48 | `/best-hostels-in-indore` |
 | best hostel in indore | 20.4 | 42 | `/best-hostel-in-indore` |
 | pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
@@ -1295,7 +1295,7 @@ _Top 12 by traffic (all):_
 | P1 | pg near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | student hostel in indore | 110 | 16 | #10.3 | Page 2: 800+ word expansion + 2-3 backlinks |
 | P2 | hostel near ips academy indore | 70 | 12 | #7.0 | Page 1: strengthen E-E-A-T + 2-3 internal links |
-| P2 | pg in rau indore | 70 | 19 | #3.7 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | pg in rau indore | 70 | 19 | #3.3 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P2 | boys hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | boys hostel near iim indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | girls hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
