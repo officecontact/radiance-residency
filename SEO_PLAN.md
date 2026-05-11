@@ -815,12 +815,12 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 ### Content ideas (AI-generated)
 
-- **indian restaurants** _(score 1220000)_ — United States: vol=1220000, comp=n/a
-- **indian wells** _(score 550000)_ — United States: vol=550000, comp=n/a
-- **taste of india** _(score 165000)_ — United States: vol=165000, comp=n/a
-- **almond** _(score 110000)_ — United States: vol=110000, comp=n/a
-- **indian wells open** _(score 90500)_ — United States: vol=90500, comp=n/a
-- **pine nuts** _(score 74000)_ — United States: vol=74000, comp=n/a
+- **radiance residency** _(score 14)_ — 167 impr at avg pos 12.0 — push up for clicks
+- **hostel packing list for students** _(score 6)_ — 93 impr at avg pos 14.4 — push up for clicks
+- **checklist for hostel students** _(score 5)_ — 82 impr at avg pos 15.4 — push up for clicks
+- **best hostels in indore** _(score 4)_ — 46 impr at avg pos 11.1 — push up for clicks
+- **hostel requirement list** _(score 3)_ — 65 impr at avg pos 24.2 — push up for clicks
+- **list of things required in hostel** _(score 3)_ — 73 impr at avg pos 29.1 — push up for clicks
 
 _Current DR (our clone): **51** over 34 referring domains._
 
@@ -1128,6 +1128,23 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 | warning | meta_too_long | 6 |
 | critical | page_has_links_to_broken_page | 4 |
 | critical | 404_page | 1 |
+
+### Keyword targets (curated, by search volume)
+
+| Keyword | Vol/mo | KD | CPC | Category |
+|---|---|---|---|---|
+| paying guest in indore | 2,900 | 22 | $0.11 | local |
+| student hostel in indore | 110 | 16 | $0.11 | local |
+| hostel near ips academy indore | 70 | 12 | $0.36 | local |
+| pg in rau indore | 70 | 19 | $0.14 | local |
+| pg near ips academy indore | 50 | 5 | $0.01 | local |
+| hostel in rau indore | 40 | 21 | $0.04 | local |
+| pg near iim indore | 20 | 5 | — | local |
+| room for rent in rau | 10 | 27 | $0.11 | local |
+| pg near sd bansal indore | 0 | — | — | local |
+| room near medicaps university | 0 | — | — | local |
+| girls hostel in indore | 0 | — | — | local |
+| boys hostel in indore | 0 | — | — | local |
 
 ### Competitors tracked
 
@@ -1600,12 +1617,10 @@ _Answers tighten the plan. Reply inline or send to officecontact06@gmail.com._
 
 2. **Traffic is low (0 clicks/30d).** Should we (a) double down on SEO + content, (b) shift budget to cold outreach / paid ads, or (c) both? Outreach is often higher ROI for B2B but slower for D2C.
 
-3. **Which 5–10 search phrases would a buyer Google to find you?** We have ranking data but no curated target list — without it the plan optimizes for whatever's already ranking, which may not be what you want to win.
+3. **Who are your top 3 competitors?** We can pull their backlinks, content gaps, and SERP overlap once we know who to track.
 
-4. **Who are your top 3 competitors?** We can pull their backlinks, content gaps, and SERP overlap once we know who to track.
+4. **Which products / pages are highest priority for new content this month?** Listing 3–5 lets us tailor topic ideas and internal-linking suggestions to those pages first.
 
-5. **Which products / pages are highest priority for new content this month?** Listing 3–5 lets us tailor topic ideas and internal-linking suggestions to those pages first.
+5. **Are there specific countries or cities you want to win first?** (e.g., UAE for radianceoverseas, Indore for residency). Geo focus changes which search-volume and competitor data we prioritize.
 
-6. **Are there specific countries or cities you want to win first?** (e.g., UAE for radianceoverseas, Indore for residency). Geo focus changes which search-volume and competitor data we prioritize.
-
-7. **Brand voice / non-negotiables?** (formal vs. friendly, claims you can/can't make, words to avoid). Saves rewrite cycles when AI drafts are reviewed.
+6. **Brand voice / non-negotiables?** (formal vs. friendly, claims you can/can't make, words to avoid). Saves rewrite cycles when AI drafts are reviewed.

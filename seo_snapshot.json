@@ -338,94 +338,76 @@
   "keyword_rankings": [],
   "topic_ideas": [
     {
-      "topic": "indian restaurants",
-      "source": "keyword_magic",
-      "impact_score": 1220000.0,
-      "rationale": "United States: vol=1220000, comp=n/a"
+      "topic": "radiance residency",
+      "source": "gsc_longtail",
+      "impact_score": 13.902459166652,
+      "rationale": "167 impr at avg pos 12.0 — push up for clicks"
     },
     {
-      "topic": "indian wells",
-      "source": "keyword_magic",
-      "impact_score": 550000.0,
-      "rationale": "United States: vol=550000, comp=n/a"
+      "topic": "hostel packing list for students",
+      "source": "gsc_longtail",
+      "impact_score": 6.47858103578632,
+      "rationale": "93 impr at avg pos 14.4 — push up for clicks"
     },
     {
-      "topic": "taste of india",
-      "source": "keyword_magic",
-      "impact_score": 165000.0,
-      "rationale": "United States: vol=165000, comp=n/a"
+      "topic": "checklist for hostel students",
+      "source": "gsc_longtail",
+      "impact_score": 5.31121657373314,
+      "rationale": "82 impr at avg pos 15.4 — push up for clicks"
     },
     {
-      "topic": "almond",
-      "source": "keyword_magic",
-      "impact_score": 110000.0,
-      "rationale": "United States: vol=110000, comp=n/a"
+      "topic": "best hostels in indore",
+      "source": "gsc_longtail",
+      "impact_score": 4.14901943715707,
+      "rationale": "46 impr at avg pos 11.1 — push up for clicks"
     },
     {
-      "topic": "indian wells open",
-      "source": "keyword_magic",
-      "impact_score": 90500.0,
-      "rationale": "United States: vol=90500, comp=n/a"
+      "topic": "hostel requirement list",
+      "source": "gsc_longtail",
+      "impact_score": 2.689128254141,
+      "rationale": "65 impr at avg pos 24.2 — push up for clicks"
     },
     {
-      "topic": "pine nuts",
-      "source": "keyword_magic",
-      "impact_score": 74000.0,
-      "rationale": "United States: vol=74000, comp=n/a"
+      "topic": "list of things required in hostel",
+      "source": "gsc_longtail",
+      "impact_score": 2.5088952549179,
+      "rationale": "73 impr at avg pos 29.1 — push up for clicks"
     },
     {
-      "topic": "indian market",
-      "source": "keyword_magic",
-      "impact_score": 60500.0,
-      "rationale": "United States: vol=60500, comp=n/a"
+      "topic": "hostel requirements list",
+      "source": "gsc_longtail",
+      "impact_score": 2.48658849324244,
+      "rationale": "75 impr at avg pos 30.2 — push up for clicks"
     },
     {
-      "topic": "indian delivery food",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
+      "topic": "essential things for hostel",
+      "source": "gsc_longtail",
+      "impact_score": 2.2359768304138,
+      "rationale": "68 impr at avg pos 30.4 — push up for clicks"
     },
     {
-      "topic": "indian street food",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
+      "topic": "hostel essentials checklist",
+      "source": "gsc_longtail",
+      "impact_score": 2.18598724255664,
+      "rationale": "24 impr at avg pos 11.0 — push up for clicks"
     },
     {
-      "topic": "betel nut",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
+      "topic": "best hostel in indore",
+      "source": "gsc_longtail",
+      "impact_score": 1.90719956870002,
+      "rationale": "39 impr at avg pos 20.4 — push up for clicks"
     },
     {
-      "topic": "flavor of india",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
+      "topic": "medi caps university hostel",
+      "source": "gsc_longtail",
+      "impact_score": 1.69431940705947,
+      "rationale": "32 impr at avg pos 18.9 — push up for clicks"
     },
     {
-      "topic": "indian store",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
-    },
-    {
-      "topic": "indian food delivery",
-      "source": "keyword_magic",
-      "impact_score": 49500.0,
-      "rationale": "United States: vol=49500, comp=n/a"
-    },
-    {
-      "topic": "cafe india",
-      "source": "keyword_magic",
-      "impact_score": 40500.0,
-      "rationale": "United States: vol=40500, comp=n/a"
-    },
-    {
-      "topic": "pumpkin seeds benefits",
-      "source": "keyword_magic",
-      "impact_score": 40500.0,
-      "rationale": "United States: vol=40500, comp=n/a"
+      "topic": "premium student hostel",
+      "source": "gsc_longtail",
+      "impact_score": 0.771428550408812,
+      "rationale": "18 impr at avg pos 23.3 — push up for clicks"
     }
   ],
   "competitor_moves": [],
@@ -1979,7 +1961,128 @@
   ],
   "backlinks_lost": [],
   "top_inbound_pages": [],
-  "keyword_targets": [],
+  "keyword_targets": [
+    {
+      "keyword": "paying guest in indore",
+      "country": null,
+      "volume": 2900,
+      "cpc": 0.11,
+      "difficulty": 22,
+      "intent": "local"
+    },
+    {
+      "keyword": "student hostel in indore",
+      "country": null,
+      "volume": 110,
+      "cpc": 0.11,
+      "difficulty": 16,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel near ips academy indore",
+      "country": null,
+      "volume": 70,
+      "cpc": 0.36,
+      "difficulty": 12,
+      "intent": "local"
+    },
+    {
+      "keyword": "pg in rau indore",
+      "country": null,
+      "volume": 70,
+      "cpc": 0.14,
+      "difficulty": 19,
+      "intent": "local"
+    },
+    {
+      "keyword": "pg near ips academy indore",
+      "country": null,
+      "volume": 50,
+      "cpc": 0.01,
+      "difficulty": 5,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel in rau indore",
+      "country": null,
+      "volume": 40,
+      "cpc": 0.04,
+      "difficulty": 21,
+      "intent": "local"
+    },
+    {
+      "keyword": "pg near iim indore",
+      "country": null,
+      "volume": 20,
+      "cpc": null,
+      "difficulty": 5,
+      "intent": "local"
+    },
+    {
+      "keyword": "room for rent in rau",
+      "country": null,
+      "volume": 10,
+      "cpc": 0.11,
+      "difficulty": 27,
+      "intent": "local"
+    },
+    {
+      "keyword": "pg near sd bansal indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "room near medicaps university",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "girls hostel in indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "boys hostel in indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "boys hostel near iim indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel near medicaps university",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "boys hostel near sd bansal",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    }
+  ],
   "rank_drops": [],
   "backlink_sources_top": [
     {
