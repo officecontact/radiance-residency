@@ -1085,10 +1085,10 @@ Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
 | Form | Perf | SEO | A11y | LCP | CLS |
 |---|---|---|---|---|---|
+| desktop | 84 | 100 | 92 | 2101ms | 0.03 |
+| mobile | 46 | 100 | 92 | 8721ms | 0.38 |
+| mobile | 43 | 100 | 92 | 9579ms | 0.38 |
 | desktop | 83 | 100 | 92 | 2114ms | 0.04 |
-| mobile | 69 | 100 | 92 | 6411ms | 0.05 |
-| desktop | 86 | 100 | 92 | 2021ms | 0.04 |
-| mobile | 65 | 100 | 92 | 7287ms | 0.03 |
 
 ### GSC URL Inspection — pages with issues
 
@@ -1223,10 +1223,10 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 | hostel in rau indore | 40 | 21 | $0.04 | local |
 | pg near iim indore | 20 | 5 | — | local |
 | room for rent in rau | 10 | 27 | $0.11 | local |
-| boys hostel near sd bansal | 0 | — | — | local |
-| hostel near iim indore | 0 | — | — | local |
 | boys hostel near iim indore | 0 | — | — | local |
-| pg near medicaps university | 0 | — | — | local |
+| room near medicaps university | 0 | — | — | local |
+| boys hostel in indore | 0 | — | — | local |
+| pg near sd bansal indore | 0 | — | — | local |
 
 ### Competitors tracked
 
@@ -1315,8 +1315,8 @@ Rewrite the landing page's title/meta/H1 to match intent.
 
 | URL | Device | Perf | A11y | BP | SEO | LCP (ms) |
 |---|---|---|---|---|---|---|
-| radianceresidency.com | desktop | 83.0 | 92.0 | 100.0 | 100.0 | 2114 |
-| radianceresidency.com | mobile | 69.0 | 92.0 | 100.0 | 100.0 | 6411 |
+| radianceresidency.com | desktop | 84.0 | 92.0 | 100.0 | 100.0 | 2101 |
+| radianceresidency.com | mobile | 46.0 | 92.0 | 100.0 | 100.0 | 8721 |
 
 ### AI citations (AEO — ChatGPT · Perplexity · Gemini)
 

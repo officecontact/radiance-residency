@@ -1623,35 +1623,35 @@
   "lighthouse": [
     {
       "form_factor": "desktop",
+      "perf": 84.0,
+      "seo": 100.0,
+      "a11y": 92.0,
+      "lcp_ms": 2101,
+      "cls": 0.034
+    },
+    {
+      "form_factor": "mobile",
+      "perf": 46.0,
+      "seo": 100.0,
+      "a11y": 92.0,
+      "lcp_ms": 8721,
+      "cls": 0.377
+    },
+    {
+      "form_factor": "mobile",
+      "perf": 43.0,
+      "seo": 100.0,
+      "a11y": 92.0,
+      "lcp_ms": 9579,
+      "cls": 0.377
+    },
+    {
+      "form_factor": "desktop",
       "perf": 83.0,
       "seo": 100.0,
       "a11y": 92.0,
       "lcp_ms": 2114,
       "cls": 0.037
-    },
-    {
-      "form_factor": "mobile",
-      "perf": 69.0,
-      "seo": 100.0,
-      "a11y": 92.0,
-      "lcp_ms": 6411,
-      "cls": 0.052
-    },
-    {
-      "form_factor": "desktop",
-      "perf": 86.0,
-      "seo": 100.0,
-      "a11y": 92.0,
-      "lcp_ms": 2021,
-      "cls": 0.035
-    },
-    {
-      "form_factor": "mobile",
-      "perf": 65.0,
-      "seo": 100.0,
-      "a11y": 92.0,
-      "lcp_ms": 7287,
-      "cls": 0.028
     }
   ],
   "crux_field": [],
@@ -2420,22 +2420,6 @@
       "intent": "local"
     },
     {
-      "keyword": "boys hostel near sd bansal",
-      "country": null,
-      "volume": 0,
-      "cpc": null,
-      "difficulty": null,
-      "intent": "local"
-    },
-    {
-      "keyword": "hostel near iim indore",
-      "country": null,
-      "volume": 0,
-      "cpc": null,
-      "difficulty": null,
-      "intent": "local"
-    },
-    {
       "keyword": "boys hostel near iim indore",
       "country": null,
       "volume": 0,
@@ -2444,7 +2428,7 @@
       "intent": "local"
     },
     {
-      "keyword": "pg near medicaps university",
+      "keyword": "room near medicaps university",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2460,7 +2444,23 @@
       "intent": "local"
     },
     {
-      "keyword": "girls hostel in indore",
+      "keyword": "pg near sd bansal indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "girls hostel near medicaps university",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel near sd bansal indore",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2850,24 +2850,24 @@
     {
       "url": "https://radianceresidency.com",
       "device": "desktop",
-      "performance": 83.0,
+      "performance": 84.0,
       "accessibility": 92.0,
       "best_practices": 100.0,
       "seo": 100.0,
-      "lcp_ms": 2114,
-      "cls": 0.037,
-      "as_of": "2026-04-28"
+      "lcp_ms": 2101,
+      "cls": 0.034,
+      "as_of": "2026-05-11"
     },
     {
       "url": "https://radianceresidency.com",
       "device": "mobile",
-      "performance": 69.0,
+      "performance": 46.0,
       "accessibility": 92.0,
       "best_practices": 100.0,
       "seo": 100.0,
-      "lcp_ms": 6411,
-      "cls": 0.052,
-      "as_of": "2026-04-28"
+      "lcp_ms": 8721,
+      "cls": 0.377,
+      "as_of": "2026-05-11"
     }
   ],
   "ai_citations": [
