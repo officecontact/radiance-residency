@@ -4,16 +4,16 @@
 
 ---
 
-## This Week's Snapshot (2026-05-04)
+## This Week's Snapshot (2026-05-12)
 
 | Signal | Value | Target | Status |
 |---|---|---|---|
 | Domain Authority | 2 | 15+ | Growing via directories |
-| Linking Domains | 15 | 40+ | +1 this week |
-| Desktop Perf | 99 | 80+ | ✅ Excellent |
-| Mobile Perf | 93 | 60+ | ✅ Major improvement (was 43) |
-| GSC Schema | 100/100 | 100 | ✅ Best of 3 sites |
-| Perplexity AEO | 44.3% cited | ≥20% | ✅ Above target (was 71.4% — monitor decline) |
+| Linking Domains | 15 | 40+ | Flat — submit more directories |
+| Desktop Perf | 99 (PS) / 84 (LH) | 80+ | ✅ Excellent |
+| Mobile Perf | 93 (PS) / 46 (LH) | 60+ | ⚠ LH mobile 46 — LCP 8.7s needs work |
+| GSC Indexed | 8 / 62 (13%) | 80%+ | 🔴 53 URLs unknown to Google — index blocker |
+| Perplexity AEO | 27.5% cited | ≥20% | ✅ Above target (was 44.3% — declining, monitor) |
 | Local Pack | Not yet | Top 3 | Blocked on GBP + reviews |
 
 ### Top Local GSC Queries
@@ -773,7 +773,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-11
+## Next Actions — 2026-05-12
 
 ### Landing pages / content to create or strengthen
 
@@ -781,27 +781,27 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.6 | 209 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.2 | 141 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.3 | 100 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.6 | 212 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.2 | 143 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.3 | 101 | Strengthen H1, add FAQ schema, 1 internal link |
 | best hostel in indore for students | 8.7 | 79 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 5.5 | 78 | Strengthen H1, add FAQ schema, 1 internal link |
 | medi caps university hostel | 9.4 | 78 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.8 | 71 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 5.5 | 78 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.8 | 74 | Strengthen H1, add FAQ schema, 1 internal link |
 | medicaps university hostel | 6.1 | 66 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 35.9 | 124 | `/hostel-essentials` |
-| hostel packing list for students | 14.3 | 112 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.5 | 106 | `/checklist-for-hostel-students` |
-| hostel requirements list | 28.1 | 98 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.2 | 96 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 28.9 | 91 | `/essential-things-for-hostel` |
-| hostel requirement list | 22.2 | 87 | `/hostel-requirement-list` |
-| hostel needs list | 38.2 | 85 | `/hostel-needs-list` |
+| hostel essentials | 36.1 | 126 | `/hostel-essentials` |
+| hostel packing list for students | 14.2 | 114 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.5 | 107 | `/checklist-for-hostel-students` |
+| hostel requirements list | 27.9 | 100 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.2 | 98 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 28.8 | 93 | `/essential-things-for-hostel` |
+| hostel requirement list | 22.0 | 91 | `/hostel-requirement-list` |
+| hostel needs list | 37.9 | 86 | `/hostel-needs-list` |
 | best hostels in indore | 11.1 | 48 | `/best-hostels-in-indore` |
 | best hostel in indore | 16.5 | 43 | `/best-hostel-in-indore` |
 | pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
@@ -1124,11 +1124,11 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 **Competitor-owned (10):**
 
 - `hostel essentials` → ai_overview — owner: ?
-- `pg near medicaps university indore` → ai_overview — owner: ?
+- `hostel packing list for girl students in india` → featured_snippet — owner: www.ranimeyyammaihostel.org
 - `hostel packing list for students` → ai_overview — owner: ?
-- `hostel packing list for girl students in india` → ai_overview — owner: ?
-- `checklist for hostel students` → ai_overview — owner: ?
 - `hostel essentials 2026` → ai_overview — owner: ?
+- `hostel requirements list` → ai_overview — owner: ?
+- `list of things required in hostel` → ai_overview — owner: ?
 
 ### Low-readability pages (Flesch < 40 — hard to read)
 
