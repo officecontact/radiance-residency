@@ -1,4 +1,4 @@
-> Last Updated: 2026-05-13 (evening)
+> Last Updated: 2026-05-13 (night)
 > Full Version: https://radianceresidency.com/llms-full.txt
 > Robots.txt: https://radianceresidency.com/robots.txt
 > AEO Policy: https://radianceresidency.com/.well-known/ai.txt

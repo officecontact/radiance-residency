@@ -77,6 +77,11 @@
 | NEW PAGE: `accommodation-near-pithampur-indore.html` — newcomer/outsider area guide targeting "accommodation near pithampur indore", "where to stay near pithampur", "short term hostel indore 1 month" — commute table, LocalBusiness + FAQPage schema, 4 _redirects variants | 2026-05-13 |
 | Homepage: third card added to professionals section — "New to Indore?" linking to newcomer area guide | 2026-05-13 |
 | Cross-links: internship + professionals pages both updated to link to new newcomer guide | 2026-05-13 |
+| **JUNE 2026 ADMISSION PUSH** — `hostel-near-medicaps-university.html`: "2026 Batch" in title, June 2026 urgency in meta desc, 4 admission keywords added, red alert banner "🚨 June 2026 Admission Season", CTA updated, FAQPage Q1 about 2026 admission availability prepended | 2026-05-13 |
+| **JUNE 2026 ADMISSION PUSH** — `hostel-near-iist-indore.html`: "2026" added to title, broken meta description fixed, June 2026 urgency in meta desc, 4 admission keywords added, IIST-specific admission alert banner, FAQPage Q about 2026 availability prepended | 2026-05-13 |
+| **JUNE 2026 ADMISSION PUSH** — `hostel-near-sd-bansal-college.html`: "2026" added to title, June 2026 urgency in meta desc, 4 admission keywords added, SD Bansal admission alert banner, FAQPage Q about 2026 availability prepended | 2026-05-13 |
+| **JUNE 2026 ADMISSION PUSH** — `hostel-near-medicaps-admission-2026.html`: robots upgraded to max-image-preview/max-snippet, expired "May 15" deadline fixed → "July 15", June 2026 banner added, FAQPage JSON-LD (8 Qs) added (had none before) | 2026-05-13 |
+| Sitemap: hostel-near-medicaps-university priority 0.9→0.95, hostel-near-iist + sd-bansal lastmod 2026-03-26→2026-05-13 + priority 0.7→0.8 + changefreq monthly→weekly, hostel-near-medicaps-admission-2026 priority 0.95→0.98 + changefreq weekly→daily | 2026-05-13 |
 
 ---
 
@@ -93,15 +98,22 @@
 
 ## ⏳ Pending — Residency Does These Autonomously
 
-### All technical SEO work is DONE as of 2026-05-05.
+### JUNE 2026 ADMISSION SEASON — Active (2026-05-13)
+
+**Critical timeline:** Students vacate May 30. New Medicaps/IIST/Bansal batch starts searching June 1–15. Rooms must fill by July 15–30.
 
 **Keyword strategy confirmed (2026-04-30):** Primary targets are "hostel in rau indore", "hostel near Medicaps University", "PG near Medicaps University Indore". NOT targeting "hostel in indore" as primary — `student-hostel-in-indore.html` pivoted accordingly.
 
-**Summer audience pivot (2026-05-05):** May–August = low student season. Target audience shifts to working professionals and interns. Both pages (`pg-for-working-professionals-rau-indore.html` + `summer-internship-housing-indore.html`) are now surfaced on homepage with internal links. Shachi should post in Pithampur/Indore job WhatsApp groups, Facebook, and LinkedIn for free traffic.
+**June 2026 admission push done (2026-05-13):** All 4 college pages updated with "2026 Batch" titles, June urgency in meta descriptions, admission alert banners, FAQPage schemas, and fresh lastmod dates in sitemap. Google should re-index these within 2–3 weeks — well ahead of June 1 search surge.
+
+**Dual audience active (2026-05-13):** May–August = intern/professional season + new student admission season. All three audiences have dedicated pages linked from homepage:
+- Working professionals: `pg-for-working-professionals-rau-indore.html`
+- Interns: `summer-internship-housing-indore.html`
+- Newcomers/outsiders: `accommodation-near-pithampur-indore.html`
 
 **No new landing pages needed.** All college-specific pages exist. 6 missing pages handle via .htaccess 301 redirects.
 
-**On next session after TradeForge Monday update:** Check GSC for "hostel in rau" and "pg near medicaps university indore" ranking movements — these are now the primary target queries.
+**On next session after TradeForge Monday update:** Check GSC for "hostel near medicaps 2026", "hostel near iist indore 2026", "hostel near sd bansal 2026" ranking movements. Also check if admission-2026 page is showing for "medicaps university hostel 2026 batch".
 
 ---
 
