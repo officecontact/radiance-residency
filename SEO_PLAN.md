@@ -70,6 +70,10 @@
 | `_redirects` expanded: 20 new clean URL rewrites + trailing slash normalization for all pages | 2026-05-12 |
 | Internal links added to 6 under-linked blog pages (1 → 3 inbound links each): indore-street-food-guide, iim-campus-area-guide, how-to-prepare-college-admission, indore-city-guide, cost-of-living, how-to-manage-budget | 2026-05-12 |
 | Sitemap lastmod updated for 8 changed pages | 2026-05-12 |
+| 8 image filenames renamed (spaces → hyphens); 29 HTML files batch-updated to remove %20-encoded references | 2026-05-12 |
+| `summer-internship-housing-indore.html`: FAQPage JSON-LD (8 Qs), robots max-snippet/max-image-preview, title + H1 + meta strengthened with Siemens/L&T/Pithampur/hospital company names, cross-link to professionals page added | 2026-05-13 |
+| `pg-for-working-professionals-rau-indore.html`: FAQPage JSON-LD (8 Qs), robots max-snippet/max-image-preview, title + H1 + meta strengthened with company/location names | 2026-05-13 |
+| Sitemap lastmod updated for 2 changed pages | 2026-05-13 |
 
 ---
 
