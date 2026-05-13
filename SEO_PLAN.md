@@ -65,6 +65,11 @@
 | `summer-internship-housing-indore.html` canonical `.html` removed to match sitemap | 2026-05-05 |
 | Sitemap lastmod updated for 8 changed pages | 2026-05-05 |
 | `llms.txt` updated: Last Updated + Type field includes professionals/intern housing | 2026-05-05 |
+| `robots.txt` sitemap URL fixed: www → non-www (was pointing to 404 URL — indexing blocker) | 2026-05-12 |
+| Meta description fixed on `blog/best-food-places-near-medicaps-university-rau.html`: broken text + 174→148 chars | 2026-05-12 |
+| `_redirects` expanded: 20 new clean URL rewrites + trailing slash normalization for all pages | 2026-05-12 |
+| Internal links added to 6 under-linked blog pages (1 → 3 inbound links each): indore-street-food-guide, iim-campus-area-guide, how-to-prepare-college-admission, indore-city-guide, cost-of-living, how-to-manage-budget | 2026-05-12 |
+| Sitemap lastmod updated for 8 changed pages | 2026-05-12 |
 
 ---
 

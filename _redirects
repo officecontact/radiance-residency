@@ -62,3 +62,31 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /student-hostel-in-indore/          /student-hostel-in-indore           301
 /hostel-packing-list-for-students/  /hostel-packing-list-for-students   301
 /pg-hostel-in-rau/                  /pg-hostel-in-rau                   301
+
+# Additional pages — clean URL rewrites (added 2026-05-12)
+/pg-for-working-professionals-rau-indore    /pg-for-working-professionals-rau-indore.html    200
+/summer-internship-housing-indore           /summer-internship-housing-indore.html           200
+/hostel-near-medicaps-admission-2026        /hostel-near-medicaps-admission-2026.html        200
+/hostel-budget-guide                        /hostel-budget-guide.html                        200
+/student-testimonials                       /student-testimonials.html                       200
+/hostel-near-acropolis-institute-indore     /hostel-near-acropolis-institute-indore.html     200
+/hostel-near-cdgi-indore                    /hostel-near-cdgi-indore.html                    200
+/hostel-near-lnct-indore                    /hostel-near-lnct-indore.html                    200
+/hostel-near-mit-indore                     /hostel-near-mit-indore.html                     200
+/hostel-near-nmims-indore                   /hostel-near-nmims-indore.html                   200
+/hostel-near-prestige-institute-indore      /hostel-near-prestige-institute-indore.html      200
+/hostel-near-renaissance-university-indore  /hostel-near-renaissance-university-indore.html  200
+/hostel-near-sgsits-indore                  /hostel-near-sgsits-indore.html                  200
+/hostel-near-symbiosis-indore               /hostel-near-symbiosis-indore.html               200
+/hostel-with-food-in-rau-indore             /hostel-with-food-in-rau-indore.html             200
+/hostel-in-pigdamber-rau                    /hostel-in-pigdamber-rau.html                    200
+/ac-hostel-in-rau-indore                    /ac-hostel-in-rau-indore.html                    200
+/boys-hostel-in-rau-indore                  /boys-hostel-in-rau-indore.html                  200
+/best-pg-in-indore-for-students             /best-pg-in-indore-for-students.html             200
+
+# Trailing slash normalization for new pages
+/pg-for-working-professionals-rau-indore/   /pg-for-working-professionals-rau-indore        301
+/summer-internship-housing-indore/          /summer-internship-housing-indore               301
+/hostel-near-medicaps-admission-2026/       /hostel-near-medicaps-admission-2026            301
+/hostel-budget-guide/                       /hostel-budget-guide                            301
+/student-testimonials/                      /student-testimonials                           301

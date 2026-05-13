@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.radianceresidency.com/sitemap.xml
+Sitemap: https://radianceresidency.com/sitemap.xml
 
 # Block known SEO scrapers (not ranking crawlers)
 User-agent: SemrushBot
