@@ -4,7 +4,7 @@
 
 ---
 
-## This Week's Snapshot (2026-05-12)
+## This Week's Snapshot (2026-05-13)
 
 | Signal | Value | Target | Status |
 |---|---|---|---|
@@ -119,7 +119,15 @@
 
 ## ⏳ Pending — Needs Shachi (Manual, No Code)
 
-These are the ONLY things blocking Local Pack entry:
+**🚨 JUNE 2026 ADMISSION SEASON — Do these NOW (before June 1):**
+
+| Priority | Action | Specific steps |
+|---|---|---|
+| 🔴 URGENT | **Share admission page in Medicaps groups** | WhatsApp message to Medicaps parent/student groups: "Hostel 2 min from Medicaps University — rooms for June 2026 batch from ₹7,000/month. Meals + WiFi included. Limited seats. Book: https://radianceresidency.com/hostel-near-medicaps-admission-2026" |
+| 🔴 URGENT | **Share in IIST + SD Bansal groups** | Same message format for IIST: "hostel-near-iist-indore" and SD Bansal: "hostel-near-sd-bansal-college" |
+| 🔴 URGENT | **Post on Indore/Rau student Facebook groups** | Join "Medicaps University Students", "Indore Students", "Rau Indore" groups → Post admission season offer with photos |
+
+**These are the ONLY things blocking Local Pack entry:**
 
 | Priority | Action | Specific steps |
 |---|---|---|
