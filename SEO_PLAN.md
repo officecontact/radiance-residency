@@ -74,6 +74,9 @@
 | `summer-internship-housing-indore.html`: FAQPage JSON-LD (8 Qs), robots max-snippet/max-image-preview, title + H1 + meta strengthened with Siemens/L&T/Pithampur/hospital company names, cross-link to professionals page added | 2026-05-13 |
 | `pg-for-working-professionals-rau-indore.html`: FAQPage JSON-LD (8 Qs), robots max-snippet/max-image-preview, title + H1 + meta strengthened with company/location names | 2026-05-13 |
 | Sitemap lastmod updated for 2 changed pages | 2026-05-13 |
+| NEW PAGE: `accommodation-near-pithampur-indore.html` — newcomer/outsider area guide targeting "accommodation near pithampur indore", "where to stay near pithampur", "short term hostel indore 1 month" — commute table, LocalBusiness + FAQPage schema, 4 _redirects variants | 2026-05-13 |
+| Homepage: third card added to professionals section — "New to Indore?" linking to newcomer area guide | 2026-05-13 |
+| Cross-links: internship + professionals pages both updated to link to new newcomer guide | 2026-05-13 |
 
 ---
 

@@ -90,3 +90,12 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /hostel-near-medicaps-admission-2026/       /hostel-near-medicaps-admission-2026            301
 /hostel-budget-guide/                       /hostel-budget-guide                            301
 /student-testimonials/                      /student-testimonials                           301
+
+# Newcomer/relocation area guide (added 2026-05-13)
+/accommodation-near-pithampur-indore        /accommodation-near-pithampur-indore.html       200
+/accommodation-near-pithampur-indore/       /accommodation-near-pithampur-indore            301
+
+# Variant search terms → area guide
+/pg-near-pithampur                         /accommodation-near-pithampur-indore            301
+/hostel-near-pithampur                     /accommodation-near-pithampur-indore            301
+/where-to-stay-in-indore-near-pithampur    /accommodation-near-pithampur-indore            301
