@@ -1,6 +1,6 @@
 {
   "site": "radianceresidency.com",
-  "generated": "2026-05-15",
+  "generated": "2026-05-16",
   "description": "Student hostel / PG in Indore",
   "domain_metrics": {
     "da": 2,
@@ -64,57 +64,64 @@
   "gsc_top_queries": [
     {
       "query": "student hostel in indore",
-      "impressions": 312,
-      "position": 10.1,
+      "impressions": 315,
+      "position": 9.5,
       "clicks": 1,
       "ctr": 0.3
     },
     {
       "query": "radiance residency",
-      "impressions": 223,
+      "impressions": 225,
       "position": 5.6,
       "clicks": 2,
       "ctr": 0.9
     },
     {
       "query": "pg near medicaps university indore",
-      "impressions": 148,
+      "impressions": 150,
       "position": 8.2,
       "clicks": 1,
       "ctr": 0.7
     },
     {
-      "query": "hostel essentials",
-      "impressions": 132,
-      "position": 36.2,
+      "query": "hostel packing list for girl students in india",
+      "impressions": 135,
+      "position": 4.2,
       "clicks": 0,
       "ctr": 0.0
     },
     {
-      "query": "hostel packing list for girl students in india",
-      "impressions": 132,
-      "position": 4.1,
+      "query": "hostel essentials",
+      "impressions": 135,
+      "position": 36.3,
       "clicks": 0,
       "ctr": 0.0
     },
     {
       "query": "hostel packing list for students",
-      "impressions": 127,
+      "impressions": 129,
       "position": 13.9,
       "clicks": 0,
       "ctr": 0.0
     },
     {
       "query": "checklist for hostel students",
-      "impressions": 116,
-      "position": 15.4,
+      "impressions": 124,
+      "position": 15.3,
       "clicks": 0,
       "ctr": 0.0
     },
     {
       "query": "hostel requirements list",
-      "impressions": 111,
-      "position": 27.2,
+      "impressions": 116,
+      "position": 27.1,
+      "clicks": 0,
+      "ctr": 0.0
+    },
+    {
+      "query": "list of things required in hostel",
+      "impressions": 108,
+      "position": 28.0,
       "clicks": 0,
       "ctr": 0.0
     },
@@ -126,16 +133,16 @@
       "ctr": 1.9
     },
     {
-      "query": "list of things required in hostel",
-      "impressions": 105,
-      "position": 28.0,
+      "query": "essential things for hostel",
+      "impressions": 103,
+      "position": 28.8,
       "clicks": 0,
       "ctr": 0.0
     },
     {
-      "query": "essential things for hostel",
+      "query": "hostel needs list",
       "impressions": 100,
-      "position": 28.7,
+      "position": 35.9,
       "clicks": 0,
       "ctr": 0.0
     },
@@ -147,37 +154,30 @@
       "ctr": 4.0
     },
     {
-      "query": "hostel needs list",
-      "impressions": 96,
-      "position": 36.4,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
       "query": "hostel requirement list",
-      "impressions": 96,
-      "position": 21.7,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "query": "hostel near ips academy indore",
-      "impressions": 84,
-      "position": 5.4,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "query": "yes",
-      "impressions": 84,
-      "position": 5.4,
+      "impressions": 100,
+      "position": 21.5,
       "clicks": 0,
       "ctr": 0.0
     },
     {
       "query": "medi caps university hostel",
-      "impressions": 82,
-      "position": 9.4,
+      "impressions": 87,
+      "position": 9.9,
+      "clicks": 0,
+      "ctr": 0.0
+    },
+    {
+      "query": "yes",
+      "impressions": 87,
+      "position": 5.2,
+      "clicks": 0,
+      "ctr": 0.0
+    },
+    {
+      "query": "hostel near ips academy indore",
+      "impressions": 85,
+      "position": 5.4,
       "clicks": 0,
       "ctr": 0.0
     },
@@ -197,10 +197,10 @@
     },
     {
       "query": "hostel packing list for boy students in india",
-      "impressions": 64,
+      "impressions": 67,
       "position": 4.0,
       "clicks": 1,
-      "ctr": 1.6
+      "ctr": 1.5
     },
     {
       "query": "best hostels in indore",
@@ -224,23 +224,23 @@
       "ctr": 0.0
     },
     {
+      "query": "toiletries items for hostel",
+      "impressions": 39,
+      "position": 23.2,
+      "clicks": 0,
+      "ctr": 0.0
+    },
+    {
       "query": "student area in indore",
-      "impressions": 36,
+      "impressions": 37,
       "position": 7.4,
       "clicks": 0,
       "ctr": 0.0
     },
     {
-      "query": "toiletries items for hostel",
-      "impressions": 35,
-      "position": 24.2,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
       "query": "indore student area",
-      "impressions": 30,
-      "position": 8.1,
+      "impressions": 31,
+      "position": 8.0,
       "clicks": 0,
       "ctr": 0.0
     },
@@ -267,42 +267,42 @@
     },
     {
       "query": "hostel packing list for boys",
-      "impressions": 21,
-      "position": 2.7,
+      "impressions": 22,
+      "position": 2.8,
       "clicks": 2,
-      "ctr": 9.5
+      "ctr": 9.1
     }
   ],
   "gsc_top_pages": [
     {
       "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
       "clicks": 11,
-      "impressions": 1645,
+      "impressions": 1711,
       "position": 9.5
     },
     {
       "page": "https://radianceresidency.com/",
       "clicks": 5,
-      "impressions": 545,
+      "impressions": 557,
       "position": 12.2
     },
     {
       "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
       "clicks": 5,
-      "impressions": 663,
-      "position": 10.8
+      "impressions": 668,
+      "position": 10.7
     },
     {
       "page": "https://radianceresidency.com/hostel-near-ips-academy.html",
       "clicks": 2,
-      "impressions": 241,
+      "impressions": 242,
       "position": 8.7
     },
     {
       "page": "https://www.radianceresidency.com/",
       "clicks": 0,
-      "impressions": 6,
-      "position": 3.7
+      "impressions": 12,
+      "position": 4.7
     },
     {
       "page": "https://radianceresidency.com/contact",

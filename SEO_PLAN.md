@@ -805,7 +805,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-15
+## Next Actions — 2026-05-16
 
 ### Landing pages / content to create or strengthen
 
@@ -813,30 +813,30 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| radiance residency | 5.6 | 223 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.2 | 148 | Strengthen H1, add FAQ schema, 1 internal link |
+| student hostel in indore | 9.5 | 315 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.6 | 225 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.2 | 150 | Strengthen H1, add FAQ schema, 1 internal link |
 | pg near ips academy indore | 7.3 | 106 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 5.4 | 84 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.4 | 84 | Strengthen H1, add FAQ schema, 1 internal link |
-| medi caps university hostel | 9.4 | 82 | Strengthen H1, add FAQ schema, 1 internal link |
+| medi caps university hostel | 9.9 | 87 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.2 | 87 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 5.4 | 85 | Strengthen H1, add FAQ schema, 1 internal link |
 | best hostel in indore for students | 8.8 | 80 | Strengthen H1, add FAQ schema, 1 internal link |
-| medicaps university hostel | 6.0 | 74 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 36.2 | 132 | `/hostel-essentials` |
-| hostel packing list for students | 13.9 | 127 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.4 | 116 | `/checklist-for-hostel-students` |
-| hostel requirements list | 27.2 | 111 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.0 | 105 | `/list-of-things-required-in-hostel` |
-| essential things for hostel | 28.7 | 100 | `/essential-things-for-hostel` |
-| hostel needs list | 36.4 | 96 | `/hostel-needs-list` |
-| hostel requirement list | 21.7 | 96 | `/hostel-requirement-list` |
+| hostel essentials | 36.3 | 135 | `/hostel-essentials` |
+| hostel packing list for students | 13.9 | 129 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.3 | 124 | `/checklist-for-hostel-students` |
+| hostel requirements list | 27.1 | 116 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.0 | 108 | `/list-of-things-required-in-hostel` |
+| essential things for hostel | 28.8 | 103 | `/essential-things-for-hostel` |
+| hostel needs list | 35.9 | 100 | `/hostel-needs-list` |
+| hostel requirement list | 21.5 | 100 | `/hostel-requirement-list` |
 | best hostels in indore | 11.1 | 48 | `/best-hostels-in-indore` |
 | best hostel in indore | 16.5 | 45 | `/best-hostel-in-indore` |
-| toiletries items for hostel | 24.2 | 35 | `/toiletries-items-for-hostel` |
+| toiletries items for hostel | 23.2 | 39 | `/toiletries-items-for-hostel` |
 | pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
 
 ### On-page fixes (this sprint)
@@ -1424,8 +1424,8 @@ _Top 12 by traffic (all):_
 | P1 | hostel near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P1 | hostel near sd bansal indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P1 | pg near medicaps university | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
-| P2 | student hostel in indore | 110 | 16 | #10.3 | Page 2: 800+ word expansion + 2-3 backlinks |
-| P2 | hostel near ips academy indore | 70 | 12 | #5.5 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | student hostel in indore | 110 | 16 | #9.5 | Page 1: strengthen E-E-A-T + 2-3 internal links |
+| P2 | hostel near ips academy indore | 70 | 12 | #5.4 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P2 | pg in rau indore | 70 | 19 | #3.3 | Page 1: strengthen E-E-A-T + 2-3 internal links |
 | P2 | boys hostel in indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
 | P2 | boys hostel near iim indore | — | — | — | 0 vol + not ranking → **monitor only**. Pursue this market via cold outreach, not SEO. |
@@ -1437,7 +1437,7 @@ _Top 12 by traffic (all):_
 | P3 | room for rent in rau | 10 | 27 | — | Low vol (10/mo) + not ranking → low-cost play: 1 FAQ schema block on the closest existing page, no new URL. |
 
 **This week's quick triage (TradeForge says):**
-- 🎯 **3 keywords on page 1 outside top 3** — these are your highest ROI. Push to top 3 with FAQ schema + 2-3 internal links.
+- 🎯 **4 keywords on page 1 outside top 3** — these are your highest ROI. Push to top 3 with FAQ schema + 2-3 internal links.
 - 📝 **1 keywords have volume but no rank** — landing page targets.
 - 👁 **12 keywords are 0-vol/no-rank** — monitor only, don't write content.
 
