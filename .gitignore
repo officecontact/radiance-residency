@@ -4,6 +4,7 @@
 .env*.local
 .claude/settings.local.json
 disavow.txt
+.indexnow_key
 
 # Business documents — not for website repo
 *.pdf

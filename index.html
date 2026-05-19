@@ -328,6 +328,84 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     </script>
 
+    <!-- JSON-LD: Place hierarchy + nearby entities (Knowledge Graph relationships) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Radiance Residency",
+        "url": "https://radianceresidency.com/",
+        "identifier": "Q139378489",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 22.6234773,
+            "longitude": 75.8010012
+        },
+        "containedInPlace": [
+            {
+                "@type": "Place",
+                "name": "Pigdamber",
+                "containedInPlace": {
+                    "@type": "AdministrativeArea",
+                    "name": "Rau",
+                    "containedInPlace": {
+                        "@type": "City",
+                        "name": "Indore",
+                        "containedInPlace": {
+                            "@type": "AdministrativeArea",
+                            "name": "Madhya Pradesh",
+                            "containedInPlace": {"@type": "Country", "name": "India"}
+                        }
+                    }
+                }
+            }
+        ],
+        "geoWithin": {"@type": "Country", "name": "India"},
+        "nearbyAttraction": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Medicaps University",
+                "alternateName": "MediCaps University Indore",
+                "url": "https://www.medicaps.ac.in/",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "AB Road, Pigdamber",
+                    "addressLocality": "Rau, Indore",
+                    "addressRegion": "Madhya Pradesh",
+                    "postalCode": "453331",
+                    "addressCountry": "IN"
+                }
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "SD Bansal College of Engineering",
+                "alternateName": "SD Bansal College Indore",
+                "address": {"@type": "PostalAddress", "addressLocality": "Rau, Indore", "addressRegion": "Madhya Pradesh", "addressCountry": "IN"}
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "IPS Academy",
+                "alternateName": "IPS Academy Indore",
+                "url": "https://ipsacademy.org/",
+                "address": {"@type": "PostalAddress", "addressLocality": "Rau, Indore", "addressRegion": "Madhya Pradesh", "addressCountry": "IN"}
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "IIST Indore",
+                "alternateName": "International Institute of Science & Technology Indore",
+                "address": {"@type": "PostalAddress", "addressLocality": "Rau, Indore", "addressRegion": "Madhya Pradesh", "addressCountry": "IN"}
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "IIM Indore",
+                "alternateName": "Indian Institute of Management Indore",
+                "url": "https://www.iimidr.ac.in/",
+                "address": {"@type": "PostalAddress", "addressLocality": "Indore", "addressRegion": "Madhya Pradesh", "addressCountry": "IN"}
+            }
+        ]
+    }
+    </script>
+
     <!-- JSON-LD: HowTo (procedural query capture — "how to book hostel near medicaps") -->
     <script type="application/ld+json">
     {
