@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schema.org/Hostel",
+    "@context": "https://schema.org",
+    "@type": "Hostel",
+    "name": "Radiance Residency",
+    "alternateName": [
+        "Radiance Residency Hostel",
+        "Radiance Boys Hostel",
+        "Radiance Residency Rau",
+        "Radiance Residency Pigdamber",
+        "Radiance PG Indore"
+    ],
+    "description": "Premium boys hostel and paying guest accommodation in Pigdamber, Rau, Indore. Located directly opposite Medicaps University main gate, 2-minute walk. 64+ beds, 5 room categories, founded 2022.",
+    "url": "https://radianceresidency.com/",
+    "logo": "https://radianceresidency.com/favicon.svg",
+    "image": "https://radianceresidency.com/images/outer-building-1.jpg",
+    "telephone": "+91-8770445161",
+    "email": "info@radianceresidency.com",
+    "priceRange": "₹8,000+/month",
+    "currenciesAccepted": "INR",
+    "paymentAccepted": "Cash, UPI, Bank Transfer",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "numberOfRooms": 64,
+    "starRating": {"@type": "Rating", "ratingValue": 4},
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "In front of Medicaps University, Pigdamber",
+        "addressLocality": "Rau, Indore",
+        "addressRegion": "Madhya Pradesh",
+        "postalCode": "453331",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 22.6234773,
+        "longitude": 75.8010012
+    },
+    "foundingDate": "2022",
+    "identifier": [
+        {"@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q139378489"}
+    ],
+    "sameAs": [
+        "https://www.wikidata.org/wiki/Q139378489",
+        "https://maps.app.goo.gl/ZmfHzaeZvpwRrfGG6",
+        "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+        "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+        "https://thetripguide.in/hotels/indore/radiance-residency-hostel"
+    ],
+    "areaServed": [
+        {"@type": "City", "name": "Indore"},
+        {"@type": "Place", "name": "Rau, Indore"},
+        {"@type": "Place", "name": "Pigdamber, Rau"}
+    ],
+    "availableLanguage": ["English", "Hindi"],
+    "knowsAbout": [
+        "Student accommodation in Indore",
+        "Boys hostel near Medicaps University",
+        "PG accommodation in Rau Indore",
+        "Hostel for engineering students in Indore",
+        "Hostels near IPS Academy, IIST, SD Bansal, IIM Indore"
+    ],
+    "rooms": [
+        {"category": "Standard Room", "occupancy": ["single", "double"], "priceFrom": 8000, "currency": "INR", "interval": "month", "ac": false},
+        {"category": "Superior Room", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": false},
+        {"category": "Superior Room AC", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": true},
+        {"category": "Deluxe Spacious", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": false},
+        {"category": "Premium Front", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": false}
+    ],
+    "amenities": [
+        "Free Tiffin Delivery to Medicaps University Campus",
+        "High-Speed Wi-Fi",
+        "24/7 CCTV Security with Guards",
+        "Air Conditioning (AC rooms available)",
+        "Home-Style Meals Included",
+        "RO Purified Drinking Water",
+        "Vehicle Parking",
+        "Daily Housekeeping",
+        "Washing Machine & Laundry Service",
+        "Dedicated Study Areas",
+        "Private Attached Bathrooms",
+        "Rooftop Lounge",
+        "24-48 hour Issue Resolution Guarantee",
+        "Power Backup",
+        "Hot Water When Needed",
+        "Mandir on Campus",
+        "Entertainment Zone",
+        "Brand New Building"
+    ],
+    "nearbyColleges": [
+        {"name": "Medicaps University", "walkingDistance": "2 min", "type": "private university"},
+        {"name": "SD Bansal College of Engineering", "type": "engineering college"},
+        {"name": "IPS Academy", "type": "engineering college"},
+        {"name": "IIST Indore", "type": "engineering institute"},
+        {"name": "IIM Indore", "type": "management institute"}
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "reviewCount": 112,
+        "bestRating": 5,
+        "worstRating": 1,
+        "sampleSource": "Direct resident feedback (2022-2026)"
+    },
+    "endpoints": {
+        "website": "https://radianceresidency.com/",
+        "rooms": "https://radianceresidency.com/rooms",
+        "amenities": "https://radianceresidency.com/amenities",
+        "photos": "https://radianceresidency.com/photos",
+        "safety": "https://radianceresidency.com/safety",
+        "faq": "https://radianceresidency.com/faq",
+        "reviews": "https://radianceresidency.com/reviews",
+        "contact": "https://radianceresidency.com/contact",
+        "about": "https://radianceresidency.com/about",
+        "feeds": {
+            "rss": "https://radianceresidency.com/feed.xml",
+            "json": "https://radianceresidency.com/feed.json"
+        },
+        "sitemaps": {
+            "primary": "https://radianceresidency.com/sitemap.xml",
+            "images": "https://radianceresidency.com/sitemap-images.xml"
+        },
+        "ai_documents": {
+            "llms": "https://radianceresidency.com/llms.txt",
+            "llms_full": "https://radianceresidency.com/llms-full.txt",
+            "robots": "https://radianceresidency.com/robots.txt",
+            "ai_policy": "https://radianceresidency.com/.well-known/ai.txt"
+        }
+    },
+    "lastUpdated": "2026-05-19",
+    "dataVersion": "1.0"
+}

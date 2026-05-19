@@ -1,0 +1,99 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Radiance Residency Blog — Student Life in Rau, Indore",
+    "home_page_url": "https://radianceresidency.com/blog/",
+    "feed_url": "https://radianceresidency.com/feed.json",
+    "description": "Student life guides, hostel tips, and Medicaps area resources from Radiance Residency — the premium boys hostel near Medicaps University, Rau, Indore.",
+    "icon": "https://radianceresidency.com/favicon.svg",
+    "favicon": "https://radianceresidency.com/favicon.svg",
+    "language": "en-IN",
+    "authors": [
+        {
+            "name": "Radiance Residency",
+            "url": "https://radianceresidency.com/",
+            "avatar": "https://radianceresidency.com/favicon.svg"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://radianceresidency.com/hostel-packing-list-for-students",
+            "url": "https://radianceresidency.com/hostel-packing-list-for-students",
+            "title": "Hostel Packing List for Students 2026",
+            "summary": "Complete hostel packing checklist for students moving to Rau/Medicaps area — bedding, electronics, study supplies, hygiene, documents.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Guides", "Packing", "Students"]
+        },
+        {
+            "id": "https://radianceresidency.com/hostel-budget-guide",
+            "url": "https://radianceresidency.com/hostel-budget-guide",
+            "title": "Hostel Budget Guide for Students",
+            "summary": "How to budget for hostel living in Indore — monthly costs, hidden expenses, money-saving tips.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Guides", "Budget"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement",
+            "url": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement",
+            "title": "Medicaps University Review — Admission, Placement, Campus",
+            "summary": "Honest review of Medicaps University — admission process, placement record, campus life, fee structure.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["College Reviews", "Medicaps"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
+            "url": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
+            "title": "Best Hostels in Indore for Students",
+            "summary": "Comprehensive guide to the best hostels in Indore for students by location, budget, and amenities.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Hostel Guides", "Indore"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore",
+            "url": "https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore",
+            "title": "How to Choose Best Hostel in Indore",
+            "summary": "Step-by-step decision framework for choosing the right hostel in Indore — proximity, safety, food, budget.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Hostel Guides", "Decision"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/student-life-in-rau-indore-guide",
+            "url": "https://radianceresidency.com/blog/student-life-in-rau-indore-guide",
+            "title": "Student Life in Rau, Indore — Complete Guide",
+            "summary": "Everything about student life in Rau, Indore — colleges, food, transport, entertainment, weather, cost.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Student Life", "Rau", "Indore"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
+            "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
+            "title": "SD Bansal College Indore Review",
+            "summary": "Review of SD Bansal College of Engineering Indore — admission, placement, faculty, infrastructure.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["College Reviews", "SD Bansal"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/ips-academy-indore-review-guide",
+            "url": "https://radianceresidency.com/blog/ips-academy-indore-review-guide",
+            "title": "IPS Academy Indore Review",
+            "summary": "Review of IPS Academy Indore — programs, placement, hostels, fee structure, student life.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["College Reviews", "IPS Academy"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students",
+            "url": "https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students",
+            "title": "Cost of Living in Rau, Indore for Students",
+            "summary": "Monthly cost breakdown for students in Rau, Indore — accommodation, food, transport, entertainment.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Cost & Budget", "Rau"]
+        },
+        {
+            "id": "https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau",
+            "url": "https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau",
+            "title": "Best Food Places Near Medicaps University Rau",
+            "summary": "Top food places, cafes, and restaurants near Medicaps University in Pigdamber, Rau.",
+            "date_published": "2026-05-19T10:00:00+05:30",
+            "tags": ["Food & Lifestyle", "Medicaps"]
+        }
+    ]
+}

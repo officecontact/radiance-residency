@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Radiance Residency</ShortName>
+    <Description>Search Radiance Residency — premium boys hostel near Medicaps University, Rau, Indore</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Language>en-IN</Language>
+    <Image width="32" height="32" type="image/svg+xml">https://radianceresidency.com/favicon.svg</Image>
+    <Url type="text/html"
+         method="get"
+         template="https://www.google.com/search?q={searchTerms}+site:radianceresidency.com" />
+    <Url type="application/opensearchdescription+xml"
+         rel="self"
+         template="https://radianceresidency.com/opensearch.xml" />
+    <Url type="application/x-suggestions+json"
+         template="https://radianceresidency.com/api/suggest.json?q={searchTerms}" />
+    <moz:SearchForm>https://radianceresidency.com/</moz:SearchForm>
+    <Developer>Radiance Residency</Developer>
+    <Contact>info@radianceresidency.com</Contact>
+    <Attribution>Search results powered by Google search, scoped to radianceresidency.com</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <AdultContent>false</AdultContent>
+</OpenSearchDescription>

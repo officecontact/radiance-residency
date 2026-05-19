@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3FV4Z2F');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hostel Cost Calculator — Estimate Stay at Radiance Residency</title>
+    <meta name="description" content="Calculate hostel cost at Radiance Residency near Medicaps University. Pick room category, occupancy, duration → instant estimate. Standard from ₹8,000/month all-inclusive.">
+    <meta name="keywords" content="hostel cost calculator indore, hostel fee calculator rau, pg cost calculator medicaps, hostel estimate radiance, boys hostel cost indore">
+    <meta name="author" content="Radiance Residency">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://radianceresidency.com/calculator">
+
+    <meta name="geo.region" content="IN-MP">
+    <meta name="geo.placename" content="Rau, Indore">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Radiance Residency">
+    <meta property="og:title" content="Hostel Cost Calculator — Radiance Residency Rau Indore">
+    <meta property="og:description" content="Interactive calculator: pick room category and duration → instant cost estimate for Radiance Residency boys hostel near Medicaps University.">
+    <meta property="og:url" content="https://radianceresidency.com/calculator">
+    <meta property="og:image" content="https://radianceresidency.com/images/outer-building-1.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4f46e5">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/style.min.css">
+
+    <style>
+        .calc-wrap { max-width: 760px; margin: 0 auto; padding: 0 1rem; }
+        .calc-card { background: #fff; border-radius: 16px; padding: 2rem; border: 1px solid #e5e7eb; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
+        .calc-row { margin-bottom: 1.5rem; }
+        .calc-label { display: block; font-weight: 600; color: #1f2937; margin-bottom: 0.5rem; font-size: 0.95rem; }
+        .calc-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; }
+        .calc-opt { display: flex; align-items: center; gap: 0.5rem; padding: 0.85rem 1rem; background: #f8f9ff; border: 2px solid transparent; border-radius: 10px; cursor: pointer; font-size: 0.95rem; transition: all 0.15s; }
+        .calc-opt input { accent-color: #4f46e5; }
+        .calc-opt:hover { background: #e8edff; }
+        .calc-opt input:checked + span { color: #4f46e5; font-weight: 600; }
+        .calc-opt:has(input:checked) { border-color: #4f46e5; background: #e8edff; }
+        .calc-result { margin-top: 2rem; padding: 2rem; background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff; border-radius: 12px; text-align: center; }
+        .calc-result-label { font-size: 0.9rem; opacity: 0.9; }
+        .calc-result-amount { font-size: 3rem; font-weight: 800; margin: 0.25rem 0; }
+        .calc-result-sub { font-size: 0.95rem; opacity: 0.95; line-height: 1.6; }
+        .calc-result-breakdown { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin: 1.5rem 0 0; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.2); font-size: 0.9rem; text-align: left; }
+        .calc-result-breakdown div:nth-child(odd) { opacity: 0.85; }
+        .calc-result-breakdown div:nth-child(even) { text-align: right; font-weight: 600; }
+        .calc-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; }
+        .calc-note { font-size: 0.85rem; color: #6b7280; margin-top: 1rem; line-height: 1.5; }
+        .calc-result-amount.tba { font-size: 1.4rem; font-weight: 700; opacity: 0.9; }
+    </style>
+
+    <!-- JSON-LD: SoftwareApplication (the tool itself) + about Hostel -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Radiance Residency Hostel Cost Calculator",
+        "url": "https://radianceresidency.com/calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "browserRequirements": "Modern web browser with JavaScript",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+        "description": "Interactive calculator to estimate hostel cost at Radiance Residency boys hostel near Medicaps University, Rau, Indore. Pick room category, occupancy, and duration for an instant estimate.",
+        "inLanguage": ["en", "hi"],
+        "about": {
+            "@type": "Hostel",
+            "name": "Radiance Residency",
+            "identifier": "Q139378489",
+            "sameAs": "https://www.wikidata.org/wiki/Q139378489"
+        },
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Students, parents, working professionals, interns looking for hostel/PG accommodation in Rau, Indore"
+        }
+    }
+    </script>
+
+    <!-- JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://radianceresidency.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Cost Calculator", "item": "https://radianceresidency.com/calculator"}
+        ]
+    }
+    </script>
+
+    <!-- JSON-LD: Speakable -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "https://radianceresidency.com/calculator",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".page-hero-title", ".page-hero-subtitle"]
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="header-contact">
+                        <a href="tel:+918770445161" class="header-link"><i class="fas fa-phone" aria-hidden="true"></i> +91-8770445161</a>
+                        <a href="https://wa.me/918770445161" target="_blank" rel="noopener noreferrer" class="header-link"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+                    </div>
+                    <div class="header-language">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="hi">HI</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <a href="/" class="logo">
+                        <img src="/favicon.svg" alt="Radiance Residency Logo" width="40" height="40">
+                        <span data-en="Radiance Residency" data-hi="रेडियंस रेसीडेंसी">Radiance Residency</span>
+                    </a>
+                    <nav class="nav" id="nav">
+                        <a href="/" class="nav-link" data-en="Home" data-hi="होम">Home</a>
+                        <a href="/rooms" class="nav-link" data-en="Rooms & Pricing" data-hi="कमरे और कीमतें">Rooms & Pricing</a>
+                        <a href="/amenities" class="nav-link" data-en="Amenities" data-hi="सुविधाएं">Amenities</a>
+                        <a href="/faq" class="nav-link" data-en="FAQ" data-hi="सामान्य प्रश्न">FAQ</a>
+                        <a href="/contact" class="nav-link" data-en="Contact" data-hi="संपर्क">Contact</a>
+                    </nav>
+                    <div class="header-actions">
+                        <a href="https://wa.me/918770445161" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+                        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-hero-title" data-en="Hostel <span>Cost Calculator</span>" data-hi="हॉस्टल <span>कॉस्ट कैलकुलेटर</span>">Hostel <span>Cost Calculator</span></h1>
+                <p class="page-hero-subtitle" data-en="Pick your room category, occupancy, and stay duration — get an instant cost estimate for Radiance Residency. All categories include meals, Wi-Fi, security, and amenities." data-hi="अपना कमरा चुनें — तुरंत अनुमान पाएं।">Pick your room category, occupancy, and stay duration — get an instant cost estimate for Radiance Residency. All categories include meals, Wi-Fi, security, and amenities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="calc-wrap">
+            <div class="calc-card">
+
+                <div class="calc-row">
+                    <label class="calc-label">1. Room Category</label>
+                    <div class="calc-options">
+                        <label class="calc-opt"><input type="radio" name="category" value="standard" checked><span>Standard ⭐</span></label>
+                        <label class="calc-opt"><input type="radio" name="category" value="superior"><span>Superior</span></label>
+                        <label class="calc-opt"><input type="radio" name="category" value="superior-ac"><span>Superior AC ❄</span></label>
+                        <label class="calc-opt"><input type="radio" name="category" value="deluxe"><span>Deluxe Spacious</span></label>
+                        <label class="calc-opt"><input type="radio" name="category" value="premium"><span>Premium Front</span></label>
+                    </div>
+                </div>
+
+                <div class="calc-row">
+                    <label class="calc-label">2. Occupancy</label>
+                    <div class="calc-options">
+                        <label class="calc-opt"><input type="radio" name="occupancy" value="double" checked><span>Double (sharing)</span></label>
+                        <label class="calc-opt"><input type="radio" name="occupancy" value="single"><span>Single (private)</span></label>
+                    </div>
+                </div>
+
+                <div class="calc-row">
+                    <label class="calc-label">3. Stay Duration</label>
+                    <div class="calc-options">
+                        <label class="calc-opt"><input type="radio" name="duration" value="1"><span>1 month</span></label>
+                        <label class="calc-opt"><input type="radio" name="duration" value="3"><span>3 months</span></label>
+                        <label class="calc-opt"><input type="radio" name="duration" value="6"><span>6 months</span></label>
+                        <label class="calc-opt"><input type="radio" name="duration" value="10" checked><span>10 months (academic)</span></label>
+                        <label class="calc-opt"><input type="radio" name="duration" value="12"><span>12 months (full year)</span></label>
+                    </div>
+                </div>
+
+                <div class="calc-row">
+                    <label class="calc-label">4. Add deposit?</label>
+                    <div class="calc-options">
+                        <label class="calc-opt"><input type="checkbox" id="deposit" checked><span>Include refundable security deposit (1 month rent)</span></label>
+                    </div>
+                </div>
+
+                <div class="calc-result" id="result" aria-live="polite">
+                    <div class="calc-result-label">Estimated total cost</div>
+                    <div class="calc-result-amount" id="amount">₹80,000</div>
+                    <div class="calc-result-sub" id="subtext">10 months × ₹8,000 — all-inclusive. Refundable deposit returned at end of stay.</div>
+                    <div class="calc-result-breakdown" id="breakdown">
+                        <div>Monthly rent</div><div>₹8,000</div>
+                        <div>Months</div><div>10</div>
+                        <div>Subtotal (rent)</div><div>₹80,000</div>
+                        <div>Security deposit (refundable)</div><div>₹8,000</div>
+                    </div>
+                    <div class="calc-actions">
+                        <a id="waLink" href="https://wa.me/918770445161?text=Hi%2C%20I%20used%20your%20cost%20calculator." target="_blank" rel="noopener noreferrer" class="btn" style="background:#fff;color:#4f46e5;"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp this estimate</a>
+                        <a href="tel:+918770445161" class="btn btn-outline" style="border-color:#fff;color:#fff;"><i class="fas fa-phone" aria-hidden="true"></i> Call to confirm</a>
+                    </div>
+                </div>
+
+                <p class="calc-note"><strong>Note:</strong> Standard category pricing is verified at ₹8,000/month. Superior, Superior AC, Deluxe, and Premium categories use indicative estimates — final pricing confirmed by the property manager. Tap "WhatsApp this estimate" to get the exact current rate.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Radiance Residency. All rights reserved.</p>
+                <a href="https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency." target="_blank" rel="noopener noreferrer" class="footer-map-link"><i class="fab fa-whatsapp" aria-hidden="true"></i> Get Directions via WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function(){
+        // Indicative monthly base rates (₹), double occupancy. Single = +25%.
+        var rates = {
+            'standard':    { double: 8000,  single: 11000, label: 'Standard'           },
+            'superior':    { double: 10000, single: 13000, label: 'Superior'           },
+            'superior-ac': { double: 12000, single: 15000, label: 'Superior AC ❄'      },
+            'deluxe':      { double: 14000, single: 17500, label: 'Deluxe Spacious'    },
+            'premium':     { double: 16000, single: 20000, label: 'Premium Front'      }
+        };
+        var verifiedExact = { 'standard': { double: true } };
+
+        var amountEl = document.getElementById('amount');
+        var subEl = document.getElementById('subtext');
+        var breakdownEl = document.getElementById('breakdown');
+        var waLink = document.getElementById('waLink');
+        var depositEl = document.getElementById('deposit');
+
+        function fmt(n){ return '₹' + n.toLocaleString('en-IN'); }
+
+        function calc(){
+            var cat = document.querySelector('input[name="category"]:checked').value;
+            var occ = document.querySelector('input[name="occupancy"]:checked').value;
+            var dur = parseInt(document.querySelector('input[name="duration"]:checked').value, 10);
+            var withDeposit = depositEl.checked;
+            var monthly = rates[cat][occ];
+            var subtotal = monthly * dur;
+            var deposit = withDeposit ? monthly : 0;
+            var total = subtotal + deposit;
+            var isVerified = verifiedExact[cat] && verifiedExact[cat][occ];
+
+            amountEl.textContent = fmt(total);
+            subEl.innerHTML = isVerified
+                ? dur + ' months × ' + fmt(monthly) + ' — all-inclusive (meals + Wi-Fi + security).' + (withDeposit ? ' Deposit refunded at end of stay.' : '')
+                : '<strong>Indicative estimate</strong> — final pricing for ' + rates[cat].label + ' (' + occ + ') confirmed by the property manager.';
+
+            breakdownEl.innerHTML = ''
+                + '<div>Room category</div><div>' + rates[cat].label + '</div>'
+                + '<div>Occupancy</div><div>' + (occ === 'single' ? 'Single' : 'Double sharing') + '</div>'
+                + '<div>Monthly rent</div><div>' + fmt(monthly) + '</div>'
+                + '<div>Months</div><div>' + dur + '</div>'
+                + '<div>Subtotal (rent)</div><div>' + fmt(subtotal) + '</div>'
+                + (withDeposit ? '<div>Security deposit (refundable)</div><div>' + fmt(deposit) + '</div>' : '');
+
+            var msg = "Hi, I used your cost calculator and selected: " + rates[cat].label + " " + occ + " for " + dur + " months. Estimated total: " + fmt(total) + ". Can you confirm exact pricing and availability?";
+            waLink.href = "https://wa.me/918770445161?text=" + encodeURIComponent(msg);
+        }
+
+        document.querySelectorAll('input[name="category"],input[name="occupancy"],input[name="duration"]').forEach(function(el){
+            el.addEventListener('change', calc);
+        });
+        depositEl.addEventListener('change', calc);
+        calc();
+    })();
+    </script>
+    <script src="/script.min.js"></script>
+</body>
+</html>

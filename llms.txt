@@ -140,6 +140,14 @@ hostel in rau indore, hostel near medicaps university, pg near medicaps universi
 - Safety Protocols (CCTV, guards, fire safety): https://radianceresidency.com/safety
 - Photo Gallery (20+ real photos): https://radianceresidency.com/photos
 - FAQ — 38 questions answered: https://radianceresidency.com/faq
+- Hostel Cost Calculator: https://radianceresidency.com/calculator
+- Find Your Perfect Room (5-question quiz): https://radianceresidency.com/find-your-room
+
+## AI / Machine-Readable Endpoints
+- Structured business data (JSON): https://radianceresidency.com/api/info.json
+- Blog RSS feed: https://radianceresidency.com/feed.xml
+- Blog JSON Feed: https://radianceresidency.com/feed.json
+- OpenSearch description: https://radianceresidency.com/opensearch.xml
 
 ## Blog — Student Life Guides (24 posts)
 - Benefits of Hostel vs Home: https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home

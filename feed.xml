@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Radiance Residency Blog — Student Life in Rau, Indore</title>
+        <link>https://radianceresidency.com/blog/</link>
+        <atom:link href="https://radianceresidency.com/feed.xml" rel="self" type="application/rss+xml" />
+        <description>Student life guides, hostel tips, and Medicaps area resources from Radiance Residency — the premium boys hostel near Medicaps University, Rau, Indore.</description>
+        <language>en-IN</language>
+        <copyright>Radiance Residency, 2022-2026</copyright>
+        <managingEditor>info@radianceresidency.com (Radiance Residency)</managingEditor>
+        <webMaster>info@radianceresidency.com (Radiance Residency)</webMaster>
+        <lastBuildDate>Tue, 19 May 2026 10:00:00 +0530</lastBuildDate>
+        <generator>Radiance Residency Editorial</generator>
+        <ttl>1440</ttl>
+        <image>
+            <url>https://radianceresidency.com/favicon.svg</url>
+            <title>Radiance Residency</title>
+            <link>https://radianceresidency.com/</link>
+        </image>
+
+        <item>
+            <title>Hostel Packing List for Students 2026</title>
+            <link>https://radianceresidency.com/hostel-packing-list-for-students</link>
+            <guid isPermaLink="true">https://radianceresidency.com/hostel-packing-list-for-students</guid>
+            <description>Complete hostel packing checklist for students moving to Rau/Medicaps area — bedding, electronics, study supplies, hygiene, documents.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Guides</category>
+        </item>
+        <item>
+            <title>Hostel Budget Guide for Students</title>
+            <link>https://radianceresidency.com/hostel-budget-guide</link>
+            <guid isPermaLink="true">https://radianceresidency.com/hostel-budget-guide</guid>
+            <description>How to budget for hostel living in Indore — monthly costs, hidden expenses, money-saving tips.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Guides</category>
+        </item>
+        <item>
+            <title>Medicaps University Review — Admission, Placement, Campus</title>
+            <link>https://radianceresidency.com/blog/medicaps-university-review-admission-placement</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/medicaps-university-review-admission-placement</guid>
+            <description>Honest review of Medicaps University — admission process, placement record, campus life, fee structure.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>College Reviews</category>
+        </item>
+        <item>
+            <title>Best Hostels in Indore for Students</title>
+            <link>https://radianceresidency.com/blog/best-hostels-in-indore-for-students</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/best-hostels-in-indore-for-students</guid>
+            <description>Comprehensive guide to the best hostels in Indore for students by location, budget, and amenities.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Hostel Guides</category>
+        </item>
+        <item>
+            <title>How to Choose Best Hostel in Indore</title>
+            <link>https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore</guid>
+            <description>Step-by-step decision framework for choosing the right hostel in Indore — proximity, safety, food, budget.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Hostel Guides</category>
+        </item>
+        <item>
+            <title>Student Life in Rau, Indore — Complete Guide</title>
+            <link>https://radianceresidency.com/blog/student-life-in-rau-indore-guide</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/student-life-in-rau-indore-guide</guid>
+            <description>Everything about student life in Rau, Indore — colleges, food, transport, entertainment, weather, cost.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Student Life</category>
+        </item>
+        <item>
+            <title>SD Bansal College Indore Review</title>
+            <link>https://radianceresidency.com/blog/sd-bansal-college-indore-review</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/sd-bansal-college-indore-review</guid>
+            <description>Review of SD Bansal College of Engineering Indore — admission, placement, faculty, infrastructure.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>College Reviews</category>
+        </item>
+        <item>
+            <title>IPS Academy Indore Review</title>
+            <link>https://radianceresidency.com/blog/ips-academy-indore-review-guide</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/ips-academy-indore-review-guide</guid>
+            <description>Review of IPS Academy Indore — programs, placement, hostels, fee structure, student life.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>College Reviews</category>
+        </item>
+        <item>
+            <title>Cost of Living in Rau, Indore for Students</title>
+            <link>https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students</guid>
+            <description>Monthly cost breakdown for students in Rau, Indore — accommodation, food, transport, entertainment.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Cost & Budget</category>
+        </item>
+        <item>
+            <title>Best Food Places Near Medicaps University Rau</title>
+            <link>https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau</guid>
+            <description>Top food places, cafes, and restaurants near Medicaps University in Pigdamber, Rau.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Food & Lifestyle</category>
+        </item>
+        <item>
+            <title>Best Gyms Near Rau, Indore</title>
+            <link>https://radianceresidency.com/blog/best-gyms-near-rau-indore</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/best-gyms-near-rau-indore</guid>
+            <description>Best gyms near Rau, Indore for students — distance, membership cost, equipment, hours.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Fitness</category>
+        </item>
+        <item>
+            <title>Transport Guide Rau Indore for Students</title>
+            <link>https://radianceresidency.com/blog/transport-guide-rau-indore-students</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/transport-guide-rau-indore-students</guid>
+            <description>Complete transport guide for students in Rau, Indore — auto rickshaws, buses, cabs, bike rentals.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Transport</category>
+        </item>
+        <item>
+            <title>Safety Tips for Students Living Away from Home</title>
+            <link>https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home</guid>
+            <description>Essential safety tips for college students living in hostels away from home for the first time.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Safety</category>
+        </item>
+        <item>
+            <title>How to Manage Budget as Hostel Student</title>
+            <link>https://radianceresidency.com/blog/how-to-manage-budget-as-hostel-student</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/how-to-manage-budget-as-hostel-student</guid>
+            <description>Budget management tips for hostel students — tracking expenses, cutting costs, smart saving.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Cost & Budget</category>
+        </item>
+        <item>
+            <title>Tips for First Year Engineering Students Indore</title>
+            <link>https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore</link>
+            <guid isPermaLink="true">https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore</guid>
+            <description>Practical tips for first-year engineering students in Indore — academic, social, hostel survival.</description>
+            <pubDate>Tue, 19 May 2026 10:00:00 +0530</pubDate>
+            <dc:creator>Radiance Residency</dc:creator>
+            <category>Engineering Student Life</category>
+        </item>
+    </channel>
+</rss>

@@ -57,6 +57,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="theme-color" content="#4f46e5">
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/service-worker.js').catch(function(){});});}</script>
 
+    <!-- OpenSearch — adds Radiance to browser address-bar search engines -->
+    <link rel="search" type="application/opensearchdescription+xml" title="Radiance Residency" href="/opensearch.xml">
+
+    <!-- Feeds (RSS + JSON) — for LLM crawlers and feed readers -->
+    <link rel="alternate" type="application/rss+xml" title="Radiance Residency Blog (RSS)" href="/feed.xml">
+    <link rel="alternate" type="application/feed+json" title="Radiance Residency Blog (JSON Feed)" href="/feed.json">
+
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
