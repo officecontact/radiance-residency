@@ -818,7 +818,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-18
+## Next Actions — 2026-05-19
 
 ### Landing pages / content to create or strengthen
 
@@ -826,30 +826,30 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Query | Pos | Impr | Action |
 |---|---|---|---|
-| student hostel in indore | 9.5 | 317 | Strengthen H1, add FAQ schema, 1 internal link |
-| radiance residency | 5.6 | 228 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near medicaps university indore | 8.2 | 150 | Strengthen H1, add FAQ schema, 1 internal link |
-| pg near ips academy indore | 7.3 | 106 | Strengthen H1, add FAQ schema, 1 internal link |
-| yes | 5.3 | 98 | Strengthen H1, add FAQ schema, 1 internal link |
+| student hostel in indore | 9.5 | 324 | Strengthen H1, add FAQ schema, 1 internal link |
+| radiance residency | 5.6 | 232 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near medicaps university indore | 8.2 | 151 | Strengthen H1, add FAQ schema, 1 internal link |
+| pg near ips academy indore | 7.3 | 107 | Strengthen H1, add FAQ schema, 1 internal link |
+| yes | 5.2 | 104 | Strengthen H1, add FAQ schema, 1 internal link |
+| hostel near ips academy indore | 5.4 | 89 | Strengthen H1, add FAQ schema, 1 internal link |
 | medi caps university hostel | 9.9 | 88 | Strengthen H1, add FAQ schema, 1 internal link |
-| hostel near ips academy indore | 5.4 | 86 | Strengthen H1, add FAQ schema, 1 internal link |
 | best hostel in indore for students | 8.8 | 80 | Strengthen H1, add FAQ schema, 1 internal link |
 
 **New landing pages (ranking but zero clicks — need dedicated page):**
 
 | Query | Pos | Impr | Suggested URL |
 |---|---|---|---|
-| hostel essentials | 36.1 | 139 | `/hostel-essentials` |
-| hostel packing list for students | 13.7 | 137 | `/hostel-packing-list-for-students` |
-| checklist for hostel students | 15.3 | 125 | `/checklist-for-hostel-students` |
-| hostel requirements list | 27.0 | 120 | `/hostel-requirements-list` |
-| list of things required in hostel | 28.1 | 114 | `/list-of-things-required-in-hostel` |
-| hostel requirement list | 21.3 | 105 | `/hostel-requirement-list` |
-| hostel needs list | 35.3 | 105 | `/hostel-needs-list` |
-| essential things for hostel | 28.8 | 104 | `/essential-things-for-hostel` |
+| hostel essentials | 35.9 | 142 | `/hostel-essentials` |
+| hostel packing list for students | 13.7 | 141 | `/hostel-packing-list-for-students` |
+| checklist for hostel students | 15.3 | 130 | `/checklist-for-hostel-students` |
+| hostel requirements list | 27.1 | 123 | `/hostel-requirements-list` |
+| list of things required in hostel | 28.1 | 116 | `/list-of-things-required-in-hostel` |
+| hostel needs list | 35.0 | 108 | `/hostel-needs-list` |
+| hostel requirement list | 21.1 | 108 | `/hostel-requirement-list` |
+| essential things for hostel | 28.8 | 107 | `/essential-things-for-hostel` |
 | best hostels in indore | 11.1 | 48 | `/best-hostels-in-indore` |
+| toiletries items for hostel | 21.4 | 46 | `/toiletries-items-for-hostel` |
 | best hostel in indore | 16.5 | 45 | `/best-hostel-in-indore` |
-| toiletries items for hostel | 22.5 | 42 | `/toiletries-items-for-hostel` |
 | pg hostel in rau | 21.0 | 29 | `/pg-hostel-in-rau` |
 
 ### On-page fixes (this sprint)
@@ -1154,12 +1154,12 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 **We own (10):**
 
-- `pg near ips academy indore` → organic_rank (pos 10)
-- `medi caps university hostel` → organic_rank (pos 15)
-- `hostel packing list for girl students in india` → organic_rank (pos 12)
-- `checklist for hostel students` → organic_rank (pos 15)
+- `checklist for hostel students` → organic_rank (pos 14)
+- `hostel essentials 2026` → organic_rank (pos 11)
+- `pg near medicaps university indore` → organic_rank (pos 10)
 - `hostel needs list` → organic_rank (pos 20)
-- `hostel requirement list` → organic_rank (pos 11)
+- `pg near ips academy indore` → organic_rank (pos 11)
+- `medi caps university hostel` → organic_rank (pos 9)
 
 **Competitor-owned (10):**
 

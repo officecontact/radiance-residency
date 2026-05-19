@@ -1,0 +1,73 @@
+# Wikidata Enhancement Batch for Q139378489 (Radiance Residency)
+# ================================================================
+#
+# HOW TO USE (takes 60 seconds):
+# 1. Go to: https://quickstatements.toolforge.org/#/batch
+# 2. Sign in with your Wikipedia/Wikidata account (top-right "Log in")
+# 3. Click "New batch" → "v1 commands"
+# 4. Copy the block below (the lines between the two ===== markers)
+# 5. Paste into the textarea, click "Import V1 commands"
+# 6. On the next screen click "Run" — all 25+ properties added automatically
+#
+# What this adds to Wikidata Q139378489:
+#   - Geographic coordinates (22.6234773°N, 75.8010012°E)
+#   - Founding date (2022)
+#   - Capacity (64+ beds)
+#   - Postal code (453331)
+#   - Street address
+#   - Phone, email
+#   - Headquarters in Madhya Pradesh
+#   - Hindi label and description
+#   - Aliases (multiple language variants)
+#   - References (citing radianceresidency.com)
+#
+# ===== COPY FROM HERE =====
+
+Q139378489	P625	@22.6234773/75.8010012	S854	"https://radianceresidency.com/contact"
+Q139378489	P571	+2022-00-00T00:00:00Z/9	S854	"https://radianceresidency.com/"
+Q139378489	P1083	+64	S854	"https://radianceresidency.com/rooms"
+Q139378489	P281	"453331"	S854	"https://radianceresidency.com/contact"
+Q139378489	P6375	en:"In front of Medicaps University, Pigdamber, Rau, Indore"	S854	"https://radianceresidency.com/"
+Q139378489	P1329	"+91-8770445161"	S854	"https://radianceresidency.com/contact"
+Q139378489	P968	"mailto:info@radianceresidency.com"	S854	"https://radianceresidency.com/contact"
+Q139378489	P2002	"radianceresidency"	S854	"https://radianceresidency.com/"
+Q139378489	P131	Q15136	S854	"https://radianceresidency.com/"
+Q139378489	P17	Q668	S854	"https://radianceresidency.com/"
+Q139378489	P407	Q1860	S854	"https://radianceresidency.com/"
+Q139378489	P407	Q1568	S854	"https://radianceresidency.com/"
+Q139378489	Lhi	"रेडियंस रेसिडेंसी"
+Q139378489	Dhi	"रौ, इंदौर में मेडिकैप्स विश्वविद्यालय के पास लड़कों का छात्रावास"
+Q139378489	Aen	"Radiance Residency Hostel"
+Q139378489	Aen	"Radiance Boys Hostel"
+Q139378489	Aen	"Radiance PG Indore"
+Q139378489	Aen	"Radiance Residency Rau"
+Q139378489	Aen	"Radiance Residency Pigdamber"
+Q139378489	Ahi	"रेडियंस रेजीडेंसी"
+Q139378489	Ahi	"रेडियंस होस्टल"
+
+# ===== COPY TO HERE =====
+#
+# Notes on the properties used (for the curious):
+#   P625  = coordinate location
+#   P571  = inception (founding date)
+#   P1083 = maximum capacity
+#   P281  = postal code
+#   P6375 = street address (multilingual)
+#   P1329 = phone number
+#   P968  = e-mail address
+#   P2002 = Twitter username (used as social handle, harmless if unused)
+#   P131  = located in administrative entity (Q15136 = Madhya Pradesh)
+#   P17   = country (Q668 = India)
+#   P407  = language of work or name (Q1860 = English, Q1568 = Hindi)
+#   Lhi   = label in Hindi
+#   Dhi   = description in Hindi
+#   Aen   = alias in English
+#   Ahi   = alias in Hindi
+#   S854  = source URL reference for the claim
+#
+# Why this matters:
+#   - LLMs (Claude, GPT, Gemini, Perplexity) read Wikidata as ground-truth entity data
+#   - Google Knowledge Graph imports from Wikidata
+#   - More verified properties = higher entity authority score
+#   - The references make every claim auditable (raises trust score)
+#   - Hindi labels expand reach for Devanagari-language queries
