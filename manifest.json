@@ -1,0 +1,47 @@
+{
+    "name": "Radiance Residency — Boys Hostel & PG, Rau Indore",
+    "short_name": "Radiance Residency",
+    "description": "The most premium boys hostel near Medicaps University in Pigdamber, Rau, Indore. Founded 2022.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#4f46e5",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": ["lifestyle", "education", "travel"],
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Book a Visit",
+            "short_name": "Visit",
+            "description": "Schedule a hostel walkthrough",
+            "url": "/contact",
+            "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
+        },
+        {
+            "name": "Rooms & Pricing",
+            "short_name": "Rooms",
+            "description": "View room categories",
+            "url": "/rooms",
+            "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
+        },
+        {
+            "name": "Safety",
+            "short_name": "Safety",
+            "description": "Safety protocols",
+            "url": "/safety",
+            "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}

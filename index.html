@@ -52,6 +52,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="apple-touch-icon" href="favicon.svg">
 
+    <!-- PWA manifest + theme -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4f46e5">
+    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/service-worker.js').catch(function(){});});}</script>
+
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -320,6 +325,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "availableLanguage": ["English", "Hindi"]
             }
         }
+    }
+    </script>
+
+    <!-- JSON-LD: HowTo (procedural query capture — "how to book hostel near medicaps") -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Book a Room at Radiance Residency near Medicaps University",
+        "description": "Step-by-step process to reserve a hostel room at Radiance Residency, the premium boys hostel near Medicaps University in Pigdamber, Rau, Indore.",
+        "image": "https://radianceresidency.com/images/outer-building-1.jpg",
+        "estimatedCost": {"@type": "MonetaryAmount", "currency": "INR", "value": "8000"},
+        "totalTime": "P1D",
+        "supply": [
+            {"@type": "HowToSupply", "name": "Valid government photo ID"},
+            {"@type": "HowToSupply", "name": "College admission letter or student ID"},
+            {"@type": "HowToSupply", "name": "Parent contact details"}
+        ],
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Contact Radiance Residency",
+                "text": "WhatsApp +91-8770445161 or call to share which college you study at and which room category (Standard, Superior, Superior AC, Deluxe, or Premium) you are considering.",
+                "url": "https://wa.me/918770445161"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Schedule a hostel visit",
+                "text": "Visit the hostel in person to see rooms, common areas, kitchen, and meet the property manager. No appointment is mandatory but WhatsApp ahead so we can arrange a walkthrough.",
+                "url": "https://radianceresidency.com/contact"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Choose your room category",
+                "text": "Select from 5 room categories: Standard (from ₹8,000/month), Superior, Superior AC, Deluxe Spacious, or Premium Front. Each available in single or double occupancy.",
+                "url": "https://radianceresidency.com/rooms"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Submit booking details",
+                "text": "Provide valid government photo ID, college admission letter, and parent contact details. Sign the residency agreement covering rules, security deposit, and monthly payment schedule.",
+                "url": "https://radianceresidency.com/rules-regulations"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Move in and start your stay",
+                "text": "Pay the first month's rent and refundable security deposit (cash, UPI, or bank transfer). Receive room keys, Wi-Fi credentials, dining schedule, and parent welcome call. Your stay begins immediately.",
+                "url": "https://radianceresidency.com/contact"
+            }
+        ]
     }
     </script>
 
