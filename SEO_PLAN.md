@@ -4,27 +4,37 @@
 
 ---
 
-## This Week's Snapshot (2026-05-13)
+## This Week's Snapshot (2026-05-18)
 
 | Signal | Value | Target | Status |
 |---|---|---|---|
 | Domain Authority | 2 | 15+ | Growing via directories |
 | Linking Domains | 15 | 40+ | Flat — submit more directories |
-| Desktop Perf | 99 (PS) / 84 (LH) | 80+ | ✅ Excellent |
-| Mobile Perf | 93 (PS) / 46 (LH) | 60+ | ⚠ LH mobile 46 — LCP 8.7s needs work |
-| GSC Indexed | 8 / 62 (13%) | 80%+ | 🔴 53 URLs unknown to Google — index blocker |
-| Perplexity AEO | 27.5% cited | ≥20% | ✅ Above target (was 44.3% — declining, monitor) |
+| Desktop Perf (www) | 99 (PS) / 86 (LH) | 80+ | ✅ Excellent |
+| Mobile Perf (www) | 93 (PS) | 60+ | ✅ Good — LCP 2.59s |
+| Mobile Perf (apex LH) | 45–46 | 60+ | 🔴 LCP 8s, CLS 0.377 — fixed 2026-05-19 |
+| GSC Indexed | 8 / 63 (13%) | 80%+ | 🔴 53 URLs unknown to Google — index blocker |
+| Perplexity AEO | 23.1% cited | ≥20% | ⚠ Above target but declining (was 27.5%) |
+| AI citations (Claude/Gemini/OpenAI) | 0% | — | 🔴 Not cited by any LLM except Perplexity |
 | Local Pack | Not yet | Top 3 | Blocked on GBP + reviews |
 
 ### Top Local GSC Queries
 
-| Query | Pos | Impr | Status |
-|---|---|---|---|
-| student hostel in indore | 10.3 | 260 | ↑ Impressions 5× — push to top 10 |
-| pg near medicaps university indore | 8.3 | 128 | ↑ Growing impressions |
-| pg near ips academy indore | 7.2 | 94 | Strong local signal |
-| radiance residency | 5.1 | 189 | Branded — monitoring |
-| hostel packing list for students | 14.4 | 97 | Content driving impressions |
+| Query | Pos | Impr | Clicks | Status |
+|---|---|---|---|---|
+| student hostel in indore | 9.5 | 317 | 1 | ↑ Climbing — almost top 10 |
+| pg near medicaps university indore | 8.2 | 150 | 1 | ↑ Growing |
+| pg near ips academy indore | 7.3 | 106 | 2 | Strong local signal |
+| radiance residency | 5.6 | 228 | 2 | Branded — monitoring |
+| best hostel in indore for students | 8.8 | 80 | 4 | Good CTR |
+| medicaps hostel | 1.8 | 47 | 0 | ⚠ Position 2 with 0 clicks — CTR issue |
+| hostel packing list for students | 13.7 | 137 | 0 | Content impressions |
+
+### New Issues Found (2026-05-18)
+- **Apex mobile CLS 0.377** — 4-column grid + preload mismatch → fixed 2026-05-19
+- **6 new toxic backlinks** → added to disavow.txt 2026-05-19
+- **Cannibalization**: "medicaps university hostel" still has 4 competing URLs in GSC
+- **www homepage 404 in GSC** — Google URL inspection shows www/ as 404 (Cloudflare/DNS issue, not code)
 
 ---
 
@@ -82,6 +92,9 @@
 | **JUNE 2026 ADMISSION PUSH** — `hostel-near-sd-bansal-college.html`: "2026" added to title, June 2026 urgency in meta desc, 4 admission keywords added, SD Bansal admission alert banner, FAQPage Q about 2026 availability prepended | 2026-05-13 |
 | **JUNE 2026 ADMISSION PUSH** — `hostel-near-medicaps-admission-2026.html`: robots upgraded to max-image-preview/max-snippet, expired "May 15" deadline fixed → "July 15", June 2026 banner added, FAQPage JSON-LD (8 Qs) added (had none before) | 2026-05-13 |
 | Sitemap: hostel-near-medicaps-university priority 0.9→0.95, hostel-near-iist + sd-bansal lastmod 2026-03-26→2026-05-13 + priority 0.7→0.8 + changefreq monthly→weekly, hostel-near-medicaps-admission-2026 priority 0.95→0.98 + changefreq weekly→daily | 2026-05-13 |
+| `index.html`: preload fixed (`building-night.webp` → `hero-image.jpg`), 4-column grid → `auto-fit` responsive, 3 inline font-size 11px → 12px | 2026-05-19 |
+| `disavow.txt`: 6 new toxic domains added (backlinker.shop, rankpilot.shop, thebacklink.shop, optimizeflow.top, quero.party, pudhe.com) | 2026-05-19 |
+| Sitemap homepage lastmod 2026-05-05 → 2026-05-19 | 2026-05-19 |
 
 ---
 
