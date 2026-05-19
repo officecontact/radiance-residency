@@ -16,7 +16,7 @@
     "image": "https://radianceresidency.com/images/outer-building-1.jpg",
     "telephone": "+91-8770445161",
     "email": "info@radianceresidency.com",
-    "priceRange": "₹8,000+/month",
+    "priceRange": "₹9,000+/month",
     "currenciesAccepted": "INR",
     "paymentAccepted": "Cash, UPI, Bank Transfer",
     "openingHours": "Mo-Su 00:00-23:59",
@@ -60,7 +60,7 @@
         "Hostels near IPS Academy, IIST, SD Bansal, IIM Indore"
     ],
     "rooms": [
-        {"category": "Standard Room", "occupancy": ["single", "double"], "priceFrom": 8000, "currency": "INR", "interval": "month", "ac": false},
+        {"category": "Standard Room", "occupancy": ["single", "double"], "priceFrom": 9000, "currency": "INR", "interval": "month", "ac": false},
         {"category": "Superior Room", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": false},
         {"category": "Superior Room AC", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": true},
         {"category": "Deluxe Spacious", "occupancy": ["single", "double"], "priceFrom": null, "currency": "INR", "interval": "month", "ac": false},
