@@ -50,6 +50,13 @@ Redirect 301 /paying-guest-indore /paying-guest-in-indore
 # ── 12. Weekend getaways redirect
 Redirect 301 /blog/weekend-getaways-from-indore-students /blog/places-to-visit-in-indore-for-students
 
+# ── 13. Short URL aliases
+Redirect 301 /rules /rules-regulations
+Redirect 301 /rules.html /rules-regulations
+Redirect 301 /rooms.html /rooms
+Redirect 301 /amenities.html /amenities
+Redirect 301 /contact.html /contact
+
 # Security headers
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
