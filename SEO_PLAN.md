@@ -912,10 +912,10 @@ _Current DR (our clone): **51** over 34 referring domains._
 Add these redirects (Netlify `_redirects` or Next.js middleware):
 
 - `https://www.musweb.org/page-2e5c62608476577f2e0284cac46ee46c.html` (linked by musweb.org) — add `https://www.musweb.org/page-2e5c62608476577f2e0284cac46ee46c.html  /  301` after confirming intended destination
+- `https://seoprobox.xyz/cgi-sys/suspendedpage.cgi` (linked by seoprobox.xyz) — add `https://seoprobox.xyz/cgi-sys/suspendedpage.cgi  /  301` after confirming intended destination
 
 ### Mobile UX fixes
 
-- `https://radianceresidency.com` — 5_fixed_width_elements, 19_nonresponsive_images, 3_tiny_text_inline
 - `https://radianceresidency.com/hostel-near-iist-indore.html` — 
 - `https://radianceresidency.com/hostel-near-iim-indore.html` — 
 - `https://radianceresidency.com/student-testimonials.html` — 
@@ -923,6 +923,7 @@ Add these redirects (Netlify `_redirects` or Next.js middleware):
 - `https://radianceresidency.com/pg-for-boys-rau-indore.html` — 
 - `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` — 4_fixed_width_elements
 - `https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india.html` — 5_fixed_width_elements
+- `https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html` — 
 
 ### SERP snippet fixes (truncation / missing meta)
 
@@ -969,14 +970,14 @@ Add these redirects (Netlify `_redirects` or Next.js middleware):
 
 ### Broken / hijacked outbound links
 
-- `https://radianceresidency.com/blog/best-cafes-near-rau-indore-students` → `https://wa.me/918770445161` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html` → `https://wa.me/918770445161` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/` → `https://wa.me/918770445161` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/` → `https://wa.me/918770445161?text=Hi%2C%20I%20read%20your%20blog%20and%20want%20to%20schedule%20a%20visit%20to%20Radiance%20Residency.` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.` (🔴 HIJACKED) — remove or replace
-- `https://radianceresidency.com/blog/` → `https://maps.app.goo.gl/ZmfHzaeZvpwRrfGG6` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/blog/ips-academy-indore-review-guide` → `https://wa.me/918770445161` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/blog/homesickness-tips-for-hostel-students` → `https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/blog/homesickness-tips-for-hostel-students` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/amenities` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.` (🔴 HIJACKED) — remove or replace
 - `https://radianceresidency.com/amenities` → `https://wa.me/918770445161` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/amenities` → `https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/amenities` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.` (🔴 HIJACKED) — remove or replace
+- `https://radianceresidency.com/amenities` → `https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.%20Please%20share%20details.` (🔴 HIJACKED) — remove or replace
 
 ### Under-linked pages (low internal PageRank)
 
@@ -1032,6 +1033,27 @@ Invest in these topics; each deserves a hub page + 3-5 supporting posts.
 - `hostel packing list` now #8.222222 (Δ -6.2222223) — expand page with related queries
 - `hostel packing list for girl students in india` now #7.7647057 (Δ -6.0670314) — expand page with related queries
 - `hostel essentials` now #38.080807 (Δ -5.0023766) — expand page with related queries
+
+### CTR gaps — ranking but not getting clicks (biggest opportunity)
+
+> You're on page 1 for these queries but capturing far fewer clicks than expected. Fixing title/meta here costs 30 min and can double traffic overnight.
+
+| Query | Pos | Actual CTR | Expected | Clicks lost/wk | Fix |
+|---|---|---|---|---|---|
+| student hostel in indore | 6.6 | 0.5% | 4.0% | ~7 | Rewrite title/meta — make it more compelling, match searcher intent |
+| yes | 4.3 | 1.2% | 7.0% | ~5 | Add rich result schema (FAQ, HowTo, Product) — boosts CTR by 20-30% |
+| medicaps hostel | 1.0 | 0.0% | 27.0% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
+| hostel packing list for girl students in india | 7.8 | 0.0% | 3.5% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
+| radiance residency | 7.0 | 0.7% | 4.0% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
+| hostel packing list for students | 13.2 | 0.0% | 2.0% | ~2 | Improve content depth to move up 3-5 positions |
+| hostel near ips academy indore | 6.6 | 0.0% | 4.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
+| pg near medicaps university indore | 6.3 | 1.0% | 4.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
+| hostel packing list for boy students in india | 5.4 | 1.7% | 5.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
+| hostel essentials 2026 | 5.0 | 3.1% | 7.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
+
+**Priority alert — ranking top 3 with 0% CTR:**
+
+- `medicaps hostel` (pos 1.0, 15 impr) — Check: is Google showing a Featured Snippet or Knowledge Panel instead? If yes, claim it. If not, the title/meta is not matching searcher intent.
 
 ### AEO: Add `SameAs` schema — links to authority registries (+200% AI citation probability)
 
