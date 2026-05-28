@@ -91,6 +91,12 @@ https://www.radianceresidency.com/* https://radianceresidency.com/:splat 301!
 /hostel-budget-guide/                       /hostel-budget-guide                            301
 /student-testimonials/                      /student-testimonials                           301
 
+# Paying guest in Indore — high-volume keyword page (2,900/mo)
+/paying-guest-in-indore        /paying-guest-in-indore.html        200
+/paying-guest-in-indore/       /paying-guest-in-indore             301
+/pg-in-indore                  /paying-guest-in-indore             301
+/paying-guest-indore           /paying-guest-in-indore             301
+
 # Newcomer/relocation area guide (added 2026-05-13)
 /accommodation-near-pithampur-indore        /accommodation-near-pithampur-indore.html       200
 /accommodation-near-pithampur-indore/       /accommodation-near-pithampur-indore            301
