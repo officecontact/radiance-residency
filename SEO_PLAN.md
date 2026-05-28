@@ -1204,11 +1204,11 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 |---|---|---|---|---|
 | `https://radianceresidency.com/style.min.css` | -966.9 | 149.3 | 699 | Shorten sentences to 15–20 words, simpler vocabulary |
 | `https://radianceresidency.com/script.min.js` | -2.0 | 15.0 | 1766 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore` | 25.2 | 16.8 | 1362 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html` | 25.2 | 16.8 | 1362 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore` | 24.8 | 17.0 | 1361 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html` | 24.8 | 17.0 | 1361 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` | 27.8 | 13.8 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
 | `https://radianceresidency.com/blog/medicaps-university-review-admission-placement` | 27.9 | 13.7 | 1219 | Shorten sentences to 15–20 words, simpler vocabulary |
-| `https://radianceresidency.com/blog/ips-academy-indore-review-guide.html` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
+| `https://radianceresidency.com/blog/ips-academy-indore-review-guide.html` | 31.4 | 13.5 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
 | `https://radianceresidency.com/blog/ips-academy-indore-review-guide` | 31.6 | 13.4 | 1179 | Shorten sentences to 15–20 words, simpler vocabulary |
 
 ### Canonical issues

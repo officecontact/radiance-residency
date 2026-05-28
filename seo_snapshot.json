@@ -1789,20 +1789,20 @@
     },
     {
       "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore",
-      "flesch": 25.2,
-      "grade": 16.8,
-      "words": 1362
+      "flesch": 24.8,
+      "grade": 17.0,
+      "words": 1361
     },
     {
       "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html",
-      "flesch": 25.2,
-      "grade": 16.8,
-      "words": 1362
+      "flesch": 24.8,
+      "grade": 17.0,
+      "words": 1361
     },
     {
       "url": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html",
-      "flesch": 27.9,
-      "grade": 13.7,
+      "flesch": 27.8,
+      "grade": 13.8,
       "words": 1219
     },
     {
@@ -1813,8 +1813,8 @@
     },
     {
       "url": "https://radianceresidency.com/blog/ips-academy-indore-review-guide.html",
-      "flesch": 31.6,
-      "grade": 13.4,
+      "flesch": 31.4,
+      "grade": 13.5,
       "words": 1179
     },
     {
@@ -1824,16 +1824,16 @@
       "words": 1179
     },
     {
-      "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
-      "flesch": 33.6,
-      "grade": 14.0,
-      "words": 1109
+      "url": "https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students",
+      "flesch": 33.2,
+      "grade": 16.0,
+      "words": 978
     },
     {
-      "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review.html",
-      "flesch": 33.6,
-      "grade": 14.0,
-      "words": 1109
+      "url": "https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html",
+      "flesch": 33.2,
+      "grade": 16.0,
+      "words": 978
     }
   ],
   "canonical_issues": [
@@ -3346,5 +3346,6 @@
     ],
     "navigational": []
   },
-  "competitor_positions": []
+  "competitor_positions": [],
+  "ctr_gaps": []
 }
