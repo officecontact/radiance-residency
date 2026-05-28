@@ -856,7 +856,20 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 | Page | Issues |
 |---|---|
+| `radianceresidency.com/summer-internship-housing-indore` | title_too_long, meta_too_long |
+| `radianceresidency.com/accommodation-near-pithampur-indore` | title_too_long, meta_too_long |
+| `radianceresidency.com/hostel-near-medicaps-university` | title_too_long, meta_too_long |
+| `radianceresidency.com/find-your-room` | meta_too_long, thin_content |
+| `radianceresidency.com/calculator` | meta_too_long, thin_content |
+| `radianceresidency.com/hostel-near-sd-bansal-college` | title_too_long, meta_too_long |
+| `radianceresidency.com/pg-for-working-professionals-rau-indore` | title_too_long, meta_too_long |
+| `radianceresidency.com/hostel-near-iist-indore` | title_too_long, meta_too_long |
+| `radianceresidency.com/reviews` | meta_too_long |
+| `radianceresidency.com/faq` | meta_too_long |
+| `radianceresidency.com/safety` | meta_too_long |
 | `radianceresidency.com/rules-regulations.html` | title_too_long |
+| `radianceresidency.com/hostel-near-medicaps-admission-2026` | meta_too_long |
+| `radianceresidency.com/about` | meta_too_long |
 
 ### Performance (mobile perf < 70)
 
@@ -864,12 +877,12 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 
 ### Content ideas (AI-generated)
 
-- **radiance residency** _(score 14)_ — 167 impr at avg pos 12.0 — push up for clicks
-- **hostel packing list for students** _(score 6)_ — 93 impr at avg pos 14.4 — push up for clicks
-- **checklist for hostel students** _(score 5)_ — 82 impr at avg pos 15.4 — push up for clicks
-- **best hostels in indore** _(score 4)_ — 46 impr at avg pos 11.1 — push up for clicks
-- **hostel requirement list** _(score 3)_ — 65 impr at avg pos 24.2 — push up for clicks
-- **list of things required in hostel** _(score 3)_ — 73 impr at avg pos 29.1 — push up for clicks
+- **radiance residency** _(score 18)_ — 222 impr at avg pos 12.5 — push up for clicks
+- **hostel packing list for students** _(score 11)_ — 147 impr at avg pos 13.8 — push up for clicks
+- **checklist for hostel students** _(score 9)_ — 140 impr at avg pos 15.3 — push up for clicks
+- **hostel requirement list** _(score 5)_ — 114 impr at avg pos 21.2 — push up for clicks
+- **hostel requirements list** _(score 5)_ — 128 impr at avg pos 27.3 — push up for clicks
+- **list of things required in hostel** _(score 4)_ — 124 impr at avg pos 28.3 — push up for clicks
 
 _Current DR (our clone): **51** over 34 referring domains._
 
@@ -890,21 +903,21 @@ _Current DR (our clone): **51** over 34 referring domains._
 
 ### Keyword cannibalization — consolidate competing pages
 
-- **`pg near medicaps university indore`** (144 impr) — 2
+- **`pg near medicaps university indore`** (154 impr) — 2
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
 - **`medicaps university hostel`** (51 impr) — 4
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
-- **`medi caps university hostel`** (44 impr) — 3
+- **`medi caps university hostel`** (46 impr) — 4
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
-- **`medi caps university hostel`** (35 impr) — 3
+- **`medi caps university hostel`** (35 impr) — 4
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
 - **`medicaps hostel`** (30 impr) — 2
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
+- **`medicaps university hostel`** (17 impr) — 4
+  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
 - **`medicaps hostel`** (17 impr) — 2
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
-- **`medicaps university hostel`** (14 impr) — 4
-  - Fix: pick one canonical page, 301 the other; strongest content becomes hub
-- **`medicaps university hostel`** (8 impr) — 4
+- **`medicaps indore hostel`** (14 impr) — 2
   - Fix: pick one canonical page, 301 the other; strongest content becomes hub
 
 ### Inbound 404s — reclaim backlinks via 301 redirects
@@ -1193,10 +1206,10 @@ Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
 | Engine | Cited / Total | % |
 |---|---|---|
-| claude | 0 / 162 | 0.0% |
-| gemini | 0 / 216 | 0.0% |
-| openai | 0 / 162 | 0.0% |
-| perplexity_via_or | 34 / 162 | 21.0% |
+| claude | 0 / 189 | 0.0% |
+| gemini | 0 / 243 | 0.0% |
+| openai | 0 / 189 | 0.0% |
+| perplexity_via_or | 34 / 189 | 18.0% |
 
 Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert authorship, and factual "since/founded/certified" evidence.
 
@@ -1204,12 +1217,12 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 **We own (10):**
 
-- `checklist for hostel students` → organic_rank (pos 14)
-- `hostel essentials 2026` → organic_rank (pos 11)
-- `pg near medicaps university indore` → organic_rank (pos 10)
-- `hostel needs list` → organic_rank (pos 20)
+- `hostel requirement list` → organic_rank (pos 15)
+- `medicaps university hostel` → organic_rank (pos 11)
+- `checklist for hostel students` → organic_rank (pos 17)
 - `pg near ips academy indore` → organic_rank (pos 11)
-- `medi caps university hostel` → organic_rank (pos 9)
+- `hostel near ips academy indore` → organic_rank (pos 13)
+- `medi caps university hostel` → organic_rank (pos 11)
 
 **Competitor-owned (10):**
 
@@ -1235,12 +1248,12 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 ### Canonical issues
 
-- `https://radianceresidency.com/blog/indore-street-food-guide-students.html` → canonical=`https://radianceresidency.com/blog/indore-street-food-guide-students` — canonical_mismatch
-- `https://radianceresidency.com/blog/student-life-in-rau-indore-guide.html` → canonical=`https://radianceresidency.com/blog/student-life-in-rau-indore-guide` — canonical_mismatch
+- `https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students.html` → canonical=`https://radianceresidency.com/blog/cost-of-living-in-rau-indore-for-students` — canonical_mismatch
+- `https://radianceresidency.com/blog/indore-city-guide-for-students.html` → canonical=`https://radianceresidency.com/blog/indore-city-guide-for-students` — canonical_mismatch
 - `https://radianceresidency.com/blog/best-cafes-near-rau-indore-students.html` → canonical=`https://radianceresidency.com/blog/best-cafes-near-rau-indore-students` — canonical_mismatch
 - `https://radianceresidency.com/blog/best-hostels-in-indore-for-students.html` → canonical=`https://radianceresidency.com/blog/best-hostels-in-indore-for-students` — canonical_mismatch
-- `https://radianceresidency.com/blog/medicaps-university-review-admission-placement.html` → canonical=`https://radianceresidency.com/blog/medicaps-university-review-admission-placement` — canonical_mismatch
-- `https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home.html` → canonical=`https://radianceresidency.com/blog/safety-tips-for-students-living-away-from-home` — canonical_mismatch
+- `https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore.html` → canonical=`https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore` — canonical_mismatch
+- `https://radianceresidency.com/blog/iim-indore-campus-area-guide.html` → canonical=`https://radianceresidency.com/blog/iim-indore-campus-area-guide` — canonical_mismatch
 - `https://radianceresidency.com/amenities.html` → canonical=`https://radianceresidency.com/amenities` — canonical_mismatch
 - `https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html` → canonical=`https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home` — canonical_mismatch
 
@@ -1294,13 +1307,14 @@ Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert autho
 
 | Severity | Issue | Count |
 |---|---|---|
-| warning | title_too_long | 71 |
-| warning | duplicate_title | 42 |
+| warning | title_too_long | 80 |
+| critical | page_has_links_to_broken_page | 50 |
 | warning | duplicate_meta_description | 42 |
+| warning | duplicate_title | 42 |
+| warning | meta_too_long | 20 |
 | critical | image_broken | 12 |
-| warning | meta_too_long | 6 |
-| critical | page_has_links_to_broken_page | 4 |
-| critical | 404_page | 1 |
+| warning | thin_content | 3 |
+| critical | 404_page | 2 |
 
 ### Keyword targets (curated, by search volume)
 
@@ -1334,17 +1348,17 @@ Rewrite the landing page's title/meta/H1 to match intent.
 
 | Query | Pos | Impr | Clicks | Vol | KD | Score | Landing page |
 |---|---|---|---|---|---|---|---|
-| student hostel in indore | 9.5 | 317 | 1 | — | — | 3644.6 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
-| pg near medicaps university indore | 8.2 | 150 | 1 | — | — | 1927.3 | `https://radianceresidency.com/` |
-| pg near ips academy indore | 7.3 | 106 | 2 | — | — | 1484.7 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
-| best hostel in indore for students | 8.8 | 80 | 4 | — | — | 1029.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
-| hostel packing list for students | 13.7 | 137 | 0 | — | — | 994.7 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| student hostel in indore | 9.5 | 340 | 1 | — | — | 3905.4 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| pg near medicaps university indore | 8.2 | 160 | 1 | — | — | 2062.2 | `https://radianceresidency.com/` |
+| pg near ips academy indore | 7.2 | 114 | 2 | — | — | 1595.9 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| hostel near ips academy indore | 10.0 | 97 | 0 | — | — | 1068.8 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
+| hostel packing list for students | 13.8 | 147 | 0 | — | — | 1063.0 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| best hostel in indore for students | 8.8 | 82 | 4 | — | — | 1049.4 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| medi caps university hostel | 9.9 | 92 | 0 | — | — | 1024.8 | `https://radianceresidency.com/` |
 | medicaps university hostel | 6.1 | 66 | 0 | — | — | 980.8 | `http://radianceresidency.com/` |
-| medi caps university hostel | 9.9 | 88 | 0 | — | — | 974.3 | `https://radianceresidency.com/` |
-| checklist for hostel students | 15.3 | 125 | 0 | — | — | 708.4 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
-| student area in indore | 7.4 | 37 | 0 | — | — | 502.5 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
+| checklist for hostel students | 15.3 | 140 | 0 | — | — | 799.4 | `https://radianceresidency.com/blog/things-to-pack-for-hostel` |
+| student area in indore | 7.4 | 41 | 0 | — | — | 556.2 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
 | best hostels in indore | 11.1 | 48 | 0 | — | — | 476.0 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
-| hostel near ips academy indore | 7.7 | 34 | 0 | — | — | 453.0 | `https://radianceresidency.com/hostel-near-ips-academy.html` |
 | indore student area | 8.1 | 34 | 0 | — | — | 439.6 | `https://radianceresidency.com/blog/best-hostels-in-indore-fo` |
 
 ### Current backlink sources (recent — top 15)
@@ -1427,9 +1441,9 @@ _0 of 25 queries cited us in the answer._
 | openai | pg near ips academy indore | — |  |
 | claude | pg near ips academy indore | — |  |
 | gemini | pg near ips academy indore | — |  |
-| perplexity_via_or | girls hostel in indore | — |  |
-| openai | girls hostel in indore | — |  |
-| claude | girls hostel in indore | — |  |
+| perplexity_via_or | hostel near ips academy indore | — |  |
+| openai | hostel near ips academy indore | — |  |
+| claude | hostel near ips academy indore | — |  |
 
 ### Keyword difficulty (Ahrefs KD-clone)
 
