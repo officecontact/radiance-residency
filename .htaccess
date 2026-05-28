@@ -1,19 +1,54 @@
 RewriteEngine On
 
-# Force non-www first (prevent duplicate content + redirect chain)
+# ── 1. www → non-www canonical (301)
 RewriteCond %{HTTP_HOST} ^www\.radianceresidency\.com [NC]
 RewriteRule ^(.*)$ https://radianceresidency.com/$1 [R=301,L]
 
-# Force HTTPS
+# ── 2. Force HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
-# Clean URLs: serve .html files without extension
-# /rooms -> rooms.html, /amenities -> amenities.html, /contact -> contact.html
+# ── 3. Remove .html extension (canonical redirect, prevents duplicate content)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/([^.]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# ── 4. Blog .html extension removal
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/(blog/[^.]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# ── 5. Trailing slash removal (canonical)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# ── 6. Blog index: /blog → /blog/ (single hop)
+RewriteRule ^blog$ /blog/ [R=301,L]
+
+# ── 7. Clean URLs: serve .html without extension
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L]
+
+# ── 8. Keyword cannibalization fix
+Redirect 301 /medicaps-hostel-options /hostel-near-medicaps-university
+Redirect 301 /medicaps-hostel-options.html /hostel-near-medicaps-university
+
+# ── 9. Packing list variant URLs → canonical
+Redirect 301 /hostel-essentials /hostel-packing-list-for-students
+Redirect 301 /checklist-for-hostel-students /hostel-packing-list-for-students
+Redirect 301 /hostel-packing-checklist /hostel-packing-list-for-students
+
+# ── 10. Pithampur area guide variants
+Redirect 301 /pg-near-pithampur /accommodation-near-pithampur-indore
+Redirect 301 /hostel-near-pithampur /accommodation-near-pithampur-indore
+Redirect 301 /where-to-stay-in-indore-near-pithampur /accommodation-near-pithampur-indore
+
+# ── 11. Paying guest variants
+Redirect 301 /pg-in-indore /paying-guest-in-indore
+Redirect 301 /paying-guest-indore /paying-guest-in-indore
+
+# ── 12. Weekend getaways redirect
+Redirect 301 /blog/weekend-getaways-from-indore-students /blog/places-to-visit-in-indore-for-students
 
 # Security headers
 <IfModule mod_headers.c>
