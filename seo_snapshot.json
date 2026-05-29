@@ -1,6 +1,6 @@
 {
   "site": "radianceresidency.com",
-  "generated": "2026-05-28",
+  "generated": "2026-05-29",
   "description": "Student hostel / PG in Indore",
   "domain_metrics": {
     "da": 2,
@@ -1895,26 +1895,26 @@
     {
       "engine": "claude",
       "cited": 0,
-      "total": 189,
+      "total": 135,
       "pct": 0.0
     },
     {
       "engine": "gemini",
       "cited": 0,
-      "total": 243,
+      "total": 135,
       "pct": 0.0
     },
     {
       "engine": "openai",
       "cited": 0,
-      "total": 189,
+      "total": 135,
       "pct": 0.0
     },
     {
       "engine": "perplexity_via_or",
-      "cited": 34,
-      "total": 189,
-      "pct": 18.0
+      "cited": 0,
+      "total": 135,
+      "pct": 0.0
     }
   ],
   "low_readability": [
@@ -3495,226 +3495,5 @@
     "navigational": []
   },
   "competitor_positions": [],
-  "ctr_gaps": [
-    {
-      "query": "student hostel in indore",
-      "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
-      "pos": 6.6,
-      "actual_pct": 0.5,
-      "bench_pct": 4.0,
-      "gap_pct": -89.0,
-      "impressions": 218,
-      "clicks_lost": 7,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "yes",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 4.3,
-      "actual_pct": 1.2,
-      "bench_pct": 7.0,
-      "gap_pct": -83.0,
-      "impressions": 86,
-      "clicks_lost": 5,
-      "fix_type": "schema"
-    },
-    {
-      "query": "medicaps hostel",
-      "page": "https://radianceresidency.com/amenities",
-      "pos": 1.0,
-      "actual_pct": 0.0,
-      "bench_pct": 27.0,
-      "gap_pct": -100.0,
-      "impressions": 15,
-      "clicks_lost": 4,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "hostel packing list for girl students in india",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 7.8,
-      "actual_pct": 0.0,
-      "bench_pct": 3.5,
-      "gap_pct": -100.0,
-      "impressions": 136,
-      "clicks_lost": 4,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "radiance residency",
-      "page": "https://radianceresidency.com/",
-      "pos": 7.0,
-      "actual_pct": 0.7,
-      "bench_pct": 4.0,
-      "gap_pct": -83.0,
-      "impressions": 146,
-      "clicks_lost": 4,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "hostel packing list for students",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 13.2,
-      "actual_pct": 0.0,
-      "bench_pct": 2.0,
-      "gap_pct": -100.0,
-      "impressions": 101,
-      "clicks_lost": 2,
-      "fix_type": "content"
-    },
-    {
-      "query": "hostel near ips academy indore",
-      "page": "https://radianceresidency.com/hostel-near-ips-academy.html",
-      "pos": 6.6,
-      "actual_pct": 0.0,
-      "bench_pct": 4.0,
-      "gap_pct": -100.0,
-      "impressions": 61,
-      "clicks_lost": 2,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "pg near medicaps university indore",
-      "page": "https://radianceresidency.com/",
-      "pos": 6.3,
-      "actual_pct": 1.0,
-      "bench_pct": 4.0,
-      "gap_pct": -74.0,
-      "impressions": 96,
-      "clicks_lost": 2,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "hostel packing list for boy students in india",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 5.4,
-      "actual_pct": 1.7,
-      "bench_pct": 5.0,
-      "gap_pct": -67.0,
-      "impressions": 60,
-      "clicks_lost": 2,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "hostel essentials 2026",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 5.0,
-      "actual_pct": 3.1,
-      "bench_pct": 7.0,
-      "gap_pct": -56.0,
-      "impressions": 65,
-      "clicks_lost": 2,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "medicaps university hostel",
-      "page": "https://www.radianceresidency.com/",
-      "pos": 3.9,
-      "actual_pct": 0.0,
-      "bench_pct": 10.0,
-      "gap_pct": -100.0,
-      "impressions": 17,
-      "clicks_lost": 1,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "student area in indore",
-      "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
-      "pos": 7.6,
-      "actual_pct": 0.0,
-      "bench_pct": 3.5,
-      "gap_pct": -100.0,
-      "impressions": 30,
-      "clicks_lost": 1,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "pg near ips academy indore",
-      "page": "https://radianceresidency.com/hostel-near-ips-academy.html",
-      "pos": 7.4,
-      "actual_pct": 1.5,
-      "bench_pct": 3.5,
-      "gap_pct": -58.0,
-      "impressions": 68,
-      "clicks_lost": 1,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "hostel near medicaps indore",
-      "page": "https://radianceresidency.com/",
-      "pos": 6.3,
-      "actual_pct": 0.0,
-      "bench_pct": 4.0,
-      "gap_pct": -100.0,
-      "impressions": 15,
-      "clicks_lost": 0,
-      "fix_type": "title_meta"
-    },
-    {
-      "query": "checklist for hostel students",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 15.1,
-      "actual_pct": 0.0,
-      "bench_pct": 1.0,
-      "gap_pct": -100.0,
-      "impressions": 99,
-      "clicks_lost": 0,
-      "fix_type": "content"
-    },
-    {
-      "query": "hostel requirement list",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 18.1,
-      "actual_pct": 0.0,
-      "bench_pct": 1.0,
-      "gap_pct": -100.0,
-      "impressions": 82,
-      "clicks_lost": 0,
-      "fix_type": "content"
-    },
-    {
-      "query": "best hostels in indore",
-      "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
-      "pos": 11.1,
-      "actual_pct": 0.0,
-      "bench_pct": 2.0,
-      "gap_pct": -100.0,
-      "impressions": 25,
-      "clicks_lost": 0,
-      "fix_type": "content"
-    },
-    {
-      "query": "hostel items list for boy",
-      "page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "pos": 11.6,
-      "actual_pct": 0.0,
-      "bench_pct": 2.0,
-      "gap_pct": -100.0,
-      "impressions": 25,
-      "clicks_lost": 0,
-      "fix_type": "content"
-    },
-    {
-      "query": "best hostel in indore",
-      "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
-      "pos": 16.6,
-      "actual_pct": 0.0,
-      "bench_pct": 1.0,
-      "gap_pct": -100.0,
-      "impressions": 24,
-      "clicks_lost": 0,
-      "fix_type": "content"
-    },
-    {
-      "query": "indore student area",
-      "page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students",
-      "pos": 8.5,
-      "actual_pct": 0.0,
-      "bench_pct": 3.0,
-      "gap_pct": -100.0,
-      "impressions": 24,
-      "clicks_lost": 0,
-      "fix_type": "title_meta"
-    }
-  ]
+  "ctr_gaps": []
 }

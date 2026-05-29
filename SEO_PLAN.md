@@ -818,7 +818,7 @@ _Plan refreshes every Monday from TradeForge data pipeline._
 ---
 
 <!-- next-actions-start -->
-## Next Actions — 2026-05-28
+## Next Actions — 2026-05-29
 
 ### Landing pages / content to create or strengthen
 
@@ -1047,27 +1047,6 @@ Invest in these topics; each deserves a hub page + 3-5 supporting posts.
 - `hostel packing list for girl students in india` now #7.7647057 (Δ -6.0670314) — expand page with related queries
 - `hostel essentials` now #38.080807 (Δ -5.0023766) — expand page with related queries
 
-### CTR gaps — ranking but not getting clicks (biggest opportunity)
-
-> You're on page 1 for these queries but capturing far fewer clicks than expected. Fixing title/meta here costs 30 min and can double traffic overnight.
-
-| Query | Pos | Actual CTR | Expected | Clicks lost/wk | Fix |
-|---|---|---|---|---|---|
-| student hostel in indore | 6.6 | 0.5% | 4.0% | ~7 | Rewrite title/meta — make it more compelling, match searcher intent |
-| yes | 4.3 | 1.2% | 7.0% | ~5 | Add rich result schema (FAQ, HowTo, Product) — boosts CTR by 20-30% |
-| medicaps hostel | 1.0 | 0.0% | 27.0% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
-| hostel packing list for girl students in india | 7.8 | 0.0% | 3.5% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
-| radiance residency | 7.0 | 0.7% | 4.0% | ~4 | Rewrite title/meta — make it more compelling, match searcher intent |
-| hostel packing list for students | 13.2 | 0.0% | 2.0% | ~2 | Improve content depth to move up 3-5 positions |
-| hostel near ips academy indore | 6.6 | 0.0% | 4.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
-| pg near medicaps university indore | 6.3 | 1.0% | 4.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
-| hostel packing list for boy students in india | 5.4 | 1.7% | 5.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
-| hostel essentials 2026 | 5.0 | 3.1% | 7.0% | ~2 | Rewrite title/meta — make it more compelling, match searcher intent |
-
-**Priority alert — ranking top 3 with 0% CTR:**
-
-- `medicaps hostel` (pos 1.0, 15 impr) — Check: is Google showing a Featured Snippet or Knowledge Panel instead? If yes, claim it. If not, the title/meta is not matching searcher intent.
-
 ### AEO: Add `SameAs` schema — links to authority registries (+200% AI citation probability)
 
 Add to your `Organization` JSON-LD block in the site layout:
@@ -1206,10 +1185,10 @@ Healthy: brand 40–60%, exact-match <5%, naked URLs 10–20%.
 
 | Engine | Cited / Total | % |
 |---|---|---|
-| claude | 0 / 189 | 0.0% |
-| gemini | 0 / 243 | 0.0% |
-| openai | 0 / 189 | 0.0% |
-| perplexity_via_or | 34 / 189 | 18.0% |
+| claude | 0 / 135 | 0.0% |
+| gemini | 0 / 135 | 0.0% |
+| openai | 0 / 135 | 0.0% |
+| perplexity_via_or | 0 / 135 | 0.0% |
 
 Goal: ≥20% citation rate per engine. Below that = add FAQ schema, expert authorship, and factual "since/founded/certified" evidence.
 
