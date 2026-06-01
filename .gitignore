@@ -16,5 +16,7 @@ disavow.txt
 
 # Automation / working artifacts (root-level only — keeps images/ tracked)
 /*.png
+/*.jpeg
+/*.jpg
 /*.zip
 .playwright-mcp/
