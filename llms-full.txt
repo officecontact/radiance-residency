@@ -14,6 +14,8 @@
   - Justdial: https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET
   - MagicBricks: https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532
   - The Trip Guide: https://thetripguide.in/hotels/indore/radiance-residency-hostel
+  - Google Maps (official listing): https://www.google.com/maps?cid=15888062618274913960
+  - OpenStreetMap: https://www.openstreetmap.org/node/13900447300
 
 ## Business Identity
 - Business Name: Radiance Residency
