@@ -13,3 +13,8 @@ disavow.txt
 *.xlsx
 *.xls
 *.pptx
+
+# Automation / working artifacts (root-level only — keeps images/ tracked)
+/*.png
+/*.zip
+.playwright-mcp/
