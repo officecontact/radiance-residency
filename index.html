@@ -669,6 +669,68 @@
             </div>
         </section>
 
+        <!-- ======================== QUICK ENQUIRY / LEAD FORM ======================== -->
+        <style>@media(max-width:768px){#enquiry .enquiry-grid{grid-template-columns:1fr !important;}#enquiry .enquiry-pitch{text-align:center;}}</style>
+        <section class="section section-dark" id="enquiry" aria-label="Check room availability and price"
+                 style="background:linear-gradient(135deg,#15233f 0%,#1f3a5f 60%,#0f1b30 100%);">
+            <div class="container">
+                <div class="enquiry-grid" style="max-width:1040px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;">
+                    <!-- Left: pitch + urgency -->
+                    <div class="enquiry-pitch" style="color:#fff;">
+                        <span class="section-label" style="color:#ffd36b;" data-en="Rooms Filling Fast" data-hi="कमरे तेज़ी से भर रहे हैं">Rooms Filling Fast</span>
+                        <h2 class="section-title" style="color:#fff;margin:.4rem 0 1rem;" data-en="Check Availability &amp; <span style='color:#ffd36b;'>Price</span> in 30 Seconds" data-hi="30 सेकंड में <span style='color:#ffd36b;'>उपलब्धता और कीमत</span> जानें">Check Availability &amp; <span style="color:#ffd36b;">Price</span> in 30 Seconds</h2>
+                        <p style="color:#d7e0ee;line-height:1.7;margin-bottom:1.2rem;" data-en="Tell us your college and we'll send room availability, pricing and a free visit slot — straight to your WhatsApp. No spam, just a quick callback." data-hi="अपना कॉलेज बताएं और हम कमरे की उपलब्धता, कीमत और मुफ्त विज़िट स्लॉट सीधे आपके WhatsApp पर भेजेंगे। कोई स्पैम नहीं, बस एक त्वरित कॉलबैक।">Tell us your college and we'll send room availability, pricing and a free visit slot — straight to your WhatsApp. No spam, just a quick callback.</p>
+                        <ul style="list-style:none;padding:0;margin:0;color:#eaf0f8;font-size:.95rem;line-height:2;">
+                            <li><i class="fas fa-star" style="color:#ffd36b;" aria-hidden="true"></i> <span data-en="Rated 4.9/5 by 112+ students" data-hi="112+ छात्रों द्वारा 4.9/5 रेटेड">Rated 4.9/5 by 112+ students</span></li>
+                            <li><i class="fas fa-walking" style="color:#ffd36b;" aria-hidden="true"></i> <span data-en="2-minute walk from Medicaps University" data-hi="मेडीकैप्स यूनिवर्सिटी से 2 मिनट की पैदल दूरी">2-minute walk from Medicaps University</span></li>
+                            <li><i class="fas fa-rupee-sign" style="color:#ffd36b;" aria-hidden="true"></i> <span data-en="All-inclusive from ₹9,000/month" data-hi="सब-समावेशी ₹9,000/माह से">All-inclusive from ₹9,000/month</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Right: the form card -->
+                    <div style="background:#fff;border-radius:16px;padding:26px 24px;box-shadow:0 18px 50px rgba(0,0,0,.35);">
+                        <h3 style="margin:0 0 4px;font-size:1.25rem;color:#15233f;" data-en="Get Your Room Details" data-hi="अपने कमरे की जानकारी पाएं">Get Your Room Details</h3>
+                        <p style="margin:0 0 16px;font-size:.88rem;color:#6b7280;" data-en="Takes 30 seconds • We reply on WhatsApp" data-hi="30 सेकंड लगते हैं • हम WhatsApp पर जवाब देते हैं">Takes 30 seconds • We reply on WhatsApp</p>
+                        <form class="js-lead-form" novalidate>
+                            <div class="form-group">
+                                <input type="text" name="name" required placeholder="Your full name *" autocomplete="name" data-en-placeholder="Your full name *" data-hi-placeholder="आपका पूरा नाम *">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" required placeholder="Phone / WhatsApp number *" autocomplete="tel" data-en-placeholder="Phone / WhatsApp number *" data-hi-placeholder="फोन / WhatsApp नंबर *">
+                            </div>
+                            <div class="form-group">
+                                <select name="college" required aria-label="Select your college">
+                                    <option value="" disabled selected data-en="Select your college *" data-hi="अपना कॉलेज चुनें *">Select your college *</option>
+                                    <option value="Medicaps University">Medicaps University</option>
+                                    <option value="IPS Academy">IPS Academy</option>
+                                    <option value="SD Bansal College">SD Bansal College</option>
+                                    <option value="IIST Indore">IIST Indore</option>
+                                    <option value="IIM Indore">IIM Indore</option>
+                                    <option value="Medical College">Medical College</option>
+                                    <option value="Other / Working Professional">Other / Working Professional</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="room" aria-label="Preferred room type">
+                                    <option value="" disabled selected data-en="Preferred room type (optional)" data-hi="पसंदीदा कमरे का प्रकार (वैकल्पिक)">Preferred room type (optional)</option>
+                                    <option value="Double Non-AC (₹9,000/month)">Double Non-AC — ₹9,000/month</option>
+                                    <option value="Double AC (₹11,000/month)">Double AC — ₹11,000/month</option>
+                                    <option value="Single Non-AC">Single Non-AC</option>
+                                    <option value="Single AC">Single AC</option>
+                            </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <span data-en="Get Availability &amp; Price" data-hi="उपलब्धता और कीमत पाएं">Get Availability &amp; Price</span>
+                            </button>
+                            <p class="lead-form-success" style="display:none;margin:12px 0 0;padding:10px 12px;background:#eafaf0;border:1px solid #b7e4c7;border-radius:8px;color:#1b7a43;font-size:.9rem;" data-en="✓ Thanks! We've got your details and will WhatsApp/call you shortly." data-hi="✓ धन्यवाद! हमें आपकी जानकारी मिल गई है और हम जल्द ही आपको WhatsApp/कॉल करेंगे।">✓ Thanks! We've got your details and will WhatsApp/call you shortly.</p>
+                            <p style="margin:10px 0 0;font-size:.78rem;color:#9aa3b2;text-align:center;" data-en="Your details are private and never shared." data-hi="आपकी जानकारी निजी है और कभी साझा नहीं की जाती।">Your details are private and never shared.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- ======================== ABOUT SECTION ======================== -->
         <section class="about section" id="about" aria-label="About Radiance Residency">
             <div class="container">
@@ -1438,5 +1500,6 @@
 
     <!-- Script -->
     <script src="script.min.js"></script>
+    <script src="lead-form.js" defer></script>
 </body>
 </html>
