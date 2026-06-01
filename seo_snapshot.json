@@ -1,6 +1,6 @@
 {
   "site": "radianceresidency.com",
-  "generated": "2026-05-29",
+  "generated": "2026-06-01",
   "description": "Student hostel / PG in Indore",
   "domain_metrics": {
     "da": 2,
@@ -15,26 +15,26 @@
     {
       "url": "https://www.radianceresidency.com",
       "strategy": "desktop",
-      "performance": 92,
+      "performance": 90,
       "seo": 100,
       "accessibility": 92,
-      "lcp_s": 1.35,
+      "lcp_s": 1.53,
       "cls": 0.1,
-      "fcp_s": 1.2,
+      "fcp_s": 1.27,
       "ttfb_s": 0.14,
-      "checked": "2026-05-28"
+      "checked": "2026-06-01"
     },
     {
       "url": "https://www.radianceresidency.com",
       "strategy": "mobile",
-      "performance": 58,
+      "performance": 60,
       "seo": 100,
       "accessibility": 92,
-      "lcp_s": 6.41,
-      "cls": 0.1,
+      "lcp_s": 8.47,
+      "cls": 0.0,
       "fcp_s": 5.58,
       "ttfb_s": 0.14,
-      "checked": "2026-05-28"
+      "checked": "2026-06-01"
     },
     {
       "url": "https://radianceresidency.com",
@@ -331,113 +331,6 @@
   ],
   "onpage_issues": [
     {
-      "url": "https://radianceresidency.com/summer-internship-housing-indore",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 768,
-      "title": "Summer Internship Housing Rau Indore | Near Siemens & Pithampur | Radiance",
-      "h1": "Summer Internship Housing in Rau, Indore"
-    },
-    {
-      "url": "https://radianceresidency.com/accommodation-near-pithampur-indore",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 1204,
-      "title": "Accommodation Near Pithampur | Short-Stay PG in Rau, Indore | Radiance",
-      "h1": "Accommodation Near Pithampur, Indore"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-medicaps-university",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 1762,
-      "title": "Hostel Near Medicaps University Rau | 2026 Batch | Radiance Residency",
-      "h1": "Medicaps University \" data-hi=\" à¤®à¥à¤¡à¥à¤à¥à¤ªà¥à¤¸ à¤¯à¥à¤¨à¤¿à¤µà¤°à¥à¤¸à¤¿à¤à¥ à¤à¥ à¤ªà¤¾à¤¸ à¤¬à¥à¤¯à¤à¤¼ à¤¹à¥à¤¸à¥à¤à¤²\">Boys Hostel Near Medicaps University"
-    },
-    {
-      "url": "https://radianceresidency.com/find-your-room",
-      "issues": [
-        "meta_too_long",
-        "thin_content"
-      ],
-      "word_count": 205,
-      "title": "Find Your Perfect Hostel Room â Radiance Residency Quiz",
-      "h1": "Find Your Perfect Room"
-    },
-    {
-      "url": "https://radianceresidency.com/calculator",
-      "issues": [
-        "meta_too_long",
-        "thin_content"
-      ],
-      "word_count": 184,
-      "title": "Hostel Cost Calculator â Estimate Stay at Radiance Residency",
-      "h1": "Cost Calculator \" data-hi=\"à¤¹à¥à¤¸à¥à¤à¤² à¤à¥à¤¸à¥à¤ à¤à¥à¤²à¤à¥à¤²à¥à¤à¤° \">Hostel Cost Calculator"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-sd-bansal-college",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 1158,
-      "title": "Hostel Near SD Bansal College 2026 | Boys PG Rau Indore | Radiance Residency",
-      "h1": "SD Bansal College , Indore\" data-hi=\" à¤à¤¸à¤¡à¥ à¤¬à¤à¤¸à¤² à¤à¥à¤²à¥à¤ , à¤à¤à¤¦à¥à¤° à¤à¥ à¤ªà¤¾à¤¸ à¤¬à¥à¤¯à¤à¤¼ à¤¹à¥à¤¸à¥à¤à¤²\">Boys Hostel Near SD Bansal College , Indore"
-    },
-    {
-      "url": "https://radianceresidency.com/pg-for-working-professionals-rau-indore",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 917,
-      "title": "PG for Working Professionals Rau Indore | Near Siemens, Pithampur | Radiance",
-      "h1": "Monthly PG for Working Professionals in Rau, Indore"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-iist-indore",
-      "issues": [
-        "title_too_long",
-        "meta_too_long"
-      ],
-      "word_count": 1137,
-      "title": "Hostel Near IIST Indore 2026 | Boys PG Rau Indore | Radiance Residency",
-      "h1": "IIST , Indore\" data-hi=\" IIST à¤à¤à¤¦à¥à¤° à¤à¥ à¤ªà¤¾à¤¸ à¤¬à¥à¤¯à¤à¤¼ à¤¹à¥à¤¸à¥à¤à¤²\">Boys Hostel Near IIST , Indore"
-    },
-    {
-      "url": "https://radianceresidency.com/reviews",
-      "issues": [
-        "meta_too_long"
-      ],
-      "word_count": 479,
-      "title": "Radiance Residency Reviews â Verified Across 5 Platforms",
-      "h1": "5 Trusted Platforms \" data-hi=\" 5 à¤µà¤¿à¤¶à¥à¤µà¤¸à¤¨à¥à¤¯ à¤®à¤à¤à¥à¤ à¤ªà¤° à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤\">Verified Across 5 Trusted Platforms"
-    },
-    {
-      "url": "https://radianceresidency.com/faq",
-      "issues": [
-        "meta_too_long"
-      ],
-      "word_count": 1908,
-      "title": "Radiance Residency FAQ â 38 Common Questions Answered",
-      "h1": "38 Questions, Answered Honestly\" data-hi=\" 38 à¤¸à¤µà¤¾à¤², à¤à¤®à¤¾à¤¨à¤¦à¤¾à¤° à¤à¤µà¤¾à¤¬\"> 38 Questions, Answered Honestly"
-    },
-    {
-      "url": "https://radianceresidency.com/safety",
-      "issues": [
-        "meta_too_long"
-      ],
-      "word_count": 356,
-      "title": "Is Radiance Residency Safe? CCTV, Guards & Parent Protocols",
-      "h1": "First . Always.\" data-hi=\"à¤¸à¥à¤°à¤à¥à¤·à¤¾ à¤¸à¤°à¥à¤µà¥à¤ªà¤°à¤¿ à¥¤\">Safety First . Always."
-    },
-    {
       "url": "https://radianceresidency.com/rules-regulations.html",
       "issues": [
         "title_too_long"
@@ -445,103 +338,58 @@
       "word_count": 3216,
       "title": "Hostel Rules & Regulations 2026â27 | Radiance Residency, Rau Indore",
       "h1": "Regulations \" data-hi=\"à¤¹à¥à¤¸à¥à¤à¤² à¤¨à¤¿à¤¯à¤® à¤à¤µà¤ à¤¶à¤°à¥à¤¤à¥à¤ \">Hostel Rules &amp; Regulations"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-medicaps-admission-2026",
-      "issues": [
-        "meta_too_long"
-      ],
-      "word_count": 974,
-      "title": "Hostel Near Medicaps Admission 2026 | Radiance Residency",
-      "h1": "Hostel Near Medicaps University"
-    },
-    {
-      "url": "https://radianceresidency.com/about",
-      "issues": [
-        "meta_too_long"
-      ],
-      "word_count": 478,
-      "title": "About Radiance Residency â Founded 2022, 112+ Residents Hosted",
-      "h1": "Radiance Residency \" data-hi=\" à¤°à¥à¤¡à¤¿à¤¯à¤à¤¸ à¤°à¥à¤¸à¥à¤¡à¥à¤à¤¸à¥ à¤à¥ à¤¬à¤¾à¤°à¥ à¤®à¥à¤\">About Radiance Residency"
     }
   ],
   "schema_issues": [],
-  "keyword_rankings": [
-    {
-      "keyword": "things to carry to hostel",
-      "position": 36,
-      "search_volume": 40,
-      "url": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "country": "United States"
-    },
-    {
-      "keyword": "what to bring to a hostel",
-      "position": 87,
-      "search_volume": 40,
-      "url": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "country": "United States"
-    }
-  ],
+  "keyword_rankings": [],
   "topic_ideas": [
     {
       "topic": "radiance residency",
       "source": "gsc_longtail",
-      "impact_score": 17.8243631872711,
-      "rationale": "222 impr at avg pos 12.5 — push up for clicks"
+      "impact_score": 13.902459166652,
+      "rationale": "167 impr at avg pos 12.0 — push up for clicks"
     },
     {
       "topic": "hostel packing list for students",
       "source": "gsc_longtail",
-      "impact_score": 10.6762023887189,
-      "rationale": "147 impr at avg pos 13.8 — push up for clicks"
+      "impact_score": 6.47858103578632,
+      "rationale": "93 impr at avg pos 14.4 — push up for clicks"
     },
     {
       "topic": "checklist for hostel students",
       "source": "gsc_longtail",
-      "impact_score": 9.15618027155503,
-      "rationale": "140 impr at avg pos 15.3 — push up for clicks"
-    },
-    {
-      "topic": "hostel requirement list",
-      "source": "gsc_longtail",
-      "impact_score": 5.37453730597065,
-      "rationale": "114 impr at avg pos 21.2 — push up for clicks"
-    },
-    {
-      "topic": "hostel requirements list",
-      "source": "gsc_longtail",
-      "impact_score": 4.69577637817964,
-      "rationale": "128 impr at avg pos 27.3 — push up for clicks"
-    },
-    {
-      "topic": "list of things required in hostel",
-      "source": "gsc_longtail",
-      "impact_score": 4.38653764472545,
-      "rationale": "124 impr at avg pos 28.3 — push up for clicks"
+      "impact_score": 5.31121657373314,
+      "rationale": "82 impr at avg pos 15.4 — push up for clicks"
     },
     {
       "topic": "best hostels in indore",
       "source": "gsc_longtail",
-      "impact_score": 4.33077036358049,
-      "rationale": "48 impr at avg pos 11.1 — push up for clicks"
+      "impact_score": 4.14901943715707,
+      "rationale": "46 impr at avg pos 11.1 — push up for clicks"
+    },
+    {
+      "topic": "hostel requirement list",
+      "source": "gsc_longtail",
+      "impact_score": 2.689128254141,
+      "rationale": "65 impr at avg pos 24.2 — push up for clicks"
+    },
+    {
+      "topic": "list of things required in hostel",
+      "source": "gsc_longtail",
+      "impact_score": 2.5088952549179,
+      "rationale": "73 impr at avg pos 29.1 — push up for clicks"
+    },
+    {
+      "topic": "hostel requirements list",
+      "source": "gsc_longtail",
+      "impact_score": 2.48658849324244,
+      "rationale": "75 impr at avg pos 30.2 — push up for clicks"
     },
     {
       "topic": "essential things for hostel",
       "source": "gsc_longtail",
-      "impact_score": 4.04610132571785,
-      "rationale": "117 impr at avg pos 28.9 — push up for clicks"
-    },
-    {
-      "topic": "medi caps university hostel",
-      "source": "gsc_longtail",
-      "impact_score": 3.06314161779541,
-      "rationale": "51 impr at avg pos 16.6 — push up for clicks"
-    },
-    {
-      "topic": "toiletries items for hostel",
-      "source": "gsc_longtail",
-      "impact_score": 2.34324326740206,
-      "rationale": "51 impr at avg pos 21.8 — push up for clicks"
+      "impact_score": 2.2359768304138,
+      "rationale": "68 impr at avg pos 30.4 — push up for clicks"
     },
     {
       "topic": "hostel essentials checklist",
@@ -550,37 +398,103 @@
       "rationale": "24 impr at avg pos 11.0 — push up for clicks"
     },
     {
-      "topic": "hostel items list for boy",
-      "source": "gsc_longtail",
-      "impact_score": 2.15827335167928,
-      "rationale": "25 impr at avg pos 11.6 — push up for clicks"
-    },
-    {
       "topic": "best hostel in indore",
       "source": "gsc_longtail",
-      "impact_score": 2.1532710392035,
-      "rationale": "44 impr at avg pos 20.4 — push up for clicks"
+      "impact_score": 1.90719956870002,
+      "rationale": "39 impr at avg pos 20.4 — push up for clicks"
     },
     {
-      "topic": "list of items for hostel students",
+      "topic": "medi caps university hostel",
       "source": "gsc_longtail",
-      "impact_score": 1.35680756033625,
-      "rationale": "17 impr at avg pos 12.5 — push up for clicks"
+      "impact_score": 1.69431940705947,
+      "rationale": "32 impr at avg pos 18.9 — push up for clicks"
     },
     {
-      "topic": "hostel needs for boys",
+      "topic": "premium student hostel",
       "source": "gsc_longtail",
-      "impact_score": 1.17209303365391,
-      "rationale": "14 impr at avg pos 11.9 — push up for clicks"
+      "impact_score": 0.771428550408812,
+      "rationale": "18 impr at avg pos 23.3 — push up for clicks"
     }
   ],
   "competitor_moves": [],
   "bing_top_queries": [
     {
       "query": "iim indore campus",
-      "impressions": 8,
+      "impressions": 14,
       "clicks": 0,
-      "position": 7.5
+      "position": 7.3
+    },
+    {
+      "query": "hostel essentials 2026",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 2.0
+    },
+    {
+      "query": "requirement of laptop for hostel stidents",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 3.0
+    },
+    {
+      "query": "is medicaps university for commerce or arts",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 5.0
+    },
+    {
+      "query": "hostel essentials for students",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 4.0
+    },
+    {
+      "query": "medicaps indore cs fee structure",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 6.0
+    },
+    {
+      "query": "medicaps 2026 placement",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 5.0
+    },
+    {
+      "query": "marking clothes for hostel",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 3.0
+    },
+    {
+      "query": "sd bansal copllege",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 7.0
+    },
+    {
+      "query": "medicaps placement",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 5.0
+    },
+    {
+      "query": "medicaps indore hostel",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 7.0
+    },
+    {
+      "query": "medicaps average package cse",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 10.0
+    },
+    {
+      "query": "amenities at iim indore",
+      "impressions": 4,
+      "clicks": 0,
+      "position": 6.0
     },
     {
       "query": "list of things needed while moving to hostel",
@@ -589,82 +503,10 @@
       "position": 10.0
     },
     {
-      "query": "medicaps indore hostel",
+      "query": "hostel packing list",
       "impressions": 4,
       "clicks": 0,
       "position": 7.0
-    },
-    {
-      "query": "medicaps placement",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 5.0
-    },
-    {
-      "query": "hostel essentials for students",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 4.0
-    },
-    {
-      "query": "medicaps indore cs fee structure",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 6.0
-    },
-    {
-      "query": "requirement of laptop for hostel stidents",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 3.0
-    },
-    {
-      "query": "is medicaps university for commerce or arts",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 5.0
-    },
-    {
-      "query": "hostel essentials 2026",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 2.0
-    },
-    {
-      "query": "medicaps average package cse",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 10.0
-    },
-    {
-      "query": "medicaps 2026 placement",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 5.0
-    },
-    {
-      "query": "radiance residency hostel indore",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 6.0
-    },
-    {
-      "query": "radiance residency hostel magic brick",
-      "impressions": 3,
-      "clicks": 0,
-      "position": 5.0
-    },
-    {
-      "query": "how to college admission tips",
-      "impressions": 3,
-      "clicks": 0,
-      "position": 3.0
-    },
-    {
-      "query": "bansal college indore",
-      "impressions": 3,
-      "clicks": 0,
-      "position": 6.0
     }
   ],
   "domain_rating": {
@@ -675,17 +517,17 @@
     {
       "query": "pg near medicaps university indore",
       "urls": 2,
-      "impressions": 154
+      "impressions": 222
+    },
+    {
+      "query": "medi caps university hostel",
+      "urls": 4,
+      "impressions": 76
     },
     {
       "query": "medicaps university hostel",
       "urls": 4,
       "impressions": 51
-    },
-    {
-      "query": "medi caps university hostel",
-      "urls": 4,
-      "impressions": 46
     },
     {
       "query": "medi caps university hostel",
@@ -700,7 +542,7 @@
     {
       "query": "medicaps university hostel",
       "urls": 4,
-      "impressions": 17
+      "impressions": 21
     },
     {
       "query": "medicaps hostel",
@@ -708,44 +550,44 @@
       "impressions": 17
     },
     {
-      "query": "medicaps indore hostel",
-      "urls": 2,
-      "impressions": 14
+      "query": "medicaps university hostel",
+      "urls": 4,
+      "impressions": 17
     },
     {
       "query": "medicaps university hostel",
       "urls": 4,
+      "impressions": 14
+    },
+    {
+      "query": "medicaps indore hostel",
+      "urls": 3,
       "impressions": 14
     },
     {
       "query": "hostel medicaps indore",
       "urls": 2,
-      "impressions": 9
+      "impressions": 13
     },
     {
-      "query": "medicaps university hostel",
-      "urls": 4,
-      "impressions": 8
-    },
-    {
-      "query": "medicaps indore hostel",
+      "query": "medicaps university indore hostel",
       "urls": 2,
-      "impressions": 7
-    },
-    {
-      "query": "pg near medicaps university indore",
-      "urls": 2,
-      "impressions": 6
+      "impressions": 10
     },
     {
       "query": "ha",
       "urls": 2,
-      "impressions": 6
+      "impressions": 8
     },
     {
-      "query": "medi caps university hostel",
-      "urls": 4,
-      "impressions": 6
+      "query": "ha",
+      "urls": 2,
+      "impressions": 7
+    },
+    {
+      "query": "medicaps indore hostel",
+      "urls": 3,
+      "impressions": 7
     }
   ],
   "inbound_404s": [
@@ -824,141 +666,145 @@
       ]
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-ips-academy",
-      "issues": []
+      "url": "https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore.html",
+      "issues": [
+        "5_fixed_width_elements"
+      ]
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-iist-indore",
-      "issues": []
+      "url": "https://radianceresidency.com/amenities.html",
+      "issues": [
+        "6_nonresponsive_images"
+      ]
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-iim-indore",
+      "url": "https://radianceresidency.com/rules-regulations.html",
       "issues": []
     }
   ],
   "rank_trends": {
     "climbers": [
       {
-        "query": "hostel near ips college",
-        "delta": -11.773109,
-        "pos": 17.058823,
-        "impr": 18
+        "query": "things to pack for hostel",
+        "delta": -16.291668,
+        "pos": 27.625,
+        "impr": 5
       },
       {
-        "query": "hostel list for boys",
-        "delta": -8.3125,
-        "pos": 9.3125,
-        "impr": 16
-      },
-      {
-        "query": "hostel packing list",
-        "delta": -6.2222223,
-        "pos": 8.222222,
-        "impr": 18
-      },
-      {
-        "query": "hostel packing list for girl students in india",
-        "delta": -6.0670314,
-        "pos": 7.7647057,
-        "impr": 136
-      },
-      {
-        "query": "hostel essentials",
-        "delta": -5.0023766,
-        "pos": 38.080807,
-        "impr": 99
-      },
-      {
-        "query": "girls hostel near me",
-        "delta": -4.3,
-        "pos": 6.8,
-        "impr": 6
-      },
-      {
-        "query": "medicaps hostel rooms",
-        "delta": -4.25,
-        "pos": 8.25,
+        "query": "things required for hostel",
+        "delta": -13.666666,
+        "pos": 18.666666,
         "impr": 3
       },
       {
-        "query": "residency boys hostel",
-        "delta": -3.5,
-        "pos": 7.5,
-        "impr": 2
+        "query": "list for hostel packing for boys",
+        "delta": -10.0,
+        "pos": 11.0,
+        "impr": 3
       },
       {
-        "query": "hostel essentials 2026",
-        "delta": -3.000463,
-        "pos": 4.962963,
-        "impr": 65
+        "query": "what to pack for hostel",
+        "delta": -8.5,
+        "pos": 16.5,
+        "impr": 4
       },
       {
-        "query": "hostel near ips academy indore",
-        "delta": -2.8807325,
-        "pos": 10.557203,
-        "impr": 63
+        "query": "medicaps indore hostel",
+        "delta": -7.25,
+        "pos": 12.5,
+        "impr": 3
+      },
+      {
+        "query": "student accommodation indore",
+        "delta": -7.132353,
+        "pos": 16.25,
+        "impr": 7
+      },
+      {
+        "query": "medi caps university hostel & campus",
+        "delta": -7.0,
+        "pos": 15.0,
+        "impr": 9
+      },
+      {
+        "query": "medicaps hostel indore",
+        "delta": -6.5833335,
+        "pos": 14.333333,
+        "impr": 3
+      },
+      {
+        "query": "medicaps university indore hostel",
+        "delta": -5.916667,
+        "pos": 11.666667,
+        "impr": 6
+      },
+      {
+        "query": "medi caps university hostel",
+        "delta": -5.733334,
+        "pos": 16.066668,
+        "impr": 30
       }
     ],
     "fallers": [
       {
-        "query": "things to take to hostel",
-        "delta": 16.5,
-        "pos": 11.5,
-        "impr": 4
-      },
-      {
-        "query": "medicaps hostel fees",
-        "delta": 10.972222,
-        "pos": 10.944445,
-        "impr": 14
-      },
-      {
-        "query": "best hostel in indore",
-        "delta": 6.6805553,
-        "pos": 13.875,
-        "impr": 26
-      },
-      {
-        "query": "hostel requirement list",
-        "delta": 6.2027435,
-        "pos": 18.109756,
-        "impr": 82
-      },
-      {
-        "query": "hostel requirements list",
-        "delta": 6.0775166,
-        "pos": 24.21978,
-        "impr": 91
-      },
-      {
-        "query": "besthostel in indore",
-        "delta": 5.5,
-        "pos": 28.0,
-        "impr": 4
-      },
-      {
-        "query": "hostel needs list",
-        "delta": 4.6488113,
-        "pos": 32.22619,
-        "impr": 84
-      },
-      {
-        "query": "hostel essentials for boys",
-        "delta": 3.5714285,
-        "pos": 10.428572,
-        "impr": 9
+        "query": "hostel things list for boy",
+        "delta": 30.3,
+        "pos": 15.7,
+        "impr": 6
       },
       {
         "query": "essentials for hostel",
-        "delta": 3.5,
-        "pos": 28.5,
+        "delta": 8.5,
+        "pos": 20.0,
+        "impr": 6
+      },
+      {
+        "query": "besthostel in indore",
+        "delta": 6.333334,
+        "pos": 21.666666,
+        "impr": 3
+      },
+      {
+        "query": "things to take to hostel",
+        "delta": 5.5,
+        "pos": 6.0,
+        "impr": 3
+      },
+      {
+        "query": "rnt hostel",
+        "delta": 5.5,
+        "pos": 6.5,
+        "impr": 2
+      },
+      {
+        "query": "hostel items list",
+        "delta": 4.333334,
+        "pos": 23.666666,
+        "impr": 3
+      },
+      {
+        "query": "pg hostel in rau",
+        "delta": 3.875,
+        "pos": 16.25,
         "impr": 4
       },
       {
-        "query": "medi caps university hostel & campus",
-        "delta": 3.5,
+        "query": "ha",
+        "delta": 3.7833333,
+        "pos": 3.6666667,
+        "impr": 5
+      },
+      {
+        "query": "hostel needs list",
+        "delta": 2.9119034,
+        "pos": 29.314285,
+        "impr": 70
+      },
+      {
+        "query": "what is a pg hostel",
+        "delta": 2.5,
         "pos": 8.0,
-        "impr": 10
+        "impr": 1
       }
     ]
   },
@@ -966,61 +812,61 @@
     {
       "page": "/blog/best-hostels-in-indore-for-students",
       "clicks": 2,
-      "sessions": 5,
+      "sessions": 4,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 2,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     },
     {
       "page": "/hostel-near-ips-academy.html",
       "clicks": 1,
-      "sessions": 12,
+      "sessions": 11,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 1,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     },
     {
       "page": "/",
       "clicks": 1,
-      "sessions": 93,
+      "sessions": 3,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 1,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 1,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 1,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     },
     {
       "page": "/blog/best-hostels-in-indore-for-students",
       "clicks": 1,
-      "sessions": 5,
+      "sessions": 4,
       "conversions": 0.0
     },
     {
       "page": "/blog/things-to-pack-for-hostel-life-india",
       "clicks": 1,
-      "sessions": 63,
+      "sessions": 64,
       "conversions": 0.0
     }
   ],
@@ -1143,19 +989,31 @@
   ],
   "outbound_broken": [
     {
-      "source": "https://radianceresidency.com/blog/ips-academy-indore-review-guide",
-      "target": "https://wa.me/918770445161",
+      "source": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/homesickness-tips-for-hostel-students",
+      "source": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.%20Please%20share%20details.",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/homesickness-tips-for-hostel-students",
+      "source": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
+      "target": "https://wa.me/918770445161",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
       "status": 200,
       "hijacked": true
@@ -1163,24 +1021,6 @@
     {
       "source": "https://radianceresidency.com/amenities",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/amenities",
-      "target": "https://wa.me/918770445161",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/amenities",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/amenities",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
       "status": 200,
       "hijacked": true
     },
@@ -1191,20 +1031,50 @@
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
+      "source": "https://radianceresidency.com/amenities",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "source": "https://radianceresidency.com/amenities",
       "target": "https://wa.me/918770445161",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "source": "https://radianceresidency.com/amenities",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20read%20your%20blog%20and%20want%20to%20schedule%20a%20visit%20to%20Radiance%20Residency.",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/",
+      "target": "https://wa.me/918770445161",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
       "status": 200,
       "hijacked": true
     },
@@ -1216,49 +1086,25 @@
     },
     {
       "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
-      "target": "https://wa.me/918770445161",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
+      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
       "target": "https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency.",
       "status": 200,
       "hijacked": true
     },
     {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20read%20your%20blog%20about%20hostel%20benefits.%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/amenities.html",
-      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20Radiance%20Residency.",
-      "status": 200,
-      "hijacked": true
-    },
-    {
-      "source": "https://radianceresidency.com/amenities.html",
+      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
       "target": "https://wa.me/918770445161",
+      "status": 200,
+      "hijacked": true
+    },
+    {
+      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "target": "https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20Radiance%20Residency.%20Please%20share%20details.",
       "status": 200,
       "hijacked": true
     }
@@ -1267,71 +1113,71 @@
     {
       "id": 2,
       "centroid": "hostel packing list for girl students in india",
-      "size": 72,
-      "impressions": 1908,
-      "clicks": 8
+      "size": 34,
+      "impressions": 1528,
+      "clicks": 7
     },
     {
       "id": 0,
       "centroid": "student hostel in indore",
-      "size": 38,
-      "impressions": 1498,
+      "size": 23,
+      "impressions": 1274,
       "clicks": 8
     },
     {
       "id": 1,
       "centroid": "radiance residency",
-      "size": 2,
-      "impressions": 244,
-      "clicks": 2
+      "size": 28,
+      "impressions": 296,
+      "clicks": 4
     },
     {
       "id": 3,
       "centroid": "yes",
-      "size": 24,
-      "impressions": 162,
-      "clicks": 4
-    },
-    {
-      "id": 4,
-      "centroid": "pg in rau",
-      "size": 2,
-      "impressions": 21,
-      "clicks": 0
+      "size": 40,
+      "impressions": 191,
+      "clicks": 3
     },
     {
       "id": 5,
-      "centroid": "pg essentials for boys",
+      "centroid": "hostel near ips college",
       "size": 1,
-      "impressions": 7,
+      "impressions": 25,
       "clicks": 0
     },
     {
       "id": 6,
-      "centroid": "difference between pg and flat",
-      "size": 2,
-      "impressions": 6,
+      "centroid": "medicaps indore hostel",
+      "size": 1,
+      "impressions": 25,
+      "clicks": 0
+    },
+    {
+      "id": 4,
+      "centroid": "hostel items list for boy",
+      "size": 1,
+      "impressions": 25,
       "clicks": 0
     },
     {
       "id": 7,
-      "centroid": "hostel in indore",
+      "centroid": "hostel essentials checklist",
       "size": 1,
-      "impressions": 3,
+      "impressions": 24,
       "clicks": 0
     },
     {
       "id": 8,
-      "centroid": "hostel useful things",
+      "centroid": "premium student hostel",
       "size": 1,
-      "impressions": 3,
+      "impressions": 21,
       "clicks": 0
     },
     {
       "id": 9,
-      "centroid": "residency boys hostel",
+      "centroid": "hostel needs for boys",
       "size": 1,
-      "impressions": 3,
+      "impressions": 20,
       "clicks": 0
     }
   ],
@@ -1443,22 +1289,16 @@
   ],
   "content_scores": [
     {
-      "url": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india",
-      "keyword": "hostel essentials",
-      "cov": 0.0,
-      "missing_n": 80
-    },
-    {
-      "url": "https://radianceresidency.com/",
-      "keyword": "radiance residency",
-      "cov": 38.75,
-      "missing_n": 49
-    },
-    {
       "url": "https://radianceresidency.com/hostel-near-ips-academy.html",
       "keyword": "pg near ips academy indore",
       "cov": 40.0,
       "missing_n": 48
+    },
+    {
+      "url": "https://radianceresidency.com/",
+      "keyword": "radiance residency",
+      "cov": 46.25,
+      "missing_n": 43
     }
   ],
   "missing_terms": [
@@ -1564,11 +1404,11 @@
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "along"
+      "term": "chapter"
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "chapter"
+      "term": "easy"
     },
     {
       "keyword": "checklist for hostel students",
@@ -1576,19 +1416,15 @@
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "girls"
+      "term": "gallery"
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "going"
+      "term": "instant"
     },
     {
       "keyword": "checklist for hostel students",
       "term": "make"
-    },
-    {
-      "keyword": "checklist for hostel students",
-      "term": "move"
     },
     {
       "keyword": "checklist for hostel students",
@@ -1600,15 +1436,11 @@
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "second"
+      "term": "sleep"
     },
     {
       "keyword": "checklist for hostel students",
-      "term": "settings"
-    },
-    {
-      "keyword": "checklist for hostel students",
-      "term": "sure"
+      "term": "smaller"
     },
     {
       "keyword": "checklist for hostel students",
@@ -1621,6 +1453,14 @@
     {
       "keyword": "essential things for hostel",
       "term": "bags"
+    },
+    {
+      "keyword": "essential things for hostel",
+      "term": "idea"
+    },
+    {
+      "keyword": "essential things for hostel",
+      "term": "make"
     }
   ],
   "anchor_distribution": [
@@ -1632,53 +1472,53 @@
   ],
   "internal_pagerank_low": [
     {
-      "url": "https://radianceresidency.com/hostel-vs-pg-vs-flat-for-students-indore",
-      "pr": 0.0045757703,
+      "url": "https://radianceresidency.com/student-hostel-in-indore",
+      "pr": 0.004260883,
       "in_deg": 1
     },
     {
       "url": "https://radianceresidency.com/how-to-choose-best-hostel-in-indore",
-      "pr": 0.0045757703,
-      "in_deg": 1
-    },
-    {
-      "url": "https://radianceresidency.com/cost-of-living-in-rau-indore-for-students",
-      "pr": 0.0045757703,
-      "in_deg": 1
-    },
-    {
-      "url": "https://radianceresidency.com/homesickness-tips-for-hostel-students",
-      "pr": 0.0045757703,
-      "in_deg": 1
-    },
-    {
-      "url": "https://radianceresidency.com/best-food-places-near-medicaps-university-rau",
-      "pr": 0.0045757703,
-      "in_deg": 1
-    },
-    {
-      "url": "https://radianceresidency.com/best-gyms-near-rau-indore",
-      "pr": 0.0045757703,
-      "in_deg": 1
-    },
-    {
-      "url": "https://radianceresidency.com/best-hostels-in-indore-for-students",
-      "pr": 0.0045757703,
+      "pr": 0.0044169845,
       "in_deg": 1
     },
     {
       "url": "https://radianceresidency.com/benefits-of-living-in-hostel-vs-home",
-      "pr": 0.0045757703,
+      "pr": 0.0044169845,
+      "in_deg": 1
+    },
+    {
+      "url": "https://radianceresidency.com/best-hostels-in-indore-for-students",
+      "pr": 0.0044169845,
+      "in_deg": 1
+    },
+    {
+      "url": "https://radianceresidency.com/homesickness-tips-for-hostel-students",
+      "pr": 0.0044169845,
+      "in_deg": 1
+    },
+    {
+      "url": "https://radianceresidency.com/cost-of-living-in-rau-indore-for-students",
+      "pr": 0.0044169845,
+      "in_deg": 1
+    },
+    {
+      "url": "https://radianceresidency.com/best-food-places-near-medicaps-university-rau",
+      "pr": 0.0044169845,
       "in_deg": 1
     },
     {
       "url": "https://radianceresidency.com/best-cafes-near-rau-indore-students",
-      "pr": 0.0045757703,
+      "pr": 0.0044169845,
       "in_deg": 1
     },
     {
-      "url": "https://radianceresidency.com/how-to-manage-budget-as-hostel-student",
-      "pr": 0.0045757703,
+      "url": "https://radianceresidency.com/best-gyms-near-rau-indore",
+      "pr": 0.0044169845,
+      "in_deg": 1
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-vs-pg-vs-flat-for-students-indore",
+      "pr": 0.0044169845,
       "in_deg": 1
     }
   ],
@@ -1687,6 +1527,11 @@
       "url": "http://radianceresidency.com/",
       "verdict": "NEUTRAL",
       "coverage": "Page with redirect"
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-near-ips-academy",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google"
     },
     {
       "url": "https://radianceresidency.com/hostel-near-sgsits-indore",
@@ -1754,11 +1599,6 @@
       "coverage": "URL is unknown to Google"
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-ips-academy",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
       "url": "https://radianceresidency.com/pg-for-working-professionals-rau-indore",
       "verdict": "NEUTRAL",
       "coverage": "URL is unknown to Google"
@@ -1803,19 +1643,19 @@
   "lighthouse": [
     {
       "form_factor": "desktop",
-      "perf": 90.0,
+      "perf": 92.0,
       "seo": 92.0,
       "a11y": 92.0,
-      "lcp_ms": 1646,
-      "cls": 0.047
+      "lcp_ms": 1199,
+      "cls": 0.08
     },
     {
       "form_factor": "mobile",
-      "perf": 59.0,
+      "perf": 62.0,
       "seo": 92.0,
       "a11y": 92.0,
-      "lcp_ms": 7332,
-      "cls": 0.132
+      "lcp_ms": 9017,
+      "cls": 0.155
     },
     {
       "form_factor": "desktop",
@@ -1931,13 +1771,13 @@
       "words": 1766
     },
     {
-      "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore",
+      "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html",
       "flesch": 24.8,
       "grade": 17.0,
       "words": 1361
     },
     {
-      "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore.html",
+      "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore",
       "flesch": 24.8,
       "grade": 17.0,
       "words": 1361
@@ -2207,13 +2047,41 @@
       "hops": 2,
       "loop": false,
       "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home.html",
+      "final": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/amenities.html",
+      "final": "https://radianceresidency.com/amenities",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/blog/best-gyms-near-rau-indore.html",
+      "final": "https://radianceresidency.com/blog/best-gyms-near-rau-indore",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
+    },
+    {
+      "source": "https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau.html",
+      "final": "https://radianceresidency.com/blog/best-food-places-near-medicaps-university-rau",
+      "hops": 2,
+      "loop": false,
+      "final_status": 200
     }
   ],
   "heavy_images": [],
   "ssl_status": {
     "issuer": "countryName=US, organizationName=Let's Encrypt, commonName=E8",
     "expires": "2026-08-17",
-    "days_remaining": 80,
+    "days_remaining": 77,
     "expired": false
   },
   "domain_trust_flow": {
@@ -2244,39 +2112,34 @@
   },
   "serp_features_owned": [
     {
-      "query": "hostel requirement list",
-      "feature": "organic_rank",
-      "position": 15
-    },
-    {
-      "query": "medicaps university hostel",
-      "feature": "organic_rank",
-      "position": 11
-    },
-    {
       "query": "checklist for hostel students",
       "feature": "organic_rank",
-      "position": 17
-    },
-    {
-      "query": "pg near ips academy indore",
-      "feature": "organic_rank",
-      "position": 11
+      "position": 16
     },
     {
       "query": "hostel near ips academy indore",
       "feature": "organic_rank",
-      "position": 13
-    },
-    {
-      "query": "medi caps university hostel",
-      "feature": "organic_rank",
-      "position": 11
+      "position": 9
     },
     {
       "query": "student hostel in indore",
       "feature": "organic_rank",
-      "position": 13
+      "position": 18
+    },
+    {
+      "query": "hostel packing list for students",
+      "feature": "organic_rank",
+      "position": 12
+    },
+    {
+      "query": "hostel requirement list",
+      "feature": "organic_rank",
+      "position": 16
+    },
+    {
+      "query": "hostel essentials 2026",
+      "feature": "organic_rank",
+      "position": 14
     },
     {
       "query": "pg near medicaps university indore",
@@ -2284,14 +2147,19 @@
       "position": 10
     },
     {
-      "query": "hostel packing list for students",
+      "query": "hostel packing list for girl students in india",
       "feature": "organic_rank",
-      "position": 16
+      "position": 12
     },
     {
-      "query": "best hostel in indore for students",
+      "query": "hostel requirements list",
       "feature": "organic_rank",
-      "position": 11
+      "position": 14
+    },
+    {
+      "query": "medi caps university hostel",
+      "feature": "organic_rank",
+      "position": 17
     }
   ],
   "serp_features_lost": [
@@ -2513,12 +2381,12 @@
     {
       "severity": "warning",
       "code": "title_too_long",
-      "count": 80
+      "count": 74
     },
     {
       "severity": "critical",
       "code": "page_has_links_to_broken_page",
-      "count": 50
+      "count": 52
     },
     {
       "severity": "warning",
@@ -2533,7 +2401,7 @@
     {
       "severity": "warning",
       "code": "meta_too_long",
-      "count": 20
+      "count": 23
     },
     {
       "severity": "critical",
@@ -2549,6 +2417,11 @@
       "severity": "critical",
       "code": "404_page",
       "count": 2
+    },
+    {
+      "severity": "warning",
+      "code": "slow_page",
+      "count": 1
     }
   ],
   "backlinks_lost": [],
@@ -2558,68 +2431,68 @@
       "keyword": "paying guest in indore",
       "country": null,
       "volume": 2900,
-      "cpc": 0.13,
-      "difficulty": 32,
+      "cpc": 0.11,
+      "difficulty": 22,
       "intent": "local"
     },
     {
       "keyword": "student hostel in indore",
       "country": null,
       "volume": 110,
-      "cpc": 0.18,
-      "difficulty": 23,
-      "intent": "local"
-    },
-    {
-      "keyword": "hostel near ips academy indore",
-      "country": null,
-      "volume": 70,
-      "cpc": 0.14,
-      "difficulty": 34,
+      "cpc": 0.11,
+      "difficulty": 16,
       "intent": "local"
     },
     {
       "keyword": "pg in rau indore",
       "country": null,
       "volume": 70,
-      "cpc": 0.06,
-      "difficulty": 28,
+      "cpc": 0.14,
+      "difficulty": 19,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel near ips academy indore",
+      "country": null,
+      "volume": 70,
+      "cpc": 0.36,
+      "difficulty": 12,
       "intent": "local"
     },
     {
       "keyword": "pg near ips academy indore",
       "country": null,
       "volume": 50,
-      "cpc": 0.19,
-      "difficulty": 36,
+      "cpc": 0.01,
+      "difficulty": 5,
       "intent": "local"
     },
     {
       "keyword": "hostel in rau indore",
       "country": null,
       "volume": 40,
-      "cpc": 0.08,
-      "difficulty": 31,
+      "cpc": 0.04,
+      "difficulty": 21,
       "intent": "local"
     },
     {
       "keyword": "pg near iim indore",
       "country": null,
       "volume": 20,
-      "cpc": 0.06,
-      "difficulty": 22,
+      "cpc": null,
+      "difficulty": 5,
       "intent": "local"
     },
     {
       "keyword": "room for rent in rau",
       "country": null,
       "volume": 10,
-      "cpc": 0.01,
-      "difficulty": 31,
+      "cpc": 0.11,
+      "difficulty": 27,
       "intent": "local"
     },
     {
-      "keyword": "pg near medicaps university",
+      "keyword": "boys hostel in indore",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2627,23 +2500,7 @@
       "intent": "local"
     },
     {
-      "keyword": "hostel near medicaps university",
-      "country": null,
-      "volume": 0,
-      "cpc": null,
-      "difficulty": null,
-      "intent": "local"
-    },
-    {
-      "keyword": "boys hostel near sd bansal",
-      "country": null,
-      "volume": 0,
-      "cpc": null,
-      "difficulty": null,
-      "intent": "local"
-    },
-    {
-      "keyword": "hostel near sd bansal indore",
+      "keyword": "room near medicaps university",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2659,7 +2516,7 @@
       "intent": "local"
     },
     {
-      "keyword": "boys hostel near medicaps university",
+      "keyword": "pg near sd bansal indore",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2667,7 +2524,23 @@
       "intent": "local"
     },
     {
-      "keyword": "boys hostel in indore",
+      "keyword": "girls hostel in indore",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "pg near medicaps university",
+      "country": null,
+      "volume": 0,
+      "cpc": null,
+      "difficulty": null,
+      "intent": "local"
+    },
+    {
+      "keyword": "hostel near medicaps university",
       "country": null,
       "volume": 0,
       "cpc": null,
@@ -2789,80 +2662,10 @@
   "competitor_pages_scanned": [
     {
       "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-bangalore",
-      "title": "Looking for Hostels in Bangalore? Upgrade to Zolo Coliving.",
-      "h1": "Skip the Crowded Hostels in Bangalore. Upgrade to Premium Zolo Coliving.",
-      "meta": "Tired of searching for Hostels in Bangalore? Switch to professionally managed coliving. Fully furnished - all amenities included. Click, book, and go!"
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-hyderabad",
-      "title": "Boys and Girls Hostel in Hyderabad | Zolo",
-      "h1": "Hostels in Hyderabad",
-      "meta": "Zolo Offers Luxury Hostels in Hyderabad with Food, Wifi, TV, CCTV, House Keeping etc for Students and Professionals. Book the Best Hostels in Hyderabad Here!"
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/pgs-in-bangalore",
-      "title": "PGs in Bangalore? Upgrade to Zolo Managed Coliving.",
-      "h1": "Ditch the Traditional PGs in Bangalore. Step Up to Zolo Coliving.",
-      "meta": "Searching for a PG in Bangalore? 159+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,510/mo."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/pgs-in-coimbatore",
-      "title": "PG in Coimbatore? Upgrade to Zolo Managed Coliving.",
-      "h1": "Ditch the Traditional PGs in Coimbatore. Step Up to Zolo Coliving.",
-      "meta": "Searching for a PG in Coimbatore? 25+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 3,569/mo."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/pgs-in-delhi",
-      "title": "PGs in Delhi? Upgrade to Zolo Managed Coliving.",
-      "h1": "Ditch the Traditional PGs in Delhi. Step Up to Zolo Coliving.",
-      "meta": "Searching for a PG in Delhi? Zolostays offers what PGs don&#x27;t — professional management, furnished rooms, zero brokerage. From Rs. 6,407/mo."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-gurugram",
-      "title": "Boys and Girls Hostels in Gurgaon | Zolo",
-      "h1": "Hostels in Gurgaon",
-      "meta": "Rent Best Hostels in Gurgaon Here! - Zolo offers 20+ Hostels in Gurgaon for Students &amp; Working Men/Women with Food, Wifi, TV, CCTV, House Keeping and more."
-    },
-    {
-      "competitor": "zolostays.com",
       "url": "https://zolostays.com/single-room-for-rent-in-bangalore",
       "title": "Single Rooms in Bangalore? Upgrade to Zolo Coliving.",
       "h1": "Don’t Just Rent Single Rooms in Bangalore. Upgrade to Zolo Coliving.",
       "meta": "Forget the typical Single Rooms in Bangalore. Move into professionally managed coliving. What you see is what you get. Fully furnished - all amenities included."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-coimbatore",
-      "title": "Hostels in Coimbatore - Book 15+ Coimbatore Hostels for Boys &amp; Girls at Zolo",
-      "h1": "Hostels in Coimbatore",
-      "meta": "Get Best Hostels in Coimbatore Here! - Zolo offers 15+ Hostels in Coimbatore for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping with No brokerage."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-delhi",
-      "title": "Hostel in Delhi - 10+ Best Boys/Girls New Delhi Hostel with Food | Zolo",
-      "h1": "Hostels in Delhi",
-      "meta": "Get Best Hostels in Delhi Here! - Zolo offers 10+ Hostels in New Delhi for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keepings at No brokerage."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/single-room-for-rent-in-delhi",
-      "title": "Single Rooms for rent in Delhi without Brokerage starts at ₹4000 | Zolo",
-      "h1": "Single Room on Rent in Delhi",
-      "meta": "50+ One Room set (1Rk Flat) for Rent in Delhi - Zolo Offers Furnished Single Room on Rent in Delhi with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professionals."
-    },
-    {
-      "competitor": "zolostays.com",
-      "url": "https://zolostays.com/single-room-for-rent-in-chennai",
-      "title": "Single Rooms in Chennai? Upgrade to Zolo Coliving.",
-      "h1": "Don’t Just Rent Single Rooms in Chennai. Upgrade to Zolo Coliving.",
-      "meta": "Skip the average Single Rooms in Chennai. Choose professionally managed coliving instead. Fully furnished - all amenities included. Click, book, and go!"
     },
     {
       "competitor": "zolostays.com",
@@ -2873,10 +2676,80 @@
     },
     {
       "competitor": "zolostays.com",
-      "url": "https://zolostays.com/single-room-for-rent-in-gurugram",
-      "title": "Single Rooms/1RK for rent in Gurgaon without Brokerage | Zolo",
-      "h1": "Single Room on Rent in Gurgaon",
-      "meta": "300+ One Room set (1Rk Flat) for Rent in Gurugram - Zolo Offers Furnished Single Room on Rent in Gurgaon with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professiona"
+      "url": "https://zolostays.com/hostels-in-coimbatore",
+      "title": "Hostels in Coimbatore - Book 15+ Coimbatore Hostels for Boys &amp; Girls at Zolo",
+      "h1": "Hostels in Coimbatore",
+      "meta": "Get Best Hostels in Coimbatore Here! - Zolo offers 15+ Hostels in Coimbatore for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping with No brokerage."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/hostels-in-chennai",
+      "title": "Looking for Hostels in Chennai? Upgrade to Zolo Coliving.",
+      "h1": "Skip the Crowded Hostels in Chennai. Upgrade to Premium Zolo Coliving.",
+      "meta": "Forget the typical Hostels in Chennai. Move into professionally managed coliving. What you see is what you get. Fully furnished - all amenities included."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/hostels-in-gurugram",
+      "title": "Boys and Girls Hostels in Gurgaon | Zolo",
+      "h1": "Hostels in Gurgaon",
+      "meta": "Rent Best Hostels in Gurgaon Here! - Zolo offers 20+ Hostels in Gurgaon for Students &amp; Working Men/Women with Food, Wifi, TV, CCTV, House Keeping and more."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/hostels-in-delhi",
+      "title": "Hostel in Delhi - 10+ Best Boys/Girls New Delhi Hostel with Food | Zolo",
+      "h1": "Hostels in Delhi",
+      "meta": "Get Best Hostels in Delhi Here! - Zolo offers 10+ Hostels in New Delhi for Students &amp; Working Men/Women with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keepings at No brokerage."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/pgs-in-bangalore",
+      "title": "PGs in Bangalore? Upgrade to Zolo Managed Coliving.",
+      "h1": "Ditch the Traditional PGs in Bangalore. Step Up to Zolo Coliving.",
+      "meta": "Searching for a PG in Bangalore? 159+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,510/mo."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/single-room-for-rent-in-chennai",
+      "title": "Single Rooms in Chennai? Upgrade to Zolo Coliving.",
+      "h1": "Don’t Just Rent Single Rooms in Chennai. Upgrade to Zolo Coliving.",
+      "meta": "Skip the average Single Rooms in Chennai. Choose professionally managed coliving instead. Fully furnished - all amenities included. Click, book, and go!"
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/hostels-in-bangalore",
+      "title": "Looking for Hostels in Bangalore? Upgrade to Zolo Coliving.",
+      "h1": "Skip the Crowded Hostels in Bangalore. Upgrade to Premium Zolo Coliving.",
+      "meta": "Tired of searching for Hostels in Bangalore? Switch to professionally managed coliving. Fully furnished - all amenities included. Click, book, and go!"
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/pgs-in-coimbatore",
+      "title": "PG in Coimbatore? Upgrade to Zolo Managed Coliving.",
+      "h1": "Ditch the Traditional PGs in Coimbatore. Step Up to Zolo Coliving.",
+      "meta": "Searching for a PG in Coimbatore? 25+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 3,569/mo."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/pgs-in-chennai",
+      "title": "PG in Chennai? Upgrade to Zolo Managed Coliving.",
+      "h1": "Ditch the Traditional PGs in Chennai. Step Up to Zolo Coliving.",
+      "meta": "Searching for a PG in Chennai? 74+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 4,720/mo."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/pgs-in-delhi",
+      "title": "PGs in Delhi? Upgrade to Zolo Managed Coliving.",
+      "h1": "Ditch the Traditional PGs in Delhi. Step Up to Zolo Coliving.",
+      "meta": "Searching for a PG in Delhi? Zolostays offers what PGs don&#x27;t — professional management, furnished rooms, zero brokerage. From Rs. 6,407/mo."
+    },
+    {
+      "competitor": "zolostays.com",
+      "url": "https://zolostays.com/single-room-for-rent-in-delhi",
+      "title": "Single Rooms for rent in Delhi without Brokerage starts at ₹4000 | Zolo",
+      "h1": "Single Room on Rent in Delhi",
+      "meta": "50+ One Room set (1Rk Flat) for Rent in Delhi - Zolo Offers Furnished Single Room on Rent in Delhi with ✓Food ✓Wifi ✓TV ✓CCTV ✓House Keeping, etc for Students and Professionals."
     },
     {
       "competitor": "zolostays.com",
@@ -2887,81 +2760,111 @@
     },
     {
       "competitor": "zolostays.com",
-      "url": "https://zolostays.com/hostels-in-mumbai",
-      "title": "Best Hostels in Mumbai - Book 20+ Mumbai Hostels for Boys &amp; Girls at Zolo",
-      "h1": "Best Hostels in Mumbai for Boys &amp; Girls",
-      "meta": "Discover the best hostels in Mumbai for students and working professionals at Zolo. Explore 20+ properties with food, Wi-Fi, TV, CCTV, housekeeping, and no brokerage. Book hassle-f"
+      "url": "https://zolostays.com/pgs-in-hyderabad",
+      "title": "PG in Hyderabad? Upgrade to Zolo Managed Coliving.",
+      "h1": "Ditch the Traditional PGs in Hyderabad. Step Up to Zolo Coliving.",
+      "meta": "Searching for a PG in Hyderabad? 22+ Zolostays properties offer what PGs don&#x27;t — professional GRO, furnished rooms, zero brokerage. From Rs. 5,346/mo."
     }
   ],
   "content_gaps_gemini": [
     {
       "query": "student hostel in indore",
-      "avg_position": 9.5,
-      "impressions": 340,
-      "clicks": 1,
+      "avg_position": 8.5,
+      "impressions": 509,
+      "clicks": 4,
       "volume": null,
       "difficulty": null,
-      "priority": 3905.4,
+      "priority": 6427.1,
       "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
     },
     {
-      "query": "pg near medicaps university indore",
-      "avg_position": 8.2,
-      "impressions": 160,
-      "clicks": 1,
+      "query": "radiance residency",
+      "avg_position": 6.3,
+      "impressions": 344,
+      "clicks": 2,
       "volume": null,
       "difficulty": null,
-      "priority": 2062.2,
+      "priority": 5086.6,
+      "landing_page": "https://radianceresidency.com/"
+    },
+    {
+      "query": "hostel packing list for girl students in india",
+      "avg_position": 6.2,
+      "impressions": 310,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 4590.9,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "pg near medicaps university indore",
+      "avg_position": 9.2,
+      "impressions": 229,
+      "clicks": 5,
+      "volume": null,
+      "difficulty": null,
+      "priority": 2763.2,
       "landing_page": "https://radianceresidency.com/"
     },
     {
       "query": "pg near ips academy indore",
-      "avg_position": 7.2,
-      "impressions": 114,
+      "avg_position": 7.6,
+      "impressions": 167,
       "clicks": 2,
       "volume": null,
       "difficulty": null,
-      "priority": 1595.9,
-      "landing_page": "https://radianceresidency.com/hostel-near-ips-academy.html"
-    },
-    {
-      "query": "hostel near ips academy indore",
-      "avg_position": 10.0,
-      "impressions": 97,
-      "clicks": 0,
-      "volume": null,
-      "difficulty": null,
-      "priority": 1068.8,
+      "priority": 2270.5,
       "landing_page": "https://radianceresidency.com/hostel-near-ips-academy.html"
     },
     {
       "query": "hostel packing list for students",
-      "avg_position": 13.8,
-      "impressions": 147,
+      "avg_position": 13.4,
+      "impressions": 222,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 1063.0,
+      "priority": 1677.0,
       "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
     },
     {
-      "query": "best hostel in indore for students",
-      "avg_position": 8.8,
-      "impressions": 82,
-      "clicks": 4,
-      "volume": null,
-      "difficulty": null,
-      "priority": 1049.4,
-      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
-    },
-    {
-      "query": "medi caps university hostel",
-      "avg_position": 9.9,
-      "impressions": 92,
+      "query": "hostel near ips academy indore",
+      "avg_position": 11.4,
+      "impressions": 149,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 1024.8,
+      "priority": 1430.0,
+      "landing_page": "https://radianceresidency.com/hostel-near-ips-academy.html"
+    },
+    {
+      "query": "best hostel in indore for students",
+      "avg_position": 9.3,
+      "impressions": 114,
+      "clicks": 4,
+      "volume": null,
+      "difficulty": null,
+      "priority": 1380.3,
+      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+    },
+    {
+      "query": "checklist for hostel students",
+      "avg_position": 15.2,
+      "impressions": 220,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 1285.7,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
+    },
+    {
+      "query": "medi caps university hostel",
+      "avg_position": 10.6,
+      "impressions": 122,
+      "clicks": 0,
+      "volume": null,
+      "difficulty": null,
+      "priority": 1264.3,
       "landing_page": "https://radianceresidency.com/"
     },
     {
@@ -2975,98 +2878,68 @@
       "landing_page": "http://radianceresidency.com/"
     },
     {
-      "query": "checklist for hostel students",
-      "avg_position": 15.3,
-      "impressions": 140,
-      "clicks": 0,
-      "volume": null,
-      "difficulty": null,
-      "priority": 799.4,
-      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
-    },
-    {
       "query": "student area in indore",
-      "avg_position": 7.4,
-      "impressions": 41,
+      "avg_position": 7.7,
+      "impressions": 68,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 556.2,
+      "priority": 906.7,
       "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
     },
     {
-      "query": "best hostels in indore",
-      "avg_position": 11.1,
-      "impressions": 48,
+      "query": "hostel packing list",
+      "avg_position": 8.0,
+      "impressions": 61,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 476.0,
-      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
+      "priority": 792.2,
+      "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
     },
     {
       "query": "indore student area",
-      "avg_position": 8.1,
-      "impressions": 34,
+      "avg_position": 8.3,
+      "impressions": 59,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 439.6,
+      "priority": 748.5,
       "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
     },
     {
-      "query": "student accommodation indore",
-      "avg_position": 9.1,
-      "impressions": 31,
+      "query": "list of items for hostel students",
+      "avg_position": 12.2,
+      "impressions": 82,
       "clicks": 0,
       "volume": null,
       "difficulty": null,
-      "priority": 368.0,
-      "landing_page": "https://radianceresidency.com/blog/best-hostels-in-indore-for-students"
-    },
-    {
-      "query": "yes",
-      "avg_position": 6.0,
-      "impressions": 22,
-      "clicks": 0,
-      "volume": null,
-      "difficulty": null,
-      "priority": 329.3,
+      "priority": 724.5,
       "landing_page": "https://radianceresidency.com/blog/things-to-pack-for-hostel-life-india"
-    },
-    {
-      "query": "medicaps indore hostel",
-      "avg_position": 6.0,
-      "impressions": 17,
-      "clicks": 0,
-      "volume": null,
-      "difficulty": null,
-      "priority": 255.0,
-      "landing_page": "http://radianceresidency.com/"
     }
   ],
   "lighthouse_runs": [
     {
       "url": "https://radianceresidency.com",
       "device": "desktop",
-      "performance": 90.0,
+      "performance": 92.0,
       "accessibility": 92.0,
       "best_practices": 100.0,
       "seo": 92.0,
-      "lcp_ms": 1646,
-      "cls": 0.047,
-      "as_of": "2026-05-28"
+      "lcp_ms": 1199,
+      "cls": 0.08,
+      "as_of": "2026-06-01"
     },
     {
       "url": "https://radianceresidency.com",
       "device": "mobile",
-      "performance": 59.0,
+      "performance": 62.0,
       "accessibility": 92.0,
       "best_practices": 100.0,
       "seo": 92.0,
-      "lcp_ms": 7332,
-      "cls": 0.132,
-      "as_of": "2026-05-28"
+      "lcp_ms": 9017,
+      "cls": 0.155,
+      "as_of": "2026-06-01"
     }
   ],
   "ai_citations": [
@@ -3075,175 +2948,175 @@
       "query": "paying guest in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "openai",
       "query": "paying guest in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "claude",
       "query": "paying guest in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "gemini",
       "query": "paying guest in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "perplexity_via_or",
       "query": "room for rent in rau",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "openai",
       "query": "room for rent in rau",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "claude",
       "query": "room for rent in rau",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "gemini",
       "query": "room for rent in rau",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "perplexity_via_or",
       "query": "pg near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "openai",
       "query": "pg near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "claude",
       "query": "pg near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "gemini",
       "query": "pg near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "perplexity_via_or",
       "query": "hostel near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "openai",
       "query": "hostel near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "claude",
       "query": "hostel near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "gemini",
       "query": "hostel near ips academy indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
-    },
-    {
-      "engine": "perplexity_via_or",
-      "query": "pg near sd bansal indore",
-      "cited": false,
-      "competitors_named": [],
-      "as_of": "2026-05-28"
-    },
-    {
-      "engine": "openai",
-      "query": "pg near sd bansal indore",
-      "cited": false,
-      "competitors_named": [],
-      "as_of": "2026-05-28"
-    },
-    {
-      "engine": "claude",
-      "query": "pg near sd bansal indore",
-      "cited": false,
-      "competitors_named": [],
-      "as_of": "2026-05-28"
-    },
-    {
-      "engine": "gemini",
-      "query": "pg near sd bansal indore",
-      "cited": false,
-      "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "perplexity_via_or",
       "query": "student hostel in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "openai",
       "query": "student hostel in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "claude",
       "query": "student hostel in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "gemini",
       "query": "student hostel in indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
     },
     {
       "engine": "perplexity_via_or",
-      "query": "girls hostel in indore",
+      "query": "pg near sd bansal indore",
       "cited": false,
       "competitors_named": [],
-      "as_of": "2026-05-28"
+      "as_of": "2026-06-01"
+    },
+    {
+      "engine": "openai",
+      "query": "pg near sd bansal indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-06-01"
+    },
+    {
+      "engine": "claude",
+      "query": "pg near sd bansal indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-06-01"
+    },
+    {
+      "engine": "gemini",
+      "query": "pg near sd bansal indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-06-01"
+    },
+    {
+      "engine": "perplexity_via_or",
+      "query": "boys hostel near iim indore",
+      "cited": false,
+      "competitors_named": [],
+      "as_of": "2026-06-01"
     }
   ],
   "keyword_difficulty": [
@@ -3360,9 +3233,9 @@
       "quick_win": true
     },
     {
-      "query": "medicaps indore hostel",
-      "kd_score": 24,
-      "our_position": 5.57,
+      "query": "hostel items list for boy",
+      "kd_score": 16,
+      "our_position": 11.58,
       "impressions": 25,
       "quick_win": true
     },
@@ -3374,9 +3247,9 @@
       "quick_win": true
     },
     {
-      "query": "hostel items list for boy",
-      "kd_score": 16,
-      "our_position": 11.58,
+      "query": "medicaps indore hostel",
+      "kd_score": 24,
+      "our_position": 5.57,
       "impressions": 25,
       "quick_win": true
     },
@@ -3395,16 +3268,16 @@
       "quick_win": true
     },
     {
-      "query": "medicaps hostel fees",
-      "kd_score": 24,
-      "our_position": 15.33,
+      "query": "pg and hostel difference",
+      "kd_score": 20,
+      "our_position": 8.49,
       "impressions": 19,
       "quick_win": true
     },
     {
-      "query": "pg and hostel difference",
-      "kd_score": 20,
-      "our_position": 8.49,
+      "query": "medicaps hostel fees",
+      "kd_score": 24,
+      "our_position": 15.33,
       "impressions": 19,
       "quick_win": true
     },
@@ -3416,9 +3289,9 @@
       "quick_win": true
     },
     {
-      "query": "hostel in indore for students",
-      "kd_score": 16,
-      "our_position": 8.67,
+      "query": "hostel list for boys",
+      "kd_score": 20,
+      "our_position": 5.16,
       "impressions": 18,
       "quick_win": true
     }
@@ -3431,64 +3304,64 @@
         "keyword": "paying guest in indore",
         "country": null,
         "volume": 2900,
-        "cpc": 0.13,
-        "difficulty": 32,
+        "cpc": 0.11,
+        "difficulty": 22,
         "intent": "local"
       },
       {
         "keyword": "student hostel in indore",
         "country": null,
         "volume": 110,
-        "cpc": 0.18,
-        "difficulty": 23,
-        "intent": "local"
-      },
-      {
-        "keyword": "hostel near ips academy indore",
-        "country": null,
-        "volume": 70,
-        "cpc": 0.14,
-        "difficulty": 34,
+        "cpc": 0.11,
+        "difficulty": 16,
         "intent": "local"
       },
       {
         "keyword": "pg in rau indore",
         "country": null,
         "volume": 70,
-        "cpc": 0.06,
-        "difficulty": 28,
+        "cpc": 0.14,
+        "difficulty": 19,
+        "intent": "local"
+      },
+      {
+        "keyword": "hostel near ips academy indore",
+        "country": null,
+        "volume": 70,
+        "cpc": 0.36,
+        "difficulty": 12,
         "intent": "local"
       },
       {
         "keyword": "pg near ips academy indore",
         "country": null,
         "volume": 50,
-        "cpc": 0.19,
-        "difficulty": 36,
+        "cpc": 0.01,
+        "difficulty": 5,
         "intent": "local"
       },
       {
         "keyword": "hostel in rau indore",
         "country": null,
         "volume": 40,
-        "cpc": 0.08,
-        "difficulty": 31,
+        "cpc": 0.04,
+        "difficulty": 21,
         "intent": "local"
       },
       {
         "keyword": "pg near iim indore",
         "country": null,
         "volume": 20,
-        "cpc": 0.06,
-        "difficulty": 22,
+        "cpc": null,
+        "difficulty": 5,
         "intent": "local"
       },
       {
         "keyword": "room for rent in rau",
         "country": null,
         "volume": 10,
-        "cpc": 0.01,
-        "difficulty": 31,
+        "cpc": 0.11,
+        "difficulty": 27,
         "intent": "local"
       }
     ],

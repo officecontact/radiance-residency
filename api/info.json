@@ -19,7 +19,7 @@
     "priceRange": "₹9,000+/month",
     "currenciesAccepted": "INR",
     "paymentAccepted": "Cash, UPI, Bank Transfer",
-    "openingHours": "Mo-Su 00:00-23:59",
+    "openingHours": "Mo-Su 09:00-22:30",
     "numberOfRooms": 64,
     "starRating": {"@type": "Rating", "ratingValue": 4},
     "address": {
