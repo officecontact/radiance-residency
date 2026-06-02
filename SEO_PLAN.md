@@ -95,6 +95,11 @@
 | `index.html`: preload fixed (`building-night.webp` → `hero-image.jpg`), 4-column grid → `auto-fit` responsive, 3 inline font-size 11px → 12px | 2026-05-19 |
 | `disavow.txt`: 6 new toxic domains added (backlinker.shop, rankpilot.shop, thebacklink.shop, optimizeflow.top, quero.party, pudhe.com) | 2026-05-19 |
 | Sitemap homepage lastmod 2026-05-05 → 2026-05-19 | 2026-05-19 |
+| `index.html`: fixed GSC "Duplicate unique property" rich-results error — removed duplicate `amenityFeature` + `openingHours` keys in Hostel JSON-LD (was invalidating Hotel rich result + 4.9★ rating) | 2026-06-02 |
+| **ROOMS PRICE LIST PUBLISHED** — `rooms.html`: real Session 2026-27 fee structure added (Standard ₹8,999/₹14,999, Superior ₹9,499/₹15,999, Deluxe ₹9,999/₹16,999, Premium Front ₹10,499/₹17,999, Superior AC ₹11,499/₹19,999 = double per-bed / single per-room). Pricing table + 5 room cards + comparison table populated (was "Contact for Pricing"); Product schema → AggregateOffer ₹8,999-₹19,999 with 5 priced offers; new Admission/Charges/Policy section (registration ₹1,000, deposit, electricity ₹12/unit, cooler ₹350/bed, AC add-on, 10-month lock-in) | 2026-06-02 |
+| Standardized wrong ₹8,000 → ₹9,000 across 22 landing-page room cards + 7 landing-page metas/copy (blog generic market ranges left intact) | 2026-06-02 |
+| Synced pricing to `llms.txt`, `llms-full.txt`, `.well-known/ai.txt` (real 5-tier fee structure, replacing "Contact Us") | 2026-06-02 |
+| Sitemap lastmod updated for changed pages | 2026-06-02 |
 
 ---
 

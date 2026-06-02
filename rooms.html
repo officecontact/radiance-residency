@@ -99,49 +99,56 @@
             "https://radianceresidency.com/images/double-occupancy-2.webp",
             "https://radianceresidency.com/images/building-night.webp"
         ],
-        "offers": [
-            {
-                "@type": "Offer",
-                "name": "Standard Room",
-                "price": "8000",
-                "priceCurrency": "INR",
-                "unitText": "month",
-                "availability": "https://schema.org/InStock",
-                "description": "Standard room, double or single occupancy, non-AC with meals, Wi-Fi, and all amenities included."
-            },
-            {
-                "@type": "Offer",
-                "name": "Superior Room",
-                "priceCurrency": "INR",
-                "unitText": "month",
-                "availability": "https://schema.org/InStock",
-                "description": "Superior non-AC room, double or single occupancy, with upgraded furnishings and all amenities included."
-            },
-            {
-                "@type": "Offer",
-                "name": "Superior Room AC",
-                "priceCurrency": "INR",
-                "unitText": "month",
-                "availability": "https://schema.org/InStock",
-                "description": "Air-conditioned Superior room, double or single occupancy, with all amenities included."
-            },
-            {
-                "@type": "Offer",
-                "name": "Deluxe Spacious Room",
-                "priceCurrency": "INR",
-                "unitText": "month",
-                "availability": "https://schema.org/InStock",
-                "description": "Deluxe spacious room with extra floor area, double or single occupancy, all amenities included."
-            },
-            {
-                "@type": "Offer",
-                "name": "Premium Front Room",
-                "priceCurrency": "INR",
-                "unitText": "month",
-                "availability": "https://schema.org/InStock",
-                "description": "Premium front-facing room with the best views, double or single occupancy, all amenities included."
-            }
-        ],
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "INR",
+            "lowPrice": "8999",
+            "highPrice": "19999",
+            "offerCount": "5",
+            "availability": "https://schema.org/InStock",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Room (double, per bed)",
+                    "price": "8999",
+                    "priceCurrency": "INR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Standard room, non-AC. ₹8,999/month per bed (double sharing) or ₹14,999/month single occupancy. Meals, Wi-Fi, and all amenities included."
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Superior Room (double, per bed)",
+                    "price": "9499",
+                    "priceCurrency": "INR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Superior non-AC room with upgraded furnishings. ₹9,499/month per bed (double sharing) or ₹15,999/month single occupancy. All amenities included."
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Deluxe Spacious Room (double, per bed)",
+                    "price": "9999",
+                    "priceCurrency": "INR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Deluxe spacious room with extra floor area. ₹9,999/month per bed (double sharing) or ₹16,999/month single occupancy. All amenities included."
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Premium Front Room (double, per bed)",
+                    "price": "10499",
+                    "priceCurrency": "INR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Premium front-facing room with the best views. ₹10,499/month per bed (double sharing) or ₹17,999/month single occupancy. All amenities included."
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Superior Room AC (double, per bed)",
+                    "price": "11499",
+                    "priceCurrency": "INR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Air-conditioned Superior room. ₹11,499/month per bed (double sharing) or ₹19,999/month single occupancy. AC, meals, and all amenities included."
+                }
+            ]
+        },
         "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -219,50 +226,51 @@
                     <p class="section-subtitle" data-en="Every room comes fully furnished with private bathroom, home-style meals, Wi-Fi, housekeeping, and all amenities included in the monthly fee." data-hi="हर कमरा निजी बाथरूम, घर जैसा खाना, वाई-फाई, हाउसकीपिंग और मासिक शुल्क में शामिल सभी सुविधाओं के साथ पूरी तरह सुसज्जित है।">Every room comes fully furnished with private bathroom, home-style meals, Wi-Fi, housekeeping, and all amenities included in the monthly fee.</p>
                 </div>
 
-                <!-- Monthly Pricing Comparison Table -->
+                <!-- Monthly Pricing Comparison Table — Session 2026-27 -->
                 <div style="max-width: 900px; margin: 40px auto; overflow-x: auto;">
                     <table style="width: 100%; border-collapse: collapse; background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+                        <caption style="caption-side: top; padding: 14px; font-weight: 700; color: #1e3c72; font-size: 1.05rem;">Monthly Fee Structure — Session 2026–27 (all-inclusive)</caption>
                         <thead>
                             <tr style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white;">
                                 <th style="padding: 15px; text-align: left; font-weight: bold; border-right: 1px solid #ddd;">Room Type</th>
                                 <th style="padding: 15px; text-align: center; font-weight: bold; border-right: 1px solid #ddd;">AC</th>
-                                <th style="padding: 15px; text-align: center; font-weight: bold; border-right: 1px solid #ddd;">Occupancy</th>
-                                <th style="padding: 15px; text-align: center; font-weight: bold;">Monthly Rent</th>
+                                <th style="padding: 15px; text-align: center; font-weight: bold; border-right: 1px solid #ddd;">Double <span style="font-weight:400; font-size:12px;">(per bed)</span></th>
+                                <th style="padding: 15px; text-align: center; font-weight: bold;">Single <span style="font-weight:400; font-size:12px;">(per room)</span></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr style="border-bottom: 1px solid #ddd; background: #f9f9f9;">
                                 <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Standard Room</td>
                                 <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">Double / Single</td>
-                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">Contact Us</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd; color: #1e3c72; font-weight: bold;">₹8,999</td>
+                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">₹14,999</td>
                             </tr>
                             <tr style="border-bottom: 1px solid #ddd;">
                                 <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Superior Room</td>
                                 <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">Double / Single</td>
-                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">Contact Us</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd; color: #1e3c72; font-weight: bold;">₹9,499</td>
+                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">₹15,999</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #ddd; background: #f9f9f9;">
+                                <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Deluxe Spacious</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd; color: #1e3c72; font-weight: bold;">₹9,999</td>
+                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">₹16,999</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #ddd;">
+                                <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Premium Front</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd; color: #1e3c72; font-weight: bold;">₹10,499</td>
+                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">₹17,999</td>
                             </tr>
                             <tr style="border-bottom: 1px solid #ddd; background: #f9f9f9;">
                                 <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Superior Room ❄</td>
                                 <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;"><i class="fas fa-snowflake" style="color:#2a5298;"></i> AC</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">Double / Single</td>
-                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">Contact Us</td>
-                            </tr>
-                            <tr style="border-bottom: 1px solid #ddd;">
-                                <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Deluxe Spacious</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">Double / Single</td>
-                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">Contact Us</td>
-                            </tr>
-                            <tr style="border-bottom: 1px solid #ddd; background: #f9f9f9;">
-                                <td style="padding: 15px; font-weight: bold; border-right: 1px solid #ddd;">Premium Front</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">—</td>
-                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd;">Double / Single</td>
-                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">Contact Us</td>
+                                <td style="padding: 15px; text-align: center; border-right: 1px solid #ddd; color: #1e3c72; font-weight: bold;">₹11,499</td>
+                                <td style="padding: 15px; text-align: center; color: #1e3c72; font-weight: bold;">₹19,999</td>
                             </tr>
                             <tr style="background: #e8f5e9;">
-                                <td colspan="4" style="padding: 12px; text-align: center; font-size: 13px; color: #555;"><strong>Starting from ₹9,000/month.</strong> All prices include home-cooked meals, Wi-Fi, utilities, housekeeping, 24/7 security &amp; laundry access.</td>
+                                <td colspan="4" style="padding: 12px; text-align: center; font-size: 13px; color: #555;"><strong>Starting from ₹8,999/month.</strong> All prices include home-cooked meals (2× tea, breakfast, lunch &amp; dinner — no dinner Sunday), Wi-Fi, RO water, daily room cleaning, 24/7 CCTV security &amp; laundry access. <strong>Add AC to any non-AC room:</strong> +₹2,000/bed (double) or +₹4,000/room (single).</td>
                             </tr>
                         </tbody>
                     </table>
@@ -290,7 +298,7 @@
                             <div class="room-card-divider"></div>
                             <div class="room-card-price">
                                 <span class="room-card-price-label" data-en="Starting from" data-hi="शुरुआत">Starting from</span>
-                                <span class="room-card-price-amount">&#x20B9;9,000</span>
+                                <span class="room-card-price-amount">&#x20B9;8,999</span>
                                 <span class="room-card-price-period" data-en="/month" data-hi="/महीना">/month</span>
                             </div>
                             <p class="room-card-includes" data-en="* Including meals & all amenities" data-hi="* खाना और सभी सुविधाएं शामिल">* Including meals & all amenities</p>
@@ -317,9 +325,11 @@
                             </ul>
                             <div class="room-card-divider"></div>
                             <div class="room-card-price">
-                                <span class="room-card-price-amount" style="font-size:1.3rem;" data-en="Contact for Pricing" data-hi="कीमत के लिए संपर्क करें">Contact for Pricing</span>
+                                <span class="room-card-price-label" data-en="Starting from" data-hi="शुरुआत">Starting from</span>
+                                <span class="room-card-price-amount">&#x20B9;9,499</span>
+                                <span class="room-card-price-period" data-en="/month" data-hi="/महीना">/month</span>
                             </div>
-                            <p class="room-card-includes" data-en="* Including meals & all amenities" data-hi="* खाना और सभी सुविधाएं शामिल">* Including meals & all amenities</p>
+                            <p class="room-card-includes" data-en="* Per bed (double) · Single ₹15,999 · meals & all amenities" data-hi="* प्रति बेड (डबल) · सिंगल ₹15,999 · खाना और सभी सुविधाएं">* Per bed (double) · Single ₹15,999 · meals & all amenities</p>
                             <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20the%20Superior%20Room%20at%20Radiance%20Residency.%20Please%20share%20details%20and%20pricing." class="room-card-cta room-card-cta-primary" data-en="<i class='fab fa-whatsapp'></i> Enquire Now" data-hi="<i class='fab fa-whatsapp'></i> अभी पूछें"><i class="fab fa-whatsapp"></i> Enquire Now</a>
                         </div>
                     </div>
@@ -343,9 +353,11 @@
                             </ul>
                             <div class="room-card-divider"></div>
                             <div class="room-card-price">
-                                <span class="room-card-price-amount" style="font-size:1.3rem;" data-en="Contact for Pricing" data-hi="कीमत के लिए संपर्क करें">Contact for Pricing</span>
+                                <span class="room-card-price-label" data-en="Starting from" data-hi="शुरुआत">Starting from</span>
+                                <span class="room-card-price-amount">&#x20B9;11,499</span>
+                                <span class="room-card-price-period" data-en="/month" data-hi="/महीना">/month</span>
                             </div>
-                            <p class="room-card-includes" data-en="* Including meals & all amenities" data-hi="* खाना और सभी सुविधाएं शामिल">* Including meals & all amenities</p>
+                            <p class="room-card-includes" data-en="* Per bed (double) · Single ₹19,999 · AC, meals & all amenities" data-hi="* प्रति बेड (डबल) · सिंगल ₹19,999 · एसी, खाना व सभी सुविधाएं">* Per bed (double) · Single ₹19,999 · AC, meals & all amenities</p>
                             <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20the%20Superior%20AC%20Room%20at%20Radiance%20Residency.%20Please%20share%20details%20and%20pricing." class="room-card-cta room-card-cta-primary" data-en="<i class='fab fa-whatsapp'></i> Enquire Now" data-hi="<i class='fab fa-whatsapp'></i> अभी पूछें"><i class="fab fa-whatsapp"></i> Enquire Now</a>
                         </div>
                     </div>
@@ -368,9 +380,11 @@
                             </ul>
                             <div class="room-card-divider"></div>
                             <div class="room-card-price">
-                                <span class="room-card-price-amount" style="font-size:1.3rem;" data-en="Contact for Pricing" data-hi="कीमत के लिए संपर्क करें">Contact for Pricing</span>
+                                <span class="room-card-price-label" data-en="Starting from" data-hi="शुरुआत">Starting from</span>
+                                <span class="room-card-price-amount">&#x20B9;9,999</span>
+                                <span class="room-card-price-period" data-en="/month" data-hi="/महीना">/month</span>
                             </div>
-                            <p class="room-card-includes" data-en="* Including meals & all amenities" data-hi="* खाना और सभी सुविधाएं शामिल">* Including meals & all amenities</p>
+                            <p class="room-card-includes" data-en="* Per bed (double) · Single ₹16,999 · meals & all amenities" data-hi="* प्रति बेड (डबल) · सिंगल ₹16,999 · खाना और सभी सुविधाएं">* Per bed (double) · Single ₹16,999 · meals & all amenities</p>
                             <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20the%20Deluxe%20Spacious%20Room%20at%20Radiance%20Residency.%20Please%20share%20details%20and%20pricing." class="room-card-cta room-card-cta-outline" data-en="<i class='fab fa-whatsapp'></i> Enquire Now" data-hi="<i class='fab fa-whatsapp'></i> अभी पूछें"><i class="fab fa-whatsapp"></i> Enquire Now</a>
                         </div>
                     </div>
@@ -394,9 +408,11 @@
                             </ul>
                             <div class="room-card-divider"></div>
                             <div class="room-card-price">
-                                <span class="room-card-price-amount" style="font-size:1.3rem;" data-en="Contact for Pricing" data-hi="कीमत के लिए संपर्क करें">Contact for Pricing</span>
+                                <span class="room-card-price-label" data-en="Starting from" data-hi="शुरुआत">Starting from</span>
+                                <span class="room-card-price-amount">&#x20B9;10,499</span>
+                                <span class="room-card-price-period" data-en="/month" data-hi="/महीना">/month</span>
                             </div>
-                            <p class="room-card-includes" data-en="* Including meals & all amenities" data-hi="* खाना और सभी सुविधाएं शामिल">* Including meals & all amenities</p>
+                            <p class="room-card-includes" data-en="* Per bed (double) · Single ₹17,999 · meals & all amenities" data-hi="* प्रति बेड (डबल) · सिंगल ₹17,999 · खाना और सभी सुविधाएं">* Per bed (double) · Single ₹17,999 · meals & all amenities</p>
                             <a href="https://wa.me/918770445161?text=Hi%2C%20I%20am%20interested%20in%20the%20Premium%20Front%20Room%20at%20Radiance%20Residency.%20Please%20share%20details%20and%20pricing." class="room-card-cta room-card-cta-outline" data-en="<i class='fab fa-whatsapp'></i> Enquire Now" data-hi="<i class='fab fa-whatsapp'></i> अभी पूछें"><i class="fab fa-whatsapp"></i> Enquire Now</a>
                         </div>
                     </div>
@@ -525,12 +541,20 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td data-en="Monthly Fee" data-hi="मासिक शुल्क">Monthly Fee</td>
-                                <td style="color:#c9a84c;font-weight:700;" data-en="From ₹9,000" data-hi="₹9,000 से">From ₹9,000</td>
-                                <td class="highlight-col" data-en="Contact" data-hi="संपर्क">Contact</td>
-                                <td data-en="Contact" data-hi="संपर्क">Contact</td>
-                                <td data-en="Contact" data-hi="संपर्क">Contact</td>
-                                <td data-en="Contact" data-hi="संपर्क">Contact</td>
+                                <td data-en="Monthly Fee (double, per bed)" data-hi="मासिक शुल्क (डबल, प्रति बेड)">Monthly Fee (double, per bed)</td>
+                                <td style="color:#c9a84c;font-weight:700;">₹8,999</td>
+                                <td class="highlight-col" style="font-weight:700;">₹9,499</td>
+                                <td style="font-weight:700;">₹11,499</td>
+                                <td style="font-weight:700;">₹9,999</td>
+                                <td style="font-weight:700;">₹10,499</td>
+                            </tr>
+                            <tr>
+                                <td data-en="Single Occupancy (per room)" data-hi="सिंगल ऑक्यूपेंसी (प्रति कमरा)">Single Occupancy (per room)</td>
+                                <td>₹14,999</td>
+                                <td class="highlight-col">₹15,999</td>
+                                <td>₹19,999</td>
+                                <td>₹16,999</td>
+                                <td>₹17,999</td>
                             </tr>
                             <tr>
                                 <td data-en="Occupancy" data-hi="ऑक्यूपेंसी">Occupancy</td>
@@ -622,6 +646,56 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== ADMISSION, CHARGES & POLICY ======================== -->
+        <section class="section" id="admission-charges" aria-label="Admission, additional charges and payment policy">
+            <div class="container">
+                <div style="text-align:center;">
+                    <span class="section-label" data-en="Transparent Pricing" data-hi="पारदर्शी मूल्य">Transparent Pricing</span>
+                    <h2 class="section-title" data-en="Admission, Charges &amp; <span>Policy</span>" data-hi="प्रवेश, शुल्क और <span>नीति</span>">Admission, Charges &amp; <span>Policy</span></h2>
+                    <p class="section-subtitle" data-en="No hidden surprises. Here is exactly what you pay to confirm a room and what falls outside the monthly rent." data-hi="कोई छिपा शुल्क नहीं। कमरा कन्फर्म करने के लिए आप वास्तव में क्या भुगतान करते हैं और मासिक किराए से बाहर क्या है।">No hidden surprises. Here is exactly what you pay to confirm a room and what falls outside the monthly rent.</p>
+                </div>
+
+                <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; max-width:1000px; margin:36px auto 0;">
+
+                    <!-- Admission Payment -->
+                    <div style="background:#fff; border:1px solid #e3e8f0; border-top:4px solid #2a5298; border-radius:12px; padding:24px; box-shadow:0 4px 18px rgba(30,60,114,.06);">
+                        <h3 style="color:#1e3c72; font-size:1.15rem; margin:0 0 14px; display:flex; align-items:center; gap:10px;"><i class="fas fa-file-signature" style="color:#2a5298;"></i> To Confirm Admission</h3>
+                        <ul style="list-style:none; padding:0; margin:0; color:#444; font-size:.95rem; line-height:1.9;">
+                            <li><i class="fas fa-check check" style="color:#2a5298;"></i> <strong>Registration Fee:</strong> ₹1,000 (non-refundable)</li>
+                            <li><i class="fas fa-check check" style="color:#2a5298;"></i> <strong>Security Deposit:</strong> 1 month's rent (refundable per policy)</li>
+                            <li><i class="fas fa-check check" style="color:#2a5298;"></i> <strong>First Month's Rent:</strong> in advance</li>
+                        </ul>
+                        <p style="margin:14px 0 0; padding:10px 12px; background:#e8f5e9; border-radius:8px; font-size:.88rem; color:#1b5e20;"><strong>Confirmation = Registration + Deposit + 1st Month Rent.</strong></p>
+                        <p style="margin:12px 0 0; font-size:.85rem; color:#666;"><strong>Documents:</strong> Student Aadhaar, Parent Aadhaar, University ID / admission proof, 2 passport photos.</p>
+                    </div>
+
+                    <!-- Additional Charges -->
+                    <div style="background:#fff; border:1px solid #e3e8f0; border-top:4px solid #c9a84c; border-radius:12px; padding:24px; box-shadow:0 4px 18px rgba(30,60,114,.06);">
+                        <h3 style="color:#1e3c72; font-size:1.15rem; margin:0 0 14px; display:flex; align-items:center; gap:10px;"><i class="fas fa-bolt" style="color:#c9a84c;"></i> Charges Beyond Rent</h3>
+                        <ul style="list-style:none; padding:0; margin:0; color:#444; font-size:.95rem; line-height:1.9;">
+                            <li><i class="fas fa-plug" style="color:#c9a84c;"></i> <strong>Electricity:</strong> ₹12 per unit (sub-meter basis)</li>
+                            <li><i class="fas fa-wind" style="color:#c9a84c;"></i> <strong>Cooler:</strong> ₹350 per bed</li>
+                            <li><i class="fas fa-snowflake" style="color:#c9a84c;"></i> <strong>Add AC to a non-AC room:</strong> +₹2,000/bed (double) or +₹4,000/room (single)</li>
+                        </ul>
+                        <p style="margin:14px 0 0; font-size:.85rem; color:#666;">AC charges are already included in the Superior Room (AC) tariff. Meals, Wi-Fi, RO water, housekeeping, laundry &amp; security are included in every room's rent.</p>
+                    </div>
+
+                    <!-- Payment Policy -->
+                    <div style="background:#fff; border:1px solid #e3e8f0; border-top:4px solid #1e3c72; border-radius:12px; padding:24px; box-shadow:0 4px 18px rgba(30,60,114,.06);">
+                        <h3 style="color:#1e3c72; font-size:1.15rem; margin:0 0 14px; display:flex; align-items:center; gap:10px;"><i class="fas fa-calendar-check" style="color:#1e3c72;"></i> Payment &amp; Stay Policy</h3>
+                        <ul style="list-style:none; padding:0; margin:0; color:#444; font-size:.95rem; line-height:1.9;">
+                            <li><i class="fas fa-calendar-day" style="color:#1e3c72;"></i> <strong>Rent dates:</strong> 1st–3rd or 15th–18th monthly</li>
+                            <li><i class="fas fa-clock" style="color:#1e3c72;"></i> <strong>Late fee:</strong> ₹100 per day</li>
+                            <li><i class="fas fa-lock" style="color:#1e3c72;"></i> <strong>Lock-in:</strong> minimum 10 months</li>
+                            <li><i class="fas fa-shield-alt" style="color:#1e3c72;"></i> <strong>Deposit refund:</strong> after completing 10 months</li>
+                        </ul>
+                        <p style="margin:14px 0 0; font-size:.85rem; color:#666;">Boys-only hostel. Room allotment is subject to management approval. See full <a href="rules-regulations" style="color:#2a5298; font-weight:600;">Rules &amp; Regulations</a>.</p>
+                    </div>
+
                 </div>
             </div>
         </section>
