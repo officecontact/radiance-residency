@@ -42,6 +42,7 @@
 
 | What | When |
 |---|---|
+| OLX listing posted (PG & Guest Houses, Rau/Indore) → olx.in/item/1845225469; added to sameAs cluster (11 files) + deployed + IndexNow | 2026-06-02 |
 | 18 page titles shortened to ≤55 chars | 2026-04-16 |
 | AggregateRating schema (4.9 stars, 112 reviews) + LocalBusiness geo coords | 2026-04-16 |
 | 4 high-intent landing pages (testimonials, PG guide, rooms CTA, amenities) | 2026-04-16 |

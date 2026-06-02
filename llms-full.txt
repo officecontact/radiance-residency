@@ -18,6 +18,7 @@
   - Google Maps (official listing): https://www.google.com/maps?cid=15888062618274913960
   - OpenStreetMap: https://www.openstreetmap.org/node/13900447300
   - Trustpilot: https://www.trustpilot.com/review/radianceresidency.com
+  - OLX: https://www.olx.in/item/1845225469
 
 ## Business Identity
 - Business Name: Radiance Residency
