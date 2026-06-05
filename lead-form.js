@@ -1,8 +1,10 @@
 /* =====================================================================
    Radiance Residency — Lead capture widget
    Self-contained, no dependencies. Auto-inits every form.js-lead-form.
-   Delivery: (1) emails the lead via FormSubmit, (2) opens a pre-filled
-   WhatsApp chat so the student can talk instantly. Works on any page.
+   Delivery: (1) emails the lead via Web3Forms (when a key is set),
+   (2) opens a pre-filled WhatsApp chat for instant contact, and
+   (3) fires a GA4 `generate_lead` event so enquiries are measurable.
+   Works on any page.
    ===================================================================== */
 (function () {
     'use strict';
@@ -16,6 +18,21 @@
     function val(form, name) {
         var el = form.querySelector('[name="' + name + '"]');
         return el ? String(el.value || '').trim() : '';
+    }
+
+    function track(eventName, d) {
+        // Report the lead to GA4 so enquiries become visible + markable as
+        // key events. Safe no-op if gtag isn't loaded yet.
+        try {
+            if (typeof window.gtag === 'function') {
+                window.gtag('event', eventName, {
+                    college: d.college || '',
+                    room_type: d.room || '',
+                    enquiry_page: d.page || '',
+                    value: 1
+                });
+            }
+        } catch (e) {}
     }
 
     function openWhatsApp(d) {
@@ -76,6 +93,10 @@
 
             var btn = form.querySelector('button[type="submit"]');
             if (btn) { btn.disabled = true; btn.innerHTML = '<i class="fas fa-spinner fa-spin" aria-hidden="true"></i> <span>Sending...</span>'; }
+
+            // Record the lead in GA4 (visible as the `generate_lead` event —
+            // mark it as a Key Event in GA4 to count enquiries as conversions).
+            track('generate_lead', d);
 
             // Fire email (best-effort) and ALWAYS open WhatsApp for instant contact.
             emailLead(d)["catch"](function () {}).then(function () { showSuccess(form); });
