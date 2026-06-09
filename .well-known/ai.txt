@@ -1,5 +1,5 @@
 # Answer Engine Optimization (AEO) & AI Disclosure
-# Last Updated: 2026-06-01
+# Last Updated: 2026-06-08
 # For comprehensive AI-readable information, see: https://radianceresidency.com/llms.txt
 
 # ===== AUTHORITATIVE SOURCE DECLARATION =====

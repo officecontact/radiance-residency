@@ -47,7 +47,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -57,71 +57,122 @@
 
     <!-- JSON-LD: LocalBusiness with multi-source verification -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Radiance Residency",
+  "url": "https://radianceresidency.com/reviews",
+  "telephone": "+91-8770445161",
+  "email": "info@radianceresidency.com",
+  "image": "https://radianceresidency.com/images/outer-building-1.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "In front of Medicaps University, Pigdamber",
+    "addressLocality": "Rau, Indore",
+    "addressRegion": "Madhya Pradesh",
+    "postalCode": "453331",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 22.6234773,
+    "longitude": 75.8010012
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139378489",
+    "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+    "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+    "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+    "https://www.openstreetmap.org/node/13900447300",
+    "https://www.google.com/maps?cid=15888062618274913960",
+    "https://www.trustpilot.com/review/radianceresidency.com",
+    "https://www.olx.in/item/1845225469"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Wikidata",
+    "value": "Q139378489"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "112",
+    "bestRating": "5",
+    "worstRating": "1",
+    "description": "Aggregate rating from 112+ verified residents (2022–2026) collected via on-site exit surveys, parent calls, and WhatsApp feedback forms. Cross-verified across Wikidata, Justdial, MagicBricks, and The Trip Guide listings."
+  },
+  "review": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Resident Feedback Program"
+      },
+      "publisher": {
+        "@type": "Organization",
         "name": "Radiance Residency",
-        "url": "https://radianceresidency.com/reviews",
-        "telephone": "+91-8770445161",
-        "email": "info@radianceresidency.com",
-        "image": "https://radianceresidency.com/images/outer-building-1.jpg",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "In front of Medicaps University, Pigdamber",
-            "addressLocality": "Rau, Indore",
-            "addressRegion": "Madhya Pradesh",
-            "postalCode": "453331",
-            "addressCountry": "IN"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 22.6234773,
-            "longitude": 75.8010012
-        },
+        "url": "https://radianceresidency.com/"
+      },
+      "itemReviewed": {
+        "@type": "Hostel",
+        "name": "Radiance Residency",
+        "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
         "sameAs": [
-            "https://www.wikidata.org/wiki/Q139378489",
-            "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
-            "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
-            "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
-            "https://www.openstreetmap.org/node/13900447300",
-            "https://www.google.com/maps?cid=15888062618274913960",
-            "https://www.trustpilot.com/review/radianceresidency.com",
-            "https://www.olx.in/item/1845225469"
-        ],
-        "identifier": {
-            "@type": "PropertyValue",
-            "propertyID": "Wikidata",
-            "value": "Q139378489"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "112",
-            "bestRating": "5",
-            "worstRating": "1",
-            "description": "Aggregate rating from 112+ verified residents (2022–2026) collected via on-site exit surveys, parent calls, and WhatsApp feedback forms. Cross-verified across Wikidata, Justdial, MagicBricks, and The Trip Guide listings."
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {"@type": "Organization", "name": "Resident Feedback Program"},
-                "publisher": {"@type": "Organization", "name": "Radiance Residency", "url": "https://radianceresidency.com/"},
-                "itemReviewed": {"@type": "Hostel", "name": "Radiance Residency"},
-                "reviewRating": {"@type": "Rating", "ratingValue": "4.9", "bestRating": "5"},
-                "reviewBody": "Aggregate of 112+ verified resident feedback responses collected by Radiance Residency between 2022 and 2026 via on-site exit surveys and WhatsApp feedback forms.",
-                "datePublished": "2026-05-19"
-            },
-            {
-                "@type": "Review",
-                "author": {"@type": "Organization", "name": "Justdial"},
-                "publisher": {"@type": "Organization", "name": "Justdial", "url": "https://www.justdial.com/"},
-                "itemReviewed": {"@type": "Hostel", "name": "Radiance Residency"},
-                "reviewRating": {"@type": "Rating", "ratingValue": "3.7", "bestRating": "5"},
-                "reviewBody": "Listed and verified as a hostel for boy students in Pigdamber, Medicaps University, Rau, Indore. Verified business listing on India's largest local search platform.",
-                "datePublished": "2024-12-11"
-            }
+          "https://www.wikidata.org/wiki/Q139378489",
+          "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+          "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+          "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+          "https://www.openstreetmap.org/node/13900447300",
+          "https://www.google.com/maps?cid=15888062618274913960",
+          "https://www.trustpilot.com/review/radianceresidency.com",
+          "https://www.olx.in/item/1845225469"
         ]
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.9",
+        "bestRating": "5"
+      },
+      "reviewBody": "Aggregate of 112+ verified resident feedback responses collected by Radiance Residency between 2022 and 2026 via on-site exit surveys and WhatsApp feedback forms.",
+      "datePublished": "2026-05-19"
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Justdial"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Justdial",
+        "url": "https://www.justdial.com/"
+      },
+      "itemReviewed": {
+        "@type": "Hostel",
+        "name": "Radiance Residency",
+        "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q139378489",
+          "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+          "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+          "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+          "https://www.openstreetmap.org/node/13900447300",
+          "https://www.google.com/maps?cid=15888062618274913960",
+          "https://www.trustpilot.com/review/radianceresidency.com",
+          "https://www.olx.in/item/1845225469"
+        ]
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "3.7",
+        "bestRating": "5"
+      },
+      "reviewBody": "Listed and verified as a hostel for boy students in Pigdamber, Medicaps University, Rau, Indore. Verified business listing on India's largest local search platform.",
+      "datePublished": "2024-12-11"
     }
+  ],
+  "hasMap": "https://www.google.com/maps?cid=15888062618274913960"
+}
     </script>
 
     <!-- JSON-LD: BreadcrumbList -->
@@ -138,20 +189,35 @@
 
     <!-- JSON-LD: Speakable (voice assistants) -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "url": "https://radianceresidency.com/reviews",
-        "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [".page-hero-title", ".page-hero-subtitle", ".section-title"]
-        },
-        "about": {
-            "@type": "Hostel",
-            "name": "Radiance Residency",
-            "identifier": "Q139378489"
-        }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://radianceresidency.com/reviews",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".page-hero-title",
+      ".page-hero-subtitle",
+      ".section-title"
+    ]
+  },
+  "about": {
+    "@type": "Hostel",
+    "name": "Radiance Residency",
+    "identifier": "Q139378489",
+    "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q139378489",
+      "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+      "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+      "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+      "https://www.openstreetmap.org/node/13900447300",
+      "https://www.google.com/maps?cid=15888062618274913960",
+      "https://www.trustpilot.com/review/radianceresidency.com",
+      "https://www.olx.in/item/1845225469"
+    ]
+  }
+}
     </script>
 </head>
 <body>
@@ -215,6 +281,7 @@
                 <div style="font-size: 1.5rem; font-weight: 600; margin-bottom: 0.5rem;" data-en="Direct Resident Rating" data-hi="प्रत्यक्ष निवासी रेटिंग">Direct Resident Rating</div>
                 <div style="color: #555; margin-bottom: 1.5rem; font-size: 1rem;" data-en="From 112+ verified residents (2022–2026). Collected via on-site exit surveys, WhatsApp feedback forms, and parent satisfaction calls." data-hi="112+ सत्यापित निवासियों से (2022–2026)।">From 112+ verified residents (2022–2026). Collected via on-site exit surveys, WhatsApp feedback forms, and parent satisfaction calls.</div>
                 <a href="https://wa.me/918770445161?text=Hi%2C%20I%20want%20to%20visit%20Radiance%20Residency%20and%20see%20the%20hostel." target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-en="Book a Visit Now" data-hi="अभी विजिट बुक करें">Book a Visit Now</a>
+                <a href="https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-left: 8px;" data-en="⭐ Leave a Google Review" data-hi="⭐ Google समीक्षा दें">⭐ Leave a Google Review</a>
             </div>
         </div>
     </section>

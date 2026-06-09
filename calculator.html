@@ -33,7 +33,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/style.min.css">
 
@@ -62,28 +62,36 @@
 
     <!-- JSON-LD: SoftwareApplication (the tool itself) + about Hostel -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Radiance Residency Hostel Cost Calculator",
-        "url": "https://radianceresidency.com/calculator",
-        "applicationCategory": "FinanceApplication",
-        "operatingSystem": "Web",
-        "browserRequirements": "Modern web browser with JavaScript",
-        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-        "description": "Interactive calculator to estimate hostel cost at Radiance Residency boys hostel near Medicaps University, Rau, Indore. Pick room category, occupancy, and duration for an instant estimate.",
-        "inLanguage": ["en", "hi"],
-        "about": {
-            "@type": "Hostel",
-            "name": "Radiance Residency",
-            "identifier": "Q139378489",
-            "sameAs": "https://www.wikidata.org/wiki/Q139378489"
-        },
-        "audience": {
-            "@type": "Audience",
-            "audienceType": "Students, parents, working professionals, interns looking for hostel/PG accommodation in Rau, Indore"
-        }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Radiance Residency Hostel Cost Calculator",
+  "url": "https://radianceresidency.com/calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "browserRequirements": "Modern web browser with JavaScript",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "description": "Interactive calculator to estimate hostel cost at Radiance Residency boys hostel near Medicaps University, Rau, Indore. Pick room category, occupancy, and duration for an instant estimate.",
+  "inLanguage": [
+    "en",
+    "hi"
+  ],
+  "about": {
+    "@type": "Hostel",
+    "name": "Radiance Residency",
+    "identifier": "Q139378489",
+    "sameAs": "https://www.wikidata.org/wiki/Q139378489",
+    "hasMap": "https://www.google.com/maps?cid=15888062618274913960"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Students, parents, working professionals, interns looking for hostel/PG accommodation in Rau, Indore"
+  }
+}
     </script>
 
     <!-- JSON-LD: BreadcrumbList -->

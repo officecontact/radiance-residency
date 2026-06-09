@@ -1746,6 +1746,11 @@
   ],
   "gsc_index_issues": [
     {
+      "url": "https://www.radianceresidency.com/",
+      "verdict": "NEUTRAL",
+      "coverage": "Page with redirect"
+    },
+    {
       "url": "https://radianceresidency.com/hostel-near-ips-academy.html",
       "verdict": "NEUTRAL",
       "coverage": "Page with redirect"
@@ -1756,107 +1761,103 @@
       "coverage": "Page with redirect"
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-ips-academy",
+      "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/indore-city-guide-for-students",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/places-to-visit-in-indore-for-students",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/transport-guide-rau-indore-students",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/hostel-packing-list-for-students",
       "verdict": "NEUTRAL",
       "coverage": "URL is unknown to Google"
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-sgsits-indore",
+      "url": "https://radianceresidency.com/rules-regulations",
       "verdict": "NEUTRAL",
       "coverage": "URL is unknown to Google"
     },
     {
-      "url": "https://radianceresidency.com/pg-for-boys-rau-indore",
+      "url": "https://radianceresidency.com/blog/benefits-of-living-in-hostel-vs-home",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/homesickness-tips-for-hostel-students",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/medicaps-university-review-admission-placement",
       "verdict": "NEUTRAL",
       "coverage": "URL is unknown to Google"
     },
     {
-      "url": "https://radianceresidency.com/ac-hostel-in-rau-indore",
+      "url": "http://radianceresidency.com/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
+      "coverage": "Page with redirect"
     },
     {
-      "url": "https://radianceresidency.com/hostel-near-renaissance-university-indore",
+      "url": "https://radianceresidency.com/blog/best-cafes-near-rau-indore-students",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://radianceresidency.com/blog/tips-for-first-year-engineering-students-indore",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed"
     },
     {
       "url": "https://radianceresidency.com/blog/how-to-choose-best-hostel-in-indore",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
+      "coverage": "Discovered - currently not indexed"
     },
     {
-      "url": "https://radianceresidency.com/hostel-in-pigdamber-rau",
+      "url": "https://radianceresidency.com/blog/best-gyms-near-rau-indore",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
+      "coverage": "Discovered - currently not indexed"
     },
     {
-      "url": "https://radianceresidency.com/blog/hostel-vs-pg-vs-flat-for-students-indore",
+      "url": "https://radianceresidency.com/hostel-budget-guide",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-symbiosis-indore",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-near-lnct-indore",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/best-pg-in-indore-for-students",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
+      "coverage": "Discovered - currently not indexed"
     },
     {
       "url": "https://radianceresidency.com/blog/how-to-prepare-for-college-admission-indore",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/student-testimonials",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/blog/sd-bansal-college-indore-review",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/pg-for-working-professionals-rau-indore",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/blog/indore-street-food-guide-students",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://radianceresidency.com/hostel-with-food-in-rau-indore",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google"
-    },
-    {
-      "url": "https://www.radianceresidency.com/",
-      "verdict": "NEUTRAL",
-      "coverage": "Page with redirect"
+      "coverage": "Discovered - currently not indexed"
     }
   ],
   "gsc_coverage_summary": {
-    "total_checked": 63,
+    "total_checked": 73,
     "last_checked": "2026-06-08",
     "by_verdict": {
-      "NEUTRAL": 57,
-      "PASS": 6
+      "PASS": 41,
+      "NEUTRAL": 32
     },
     "by_state": {
-      "URL is unknown to Google": 53,
-      "Submitted and indexed": 6,
-      "Page with redirect": 4
+      "Submitted and indexed": 41,
+      "Discovered - currently not indexed": 25,
+      "Page with redirect": 4,
+      "URL is unknown to Google": 3
     }
   },
   "serp_feature_changes": [],
@@ -3517,13 +3518,7 @@
       "quick_win": true
     }
   ],
-  "content_stale_pages": [
-    {
-      "url": "https://radianceresidency.com/rooms",
-      "last_crawl": "2026-03-09",
-      "state": "Submitted and indexed"
-    }
-  ],
+  "content_stale_pages": [],
   "intent_split": {
     "commercial": [],
     "informational": [

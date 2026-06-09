@@ -53,7 +53,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -75,36 +75,80 @@
 
     <!-- JSON-LD: Hostel / LocalBusiness -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hostel",
+  "name": "Radiance Residency - Boys Hostel Near Acropolis Institute, Indore",
+  "description": "Premium boys hostel near Acropolis Institute of Technology & Research, Indore. AC & Non-AC rooms from ₹9,000/month with meals, Wi-Fi, and 24/7 security.",
+  "url": "https://radianceresidency.com/hostel-near-acropolis-institute-indore",
+  "telephone": "+91-8770445161",
+  "email": "info@radianceresidency.com",
+  "image": "https://radianceresidency.com/images/outer-building-1.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "In front of Medicaps University, Pigdamber",
+    "addressLocality": "Rau, Indore",
+    "addressRegion": "Madhya Pradesh",
+    "postalCode": "453331",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 22.6234773,
+    "longitude": 75.8010012
+  },
+  "numberOfRooms": 64,
+  "priceRange": "₹9,000+/month",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "112",
+    "bestRating": "5"
+  },
+  "amenityFeature": [
     {
-        "@context": "https://schema.org",
-        "@type": "Hostel",
-        "name": "Radiance Residency - Boys Hostel Near Acropolis Institute, Indore",
-        "description": "Premium boys hostel near Acropolis Institute of Technology & Research, Indore. AC & Non-AC rooms from ₹9,000/month with meals, Wi-Fi, and 24/7 security.",
-        "url": "https://radianceresidency.com/hostel-near-acropolis-institute-indore",
-        "telephone": "+91-8770445161",
-        "email": "info@radianceresidency.com",
-        "image": "https://radianceresidency.com/images/outer-building-1.jpg",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "In front of Medicaps University, Pigdamber",
-            "addressLocality": "Rau, Indore",
-            "addressRegion": "Madhya Pradesh",
-            "postalCode": "453331",
-            "addressCountry": "IN"
-        },
-        "geo": {"@type": "GeoCoordinates", "latitude": 22.6234773, "longitude": 75.8010012},
-        "numberOfRooms": 64,
-        "priceRange": "₹9,000+/month",
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "112", "bestRating": "5"},
-        "amenityFeature": [
-            {"@type": "LocationFeatureSpecification", "name": "Home-Style Meals", "value": true},
-            {"@type": "LocationFeatureSpecification", "name": "High-Speed Wi-Fi", "value": true},
-            {"@type": "LocationFeatureSpecification", "name": "24/7 CCTV Security", "value": true},
-            {"@type": "LocationFeatureSpecification", "name": "Air Conditioning", "value": true},
-            {"@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true},
-            {"@type": "LocationFeatureSpecification", "name": "Power Backup", "value": true}
-        ]
+      "@type": "LocationFeatureSpecification",
+      "name": "Home-Style Meals",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "High-Speed Wi-Fi",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "24/7 CCTV Security",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Air Conditioning",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Daily Housekeeping",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Power Backup",
+      "value": true
     }
+  ],
+  "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139378489",
+    "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+    "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+    "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+    "https://www.openstreetmap.org/node/13900447300",
+    "https://www.google.com/maps?cid=15888062618274913960",
+    "https://www.trustpilot.com/review/radianceresidency.com",
+    "https://www.olx.in/item/1845225469"
+  ]
+}
     </script>
 
     <!-- JSON-LD: FAQPage -->
@@ -386,7 +430,23 @@
                 </div>
                 <div class="footer-links-group"><h3 class="footer-heading" data-en="Quick Links" data-hi="त्वरित लिंक">Quick Links</h3><ul class="footer-links"><li><a href="/" data-en="Home" data-hi="होम">Home</a></li><li><a href="rooms" data-en="Rooms & Pricing" data-hi="कमरे और कीमतें">Rooms & Pricing</a></li><li><a href="amenities" data-en="Amenities" data-hi="सुविधाएं">Amenities</a></li><li><a href="contact" data-en="Contact Us" data-hi="संपर्क करें">Contact Us</a></li></ul></div>
                 <div class="footer-links-group"><h3 class="footer-heading" data-en="Contact Us" data-hi="संपर्क करें">Contact Us</h3><ul class="footer-contact"><li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span data-en="In front of Medicaps University, Pigdamber, Rau, Indore, MP 453331" data-hi="मेडीकैप्स यूनिवर्सिटी के सामने, पिगडंबर, राउ, इंदौर, एमपी 453331">In front of Medicaps University, Pigdamber, Rau, Indore, MP 453331</span></li><li><i class="fas fa-phone" aria-hidden="true"></i><a href="tel:+918770445161">+91-8770445161</a></li><li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:info@radianceresidency.com">info@radianceresidency.com</a></li><li><i class="fab fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/918770445161" target="_blank" rel="noopener noreferrer" data-en="WhatsApp Us" data-hi="व्हाट्सएप करें">WhatsApp Us</a></li></ul></div>
-                <div class="footer-links-group"><h3 class="footer-heading" data-en="Hostels Near" data-hi="के पास हॉस्टल">Hostels Near</h3><ul class="footer-links"><li><a href="hostel-near-medicaps-university" data-en="Hostel Near Medicaps University" data-hi="मेडीकैप्स यूनिवर्सिटी के पास हॉस्टल">Hostel Near Medicaps University</a></li><li><a href="hostel-near-ips-academy" data-en="Hostel Near IPS Academy" data-hi="आईपीएस एकेडमी के पास हॉस्टल">Hostel Near IPS Academy</a></li><li><a href="hostel-near-prestige-institute-indore" data-en="Hostel Near Prestige Institute" data-hi="प्रेस्टीज इंस्टीट्यूट के पास हॉस्टल">Hostel Near Prestige Institute</a></li><li><a href="hostel-near-acropolis-institute-indore" data-en="Hostel Near Acropolis Institute" data-hi="एक्रोपोलिस इंस्टीट्यूट के पास हॉस्टल">Hostel Near Acropolis Institute</a></li><li><a href="hostel-near-sage-university-indore" data-en="Hostel Near SAGE University" data-hi="सेज यूनिवर्सिटी के पास हॉस्टल">Hostel Near SAGE University</a></li></ul></div>
+                <div class="footer-links-group"><h3 class="footer-heading" data-en="Hostels Near" data-hi="के पास हॉस्टल">Hostels Near</h3><ul class="footer-links">
+                        <li><a href="hostel-near-colleges-rau-indore" data-en="All College Hostels" data-hi="सभी कॉलेज हॉस्टल">All College Hostels</a></li>
+                        <li><a href="hostel-near-iit-indore" data-en="Hostel Near IIT Indore" data-hi="आईआईटी इंदौर के पास हॉस्टल">Hostel Near IIT Indore</a></li>
+                        <li><a href="hostel-near-cdgi-indore" data-en="Hostel Near CDGI Indore" data-hi="सीडीजीआई के पास हॉस्टल">Hostel Near CDGI Indore</a></li>
+                        <li><a href="hostel-near-lnct-indore" data-en="Hostel Near LNCT Indore" data-hi="एलएनसीटी के पास हॉस्टल">Hostel Near LNCT Indore</a></li>
+                        <li><a href="hostel-near-mit-indore" data-en="Hostel Near MIT Indore" data-hi="एमआईटी के पास हॉस्टल">Hostel Near MIT Indore</a></li>
+                        <li><a href="hostel-near-nmims-indore" data-en="Hostel Near NMIMS Indore" data-hi="एनएमआईएमएस के पास हॉस्टल">Hostel Near NMIMS Indore</a></li>
+                        <li><a href="hostel-near-renaissance-university-indore" data-en="Hostel Near Renaissance University" data-hi="रेनेसां के पास हॉस्टल">Hostel Near Renaissance University</a></li>
+                        <li><a href="hostel-near-sgsits-indore" data-en="Hostel Near SGSITS Indore" data-hi="एसजीएसआईटीएस के पास हॉस्टल">Hostel Near SGSITS Indore</a></li>
+                        <li><a href="hostel-near-symbiosis-indore" data-en="Hostel Near Symbiosis Indore" data-hi="सिम्बायोसिस के पास हॉस्टल">Hostel Near Symbiosis Indore</a></li>
+                        <li><a href="pg-hostel-in-rau" data-en="PG Hostel in Rau" data-hi="राउ में पीजी हॉस्टल">PG Hostel in Rau</a></li>
+                        <li><a href="hostel-in-pigdamber-rau" data-en="Hostel in Pigdamber, Rau" data-hi="पिगडंबर, राउ में हॉस्टल">Hostel in Pigdamber, Rau</a></li>
+                        <li><a href="hostel-with-food-in-rau-indore" data-en="Hostel with Food in Rau" data-hi="राउ में भोजन सहित हॉस्टल">Hostel with Food in Rau</a></li>
+                        <li><a href="pg-for-working-professionals-rau-indore" data-en="PG for Working Professionals" data-hi="वर्किंग प्रोफेशनल्स के लिए पीजी">PG for Working Professionals</a></li>
+                        <li><a href="summer-internship-housing-indore" data-en="Summer Internship Housing" data-hi="समर इंटर्नशिप आवास">Summer Internship Housing</a></li>
+                        <li><a href="accommodation-near-pithampur-indore" data-en="Accommodation Near Pithampur" data-hi="पीथमपुर के पास आवास">Accommodation Near Pithampur</a></li>
+                        <li><a href="student-hostel-in-indore" data-en="Student Hostel in Indore" data-hi="इंदौर में छात्र हॉस्टल">Student Hostel in Indore</a></li><li><a href="hostel-near-medicaps-university" data-en="Hostel Near Medicaps University" data-hi="मेडीकैप्स यूनिवर्सिटी के पास हॉस्टल">Hostel Near Medicaps University</a></li><li><a href="hostel-near-ips-academy" data-en="Hostel Near IPS Academy" data-hi="आईपीएस एकेडमी के पास हॉस्टल">Hostel Near IPS Academy</a></li><li><a href="hostel-near-prestige-institute-indore" data-en="Hostel Near Prestige Institute" data-hi="प्रेस्टीज इंस्टीट्यूट के पास हॉस्टल">Hostel Near Prestige Institute</a></li><li><a href="hostel-near-acropolis-institute-indore" data-en="Hostel Near Acropolis Institute" data-hi="एक्रोपोलिस इंस्टीट्यूट के पास हॉस्टल">Hostel Near Acropolis Institute</a></li><li><a href="hostel-near-sage-university-indore" data-en="Hostel Near SAGE University" data-hi="सेज यूनिवर्सिटी के पास हॉस्टल">Hostel Near SAGE University</a></li></ul></div>
             </div>
             <div class="footer-bottom">
                 <p data-en="&copy; 2026 Radiance Residency. All rights reserved." data-hi="&copy; 2026 रेडियंस रेसीडेंसी। सर्वाधिकार सुरक्षित।">&copy; 2026 Radiance Residency. All rights reserved.</p>

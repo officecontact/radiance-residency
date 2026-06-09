@@ -51,7 +51,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -83,26 +83,45 @@
 
     <!-- JSON-LD: LocalBusiness -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LodgingBusiness",
-        "name": "Radiance Residency",
-        "image": "https://radianceresidency.com/images/building-night.webp",
-        "description": "Premium boys hostel near Medicaps University, Rau, Indore. Fully furnished rooms from ₹9,000/month with home-cooked meals, Wi-Fi, and 24/7 security.",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "In front of Medicaps University, Pigdamber, Rau",
-            "addressLocality": "Indore",
-            "addressRegion": "Madhya Pradesh",
-            "postalCode": "453331",
-            "addressCountry": "IN"
-        },
-        "geo": { "@type": "GeoCoordinates", "latitude": "22.6234773", "longitude": "75.8010012" },
-        "telephone": "+91-8770445161",
-        "url": "https://radianceresidency.com",
-        "priceRange": "₹9,000+/month",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "112" }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Radiance Residency",
+  "image": "https://radianceresidency.com/images/building-night.webp",
+  "description": "Premium boys hostel near Medicaps University, Rau, Indore. Fully furnished rooms from ₹9,000/month with home-cooked meals, Wi-Fi, and 24/7 security.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "In front of Medicaps University, Pigdamber, Rau",
+    "addressLocality": "Indore",
+    "addressRegion": "Madhya Pradesh",
+    "postalCode": "453331",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "22.6234773",
+    "longitude": "75.8010012"
+  },
+  "telephone": "+91-8770445161",
+  "url": "https://radianceresidency.com",
+  "priceRange": "₹9,000+/month",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "112"
+  },
+  "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139378489",
+    "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+    "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+    "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+    "https://www.openstreetmap.org/node/13900447300",
+    "https://www.google.com/maps?cid=15888062618274913960",
+    "https://www.trustpilot.com/review/radianceresidency.com",
+    "https://www.olx.in/item/1845225469"
+  ]
+}
     </script>
 
     <!-- JSON-LD: FAQPage -->

@@ -1053,14 +1053,6 @@ Invest in these topics; each deserves a hub page + 3-5 supporting posts.
 - `student accommodation indore` now #16.5 (Δ -7.382353) — expand page with related queries
 - `medi caps university hostel & campus` now #15.0 (Δ -7.0) — expand page with related queries
 
-### Stale content — refresh for AI citation boost
-
-> **2026 AEO finding:** content updated within 90 days is 3× more likely cited by ChatGPT, Perplexity, and Google AI Overviews.
-
-| Page | Last crawled | Fix |
-|---|---|---|
-| `radianceresidency.com/rooms` | 2026-03-09 | Update date, add 1 new section or data point, re-submit in GSC |
-
 ### AEO: Add `SameAs` schema — links to authority registries (+200% AI citation probability)
 
 Add to your `Organization` JSON-LD block in the site layout:
@@ -1096,9 +1088,10 @@ Domains that link to 2+ of our peer sites but NOT to us:
 
 ### GSC Coverage Report
 
-**Last audit:** 2026-06-08 · **Checked:** 63 URLs · ✅ Indexed: 6 (10%) · ❌ Errors: 0 · ⚠ Excluded/Not-indexed: 57
+**Last audit:** 2026-06-08 · **Checked:** 73 URLs · ✅ Indexed: 41 (56%) · ❌ Errors: 0 · ⚠ Excluded/Not-indexed: 32
 
-- 🚨 **53 pages unknown to Google** — Googlebot has never crawled these. Fix: submit sitemap in GSC, build internal links from indexed pages to these URLs, check robots.txt isn't blocking crawl.
+- 🚨 **3 pages unknown to Google** — Googlebot has never crawled these. Fix: submit sitemap in GSC, build internal links from indexed pages to these URLs, check robots.txt isn't blocking crawl.
+- ⚠ **25 pages discovered but not indexed** — Google found them but won't index. Fix: improve content quality/depth (add 300+ words, unique data, FAQs), consolidate thin pages, add internal links from high-PageRank pages.
 - ℹ 4 pages with redirects — verify all are 301 (permanent), not 302, and chains are max 1 hop.
 
 ### Ready-to-paste JSON-LD schema blocks

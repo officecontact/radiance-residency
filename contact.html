@@ -55,7 +55,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -68,55 +68,79 @@
 
     <!-- JSON-LD Structured Data: LocalBusiness -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Radiance Residency",
-        "alternateName": "Radiance Residency Boys Hostel",
-        "description": "Premium boys hostel near Medicaps University in Rau, Indore. AC and non-AC rooms with Wi-Fi, home-style meals, 24/7 security.",
-        "url": "https://radianceresidency.com/",
-        "telephone": "+91-8770445161",
-        "email": "info@radianceresidency.com",
-        "image": "https://radianceresidency.com/images/outer-building-1.jpg",
-        "logo": "https://radianceresidency.com/favicon.svg",
-        "priceRange": "₹9,000+/month",
-        "currenciesAccepted": "INR",
-        "paymentAccepted": "Cash, UPI, Bank Transfer",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "In front of Medicaps University, Pigdamber",
-            "addressLocality": "Rau, Indore",
-            "addressRegion": "Madhya Pradesh",
-            "postalCode": "453331",
-            "addressCountry": "IN"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 22.6234773,
-            "longitude": 75.8010012
-        },
-        "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+91-8770445161",
-            "contactType": "reservations",
-            "areaServed": "IN",
-            "availableLanguage": ["English", "Hindi"]
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "09:00",
-            "closes": "22:30"
-        },
-        "availableLanguage": ["English", "Hindi"],
-        "areaServed": {
-            "@type": "City",
-            "name": "Indore",
-            "addressRegion": "Madhya Pradesh",
-            "addressCountry": "IN"
-        }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Radiance Residency",
+  "alternateName": "Radiance Residency Boys Hostel",
+  "description": "Premium boys hostel near Medicaps University in Rau, Indore. AC and non-AC rooms with Wi-Fi, home-style meals, 24/7 security.",
+  "url": "https://radianceresidency.com/",
+  "telephone": "+91-8770445161",
+  "email": "info@radianceresidency.com",
+  "image": "https://radianceresidency.com/images/outer-building-1.jpg",
+  "logo": "https://radianceresidency.com/favicon.svg",
+  "priceRange": "₹9,000+/month",
+  "currenciesAccepted": "INR",
+  "paymentAccepted": "Cash, UPI, Bank Transfer",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "In front of Medicaps University, Pigdamber",
+    "addressLocality": "Rau, Indore",
+    "addressRegion": "Madhya Pradesh",
+    "postalCode": "453331",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 22.6234773,
+    "longitude": 75.8010012
+  },
+  "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-8770445161",
+    "contactType": "reservations",
+    "areaServed": "IN",
+    "availableLanguage": [
+      "English",
+      "Hindi"
+    ]
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "09:00",
+    "closes": "22:30"
+  },
+  "availableLanguage": [
+    "English",
+    "Hindi"
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Indore",
+    "addressRegion": "Madhya Pradesh",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139378489",
+    "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+    "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+    "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+    "https://www.openstreetmap.org/node/13900447300",
+    "https://www.google.com/maps?cid=15888062618274913960",
+    "https://www.trustpilot.com/review/radianceresidency.com",
+    "https://www.olx.in/item/1845225469"
+  ]
+}
     </script>
 
     <!-- JSON-LD Structured Data: BreadcrumbList -->
@@ -143,20 +167,36 @@
 
     <!-- JSON-LD: Speakable (voice assistants — "where is radiance residency") -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "url": "https://radianceresidency.com/contact",
-        "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-title", ".section-title", ".section-sub", ".contact-info"]
-        },
-        "about": {
-            "@type": "Hostel",
-            "name": "Radiance Residency",
-            "identifier": "Q139378489"
-        }
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://radianceresidency.com/contact",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero-title",
+      ".section-title",
+      ".section-sub",
+      ".contact-info"
+    ]
+  },
+  "about": {
+    "@type": "Hostel",
+    "name": "Radiance Residency",
+    "identifier": "Q139378489",
+    "hasMap": "https://www.google.com/maps?cid=15888062618274913960",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q139378489",
+      "https://www.justdial.com/Indore/Radiance-Residency-Hostel-In-Front-Of-Medicaps-University-Rau/0731PX731-X731-241211200908-I4F7_BZDET",
+      "https://www.magicbricks.com/propertyDetail/radiance-residency-hostel-near-medicaps-university-pg-rau-in-indore&pgid=4d42343839383731677261646532",
+      "https://thetripguide.in/hotels/indore/radiance-residency-hostel",
+      "https://www.openstreetmap.org/node/13900447300",
+      "https://www.google.com/maps?cid=15888062618274913960",
+      "https://www.trustpilot.com/review/radianceresidency.com",
+      "https://www.olx.in/item/1845225469"
+    ]
+  }
+}
     </script>
 </head>
 <body>
@@ -319,16 +359,16 @@
                 <p class="section-sub" data-en="Located directly in front of Medicaps University, Pigdamber, Rau - the most convenient location for students." data-hi="मेडीकैप्स यूनिवर्सिटी के ठीक सामने, पिगडंबर, राउ - छात्रों के लिए सबसे सुविधाजनक स्थान।">Located directly in front of Medicaps University, Pigdamber, Rau - the most convenient location for students.</p>
             </div>
             <div class="map-wrapper">
-                <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=75.7960012%2C22.6184773%2C75.8060012%2C22.6284773&amp;layer=mapnik&amp;marker=22.6234773%2C75.8010012" width="100%" height="400" style="border:0; display:block;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Radiance Residency Location Map"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.8095157313355!2d75.80084910000001!3d22.623587299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f9a5cc2da31f%3A0xdc7dbcc5d3705ea8!2sRadiance%20Residency%20Hostel%20-%20Boys%20Hostel%20Near%20Medicaps%20University!5e0!3m2!1sen!2sin!4v1780470873642!5m2!1sen!2sin" width="100%" height="400" style="border:0; display:block;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Radiance Residency Hostel - Boys Hostel Near Medicaps University, Rau Indore (Google Maps)"></iframe>
             </div>
             <div class="text-center" style="margin-top:12px;">
                 <a href="https://wa.me/918770445161?text=Hi%2C%20I%27d%20like%20directions%20to%20Radiance%20Residency." target="_blank" rel="noopener" class="btn btn-primary">
                     <i class="fab fa-whatsapp" aria-hidden="true"></i>
                     <span data-en="Get Directions via WhatsApp" data-hi="WhatsApp पर दिशा प्राप्त करें">Get Directions via WhatsApp</span>
                 </a>
-                <a href="https://www.openstreetmap.org/?mlat=22.6234773&amp;mlon=75.8010012&amp;zoom=17" target="_blank" rel="noopener" class="btn btn-outline" style="margin-left: 8px;">
+                <a href="https://www.google.com/maps?cid=15888062618274913960" target="_blank" rel="noopener" class="btn btn-outline" style="margin-left: 8px;">
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                    <span data-en="Open in Map" data-hi="मानचित्र में खोलें">Open in Map</span>
+                    <span data-en="Open in Google Maps" data-hi="Google मानचित्र में खोलें">Open in Google Maps</span>
                 </a>
             </div>
         </div>
@@ -451,6 +491,24 @@
                 <div class="footer-links-group">
                     <h3 class="footer-heading" data-en="Hostels Near" data-hi="के पास हॉस्टल">Hostels Near</h3>
                     <ul class="footer-links">
+                        <li><a href="hostel-near-colleges-rau-indore" data-en="All College Hostels" data-hi="सभी कॉलेज हॉस्टल">All College Hostels</a></li>
+                        <li><a href="hostel-near-iit-indore" data-en="Hostel Near IIT Indore" data-hi="आईआईटी इंदौर के पास हॉस्टल">Hostel Near IIT Indore</a></li>
+                        <li><a href="hostel-near-acropolis-institute-indore" data-en="Hostel Near Acropolis Institute" data-hi="एक्रोपोलिस के पास हॉस्टल">Hostel Near Acropolis Institute</a></li>
+                        <li><a href="hostel-near-cdgi-indore" data-en="Hostel Near CDGI Indore" data-hi="सीडीजीआई के पास हॉस्टल">Hostel Near CDGI Indore</a></li>
+                        <li><a href="hostel-near-lnct-indore" data-en="Hostel Near LNCT Indore" data-hi="एलएनसीटी के पास हॉस्टल">Hostel Near LNCT Indore</a></li>
+                        <li><a href="hostel-near-mit-indore" data-en="Hostel Near MIT Indore" data-hi="एमआईटी के पास हॉस्टल">Hostel Near MIT Indore</a></li>
+                        <li><a href="hostel-near-nmims-indore" data-en="Hostel Near NMIMS Indore" data-hi="एनएमआईएमएस के पास हॉस्टल">Hostel Near NMIMS Indore</a></li>
+                        <li><a href="hostel-near-prestige-institute-indore" data-en="Hostel Near Prestige Institute" data-hi="प्रेस्टीज के पास हॉस्टल">Hostel Near Prestige Institute</a></li>
+                        <li><a href="hostel-near-renaissance-university-indore" data-en="Hostel Near Renaissance University" data-hi="रेनेसां के पास हॉस्टल">Hostel Near Renaissance University</a></li>
+                        <li><a href="hostel-near-sgsits-indore" data-en="Hostel Near SGSITS Indore" data-hi="एसजीएसआईटीएस के पास हॉस्टल">Hostel Near SGSITS Indore</a></li>
+                        <li><a href="hostel-near-symbiosis-indore" data-en="Hostel Near Symbiosis Indore" data-hi="सिम्बायोसिस के पास हॉस्टल">Hostel Near Symbiosis Indore</a></li>
+                        <li><a href="pg-hostel-in-rau" data-en="PG Hostel in Rau" data-hi="राउ में पीजी हॉस्टल">PG Hostel in Rau</a></li>
+                        <li><a href="hostel-in-pigdamber-rau" data-en="Hostel in Pigdamber, Rau" data-hi="पिगडंबर, राउ में हॉस्टल">Hostel in Pigdamber, Rau</a></li>
+                        <li><a href="hostel-with-food-in-rau-indore" data-en="Hostel with Food in Rau" data-hi="राउ में भोजन सहित हॉस्टल">Hostel with Food in Rau</a></li>
+                        <li><a href="pg-for-working-professionals-rau-indore" data-en="PG for Working Professionals" data-hi="वर्किंग प्रोफेशनल्स के लिए पीजी">PG for Working Professionals</a></li>
+                        <li><a href="summer-internship-housing-indore" data-en="Summer Internship Housing" data-hi="समर इंटर्नशिप आवास">Summer Internship Housing</a></li>
+                        <li><a href="accommodation-near-pithampur-indore" data-en="Accommodation Near Pithampur" data-hi="पीथमपुर के पास आवास">Accommodation Near Pithampur</a></li>
+                        <li><a href="student-hostel-in-indore" data-en="Student Hostel in Indore" data-hi="इंदौर में छात्र हॉस्टल">Student Hostel in Indore</a></li>
                         <li><a href="hostel-near-medicaps-university" data-en="Hostel Near Medicaps University" data-hi="मेडीकैप्स यूनिवर्सिटी के पास हॉस्टल">Hostel Near Medicaps University</a></li>
                         <li><a href="hostel-near-sd-bansal-college" data-en="Hostel Near SD Bansal College" data-hi="एसडी बंसल कॉलेज के पास हॉस्टल">Hostel Near SD Bansal College</a></li>
                         <li><a href="hostel-near-ips-academy" data-en="Hostel Near IPS Academy" data-hi="आईपीएस एकेडमी के पास हॉस्टल">Hostel Near IPS Academy</a></li>

@@ -2,24 +2,24 @@
 
 **Goal:** grow GBP reviews (currently ~3) — the #1 local-ranking lever.
 
-**Your 1-tap review link:** `<PASTE FROM GBP>` 
-→ Get it: Google Business Profile → **"Ask for reviews"** / "Get more reviews" → **Copy link** (a `https://g.page/r/…/review` link). Paste it into the `[LINK]` slots below.
+**Your 1-tap review link:** `https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw`
+→ Confirmed 2026-06-03 (Place ID ChIJH6MtzKX5YjkRqF5w08W8fdw = the correct clean listing, CID 15888062618274913960). Opens the "write a review" box directly. Every template below is already filled with it — just personalise `[Name]` and send.
 
 > Tip: turn the link into a **QR code** (any free QR generator) and stick it at the reception desk / dining hall / notice board — students scan & review on the spot.
 
 ---
 
 ## WhatsApp — English (students)
-> Hi [Name]! 😊 Hope you're enjoying your stay at Radiance Residency. If you have 30 seconds, a quick Google review would mean a lot and helps other students find us. Just tap → [LINK] 🙏
+> Hi [Name]! 😊 Hope you're enjoying your stay at Radiance Residency. If you have 30 seconds, a quick Google review would mean a lot and helps other students find us. Just tap → https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw 🙏
 
 ## WhatsApp — Hindi
-> Hi [Name]! Radiance Residency में आपका अनुभव कैसा रहा? 😊 अगर अच्छा लगा हो तो कृपया 30 सेकंड में एक Google review दे दीजिए — इससे दूसरे students को सही hostel ढूंढने में मदद मिलती है। यहाँ tap करें → [LINK] 🙏
+> Hi [Name]! Radiance Residency में आपका अनुभव कैसा रहा? 😊 अगर अच्छा लगा हो तो कृपया 30 सेकंड में एक Google review दे दीजिए — इससे दूसरे students को सही hostel ढूंढने में मदद मिलती है। यहाँ tap करें → https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw 🙏
 
 ## SMS (short)
-> Radiance Residency: Enjoying your stay? Please leave us a quick Google review 🙏 [LINK]
+> Radiance Residency: Enjoying your stay? Please leave us a quick Google review 🙏 https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw
 
 ## Parent message (after admission)
-> Namaste! Thank you for trusting Radiance Residency with [student's] accommodation. If you're satisfied with the facilities, meals & security, a short Google review would help other parents choose confidently: [LINK] 🙏
+> Namaste! Thank you for trusting Radiance Residency with [student's] accommodation. If you're satisfied with the facilities, meals & security, a short Google review would help other parents choose confidently: https://search.google.com/local/writereview?placeid=ChIJH6MtzKX5YjkRqF5w08W8fdw 🙏
 
 ## In-person / desk card
 > "Happy with your stay? ⭐ Scan to review us on Google" + [QR code of LINK]
